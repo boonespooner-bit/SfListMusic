@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
   <header>
@@ -23,11 +25,13 @@
     <button class="nav-btn active" data-view="today">Today</button>
     <button class="nav-btn" data-view="week">This Week</button>
     <button class="nav-btn" data-view="all">All Shows</button>
+    <button class="nav-btn" data-view="map">Map</button>
     <div class="search-wrap">
       <input type="text" id="search" placeholder="Search bands or venues…" autocomplete="off" />
     </div>
   </nav>
 
+  <div id="map-view"></div>
   <main id="main">
     <div class="loading-state">
       <div class="spinner"></div>

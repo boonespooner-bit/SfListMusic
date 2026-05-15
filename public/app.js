@@ -13,17 +13,23 @@ const VENUE_ICON = `<svg class="venue-icon" viewBox="0 0 24 24" fill="currentCol
 const YT_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>`;
 
 let allShows = [];
+let venueCoords = {};
 let currentView = 'today';
 let searchQuery = '';
+let leafletMap = null;
 
 // ── Data loading ──────────────────────────────────────────────────────────────
 
 async function loadData() {
   try {
-    const res = await fetch('data.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const payload = await res.json();
+    const [showRes, coordRes] = await Promise.all([
+      fetch('data.json'),
+      fetch('venue_coords.json').catch(() => null),
+    ]);
+    if (!showRes.ok) throw new Error(`HTTP ${showRes.status}`);
+    const payload = await showRes.json();
     allShows = payload.shows || [];
+    if (coordRes && coordRes.ok) venueCoords = await coordRes.json();
     const updated = new Date(payload.updated);
     document.getElementById('updated-note').textContent =
       `Updated ${updated.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
@@ -197,6 +203,70 @@ function render() {
   }
 }
 
+// ── Map view ──────────────────────────────────────────────────────────────────
+
+function renderMap() {
+  document.getElementById('main').style.display = 'none';
+  const mapEl = document.getElementById('map-view');
+  mapEl.classList.add('active');
+
+  // Group tonight's shows by venue
+  const today = todayISO();
+  const todayShows = allShows.filter(s => s.date === today);
+  const byVenue = new Map();
+  for (const show of todayShows) {
+    const key = show.venue.url || show.venue.name;
+    if (!byVenue.has(key)) byVenue.set(key, { venue: show.venue, shows: [] });
+    byVenue.get(key).shows.push(show);
+  }
+
+  if (!leafletMap) {
+    leafletMap = L.map('map-view', { zoomControl: true })
+      .setView([37.785, -122.42], 12);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+    }).addTo(leafletMap);
+  } else {
+    leafletMap.eachLayer(l => { if (l instanceof L.Marker) leafletMap.removeLayer(l); });
+    setTimeout(() => leafletMap.invalidateSize(), 50);
+  }
+
+  const dot = L.divIcon({ className: 'venue-dot', iconSize: [14, 14] });
+
+  for (const [key, data] of byVenue) {
+    const coord = venueCoords[key];
+    if (!coord || !coord.lat) continue;
+
+    const marker = L.marker([coord.lat, coord.lng], { icon: dot }).addTo(leafletMap);
+
+    const bandsHtml = data.shows.flatMap(s => s.bands).map(b => {
+      const name = typeof b === 'string' ? b : b.name;
+      return `<div class="popup-band">${escHtml(name)}</div>`;
+    }).join('');
+
+    const firstShow = data.shows[0];
+    const metaParts = [];
+    if (firstShow.age)   metaParts.push(firstShow.age);
+    if (firstShow.price) metaParts.push(firstShow.price);
+    if (firstShow.doors) metaParts.push(`Doors ${firstShow.doors}`);
+
+    marker.bindPopup(`
+      <div class="popup-venue">${escHtml(data.venue.name)}</div>
+      ${bandsHtml}
+      ${metaParts.length ? `<div class="popup-meta">${metaParts.join(' · ')}</div>` : ''}
+    `);
+    marker.on('mouseover', () => marker.openPopup());
+  }
+}
+
+function hideMap() {
+  document.getElementById('map-view').classList.remove('active');
+  document.getElementById('main').style.display = '';
+}
+
 function escHtml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -212,7 +282,12 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentView = btn.dataset.view;
-    render();
+    if (currentView === 'map') {
+      renderMap();
+    } else {
+      hideMap();
+      render();
+    }
   });
 });
 

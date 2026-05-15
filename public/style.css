@@ -327,6 +327,53 @@ main {
   background: var(--border);
 }
 
+/* ── Map view ── */
+#map-view {
+  display: none;
+  height: calc(100vh - 130px);  /* full remaining viewport under header+nav */
+  width: 100%;
+}
+#map-view.active { display: block; }
+
+.venue-dot {
+  width: 14px !important;
+  height: 14px !important;
+  background: var(--accent);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(29,185,84,0.7);
+}
+
+/* Dark Leaflet popup */
+.leaflet-popup-content-wrapper {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.leaflet-popup-tip { background: var(--surface); }
+.leaflet-popup-content { margin: 0.75rem 1rem; }
+.popup-venue {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.popup-band {
+  font-size: 0.82rem;
+  color: var(--text);
+  padding: 0.15rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.popup-band:last-child { border-bottom: none; }
+.popup-meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
 /* ── Footer ── */
 footer {
   text-align: center;
