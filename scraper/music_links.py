@@ -35,7 +35,8 @@ def build_spotify_client() -> spotipy.Spotify | None:
         return None
     try:
         auth = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-        return spotipy.Spotify(auth_manager=auth)
+        # retries=0 so we fail fast on rate-limits instead of blocking for minutes
+        return spotipy.Spotify(auth_manager=auth, retries=0, requests_timeout=8)
     except Exception as e:
         print(f"  Spotify init failed: {e}")
         return None
@@ -74,7 +75,7 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
             seen.add(key)
             processed += 1
             if processed % 50 == 0:
-                print(f"  Progress: {processed}/{total} unique bands processed ({changed} new lookups)")
+                print(f"  Progress: {processed}/{total} unique bands processed ({changed} new lookups)", flush=True)
 
             if key in cache:
                 show["spotifyUrl"] = cache[key].get("spotifyUrl")
@@ -91,7 +92,7 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
             show["spotifyUrl"] = spotify_url
             show["youtubeUrl"] = yt_url
             changed += 1
-            print(f"    {band}: spotify={'yes' if spotify_url else 'no'}")
+            print(f"    {band}: spotify={'yes' if spotify_url else 'no'}", flush=True)
 
     return changed
 
