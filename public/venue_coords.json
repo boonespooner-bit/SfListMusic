@@ -1,1 +1,917 @@
-{}
+{
+  "club.html#fillmore": {
+    "name": "Fillmore",
+    "lat": 37.7861953,
+    "lng": -122.4330825
+  },
+  "club.html#gilman": {
+    "name": "Gilman",
+    "lat": 37.745031,
+    "lng": -122.404512
+  },
+  "club.html#revolution_cafe": {
+    "name": "Revolution Cafe",
+    "lat": 37.8062641,
+    "lng": -122.2984609
+  },
+  "club.html#stay_gold_deli": {
+    "name": "Stay Gold Deli",
+    "lat": 37.8177221,
+    "lng": -122.2758802
+  },
+  "club.html#fox_theater": {
+    "name": "Fox Theater",
+    "lat": 37.8081438,
+    "lng": -122.2705153
+  },
+  "club.html#uc_theater": {
+    "name": "UC Theater",
+    "lat": 37.8718055,
+    "lng": -122.2698143
+  },
+  "club.html#starry_plough": {
+    "name": "Starry Plough",
+    "lat": 37.8530119,
+    "lng": -122.2660849
+  },
+  "club.html#spats": {
+    "name": "Spats",
+    "lat": 37.8726532,
+    "lng": -122.2686578
+  },
+  "club.html#up_the_creek_records": {
+    "name": "Up the Creek Records",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#arena": {
+    "name": "Arena",
+    "lat": -35.3419579,
+    "lng": -72.395643
+  },
+  "club.html#thee_stork_club": {
+    "name": "thee Stork Club",
+    "lat": 37.8131364,
+    "lng": -122.2683848
+  },
+  "club.html#ivy_room": {
+    "name": "Ivy Room",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#toots_tavern": {
+    "name": "Toots Tavern",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#bandshell": {
+    "name": "Bandshell",
+    "lat": 37.7694166,
+    "lng": -122.4690431
+  },
+  "club.html#masonic": {
+    "name": "Masonic",
+    "lat": 37.7911743,
+    "lng": -122.4129901
+  },
+  "club.html#independent": {
+    "name": "Independent",
+    "lat": 37.7877146,
+    "lng": -122.4107132
+  },
+  "club.html#warfield": {
+    "name": "Warfield",
+    "lat": 37.7826218,
+    "lng": -122.410342
+  },
+  "club.html#rickshaw_stop": {
+    "name": "Rickshaw Stop",
+    "lat": 37.7759904,
+    "lng": -122.4204754
+  },
+  "club.html#above_dna_lounge": {
+    "name": "above DNA Lounge",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#cafe_du_nord": {
+    "name": "Cafe Du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "club.html#august_hall": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "club.html#4_star_theater": {
+    "name": "4 Star Theater",
+    "lat": 37.7822709,
+    "lng": -122.482927
+  },
+  "club.html#chapel": {
+    "name": "Chapel",
+    "lat": 37.7752766,
+    "lng": -122.4534614
+  },
+  "club.html#neck_of_the_woods": {
+    "name": "Neck of the Woods",
+    "lat": 37.7831255,
+    "lng": -122.4637116
+  },
+  "club.html#palace_of_fine_arts": {
+    "name": "Palace of Fine Arts",
+    "lat": 37.8029186,
+    "lng": -122.4484029
+  },
+  "club.html#brick_and_mortar": {
+    "name": "Brick and Mortar",
+    "lat": 37.7696864,
+    "lng": -122.4203028
+  },
+  "club.html#warriors_stadium": {
+    "name": "Warriors Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#jax_vineyards": {
+    "name": "Jax Vineyards",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#bottom_of_the_hill": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "club.html#knockout": {
+    "name": "Knockout",
+    "lat": 37.7451409,
+    "lng": -122.420005
+  },
+  "club.html#hotel_utah": {
+    "name": "Hotel Utah",
+    "lat": 37.7793024,
+    "lng": -122.3981608
+  },
+  "club.html#phoenix_theater": {
+    "name": "Phoenix Theater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#hopmonk_tavern": {
+    "name": "Hopmonk Tavern",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#sazon_peruvian_cuisine": {
+    "name": "Sazon Peruvian Cuisine",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#guild_theater": {
+    "name": "Guild Theater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mountain_winery": {
+    "name": "Mountain Winery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#caravan_lounge": {
+    "name": "Caravan Lounge",
+    "lat": 37.3330037,
+    "lng": -121.8923731
+  },
+  "club.html#felton_music_hall": {
+    "name": "Felton Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#crepe_place": {
+    "name": "Crepe Place",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#subrosa": {
+    "name": "Subrosa",
+    "lat": 37.8283775,
+    "lng": -122.260688
+  },
+  "club.html#catalyst": {
+    "name": "Catalyst",
+    "lat": 37.3307354,
+    "lng": -121.9242597
+  },
+  "club.html#moe's_alley": {
+    "name": "Moe's Alley",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#cornerstone": {
+    "name": "Cornerstone",
+    "lat": 37.7295883,
+    "lng": -122.4183334
+  },
+  "club.html#down_home_music": {
+    "name": "Down Home Music",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#beauty_shop_above_tay_ho": {
+    "name": "Beauty Shop above Tay Ho",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#hesher's_pizza": {
+    "name": "Hesher's Pizza",
+    "lat": 37.7963494,
+    "lng": -122.275894
+  },
+  "club.html#towne_cycles_backyard": {
+    "name": "Towne Cycles Backyard",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#point_emery": {
+    "name": "Point Emery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#drake's_barrel_house": {
+    "name": "Drake's Barrel House",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#fifty's_liquor": {
+    "name": "Fifty's Liquor",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#danny_murry's": {
+    "name": "Danny Murry's",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#castro_theater": {
+    "name": "Castro Theater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#swedish_american_hall": {
+    "name": "Swedish American Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mabuhay_gardens": {
+    "name": "Mabuhay Gardens",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#o'reillys": {
+    "name": "O'Reillys",
+    "lat": 37.7695111,
+    "lng": -122.4526159
+  },
+  "club.html#kilowatt": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "club.html#graton_resort": {
+    "name": "Graton Resort",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#uptown_theater": {
+    "name": "Uptown Theater",
+    "lat": 37.8067204,
+    "lng": -122.2709732
+  },
+  "club.html#dance_palace": {
+    "name": "Dance Palace",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#stanford_stadium": {
+    "name": "Stanford Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#x_bar": {
+    "name": "X Bar",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#high_voltage": {
+    "name": "High Voltage",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#ritz": {
+    "name": "Ritz",
+    "lat": 37.7843463,
+    "lng": -122.4113375
+  },
+  "club.html#catalyst_atrium": {
+    "name": "Catalyst Atrium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#jury_room": {
+    "name": "Jury Room",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#blue_lagoon": {
+    "name": "Blue Lagoon",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#thrillhouse_records": {
+    "name": "Thrillhouse Records",
+    "lat": 37.7419451,
+    "lng": -122.4224115
+  },
+  "club.html#regency_ballroom": {
+    "name": "Regency Ballroom",
+    "lat": 37.7878176,
+    "lng": -122.4215762
+  },
+  "club.html#hook_&_ladder_vineyards": {
+    "name": "Hook & Ladder Vineyards",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#streetlight_records": {
+    "name": "Streetlight Records",
+    "lat": 37.3079327,
+    "lng": -121.9312436
+  },
+  "club.html#castro": {
+    "name": "Castro",
+    "lat": 37.7626004,
+    "lng": -122.4352931
+  },
+  "club.html#great_american_music_hall": {
+    "name": "Great American Music Hall",
+    "lat": 37.7847659,
+    "lng": -122.4188356
+  },
+  "club.html#henry_j._kaiser_center": {
+    "name": "Henry J. Kaiser Center",
+    "lat": 37.7975777,
+    "lng": -122.2615697
+  },
+  "club.html#bimbo's_365_club": {
+    "name": "Bimbo's 365 Club",
+    "lat": 37.8037307,
+    "lng": -122.4156458
+  },
+  "club.html#black_cat": {
+    "name": "Black Cat",
+    "lat": 37.7839108,
+    "lng": -122.4144505
+  },
+  "club.html#eagle": {
+    "name": "Eagle",
+    "lat": 37.7699933,
+    "lng": -122.4133375
+  },
+  "club.html#el_rio": {
+    "name": "El Rio",
+    "lat": 37.7467497,
+    "lng": -122.4193292
+  },
+  "club.html#luther_burbank_center": {
+    "name": "Luther Burbank Center",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#silver_oak_winery": {
+    "name": "Silver Oak Winery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#spire": {
+    "name": "Spire",
+    "lat": 37.7919042,
+    "lng": -122.460019
+  },
+  "club.html#little_hill_lounge": {
+    "name": "Little Hill Lounge",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#bottlerock": {
+    "name": "Bottlerock",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#napa_music_hall": {
+    "name": "Napa Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#old_greenwood_golf_course": {
+    "name": "Old Greenwood Golf Course",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#eli's_mile_high_club": {
+    "name": "Eli's Mile High Club",
+    "lat": 37.8257804,
+    "lng": -122.2696713
+  },
+  "club.html#harrison_between_16th_and_24th": {
+    "name": "Harrison between 16th and 24th",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#odd_fellows_hall": {
+    "name": "Odd Fellows Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#rio_theater": {
+    "name": "Rio Theater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#ashkenaz": {
+    "name": "Ashkenaz",
+    "lat": 37.8801405,
+    "lng": -122.295347
+  },
+  "club.html#dna_lounge": {
+    "name": "DNA Lounge",
+    "lat": 37.7710876,
+    "lng": -122.4126126
+  },
+  "club.html#civic_auditorium": {
+    "name": "Civic Auditorium",
+    "lat": 37.7780501,
+    "lng": -122.4173077
+  },
+  "club.html#518_valencia_gallery": {
+    "name": "518 Valencia Gallery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#roxie_movie_house": {
+    "name": "Roxie Movie House",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#greek_theatre": {
+    "name": "Greek Theatre",
+    "lat": 37.7813745,
+    "lng": -122.1849035
+  },
+  "club.html#tequila_mockingbird": {
+    "name": "Tequila Mockingbird",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#point_san_pablo_harbor": {
+    "name": "Point San Pablo Harbor",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#fourth_bore": {
+    "name": "Fourth Bore",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#fireside_lounge": {
+    "name": "Fireside Lounge",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#david's": {
+    "name": "David's",
+    "lat": 37.7871576,
+    "lng": -122.4110257
+  },
+  "club.html#wildhawk": {
+    "name": "Wildhawk",
+    "lat": 37.7602548,
+    "lng": -122.4207752
+  },
+  "club.html#athen's": {
+    "name": "Athen's",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#senor_sisig": {
+    "name": "Senor Sisig",
+    "lat": 37.7961127,
+    "lng": -122.3936582
+  },
+  "club.html#hila_gelato": {
+    "name": "Hila Gelato",
+    "lat": 37.7577086,
+    "lng": -122.4210711
+  },
+  "club.html#love_&_luxe": {
+    "name": "Love & Luxe",
+    "lat": 37.7542837,
+    "lng": -122.4207413
+  },
+  "club.html#shuggies": {
+    "name": "Shuggies",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#22nd_&_bartlett": {
+    "name": "22nd & Bartlett",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mid_bartlett": {
+    "name": "Mid Bartlett",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#arcana": {
+    "name": "Arcana",
+    "lat": 37.7566653,
+    "lng": -122.4190806
+  },
+  "club.html#20_spot": {
+    "name": "20 Spot",
+    "lat": 37.7584304,
+    "lng": -122.4204199
+  },
+  "club.html#willow's": {
+    "name": "Willow's",
+    "lat": 37.7836791,
+    "lng": -122.4184649
+  },
+  "club.html#michelle's": {
+    "name": "Michelle's",
+    "lat": 37.7418,
+    "lng": -122.5012525
+  },
+  "club.html#community_music_center": {
+    "name": "Community Music Center",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#anthony_&_marissa's": {
+    "name": "Anthony & Marissa's",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#buddy's": {
+    "name": "Buddy's",
+    "lat": 37.7554502,
+    "lng": -122.4171081
+  },
+  "club.html#smiley's_saloon": {
+    "name": "Smiley's Saloon",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#la_onda": {
+    "name": "La Onda",
+    "lat": 39.9630468,
+    "lng": -0.2631744
+  },
+  "club.html#lost_church": {
+    "name": "Lost Church",
+    "lat": 37.7657871,
+    "lng": -122.4184671
+  },
+  "club.html#hammer_theater_center": {
+    "name": "Hammer Theater Center",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#henry_j_kaiser_center": {
+    "name": "Henry J Kaiser Center",
+    "lat": 37.7975777,
+    "lng": -122.2615697
+  },
+  "club.html#frost_amphitheater": {
+    "name": "Frost Amphitheater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#county_fair": {
+    "name": "County Fair",
+    "lat": 37.7665935,
+    "lng": -122.4672772
+  },
+  "club.html#freight": {
+    "name": "Freight",
+    "lat": 37.9622188,
+    "lng": -122.5075359
+  },
+  "club.html#bistro": {
+    "name": "Bistro",
+    "lat": 37.7937795,
+    "lng": -122.4020699
+  },
+  "club.html#psyched_radio": {
+    "name": "Psyched Radio",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#1100_valley_houe_drive": {
+    "name": "1100 Valley Houe Drive",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#community_center_fields": {
+    "name": "Community Center Fields",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#noble_cinema_studios": {
+    "name": "Noble Cinema Studios",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#": {
+    "name": "",
+    "lat": 37.7879363,
+    "lng": -122.4075201
+  },
+  "club.html#crybaby": {
+    "name": "Crybaby",
+    "lat": 37.8085621,
+    "lng": -122.2694898
+  },
+  "club.html#san_jose_civic_center": {
+    "name": "San Jose Civic Center",
+    "lat": 37.35233,
+    "lng": -121.9101094
+  },
+  "club.html#knot_club": {
+    "name": "Knot Club",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#cow_palace": {
+    "name": "Cow Palace",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#make_out_room": {
+    "name": "Make Out Room",
+    "lat": 37.7553007,
+    "lng": -122.419366
+  },
+  "club.html#snow_park": {
+    "name": "Snow Park",
+    "lat": 37.8070652,
+    "lng": -122.2642578
+  },
+  "club.html#first_congregational_church": {
+    "name": "First Congregational Church",
+    "lat": 37.7878299,
+    "lng": -122.4097205
+  },
+  "club.html#great_northern": {
+    "name": "Great Northern",
+    "lat": 37.7676612,
+    "lng": -122.4065246
+  },
+  "club.html#stern_grove_festival": {
+    "name": "Stern Grove Festival",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#meritage_resort": {
+    "name": "Meritage Resort",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#davies_symphony_hall": {
+    "name": "Davies Symphony Hall",
+    "lat": 37.7776472,
+    "lng": -122.4204585
+  },
+  "club.html#amoeba_music": {
+    "name": "Amoeba Music",
+    "lat": 37.7689367,
+    "lng": -122.4526453
+  },
+  "club.html#alameda_county_fair": {
+    "name": "Alameda County Fair",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#vinnies's": {
+    "name": "Vinnies's",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#giants_ballpark": {
+    "name": "Giants Ballpark",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#shoreline_amphitheatre": {
+    "name": "Shoreline Amphitheatre",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#beauty_supply_above_tay_ho": {
+    "name": "Beauty Supply above Tay Ho",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#caravan": {
+    "name": "Caravan",
+    "lat": 37.2561033,
+    "lng": -121.8084059
+  },
+  "club.html#civic_center": {
+    "name": "Civic Center",
+    "lat": 37.7795939,
+    "lng": -122.4167938
+  },
+  "club.html#winters_tavern": {
+    "name": "Winters Tavern",
+    "lat": 37.6366501,
+    "lng": -122.4905196
+  },
+  "club.html#civic_center_and_market_street_parade": {
+    "name": "Civic Center and Market Street Parade",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#pussy_palace": {
+    "name": "Pussy Palace",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#shorline_amphitheater": {
+    "name": "Shorline Amphitheater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#hopmonk": {
+    "name": "Hopmonk",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#barrel_proof_lounge": {
+    "name": "Barrel Proof Lounge",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#juction_beer_garden": {
+    "name": "Juction Beer Garden",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#sweetwater_music_hall": {
+    "name": "Sweetwater Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mosswood_park": {
+    "name": "Mosswood Park",
+    "lat": 37.8239749,
+    "lng": -122.2604816
+  },
+  "club.html#ricksaw_stop": {
+    "name": "Ricksaw Stop",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#old_princeton_landing": {
+    "name": "Old Princeton Landing",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#shark_tank": {
+    "name": "Shark Tank",
+    "lat": 37.3328604,
+    "lng": -121.9012247
+  },
+  "club.html#rolph_street_@_pomona_st.": {
+    "name": "Rolph Street @ Pomona St.",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#pavilion": {
+    "name": "Pavilion",
+    "lat": 37.7494507,
+    "lng": -122.4569421
+  },
+  "club.html#forest_meadows": {
+    "name": "Forest Meadows",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#49'ers_stadium": {
+    "name": "49'ers Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#a_house": {
+    "name": "a House",
+    "lat": 37.8071875,
+    "lng": -122.4202487
+  },
+  "club.html#quarry_amphitheater": {
+    "name": "Quarry Amphitheater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#49er's_stadium": {
+    "name": "49er's Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#outside_lands": {
+    "name": "Outside Lands",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#warriros_stadium": {
+    "name": "Warriros Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#san_jose_civic": {
+    "name": "San Jose Civic",
+    "lat": 37.3307938,
+    "lng": -121.8897013
+  },
+  "club.html#gundlach_bundschu_winery": {
+    "name": "Gundlach Bundschu Winery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#giant's_ball_park": {
+    "name": "Giant's Ball Park",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#fruit_yard_amphitheater": {
+    "name": "Fruit Yard Amphitheater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#california_theater": {
+    "name": "California Theater",
+    "lat": 37.7852456,
+    "lng": -122.4011543
+  },
+  "club.html#shoreline_ampheater": {
+    "name": "Shoreline Ampheater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#discovery_museum": {
+    "name": "Discovery Museum",
+    "lat": 37.3267053,
+    "lng": -121.8917556
+  },
+  "club.html#shoreline_amphteater": {
+    "name": "Shoreline Amphteater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#shoreline_theater": {
+    "name": "Shoreline Theater",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#ht_civic_auditorium": {
+    "name": "ht Civic Auditorium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#midway": {
+    "name": "Midway",
+    "lat": 37.805669,
+    "lng": -122.4094102
+  },
+  "club.html#49'er_stadium": {
+    "name": "49'er Stadium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#gilman_brewing_co.": {
+    "name": "Gilman Brewing Co.",
+    "lat": 37.8794788,
+    "lng": -122.299851
+  },
+  "club.html#warriors_stadiom": {
+    "name": "Warriors Stadiom",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#music_hall": {
+    "name": "Music Hall",
+    "lat": 37.7847659,
+    "lng": -122.4188356
+  }
+}
