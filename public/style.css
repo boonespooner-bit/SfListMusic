@@ -135,12 +135,24 @@ main {
 .date-group { margin-bottom: 2.5rem; }
 
 .date-header {
+  position: sticky;
+  top: 53px;             /* slot below the .view-nav */
+  z-index: 5;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.6rem;
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+  padding: 0.6rem 0;
   border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+/* fade just under the sticky header so cards aren't visible peeking through */
+.date-header::before {
+  content: '';
+  position: absolute;
+  inset: 0 -1.5rem;
+  background: var(--bg);
+  z-index: -1;
 }
 
 .date-day {
