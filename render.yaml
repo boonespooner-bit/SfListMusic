@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sflistmusic
+    runtime: static
+    staticPublishPath: ./public
+    buildCommand: ""   # no build step needed — pure static files
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: "public, max-age=3600"
+      - path: /data.json
+        name: Cache-Control
+        value: "public, max-age=900"   # data.json refreshes more often

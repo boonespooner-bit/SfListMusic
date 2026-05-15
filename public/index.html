@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SF List Music — Bay Area Shows</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-sf">SF</span><span class="logo-list">List</span><span class="logo-music">Music</span>
+      </div>
+      <p class="tagline">funk · punk · thrash · ska · upcoming shows of interest</p>
+      <p class="updated-note" id="updated-note">Loading…</p>
+    </div>
+  </header>
+
+  <nav class="view-nav">
+    <button class="nav-btn active" data-view="today">Today</button>
+    <button class="nav-btn" data-view="week">This Week</button>
+    <button class="nav-btn" data-view="all">All Shows</button>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search bands or venues…" autocomplete="off" />
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading shows…</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data sourced from <a href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noopener">jon.luini.com/thelist</a> · Compiled by Steve Koepke</p>
+    <p>Music links powered by Spotify &amp; YouTube</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
