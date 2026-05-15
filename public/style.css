@@ -252,8 +252,17 @@ main {
   color: var(--text);
   text-decoration: none;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 .venue-link:hover { color: var(--accent); }
+.venue-icon {
+  width: 13px;
+  height: 13px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
 
 .meta-pill {
   background: var(--surface2);
