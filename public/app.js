@@ -68,7 +68,7 @@ function filterShows(shows) {
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     filtered = filtered.filter(s =>
-      s.bands.some(b => b.toLowerCase().includes(q)) ||
+      s.bands.some(b => (typeof b === 'string' ? b : b.name).toLowerCase().includes(q)) ||
       s.venue.name.toLowerCase().includes(q)
     );
   }
@@ -94,13 +94,13 @@ function formatDateHeader(isoDate, dayName) {
   return { label, isToday: isoDate === todayISO() };
 }
 
-function musicBtns(show) {
+function bandMusicBtns(band) {
   const parts = [];
-  if (show.spotifyUrl) {
-    parts.push(`<a class="btn-spotify" href="${show.spotifyUrl}" target="_blank" rel="noopener">${SPOTIFY_ICON} Spotify</a>`);
+  if (band.spotifyUrl) {
+    parts.push(`<a class="btn-spotify" href="${band.spotifyUrl}" target="_blank" rel="noopener">${SPOTIFY_ICON} Spotify</a>`);
   }
-  if (show.youtubeUrl) {
-    parts.push(`<a class="btn-youtube" href="${show.youtubeUrl}" target="_blank" rel="noopener">${YT_ICON} YouTube</a>`);
+  if (band.youtubeUrl) {
+    parts.push(`<a class="btn-youtube" href="${band.youtubeUrl}" target="_blank" rel="noopener">${YT_ICON} YouTube</a>`);
   }
   return parts.length ? `<div class="music-btns">${parts.join('')}</div>` : '';
 }
@@ -113,10 +113,15 @@ function renderSymbols(symbols) {
 }
 
 function renderCard(show) {
-  const bandsHtml = show.bands.map(b => `
-    <div class="band-item">
-      <span class="band-name">${escHtml(b)}</span>
-    </div>`).join('');
+  const bandsHtml = show.bands.map(b => {
+    // Bands may be strings (legacy) or {name, spotifyUrl, youtubeUrl}.
+    const band = typeof b === 'string' ? { name: b } : b;
+    return `
+      <div class="band-item">
+        <span class="band-name">${escHtml(band.name)}</span>
+        ${bandMusicBtns(band)}
+      </div>`;
+  }).join('');
 
   const venueName = escHtml(show.venue.name);
   const venueHtml = show.venue.url
@@ -134,10 +139,7 @@ function renderCard(show) {
 
   return `
     <div class="show-card">
-      <div class="card-top">
-        <div class="bands-list">${bandsHtml}</div>
-        ${musicBtns(show)}
-      </div>
+      <div class="bands-list">${bandsHtml}</div>
       <div class="card-meta">
         ${venueHtml}
         ${pills.join('')}

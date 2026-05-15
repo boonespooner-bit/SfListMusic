@@ -161,11 +161,22 @@ def retry_missed_bands(sp, cache: dict, state: dict, budget: int) -> tuple[int, 
 
 
 def apply_cache_to_shows(shows: list[dict], cache: dict):
+    """Convert each show's bands list from [str, ...] to
+    [{"name", "spotifyUrl", "youtubeUrl"}, ...]."""
     for show in shows:
+        new_bands = []
         for band in show.get("bands", []):
-            entry = cache.get(band.lower().strip(), {})
-            show["spotifyUrl"] = entry.get("spotifyUrl")
-            show["youtubeUrl"] = entry.get("youtubeUrl")
+            name = band if isinstance(band, str) else band.get("name", "")
+            entry = cache.get(name.lower().strip(), {})
+            new_bands.append({
+                "name": name,
+                "spotifyUrl": entry.get("spotifyUrl"),
+                "youtubeUrl": entry.get("youtubeUrl"),
+            })
+        show["bands"] = new_bands
+        # Drop legacy show-level URL fields
+        show.pop("spotifyUrl", None)
+        show.pop("youtubeUrl", None)
 
 
 def main():
@@ -199,8 +210,9 @@ def main():
     save_cache(cache)
     apply_cache_to_shows(shows, cache)
 
-    total_spotify = sum(1 for s in shows if s.get("spotifyUrl"))
-    print(f"Final: {total_spotify}/{len(shows)} shows have at least one Spotify URL set on the show row", flush=True)
+    total_bands = sum(len(s["bands"]) for s in shows)
+    total_spotify = sum(1 for s in shows for b in s["bands"] if b.get("spotifyUrl"))
+    print(f"Final: {total_spotify}/{total_bands} band entries have a Spotify URL", flush=True)
 
     DATA_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
     print(f"Updated {DATA_PATH}", flush=True)
