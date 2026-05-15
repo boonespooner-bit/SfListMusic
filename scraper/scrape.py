@@ -108,6 +108,13 @@ def parse_page(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "lxml")
     results: list[dict] = []
 
+    all_tables = soup.find_all("table")
+    print(f"  Tables found: {len(all_tables)}")
+
+    # Sample all bgcolor values on the page to diagnose mismatches
+    all_bgs = {td.get("bgcolor") for td in soup.find_all("td") if td.get("bgcolor")}
+    print(f"  TD bgcolor values on page: {sorted(all_bgs)}")
+
     now = datetime.utcnow()
     current_year = now.year
     last_month_num = 0
@@ -190,6 +197,9 @@ def main():
     print("Parsing…")
     shows = parse_page(html)
     print(f"  Found {len(shows)} shows")
+    if not shows:
+        print("  WARNING: 0 shows parsed — first 800 chars of HTML:")
+        print(html[:800])
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
