@@ -81,8 +81,8 @@ def parse_details(cell) -> dict:
 
 def parse_bands(cell) -> list[str]:
     bands = []
-    # Bands are separated by <BR> tags
-    for part in cell.decode_contents().split("<br"):
+    # Bands are separated by <BR> tags; split case-insensitively
+    for part in re.split(r'<br', cell.decode_contents(), flags=re.IGNORECASE):
         text = BeautifulSoup(part, "lxml").get_text(" ", strip=True)
         text = re.sub(r'\s+', ' ', text).strip()
         if text:
@@ -114,12 +114,12 @@ def parse_page(html: str) -> list[dict]:
 
     # Each month is a separate <table>
     for table in soup.find_all("table"):
-        # Identify month from the gold header row
-        header_row = table.find("tr", bgcolor=lambda v: v and v.upper() in ("#FFCC00", "FFCC00"))
-        if not header_row:
+        # Identify month from the gold header TD (bgcolor is on the TD, not the TR)
+        header_td = table.find("td", bgcolor=lambda v: v and v.upper() in ("#FFCC00", "FFCC00"))
+        if not header_td:
             continue
 
-        month_text = header_row.get_text(" ", strip=True).lower()
+        month_text = header_td.get_text(" ", strip=True).lower()
         month_num = next((v for k, v in MONTH_NAMES.items() if k in month_text), None)
         if month_num is None:
             continue
@@ -152,7 +152,7 @@ def parse_page(html: str) -> list[dict]:
                 continue
 
             # A show row has band + venue + details (3 non-date cells, or 2 if date cell present)
-            non_date_cells = [c for c in cells if c != date_cell]
+            non_date_cells = [c for c in cells if c is not date_cell]
             if len(non_date_cells) < 3:
                 continue
 
