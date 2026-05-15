@@ -42,17 +42,14 @@ def build_spotify_client() -> spotipy.Spotify | None:
 
 
 def spotify_lookup(sp: spotipy.Spotify, band: str) -> str | None:
+    """Return the Spotify artist page URL. (top-tracks endpoint is restricted
+    under Client Credentials flow as of late 2024, so we link to the artist
+    page — Spotify auto-plays the top track from there.)"""
     try:
         results = sp.search(q=f"artist:{band}", type="artist", limit=1)
         items = results.get("artists", {}).get("items", [])
         if items:
-            artist = items[0]
-            # Get top tracks to link to a specific song
-            top = sp.artist_top_tracks(artist["id"], country="US")
-            tracks = top.get("tracks", [])
-            if tracks:
-                return tracks[0]["external_urls"]["spotify"]
-            return artist["external_urls"]["spotify"]
+            return items[0]["external_urls"]["spotify"]
     except Exception as e:
         print(f"    Spotify error for '{band}': {e}")
     return None
