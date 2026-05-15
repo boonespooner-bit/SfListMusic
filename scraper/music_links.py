@@ -63,6 +63,8 @@ def youtube_url(band: str) -> str:
 def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
     changed = 0
     seen: set[str] = set()
+    total = sum(len(s.get("bands", [])) for s in shows)
+    processed = 0
 
     for show in shows:
         for band in show.get("bands", []):
@@ -70,6 +72,9 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
             if key in seen:
                 continue
             seen.add(key)
+            processed += 1
+            if processed % 50 == 0:
+                print(f"  Progress: {processed}/{total} unique bands processed ({changed} new lookups)")
 
             if key in cache:
                 show["spotifyUrl"] = cache[key].get("spotifyUrl")
@@ -79,7 +84,6 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
             spotify_url = None
             if sp:
                 spotify_url = spotify_lookup(sp, band)
-                time.sleep(0.1)  # stay under rate limits
 
             yt_url = youtube_url(band) if not spotify_url else youtube_url(band)
 

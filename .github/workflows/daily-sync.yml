@@ -36,7 +36,8 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: python scraper/music_links.py
+          PYTHONUNBUFFERED: "1"
+        run: python -u scraper/music_links.py
 
       - name: Commit updated data
         run: |
