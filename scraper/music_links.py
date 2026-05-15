@@ -42,17 +42,26 @@ def build_spotify_client() -> spotipy.Spotify | None:
         return None
 
 
+class SpotifyRateLimited(Exception):
+    """Raised when Spotify returns 429, signaling we should stop trying."""
+
+
 def spotify_lookup(sp: spotipy.Spotify, band: str) -> str | None:
-    """Return the Spotify artist page URL. (top-tracks endpoint is restricted
-    under Client Credentials flow as of late 2024, so we link to the artist
-    page — Spotify auto-plays the top track from there.)"""
+    """Return the Spotify artist page URL. Raises SpotifyRateLimited on 429."""
     try:
         results = sp.search(q=f"artist:{band}", type="artist", limit=1)
         items = results.get("artists", {}).get("items", [])
         if items:
             return items[0]["external_urls"]["spotify"]
+    except spotipy.exceptions.SpotifyException as e:
+        if e.http_status == 429:
+            raise SpotifyRateLimited() from e
+        print(f"    Spotify error for '{band}': {e}", flush=True)
     except Exception as e:
-        print(f"    Spotify error for '{band}': {e}")
+        msg = str(e)
+        if "429" in msg or "Max Retries" in msg:
+            raise SpotifyRateLimited() from e
+        print(f"    Spotify error for '{band}': {e}", flush=True)
     return None
 
 
@@ -66,6 +75,7 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
     seen: set[str] = set()
     total = sum(len(s.get("bands", [])) for s in shows)
     processed = 0
+    spotify_disabled = False
 
     for show in shows:
         for band in show.get("bands", []):
@@ -75,7 +85,8 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
             seen.add(key)
             processed += 1
             if processed % 50 == 0:
-                print(f"  Progress: {processed}/{total} unique bands processed ({changed} new lookups)", flush=True)
+                print(f"  Progress: {processed}/{total} ({changed} new lookups, spotify_on={not spotify_disabled})", flush=True)
+                save_cache(cache)  # checkpoint so cancelled runs don't lose progress
 
             if key in cache:
                 show["spotifyUrl"] = cache[key].get("spotifyUrl")
@@ -83,16 +94,21 @@ def enrich(shows: list[dict], sp: spotipy.Spotify | None, cache: dict) -> int:
                 continue
 
             spotify_url = None
-            if sp:
-                spotify_url = spotify_lookup(sp, band)
+            if sp and not spotify_disabled:
+                try:
+                    spotify_url = spotify_lookup(sp, band)
+                except SpotifyRateLimited:
+                    print("  Spotify rate-limited; disabling Spotify for rest of run", flush=True)
+                    spotify_disabled = True
 
-            yt_url = youtube_url(band) if not spotify_url else youtube_url(band)
+            yt_url = youtube_url(band)
 
             cache[key] = {"spotifyUrl": spotify_url, "youtubeUrl": yt_url}
             show["spotifyUrl"] = spotify_url
             show["youtubeUrl"] = yt_url
             changed += 1
-            print(f"    {band}: spotify={'yes' if spotify_url else 'no'}", flush=True)
+            if spotify_url:
+                print(f"    {band}: spotify=yes", flush=True)
 
     return changed
 
