@@ -299,6 +299,41 @@ main {
   color: var(--gold);
 }
 
+.card-buy { margin-left: auto; }
+
+.btn-buy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--gold);
+  color: #1a1300;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s, transform 0.1s;
+  white-space: nowrap;
+}
+.btn-buy:hover { opacity: 0.88; transform: translateY(-1px); }
+
+/* Highlight a show card briefly after navigating from the map */
+.show-card.highlight {
+  animation: card-flash 1.6s ease-out;
+}
+@keyframes card-flash {
+  0%   { box-shadow: 0 0 0 2px var(--accent), 0 0 24px rgba(29,185,84,0.6); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+
+/* Clickable venue title in map popup */
+.popup-venue-link {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.popup-venue-link:hover { text-decoration: underline; }
+
 /* ── Empty state ── */
 .empty-state {
   text-align: center;

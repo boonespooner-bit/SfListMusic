@@ -10,10 +10,12 @@ const SYMBOL_TIPS = {
 
 const SPOTIFY_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>`;
 const VENUE_ICON = `<svg class="venue-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>`;
+const TICKET_ICON = `<svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M22 10V6c0-1.11-.9-2-2-2H4c-1.1 0-1.99.89-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.11.89 2 2 2h16c1.1 0 2-.89 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-9 7.5h-2v-2h2v2zm0-4.5h-2v-2h2v2zm0-4.5h-2v-2h2v2z"/></svg>`;
 const YT_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>`;
 
 let allShows = [];
 let venueCoords = {};
+let venueWebsites = {};
 let currentView = 'today';
 let searchQuery = '';
 let leafletMap = null;
@@ -22,14 +24,19 @@ let leafletMap = null;
 
 async function loadData() {
   try {
-    const [showRes, coordRes] = await Promise.all([
+    const [showRes, coordRes, sitesRes] = await Promise.all([
       fetch('data.json'),
       fetch('venue_coords.json').catch(() => null),
+      fetch('venue_websites.json').catch(() => null),
     ]);
     if (!showRes.ok) throw new Error(`HTTP ${showRes.status}`);
     const payload = await showRes.json();
     allShows = payload.shows || [];
     if (coordRes && coordRes.ok) venueCoords = await coordRes.json();
+    if (sitesRes && sitesRes.ok) {
+      const sitesData = await sitesRes.json();
+      venueWebsites = sitesData.venues || sitesData;
+    }
     const updated = new Date(payload.updated);
     document.getElementById('updated-note').textContent =
       `Updated ${updated.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
@@ -101,6 +108,28 @@ function formatDateHeader(isoDate, dayName) {
   return { label, isToday: isoDate === todayISO() };
 }
 
+function buyTicketsUrl(show) {
+  const name = (show.venue.name || '').toLowerCase();
+  for (const [key, url] of Object.entries(venueWebsites)) {
+    if (name.includes(key)) return url;
+  }
+  const bandName = show.bands.length
+    ? (typeof show.bands[0] === 'string' ? show.bands[0] : show.bands[0].name)
+    : '';
+  const q = encodeURIComponent(`"${show.venue.name}" tickets ${bandName}`);
+  return `https://www.google.com/search?q=${q}`;
+}
+
+function showId(show) {
+  // Deterministic ID for scroll-targeting from the map view
+  const firstBand = show.bands.length
+    ? (typeof show.bands[0] === 'string' ? show.bands[0] : show.bands[0].name)
+    : '';
+  const slug = (show.venue.name + '-' + firstBand)
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return `show-${show.date}-${slug}`;
+}
+
 function bandMusicBtns(band) {
   const parts = [];
   if (band.spotifyUrl) {
@@ -145,13 +174,17 @@ function renderCard(show) {
   }
   if (show.notes) pills.push(`<span class="meta-pill pill-note">${escHtml(show.notes)}</span>`);
 
+  const buyUrl = buyTicketsUrl(show);
+  const buyBtn = `<a class="btn-buy" href="${buyUrl}" target="_blank" rel="noopener">${TICKET_ICON} Buy Tickets</a>`;
+
   return `
-    <div class="show-card">
+    <div class="show-card" id="${showId(show)}">
       <div class="bands-list">${bandsHtml}</div>
       <div class="card-meta">
         ${venueHtml}
         ${pills.join('')}
         ${renderSymbols(show.symbols)}
+        <span class="card-buy">${buyBtn}</span>
       </div>
     </div>`;
 }
@@ -253,8 +286,9 @@ function renderMap() {
     if (firstShow.price) metaParts.push(firstShow.price);
     if (firstShow.doors) metaParts.push(`Doors ${firstShow.doors}`);
 
+    const firstShowId = showId(firstShow);
     marker.bindPopup(`
-      <div class="popup-venue">${escHtml(data.venue.name)}</div>
+      <a class="popup-venue popup-venue-link" data-show-id="${firstShowId}" href="#${firstShowId}">${escHtml(data.venue.name)}</a>
       ${bandsHtml}
       ${metaParts.length ? `<div class="popup-meta">${metaParts.join(' · ')}</div>` : ''}
     `);
@@ -302,6 +336,32 @@ document.getElementById('search').addEventListener('input', e => {
     }
     render();
   }, 200);
+});
+
+// Map popup → today-view show navigation
+document.addEventListener('click', e => {
+  const link = e.target.closest('.popup-venue-link');
+  if (!link) return;
+  e.preventDefault();
+  const id = link.dataset.showId;
+
+  // Switch to Today view
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.view === 'today');
+  });
+  currentView = 'today';
+  hideMap();
+  render();
+
+  // Scroll to the show card after render
+  requestAnimationFrame(() => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.classList.add('highlight');
+      setTimeout(() => el.classList.remove('highlight'), 1800);
+    }
+  });
 });
 
 loadData();
