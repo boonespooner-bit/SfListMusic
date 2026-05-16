@@ -19,6 +19,7 @@ let venueWebsites = {};
 let currentView = 'today';
 let searchQuery = '';
 let leafletMap = null;
+let mapDate = null;  // ISO date currently shown on the map
 
 // ── Data loading ──────────────────────────────────────────────────────────────
 
@@ -238,33 +239,37 @@ function render() {
 
 // ── Map view ──────────────────────────────────────────────────────────────────
 
-function renderMap() {
-  document.getElementById('main').style.display = 'none';
-  const mapEl = document.getElementById('map-view');
-  mapEl.classList.add('active');
+function mapAvailableDates() {
+  const dates = [...new Set(allShows.map(s => s.date))].sort();
+  return dates;
+}
 
-  // Group tonight's shows by venue
-  const today = todayISO();
-  const todayShows = allShows.filter(s => s.date === today);
+function formatMapDayLabel(isoDate) {
+  const [year, month, day] = isoDate.split('-').map(Number);
+  const d = new Date(year, month - 1, day);
+  const isToday = isoDate === todayISO();
+  const formatted = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+  return isToday ? `Today · ${formatted}` : formatted;
+}
+
+function updateMapDayNav() {
+  const dates = mapAvailableDates();
+  const idx = dates.indexOf(mapDate);
+  document.getElementById('map-day-label').textContent = formatMapDayLabel(mapDate);
+  document.getElementById('map-prev-day').disabled = idx <= 0;
+  document.getElementById('map-next-day').disabled = idx >= dates.length - 1;
+}
+
+function plotMapMarkers() {
+  // Remove existing markers
+  leafletMap.eachLayer(l => { if (l instanceof L.Marker) leafletMap.removeLayer(l); });
+
+  const dateShows = allShows.filter(s => s.date === mapDate);
   const byVenue = new Map();
-  for (const show of todayShows) {
+  for (const show of dateShows) {
     const key = show.venue.url || show.venue.name;
     if (!byVenue.has(key)) byVenue.set(key, { venue: show.venue, shows: [] });
     byVenue.get(key).shows.push(show);
-  }
-
-  if (!leafletMap) {
-    leafletMap = L.map('map-view', { zoomControl: true })
-      .setView([37.785, -122.42], 12);
-
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19,
-    }).addTo(leafletMap);
-  } else {
-    leafletMap.eachLayer(l => { if (l instanceof L.Marker) leafletMap.removeLayer(l); });
-    setTimeout(() => leafletMap.invalidateSize(), 50);
   }
 
   const dot = L.divIcon({ className: 'venue-dot', iconSize: [14, 14] });
@@ -288,12 +293,40 @@ function renderMap() {
 
     const firstShowId = showId(firstShow);
     marker.bindPopup(`
-      <a class="popup-venue popup-venue-link" data-show-id="${firstShowId}" href="#${firstShowId}">${escHtml(data.venue.name)}</a>
+      <a class="popup-venue popup-venue-link" data-show-id="${firstShowId}" data-show-date="${mapDate}" href="#${firstShowId}">${escHtml(data.venue.name)}</a>
       ${bandsHtml}
       ${metaParts.length ? `<div class="popup-meta">${metaParts.join(' · ')}</div>` : ''}
     `);
     marker.on('mouseover', () => marker.openPopup());
   }
+}
+
+function renderMap() {
+  document.getElementById('main').style.display = 'none';
+  const mapEl = document.getElementById('map-view');
+  mapEl.classList.add('active');
+
+  // Default map date to today (or earliest available)
+  if (!mapDate) {
+    const dates = mapAvailableDates();
+    mapDate = dates.includes(todayISO()) ? todayISO() : (dates[0] || todayISO());
+  }
+
+  if (!leafletMap) {
+    leafletMap = L.map('map-view', { zoomControl: true })
+      .setView([37.785, -122.42], 12);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+    }).addTo(leafletMap);
+  } else {
+    setTimeout(() => leafletMap.invalidateSize(), 50);
+  }
+
+  plotMapMarkers();
+  updateMapDayNav();
 }
 
 function hideMap() {
@@ -338,18 +371,32 @@ document.getElementById('search').addEventListener('input', e => {
   }, 200);
 });
 
-// Map popup → today-view show navigation
+// Map day navigation
+document.getElementById('map-prev-day').addEventListener('click', () => {
+  const dates = mapAvailableDates();
+  const idx = dates.indexOf(mapDate);
+  if (idx > 0) { mapDate = dates[idx - 1]; plotMapMarkers(); updateMapDayNav(); }
+});
+document.getElementById('map-next-day').addEventListener('click', () => {
+  const dates = mapAvailableDates();
+  const idx = dates.indexOf(mapDate);
+  if (idx < dates.length - 1) { mapDate = dates[idx + 1]; plotMapMarkers(); updateMapDayNav(); }
+});
+
+// Map popup → list-view show navigation
 document.addEventListener('click', e => {
   const link = e.target.closest('.popup-venue-link');
   if (!link) return;
   e.preventDefault();
   const id = link.dataset.showId;
+  const showDate = link.dataset.showDate;
 
-  // Switch to Today view
+  // If it's today, switch to Today view; otherwise switch to All Shows and scroll to the date
+  const targetView = showDate === todayISO() ? 'today' : 'all';
   document.querySelectorAll('.nav-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.view === 'today');
+    b.classList.toggle('active', b.dataset.view === targetView);
   });
-  currentView = 'today';
+  currentView = targetView;
   hideMap();
   render();
 

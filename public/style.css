@@ -367,8 +367,56 @@ main {
   display: none;
   height: calc(100vh - 130px);  /* full remaining viewport under header+nav */
   width: 100%;
+  position: relative;
 }
 #map-view.active { display: block; }
+
+#map-day-nav {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(13,13,15,0.88);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 0.45rem 0.9rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+
+.map-day-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.map-day-btn:hover { border-color: var(--accent); color: var(--accent); }
+.map-day-btn:disabled { opacity: 0.3; cursor: default; }
+.map-day-btn:disabled:hover { border-color: var(--border); color: var(--muted); }
+
+#map-day-label {
+  font-family: var(--font-head);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 180px;
+  text-align: center;
+}
 
 .venue-dot {
   width: 14px !important;
