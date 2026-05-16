@@ -319,7 +319,7 @@ main {
 
 /* Highlight a show card briefly after navigating from the map */
 .show-card.highlight {
-  animation: card-flash 1.6s ease-out;
+  animation: card-flash 5s ease-out;
 }
 @keyframes card-flash {
   0%   { box-shadow: 0 0 0 2px var(--accent), 0 0 24px rgba(29,185,84,0.6); }

@@ -359,7 +359,7 @@ document.addEventListener('click', e => {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       el.classList.add('highlight');
-      setTimeout(() => el.classList.remove('highlight'), 1800);
+      setTimeout(() => el.classList.remove('highlight'), 5000);
     }
   });
 });
