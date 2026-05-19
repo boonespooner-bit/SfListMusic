@@ -463,6 +463,116 @@ function hideMap() {
   document.getElementById('main').style.display = '';
 }
 
+// ── Venue view ───────────────────────────────────────────────────────────────
+
+function renderVenueView() {
+  hideWeekDaySelector();
+  hideAllWeekSelector();
+  const main = document.getElementById('main');
+  const today = todayISO();
+
+  // Group all future shows by venue name (case-insensitive key)
+  const venueMap = new Map();
+  for (const show of allShows) {
+    if (show.date < today) continue;
+    const key = show.venue.name.toLowerCase();
+    if (!venueMap.has(key)) venueMap.set(key, { name: show.venue.name, shows: [] });
+    venueMap.get(key).shows.push(show);
+  }
+
+  let venues = [...venueMap.values()];
+
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    venues = venues.filter(v =>
+      v.name.toLowerCase().includes(q) ||
+      v.shows.some(s => s.bands.some(b => (typeof b === 'string' ? b : b.name).toLowerCase().includes(q)))
+    );
+  }
+
+  venues.sort((a, b) => a.name.localeCompare(b.name));
+
+  if (!venues.length) {
+    main.innerHTML = `<div class="empty-state"><h2>No venues found.</h2></div>`;
+    return;
+  }
+
+  // Build alphabet index — only letters that have venues
+  const letters = [...new Set(venues.map(v => v.name[0].toUpperCase()))];
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const alphaHtml = `<div class="venue-alpha-index">${
+    alphabet.map(l =>
+      `<button class="venue-alpha-btn" data-letter="${l}" ${letters.includes(l) ? '' : 'disabled'}>${l}</button>`
+    ).join('')
+  }</div>`;
+
+  const rowsHtml = venues.map(venueData => {
+    const { name, shows } = venueData;
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const letter = name[0].toUpperCase();
+
+    // Group shows by date
+    const byDate = new Map();
+    for (const show of shows) {
+      if (!byDate.has(show.date)) byDate.set(show.date, []);
+      byDate.get(show.date).push(show);
+    }
+
+    const ticketUrl = buyTicketsUrl(shows[0]);
+
+    const datesHtml = [...byDate.entries()].map(([date, dateShows]) => {
+      const [y, m, d] = date.split('-').map(Number);
+      const dateObj = new Date(y, m - 1, d);
+      const dateLabel = dateObj.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      const isToday = date === today;
+
+      const bandsHtml = dateShows.flatMap(s => s.bands).map(b => {
+        const band = typeof b === 'string' ? { name: b } : b;
+        return `<div class="band-item">
+          <span class="band-name">${escHtml(band.name)}</span>
+          ${bandMusicBtns(band)}
+        </div>`;
+      }).join('');
+
+      return `<div class="venue-date-group">
+        <div class="venue-date-label">
+          ${isToday ? '<span class="date-today-badge">Today</span>' : ''}
+          ${escHtml(dateLabel)}
+        </div>
+        ${bandsHtml}
+      </div>`;
+    }).join('');
+
+    return `<div class="venue-row" id="venue-${slug}" data-letter="${letter}">
+      <div class="venue-row-header">
+        <span class="venue-row-name">${escHtml(name)}</span>
+        <span class="venue-row-count">${shows.length} show${shows.length !== 1 ? 's' : ''}</span>
+        <a class="btn-buy" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
+        <span class="venue-row-arrow">▾</span>
+      </div>
+      <div class="venue-row-body">${datesHtml}</div>
+    </div>`;
+  }).join('');
+
+  main.innerHTML = alphaHtml + `<div class="venue-list">${rowsHtml}</div>`;
+
+  // Accordion toggle — ignore clicks on the ticket button
+  main.querySelectorAll('.venue-row-header').forEach(header => {
+    header.addEventListener('click', e => {
+      if (e.target.closest('.btn-buy')) return;
+      header.closest('.venue-row').classList.toggle('open');
+    });
+  });
+
+  // Alphabet jump
+  main.querySelectorAll('.venue-alpha-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = main.querySelector(`.venue-row[data-letter="${btn.dataset.letter}"]`);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
 function escHtml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -480,6 +590,9 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     currentView = btn.dataset.view;
     if (currentView === 'map') {
       renderMap();
+    } else if (currentView === 'venue') {
+      hideMap();
+      renderVenueView();
     } else {
       hideMap();
       render();
@@ -492,11 +605,15 @@ document.getElementById('search').addEventListener('input', e => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     searchQuery = e.target.value.trim();
-    if (searchQuery) {
-      currentView = 'all';
-      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    if (currentView === 'venue') {
+      renderVenueView();
+    } else {
+      if (searchQuery) {
+        currentView = 'all';
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      }
+      render();
     }
-    render();
   }, 200);
 });
 
