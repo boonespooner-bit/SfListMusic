@@ -131,8 +131,9 @@ main {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── Week day selector ── */
-#week-day-selector {
+/* ── Week day selector / All-shows week selector ── */
+#week-day-selector,
+#all-week-selector {
   display: none;
   position: sticky;
   top: 53px;
@@ -145,8 +146,10 @@ main {
   overflow-x: auto;
   scrollbar-width: none;
 }
-#week-day-selector::-webkit-scrollbar { display: none; }
-#week-day-selector.active { display: flex; }
+#week-day-selector::-webkit-scrollbar,
+#all-week-selector::-webkit-scrollbar { display: none; }
+#week-day-selector.active,
+#all-week-selector.active { display: flex; }
 
 .week-day-btn {
   background: transparent;
@@ -180,8 +183,9 @@ main {
   border-bottom: 1px solid var(--border);
   background: var(--bg);
 }
-/* When the week-day selector bar is visible, date headers sit below it */
-body.week-view .date-header { top: 101px; }
+/* When a sub-nav selector bar is visible, date headers sit below it */
+body.week-view .date-header,
+body.all-view  .date-header { top: 101px; }
 
 /* fade just under the sticky header so cards aren't visible peeking through */
 .date-header::before {

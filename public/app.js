@@ -196,6 +196,7 @@ function render() {
 
   if (!shows.length) {
     hideWeekDaySelector();
+    hideAllWeekSelector();
     const msg = currentView === 'today'
       ? 'No shows listed for today.'
       : 'No shows found.';
@@ -233,13 +234,16 @@ function render() {
 
   if (currentView === 'week') {
     renderWeekDaySelector([...grouped.keys()]);
+    hideAllWeekSelector();
+  } else if (currentView === 'all') {
+    hideWeekDaySelector();
+    renderAllWeekSelector([...grouped.keys()]);
+    // Scroll to today (or nearest future date) on initial load
+    const todayEl = document.getElementById(`date-${todayISO()}`);
+    if (todayEl) todayEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   } else {
     hideWeekDaySelector();
-    // Scroll to today if in all-shows view
-    if (currentView === 'all') {
-      const todayEl = document.getElementById(`date-${todayISO()}`);
-      if (todayEl) todayEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    hideAllWeekSelector();
   }
 }
 
@@ -289,6 +293,68 @@ function hideWeekDaySelector() {
   sel.classList.remove('active');
   sel.innerHTML = '';
   document.body.classList.remove('week-view');
+}
+
+// ── All-shows week selector ───────────────────────────────────────────────────
+
+function weekStartISO(isoDate) {
+  const [y, m, d] = isoDate.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  const dow = date.getDay(); // 0=Sun
+  date.setDate(date.getDate() - (dow === 0 ? 6 : dow - 1)); // rewind to Monday
+  return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+}
+
+function weekRangeLabel(mondayISO) {
+  const [y, m, d] = mondayISO.split('-').map(Number);
+  const start = new Date(y, m - 1, d);
+  const end   = new Date(y, m - 1, d + 6);
+  const startFmt = start.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  const endFmt   = end.toLocaleDateString('en-US',
+    start.getMonth() === end.getMonth() ? { day: 'numeric' } : { month: 'short', day: 'numeric' });
+  return `${startFmt}–${endFmt}`;
+}
+
+function renderAllWeekSelector(sortedDates) {
+  const sel = document.getElementById('all-week-selector');
+  if (!sortedDates.length) { hideAllWeekSelector(); return; }
+
+  document.body.classList.add('all-view');
+  sel.classList.add('active');
+
+  // Map: weekStartISO → first date in that week that has shows
+  const weeks = new Map();
+  for (const date of sortedDates) {
+    const ws = weekStartISO(date);
+    if (!weeks.has(ws)) weeks.set(ws, date);
+  }
+
+  const todayWeek = weekStartISO(todayISO());
+
+  const buttons = [...weeks.entries()].map(([ws, firstDate]) => {
+    const label   = weekRangeLabel(ws);
+    const current = ws === todayWeek ? ' active' : '';
+    return `<button class="week-day-btn${current}" data-date="${firstDate}" data-week="${ws}">${label}</button>`;
+  });
+
+  sel.innerHTML = buttons.join('');
+
+  sel.querySelectorAll('.week-day-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(`date-${btn.dataset.date}`);
+      if (!target) return;
+      sel.querySelectorAll('.week-day-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
+function hideAllWeekSelector() {
+  const sel = document.getElementById('all-week-selector');
+  sel.classList.remove('active');
+  sel.innerHTML = '';
+  document.body.classList.remove('all-view');
 }
 
 // ── Map view ──────────────────────────────────────────────────────────────────
