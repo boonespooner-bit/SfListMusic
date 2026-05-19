@@ -195,6 +195,7 @@ function render() {
   const main = document.getElementById('main');
 
   if (!shows.length) {
+    hideWeekDaySelector();
     const msg = currentView === 'today'
       ? 'No shows listed for today.'
       : 'No shows found.';
@@ -230,11 +231,64 @@ function render() {
 
   main.innerHTML = html;
 
-  // Scroll to today if in all-shows view
-  if (currentView === 'all') {
-    const todayEl = document.getElementById(`date-${todayISO()}`);
-    if (todayEl) todayEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (currentView === 'week') {
+    renderWeekDaySelector([...grouped.keys()]);
+  } else {
+    hideWeekDaySelector();
+    // Scroll to today if in all-shows view
+    if (currentView === 'all') {
+      const todayEl = document.getElementById(`date-${todayISO()}`);
+      if (todayEl) todayEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
+}
+
+// ── Week day selector ─────────────────────────────────────────────────────────
+
+function renderWeekDaySelector(weekDates) {
+  const sel = document.getElementById('week-day-selector');
+  if (!weekDates || !weekDates.length) {
+    sel.classList.remove('active');
+    document.body.classList.remove('week-view');
+    sel.innerHTML = '';
+    return;
+  }
+
+  document.body.classList.add('week-view');
+  sel.classList.add('active');
+
+  const showDates = new Set(weekDates);
+
+  // Build Mon–Sun for the current week window (today through today+6)
+  const today = todayISO();
+  const buttons = weekDates.map(isoDate => {
+    const [year, month, day] = isoDate.split('-').map(Number);
+    const d = new Date(year, month - 1, day);
+    const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
+    const dayNum  = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    const isToday = isoDate === today;
+    const label   = isToday ? `Today · ${dayNum}` : `${dayName} · ${dayNum}`;
+    return `<button class="week-day-btn" data-date="${isoDate}">${label}</button>`;
+  });
+
+  sel.innerHTML = buttons.join('');
+
+  sel.querySelectorAll('.week-day-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(`date-${btn.dataset.date}`);
+      if (!target) return;
+      sel.querySelectorAll('.week-day-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
+function hideWeekDaySelector() {
+  const sel = document.getElementById('week-day-selector');
+  sel.classList.remove('active');
+  sel.innerHTML = '';
+  document.body.classList.remove('week-view');
 }
 
 // ── Map view ──────────────────────────────────────────────────────────────────

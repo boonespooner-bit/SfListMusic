@@ -131,6 +131,40 @@ main {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* ── Week day selector ── */
+#week-day-selector {
+  display: none;
+  position: sticky;
+  top: 53px;
+  z-index: 9;
+  background: rgba(13,13,15,0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 1.5rem;
+  gap: 0.4rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+#week-day-selector::-webkit-scrollbar { display: none; }
+#week-day-selector.active { display: flex; }
+
+.week-day-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-family: var(--font);
+  white-space: nowrap;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+.week-day-btn:hover { border-color: var(--accent); color: var(--accent); }
+.week-day-btn.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600; }
+.week-day-btn:disabled { opacity: 0.3; cursor: default; pointer-events: none; }
+
 /* ── Date group ── */
 .date-group { margin-bottom: 2.5rem; }
 
@@ -146,6 +180,9 @@ main {
   border-bottom: 1px solid var(--border);
   background: var(--bg);
 }
+/* When the week-day selector bar is visible, date headers sit below it */
+body.week-view .date-header { top: 101px; }
+
 /* fade just under the sticky header so cards aren't visible peeking through */
 .date-header::before {
   content: '';
