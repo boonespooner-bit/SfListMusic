@@ -283,9 +283,13 @@ function renderWeekDaySelector(weekDates) {
       if (!target) return;
       sel.querySelectorAll('.week-day-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+
+  // Scroll the bar so the first button is visible at the left edge on load
+  sel.scrollLeft = 0;
 }
 
 function hideWeekDaySelector() {
@@ -345,9 +349,14 @@ function renderAllWeekSelector(sortedDates) {
       if (!target) return;
       sel.querySelectorAll('.week-day-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+
+  // On load, scroll the bar so the active (current) week button is centered
+  const activeBtn = sel.querySelector('.week-day-btn.active');
+  if (activeBtn) activeBtn.scrollIntoView({ behavior: 'instant', block: 'nearest', inline: 'center' });
 }
 
 function hideAllWeekSelector() {
