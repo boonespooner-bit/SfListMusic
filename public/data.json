@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T08:54:04.434432+00:00",
+  "updated": "2026-05-20T08:49:31.234482+00:00",
   "source": "https://jon.luini.com/thelist/date.html",
   "shows": [
     {
@@ -44,99 +44,6 @@
         "#"
       ],
       "notes": "/"
-    },
-    {
-      "date": "2026-05-18",
-      "dayName": "mon",
-      "bands": [
-        {
-          "name": "Lucy Dacus",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Lucy+Dacus"
-        },
-        {
-          "name": "Luna Li",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Luna+Li"
-        }
-      ],
-      "venue": {
-        "name": "Castro",
-        "url": "club.html#castro"
-      },
-      "age": "all ages",
-      "doors": "7pm",
-      "show": "8pm",
-      "symbols": [
-        "#"
-      ],
-      "notes": "/ (sold out)"
-    },
-    {
-      "date": "2026-05-18",
-      "dayName": "mon",
-      "bands": [
-        {
-          "name": "Caroline",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Caroline"
-        },
-        {
-          "name": "Joshua Chuquimia Crampton",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Joshua+Chuquimia+Crampton"
-        }
-      ],
-      "venue": {
-        "name": "Great American Music Hall",
-        "url": "club.html#great_american_music_hall"
-      },
-      "age": "all ages",
-      "price": "$27/",
-      "doors": "7pm",
-      "show": "8pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-05-18",
-      "dayName": "mon",
-      "bands": [
-        {
-          "name": "Broncho",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Broncho"
-        }
-      ],
-      "venue": {
-        "name": "Independent",
-        "url": "club.html#independent"
-      },
-      "age": "all ages",
-      "doors": "7:30pm",
-      "show": "8pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-05-18",
-      "dayName": "mon",
-      "bands": [
-        {
-          "name": "Souled American",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Souled+American"
-        }
-      ],
-      "venue": {
-        "name": "4 Star Theater",
-        "url": "club.html#4_star_theater"
-      },
-      "age": "all ages",
-      "doors": "7pm",
-      "show": "8pm",
-      "symbols": [],
-      "notes": "/ til"
     },
     {
       "date": "2026-05-19",
@@ -261,7 +168,7 @@
         },
         {
           "name": "Luna Li",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5p6wO94xYpLb7bhXNQz4HU",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Luna+Li"
         }
       ],
@@ -1029,6 +936,11 @@
           "name": "Avalon Emerson & The Charm",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Avalon+Emerson+&+The+Charm"
+        },
+        {
+          "name": "Inner Magic",
+          "spotifyUrl": "https://open.spotify.com/artist/5SHwyxFIPdjh5HwJQ0uxcN",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Inner+Magic"
         }
       ],
       "venue": {
@@ -3681,7 +3593,7 @@
         },
         {
           "name": "Get Lost Cassidy Frost",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0wzWNm8myQz8hFK6N888K5",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Get+Lost+Cassidy+Frost"
         },
         {
@@ -3809,7 +3721,7 @@
         },
         {
           "name": "Ludacris",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3ipn9JLAPI5GUEo4y4jcoi",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Ludacris"
         },
         {
@@ -5070,7 +4982,7 @@
         },
         {
           "name": "The Insomniacs",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2YvkfiEmJQRVmgSKWWwTIg",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+Insomniacs"
         },
         {
@@ -5155,7 +5067,7 @@
       "bands": [
         {
           "name": "Being As An Ocean",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/7ML9AQvVVE3c5m0sx1PlmP",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Being+As+An+Ocean"
         },
         {
@@ -5396,7 +5308,7 @@
       "bands": [
         {
           "name": "Supersuckers",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/7gMCi9ouTHLfqzJsjL1UVg",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Supersuckers"
         },
         {
@@ -5746,7 +5658,7 @@
         },
         {
           "name": "Yot Club",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6FugQjLquBF4JzATRN70bR",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Yot+Club"
         },
         {
@@ -6062,7 +5974,7 @@
         },
         {
           "name": "X-Tra",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5V0h1vN2Kayj07snZ9i7r9",
           "youtubeUrl": "https://www.youtube.com/results?search_query=X-Tra"
         },
         {
@@ -6398,7 +6310,7 @@
       "bands": [
         {
           "name": "CD Ghost",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0wGf1OZAg2ihGB9BaFkqMn",
           "youtubeUrl": "https://www.youtube.com/results?search_query=CD+Ghost"
         },
         {
@@ -6424,7 +6336,7 @@
       "bands": [
         {
           "name": "Sean Hayes",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/478LE6WL6BARBaLU2NHefl",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Sean+Hayes"
         },
         {
@@ -6655,7 +6567,7 @@
         },
         {
           "name": "Uncle Funky",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2xwBBWaOe9tXTOxcfFWkJ5",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Uncle+Funky"
         }
       ],
@@ -6895,7 +6807,7 @@
         },
         {
           "name": "Jon Bennett",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1xwhGGrn8veryMQey6d9Ku",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Jon+Bennett"
         },
         {
@@ -6910,7 +6822,7 @@
         },
         {
           "name": "Borogroves",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0NTNP5WKtLl9R6a8BZVkMd",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Borogroves"
         },
         {
@@ -7833,7 +7745,7 @@
       "bands": [
         {
           "name": "Sonus",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/78wZzI7u1cOjXKuYzqZI6l",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Sonus"
         },
         {
@@ -8036,7 +7948,7 @@
       "bands": [
         {
           "name": "Living Dead Girl",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3ahU0zmYd7h1xTDBGGiDur",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Living+Dead+Girl"
         }
       ],
@@ -8254,7 +8166,7 @@
         },
         {
           "name": "El Gran Combo",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6nnspeopmJAG07xOxHmqTu",
           "youtubeUrl": "https://www.youtube.com/results?search_query=El+Gran+Combo"
         },
         {
@@ -8543,7 +8455,7 @@
         },
         {
           "name": "Ny Oh",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1fGjaPYbrACc1ayN3TWR7D",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Ny+Oh"
         }
       ],
@@ -8740,7 +8652,7 @@
         },
         {
           "name": "Dead Weight",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5sP19DbFYKk7g9EuCJAlDq",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Dead+Weight"
         },
         {
@@ -8813,7 +8725,7 @@
       "bands": [
         {
           "name": "Rostam",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/04XggbrM51GcFPTxBYtRXT",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Rostam"
         },
         {
@@ -9117,7 +9029,7 @@
         },
         {
           "name": "Make The Scene",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6K6yTxBYifMHe7aJ9JVVQP",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Make+The+Scene"
         }
       ],
@@ -9588,6 +9500,31 @@
       "dayName": "fri",
       "bands": [
         {
+          "name": "Big Gigantic",
+          "spotifyUrl": "https://open.spotify.com/artist/7o7mC95EDbJKTcPAAs8C3r",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Big+Gigantic"
+        },
+        {
+          "name": "Flozone",
+          "spotifyUrl": "https://open.spotify.com/artist/3SoFUkULAf5goHkXVeppoh",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Flozone"
+        }
+      ],
+      "venue": {
+        "name": "1015",
+        "url": "club.html#1015"
+      },
+      "price": "$31.13/",
+      "doors": "10pm",
+      "show": null,
+      "symbols": [],
+      "notes": "21+"
+    },
+    {
+      "date": "2026-05-05",
+      "dayName": "fri",
+      "bands": [
+        {
           "name": "Hinder (8pm)",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Hinder+(8pm)"
@@ -9838,7 +9775,7 @@
       "bands": [
         {
           "name": "Booker T. Jones",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6J3pUmw6KX1LqyLQkP0k9U",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Booker+T.+Jones"
         }
       ],
@@ -9987,7 +9924,7 @@
       "bands": [
         {
           "name": "LaRussell",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5PRPy7MZZhkM5CIVJvTAKM",
           "youtubeUrl": "https://www.youtube.com/results?search_query=LaRussell"
         }
       ],
@@ -10275,7 +10212,7 @@
       "bands": [
         {
           "name": "Hot Buttered Rum",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1g3ZifJpzuFjmLgq4smNOq",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Hot+Buttered+Rum"
         }
       ],
@@ -10331,7 +10268,7 @@
       "bands": [
         {
           "name": "Dread",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1aw0Cdl1DIrtUrUA6fGbAR",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Dread"
         },
         {
@@ -10497,7 +10434,7 @@
       "bands": [
         {
           "name": "Booker T. Jones",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6J3pUmw6KX1LqyLQkP0k9U",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Booker+T.+Jones"
         }
       ],
@@ -10712,9 +10649,9 @@
           "youtubeUrl": "https://www.youtube.com/results?search_query=White+Hills"
         },
         {
-          "name": "Heat",
-          "spotifyUrl": "https://open.spotify.com/artist/5K4gVy6DhNd39mSjuK95Y7",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Heat"
+          "name": "Ex-Heir",
+          "spotifyUrl": "https://open.spotify.com/artist/2B2pOuDilA7MNuvovHASc2",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Ex-Heir"
         }
       ],
       "venue": {
@@ -10784,7 +10721,7 @@
       "bands": [
         {
           "name": "Prima Materia",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6PPNMkdoCB0oFUEa3lFbGM",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Prima+Materia"
         },
         {
@@ -10934,7 +10871,7 @@
         },
         {
           "name": "Lowcaster",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0fAmXtkCT2ZS9po8amNfGr",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Lowcaster"
         },
         {
@@ -12217,7 +12154,7 @@
       "bands": [
         {
           "name": "By Storm",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1YUIjQ3ugjokiyb908LpVO",
           "youtubeUrl": "https://www.youtube.com/results?search_query=By+Storm"
         },
         {
@@ -12674,7 +12611,7 @@
         },
         {
           "name": "The John Doe Folk Trio",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4VZRz5yRDu9JRPxJM6zBFn",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+John+Doe+Folk+Trio"
         }
       ],
@@ -13120,7 +13057,7 @@
         },
         {
           "name": "We Are Scientists",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/35YNL4wwv11ZkmeWWL51y7",
           "youtubeUrl": "https://www.youtube.com/results?search_query=We+Are+Scientists"
         }
       ],
@@ -13286,7 +13223,7 @@
         },
         {
           "name": "The John Doe Folk Trio",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4VZRz5yRDu9JRPxJM6zBFn",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+John+Doe+Folk+Trio"
         }
       ],
@@ -14684,7 +14621,7 @@
       "bands": [
         {
           "name": "Smoking Popes",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4PKAg3S6JyEG8N9wgjD0fu",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Smoking+Popes"
         },
         {
@@ -15065,6 +15002,32 @@
       "dayName": "sat",
       "bands": [
         {
+          "name": "Nightjars",
+          "spotifyUrl": "https://open.spotify.com/artist/2FoKsPApveBHqiVoP5RsWL",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Nightjars"
+        },
+        {
+          "name": "Giulia",
+          "spotifyUrl": "https://open.spotify.com/artist/2EhUCZ96KOxXXyrRrCOgbn",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Giulia"
+        }
+      ],
+      "venue": {
+        "name": "Lost Church",
+        "url": "club.html#lost_church"
+      },
+      "age": "all ages",
+      "price": "$25",
+      "doors": "4pm",
+      "show": "4:45pm",
+      "symbols": [],
+      "notes": "/ til"
+    },
+    {
+      "date": "2026-05-20",
+      "dayName": "sat",
+      "bands": [
+        {
           "name": "Diljit Dosanjh",
           "spotifyUrl": "https://open.spotify.com/artist/2FKWNmZWDBZR4dE5KX4plR",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Diljit+Dosanjh"
@@ -15163,7 +15126,7 @@
       "bands": [
         {
           "name": "Smoking Popes",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4PKAg3S6JyEG8N9wgjD0fu",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Smoking+Popes"
         },
         {
@@ -15725,7 +15688,7 @@
         },
         {
           "name": "Lulu Simon",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3Z5BbiIldlrLYBVVHKdhYa",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Lulu+Simon"
         }
       ],
@@ -15870,7 +15833,7 @@
       "bands": [
         {
           "name": "Heavenly",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1sDWIdL18InXgES9TwvsL2",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Heavenly"
         },
         {
@@ -17036,7 +16999,7 @@
         },
         {
           "name": "Artikal Sound System",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5wbZwShmxCGRjgjTQQr7Sr",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Artikal+Sound+System"
         }
       ],
@@ -17125,7 +17088,7 @@
         },
         {
           "name": "Sea MOss",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0PGEPFxb5PNZHADQ8H7Wml",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Sea+MOss"
         },
         {
@@ -17215,7 +17178,7 @@
       "bands": [
         {
           "name": "Holly Humberstone",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0nnYdIpahs41QiZ9MWp5Wx",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Holly+Humberstone"
         }
       ],
@@ -17657,7 +17620,7 @@
         },
         {
           "name": "Tectonics",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0H7tMebqd3d5iU0mG7nl1P",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Tectonics"
         }
       ],
@@ -18945,7 +18908,7 @@
         },
         {
           "name": "Chevy D",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2GxZhHEQr3Bq1l5HBlhJyN",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Chevy+D"
         }
       ],
@@ -19005,7 +18968,7 @@
         },
         {
           "name": "Bad Ass",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3fokOZQsXMeMTyvGHofqup",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Ass"
         },
         {
@@ -19289,7 +19252,7 @@
         },
         {
           "name": "Arc Iris",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5Nxn8lgy9oEXmurhiSn1v1",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Arc+Iris"
         }
       ],
@@ -19456,7 +19419,7 @@
       "bands": [
         {
           "name": "Hot Buttered Rum",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1g3ZifJpzuFjmLgq4smNOq",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Hot+Buttered+Rum"
         }
       ],
@@ -19909,6 +19872,25 @@
       "dayName": "fri",
       "bands": [
         {
+          "name": "Willie Nelson & Family",
+          "spotifyUrl": "https://open.spotify.com/artist/0KV1YtheX8zbH3rBACpKL3",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Willie+Nelson+&+Family"
+        }
+      ],
+      "venue": {
+        "name": "Meritage Resort",
+        "url": "club.html#meritage_resort"
+      },
+      "doors": "6:30pm",
+      "show": "8pm",
+      "symbols": [],
+      "notes": "/"
+    },
+    {
+      "date": "2026-06-17",
+      "dayName": "fri",
+      "bands": [
+        {
           "name": "Jerry's Middle Finger",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Jerry's+Middle+Finger"
@@ -19975,7 +19957,7 @@
       "bands": [
         {
           "name": "Hot Buttered Rum",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1g3ZifJpzuFjmLgq4smNOq",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Hot+Buttered+Rum"
         }
       ],
@@ -20228,7 +20210,7 @@
         },
         {
           "name": "Girlfriend",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1ao4XlZGazbxbP6V3k4SnY",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Girlfriend"
         }
       ],
@@ -20442,7 +20424,7 @@
         },
         {
           "name": "The Dead Milkmen",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2fhngmJMaaKcdhXHCa4cPK",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+Dead+Milkmen"
         },
         {
@@ -20680,7 +20662,7 @@
         },
         {
           "name": "The English Beat",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1eVEVL20zNLcGrPDOR691N",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+English+Beat"
         },
         {
@@ -20772,7 +20754,7 @@
         },
         {
           "name": "The English Beat",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1eVEVL20zNLcGrPDOR691N",
           "youtubeUrl": "https://www.youtube.com/results?search_query=The+English+Beat"
         },
         {
@@ -21189,7 +21171,7 @@
         },
         {
           "name": "Illuminati Hotties",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3ztRX1UoIOsFqpD7dB6R8O",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Illuminati+Hotties"
         }
       ],
@@ -21979,7 +21961,7 @@
       "bands": [
         {
           "name": "Marcos Valle",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5I0EPnV9gwrZYTbScjnaOk",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Marcos+Valle"
         }
       ],
@@ -22115,6 +22097,37 @@
       "symbols": [
         "#"
       ],
+      "notes": "/"
+    },
+    {
+      "date": "2026-06-29",
+      "dayName": "wed",
+      "bands": [
+        {
+          "name": "Witch Whores Of Satan",
+          "spotifyUrl": "https://open.spotify.com/artist/46OLdSbSCHZYXc3btGTatZ",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Witch+Whores+Of+Satan"
+        },
+        {
+          "name": "Meathook And The Vital Organs",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Meathook+And+The+Vital+Organs"
+        },
+        {
+          "name": "Puppet Fister Theater",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Puppet+Fister+Theater"
+        }
+      ],
+      "venue": {
+        "name": "Rickshaw Stop",
+        "url": "club.html#rickshaw_stop"
+      },
+      "age": "all ages",
+      "price": "$13/",
+      "doors": "8pm",
+      "show": "8:45pm",
+      "symbols": [],
       "notes": "/"
     },
     {
@@ -22254,7 +22267,7 @@
         },
         {
           "name": "Melancholy Club",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6ZQIbnXfEalBgahgWcOk1U",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Melancholy+Club"
         }
       ],
@@ -22732,7 +22745,7 @@
       "bands": [
         {
           "name": "AC/DC",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
           "youtubeUrl": "https://www.youtube.com/results?search_query=AC/DC"
         },
         {
@@ -22784,7 +22797,7 @@
       "bands": [
         {
           "name": "Prewn",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1Sm5PqM25CcIBtKSvZz9iS",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Prewn"
         }
       ],
@@ -22902,7 +22915,7 @@
         },
         {
           "name": "Labrinth",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2feDdbD5araYcm6JhFHHw7",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Labrinth"
         },
         {
@@ -23423,7 +23436,7 @@
       "bands": [
         {
           "name": "ZZ Top",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2AM4ilv6UzW0uMRuqKtDgN",
           "youtubeUrl": "https://www.youtube.com/results?search_query=ZZ+Top"
         },
         {
@@ -23578,7 +23591,7 @@
         },
         {
           "name": "Kingfishr",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6c2qQFq3xfxFJndX6wSe4f",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Kingfishr"
         },
         {
@@ -24487,6 +24500,11 @@
           "name": "Off With Their Heads",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Off+With+Their+Heads"
+        },
+        {
+          "name": "Middle-Aged Queers",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Middle-Aged+Queers"
         }
       ],
       "venue": {
@@ -24499,7 +24517,7 @@
       "symbols": [
         "@"
       ],
-      "notes": "21+ /"
+      "notes": "21+ / $"
     },
     {
       "date": "2026-07-15",
@@ -24536,7 +24554,7 @@
         },
         {
           "name": "Mermaid & The Crashers",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5yOzcxCRNkejHN23bkAjuY",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Mermaid+&+The+Crashers"
         },
         {
@@ -24712,7 +24730,7 @@
         },
         {
           "name": "Stompin Riff Raffs",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4O9grCam4NqpK7Q9hV16YY",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Stompin+Riff+Raffs"
         },
         {
@@ -25590,7 +25608,7 @@
       "bands": [
         {
           "name": "Ty Myers",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/1Gh0pCAxpjw0Iq3JMoVAwO",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Ty+Myers"
         },
         {
@@ -25865,7 +25883,7 @@
       "bands": [
         {
           "name": "Mamuse",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2YyZrDoQn0alXttMnAFCMm",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Mamuse"
         }
       ],
@@ -26577,7 +26595,7 @@
         },
         {
           "name": "K.A.A.N.",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3sDbKMebVH2VYcRSl7u1VC",
           "youtubeUrl": "https://www.youtube.com/results?search_query=K.A.A.N."
         },
         {
@@ -27668,7 +27686,7 @@
       "bands": [
         {
           "name": "Liz Phair",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/2LXeJdQVcFkhkWydphLI74",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Liz+Phair"
         },
         {
@@ -28279,7 +28297,7 @@
       "bands": [
         {
           "name": "Five Finger Death Punch",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5t28BP42x2axFnqOOMg3CM",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Five+Finger+Death+Punch"
         },
         {
@@ -28548,7 +28566,7 @@
         },
         {
           "name": "Cryogeyser",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3BORonJcAjc2wbSv1DXbTZ",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Cryogeyser"
         }
       ],
@@ -28581,8 +28599,9 @@
       "age": "all ages",
       "price": "$20/",
       "doors": "8pm",
-      "show": null,
-      "symbols": []
+      "show": "9pm",
+      "symbols": [],
+      "notes": "/"
     },
     {
       "date": "2026-08-18",
@@ -30045,7 +30064,7 @@
       "bands": [
         {
           "name": "Suicideboys",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/5PZZVjoa6dSPphzPjWssdv",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Suicideboys"
         },
         {
@@ -30778,7 +30797,7 @@
       "bands": [
         {
           "name": "Sammy Rae & Friends",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3lFDsTyYNPQc8WzJExnQWn",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Sammy+Rae+&+Friends"
         },
         {
@@ -31463,7 +31482,7 @@
         },
         {
           "name": "Bad Ass",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/3fokOZQsXMeMTyvGHofqup",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Ass"
         },
         {
@@ -31657,7 +31676,7 @@
       "bands": [
         {
           "name": "Kim Richey",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/4Rx72ewRjxlDGiO6wPHpxe",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Kim+Richey"
         }
       ],
@@ -32001,7 +32020,7 @@
       "bands": [
         {
           "name": "Bronwyn Keith-Hynes",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/03d64K2pahKcY9cyDvh1XO",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Bronwyn+Keith-Hynes"
         }
       ],
@@ -32097,6 +32116,32 @@
       "show": "9pm",
       "symbols": [],
       "notes": "/"
+    },
+    {
+      "date": "2026-09-17",
+      "dayName": "sat",
+      "bands": [
+        {
+          "name": "Blondshell",
+          "spotifyUrl": "https://open.spotify.com/artist/7qrEXiLLnWkkYHhadZ1Oij",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Blondshell"
+        },
+        {
+          "name": "Starcleaner (reunion)",
+          "spotifyUrl": "https://open.spotify.com/artist/0aE0jIMsKSVBasU5D0e5zM",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Starcleaner+(reunion)"
+        }
+      ],
+      "venue": {
+        "name": "Castro",
+        "url": "club.html#castro"
+      },
+      "age": "all ages",
+      "doors": "8pm",
+      "show": null,
+      "symbols": [
+        "#"
+      ]
     },
     {
       "date": "2026-09-17",
@@ -32296,6 +32341,25 @@
       "dayName": "mon",
       "bands": [
         {
+          "name": "Bebe Stockwell",
+          "spotifyUrl": "https://open.spotify.com/artist/2KPSR6XA83w8XYrwWekhA9",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Bebe+Stockwell"
+        }
+      ],
+      "venue": {
+        "name": "Rickshaw Stop",
+        "url": "club.html#rickshaw_stop"
+      },
+      "age": "all ages",
+      "doors": "8pm",
+      "show": null,
+      "symbols": []
+    },
+    {
+      "date": "2026-09-19",
+      "dayName": "mon",
+      "bands": [
+        {
           "name": "Doja Cat",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Doja+Cat"
@@ -32316,7 +32380,7 @@
       "bands": [
         {
           "name": "Bedouine",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/6IiZemRMna678qNhiRkYI5",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Bedouine"
         }
       ],
@@ -33132,7 +33196,7 @@
       "bands": [
         {
           "name": "Dilated Peoples",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/56OMwqr8qaLIRH4ZrvvdXq",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Dilated+Peoples"
         }
       ],
@@ -33231,6 +33295,27 @@
       },
       "doors": "6pm",
       "show": "7pm",
+      "symbols": [],
+      "notes": "/"
+    },
+    {
+      "date": "2026-10-04",
+      "dayName": "wed",
+      "bands": [
+        {
+          "name": "Mary In The Junkyard",
+          "spotifyUrl": "https://open.spotify.com/artist/48Kc3HRodbvm5ropMf9B6M",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Mary+In+The+Junkyard"
+        }
+      ],
+      "venue": {
+        "name": "Rickshaw Stop",
+        "url": "club.html#rickshaw_stop"
+      },
+      "age": "all ages",
+      "price": "$20/",
+      "doors": "8pm",
+      "show": "9pm",
       "symbols": [],
       "notes": "/"
     },
@@ -33728,7 +33813,7 @@
         },
         {
           "name": "Ariel J.",
-          "spotifyUrl": null,
+          "spotifyUrl": "https://open.spotify.com/artist/0KVhKG1INN58I9KaMeW3xa",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Ariel+J."
         }
       ],
