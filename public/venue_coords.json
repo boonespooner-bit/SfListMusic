@@ -993,5 +993,45 @@
     "name": "Civic",
     "lat": 37.7780501,
     "lng": -122.4173077
+  },
+  "club.html#community_center": {
+    "name": "Community Center",
+    "lat": 37.7794498,
+    "lng": -122.429283
+  },
+  "club.html#paviliion": {
+    "name": "Paviliion",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#nikko": {
+    "name": "Nikko",
+    "lat": 37.785813,
+    "lng": -122.4093408
+  },
+  "club.html#pioneer_saloon": {
+    "name": "Pioneer Saloon",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#vinnie's": {
+    "name": "Vinnie's",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#make-out_room": {
+    "name": "Make-Out Room",
+    "lat": 37.7553007,
+    "lng": -122.419366
+  },
+  "club.html#oakland_secret_gallery": {
+    "name": "Oakland Secret Gallery",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#pacifica's_fogfist_parade": {
+    "name": "Pacifica's Fogfist Parade",
+    "lat": null,
+    "lng": null
   }
 }
