@@ -1073,5 +1073,45 @@
     "name": "Fairgrounds",
     "lat": 37.2999593,
     "lng": -121.8511955
+  },
+  "club.html#shop": {
+    "name": "Shop",
+    "lat": 37.7882737,
+    "lng": -122.4059068
+  },
+  "club.html#salesforce_park": {
+    "name": "Salesforce Park",
+    "lat": 37.789115,
+    "lng": -122.396655
+  },
+  "club.html#taqueria_mila": {
+    "name": "Taqueria Mila",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#thunder_valley": {
+    "name": "Thunder Valley",
+    "lat": 37.3306758,
+    "lng": -121.8552411
+  },
+  "club.html#new_farm": {
+    "name": "New Farm",
+    "lat": 37.7407433,
+    "lng": -122.3769863
+  },
+  "club.html#lane_splitters_pizza": {
+    "name": "Lane Splitters Pizza",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mabuhay_gardens_and_on_broadway": {
+    "name": "Mabuhay Gardens and on Broadway",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#pier_80": {
+    "name": "Pier 80",
+    "lat": 37.7879363,
+    "lng": -122.4075201
   }
 }
