@@ -42,6 +42,7 @@ async function loadData() {
     document.getElementById('updated-note').textContent =
       `Updated ${updated.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
     render();
+    injectEventSchema();
   } catch (e) {
     document.getElementById('main').innerHTML = `
       <div class="empty-state">
@@ -49,6 +50,44 @@ async function loadData() {
         <p>${e.message}</p>
       </div>`;
   }
+}
+
+function injectEventSchema() {
+  const today = todayISO();
+  // Emit upcoming shows (next 30 days) as MusicEvent structured data for Google
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() + 30);
+  const cutoffISO = cutoff.toISOString().slice(0, 10);
+
+  const events = allShows
+    .filter(s => s.date >= today && s.date <= cutoffISO)
+    .map(show => {
+      const performers = show.bands.map(b => ({
+        '@type': 'MusicGroup',
+        name: typeof b === 'string' ? b : b.name,
+      }));
+      const event = {
+        '@type': 'MusicEvent',
+        name: show.bands.map(b => typeof b === 'string' ? b : b.name).join(', '),
+        startDate: show.date,
+        location: {
+          '@type': 'MusicVenue',
+          name: show.venue.name,
+          address: { '@type': 'PostalAddress', addressRegion: 'CA', addressCountry: 'US' },
+        },
+        performer: performers,
+        eventStatus: 'https://schema.org/EventScheduled',
+        eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      };
+      if (show.price) event.offers = { '@type': 'Offer', price: show.price, priceCurrency: 'USD' };
+      return event;
+    });
+
+  if (!events.length) return;
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': events });
+  document.head.appendChild(script);
 }
 
 // ── Filtering ─────────────────────────────────────────────────────────────────

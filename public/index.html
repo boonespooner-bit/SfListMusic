@@ -3,7 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SF Music List — Bay Area Shows</title>
+
+  <!-- Primary SEO -->
+  <title>SF Music List — Bay Area Live Music, Concerts &amp; Show Listings</title>
+  <meta name="description" content="Daily updated live music and concert listings for San Francisco, Oakland, Berkeley and the Bay Area. Find punk, ska, funk, thrash and indie bands playing tonight and upcoming at SF venues." />
+  <meta name="keywords" content="bay area live music, san francisco concerts, sf shows tonight, bay area bands, oakland live music, berkeley concerts, punk shows san francisco, ska bands bay area, bay area music calendar, san francisco music venues, upcoming shows bay area, live music sf, bay area concert listings, san francisco punk bands, bay area indie bands, sf music tonight, bay area shows, san francisco live music, bay area music scene" />
+  <meta name="author" content="SF Music List" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sfmusiclist.com" />
+
+  <!-- Local / Geo SEO -->
+  <meta name="geo.region" content="US-CA" />
+  <meta name="geo.placename" content="San Francisco Bay Area, California" />
+  <meta name="geo.position" content="37.7749;-122.4194" />
+  <meta name="ICBM" content="37.7749, -122.4194" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sfmusiclist.com" />
+  <meta property="og:site_name" content="SF Music List" />
+  <meta property="og:title" content="SF Music List — Bay Area Live Music &amp; Concerts" />
+  <meta property="og:description" content="Daily updated live music listings for San Francisco, Oakland &amp; Berkeley. Punk, ska, funk, thrash and indie shows tonight and upcoming." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="SF Music List — Bay Area Live Music &amp; Concerts" />
+  <meta name="twitter:description" content="Daily updated concert listings for SF, Oakland &amp; Berkeley. Punk, ska, funk, thrash and indie shows tonight and upcoming." />
+
+  <!-- JSON-LD: WebSite + SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SF Music List",
+    "url": "https://sfmusiclist.com",
+    "description": "Daily updated live music and concert listings for the San Francisco Bay Area, covering San Francisco, Oakland, Berkeley and surrounding cities.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://sfmusiclist.com/?q={search_term_string}" },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Local Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SF Music List",
+    "url": "https://sfmusiclist.com",
+    "description": "Bay Area live music listings covering San Francisco, Oakland, Berkeley and surrounding Bay Area venues.",
+    "areaServed": [
+      { "@type": "City", "name": "San Francisco", "containedInPlace": { "@type": "State", "name": "California" } },
+      { "@type": "City", "name": "Oakland", "containedInPlace": { "@type": "State", "name": "California" } },
+      { "@type": "City", "name": "Berkeley", "containedInPlace": { "@type": "State", "name": "California" } },
+      { "@type": "City", "name": "San Jose", "containedInPlace": { "@type": "State", "name": "California" } }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -13,9 +73,9 @@
 <body>
   <header>
     <div class="header-inner">
-      <div class="logo">
+      <h1 class="logo">
         <span class="logo-sf">SF</span><span class="logo-list">Music</span><span class="logo-music">List</span>
-      </div>
+      </h1>
       <p class="tagline">funk · punk · thrash · ska · upcoming shows of interest</p>
       <p class="updated-note" id="updated-note">Loading…</p>
     </div>

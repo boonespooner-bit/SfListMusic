@@ -42,7 +42,7 @@ header {
   font-weight: 700;
   letter-spacing: -1px;
   line-height: 1;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;  /* reset h1 browser default, keep bottom gap */
 }
 .logo-sf    { color: var(--accent); }
 .logo-list  { color: var(--text); }
