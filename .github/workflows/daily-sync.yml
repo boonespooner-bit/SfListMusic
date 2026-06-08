@@ -32,6 +32,9 @@ jobs:
       - name: Scrape concert data
         run: python scraper/scrape.py
 
+      - name: Scrape Songkick Bay Area
+        run: python -u scraper/songkick_scrape.py
+
       - name: Enrich with music links
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
