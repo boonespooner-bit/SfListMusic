@@ -1,5 +1,9 @@
 'use strict';
 
+// ── Config ────────────────────────────────────────────────────────────────────
+// Set this to your Render API service URL once deployed.
+const API_BASE = 'https://api.sfmusiclist.com';
+
 const SYMBOL_TIPS = {
   '*': 'All bands deserve 3 stars',
   '~': 'Will probably sell out',
@@ -194,7 +198,7 @@ function renderCard(show) {
     const band = typeof b === 'string' ? { name: b } : b;
     return `
       <div class="band-item">
-        <span class="band-name">${escHtml(band.name)}</span>
+        <span class="band-name band-link" data-band="${escHtml(band.name)}">${escHtml(band.name)}</span>
         ${bandMusicBtns(band)}
       </div>`;
   }).join('');
@@ -568,7 +572,7 @@ function renderVenueView() {
       const bandsHtml = dateShows.flatMap(s => s.bands).map(b => {
         const band = typeof b === 'string' ? { name: b } : b;
         return `<div class="band-item">
-          <span class="band-name">${escHtml(band.name)}</span>
+          <span class="band-name band-link" data-band="${escHtml(band.name)}">${escHtml(band.name)}</span>
           ${bandMusicBtns(band)}
         </div>`;
       }).join('');
@@ -695,5 +699,150 @@ document.addEventListener('click', e => {
     }
   });
 });
+
+// ── Artist panel ──────────────────────────────────────────────────────────────
+
+function openArtistPanel(bandName) {
+  const today = todayISO();
+
+  // Collect all future shows for this band (case-insensitive)
+  const bl = bandName.toLowerCase();
+  const upcomingShows = allShows.filter(show =>
+    show.date >= today &&
+    show.bands.some(b => (typeof b === 'string' ? b : b.name).toLowerCase() === bl)
+  );
+
+  // Find the band's music links from first match that has them
+  let spotifyUrl = null, youtubeUrl = null;
+  for (const show of allShows) {
+    for (const b of show.bands) {
+      if (typeof b !== 'string' && b.name.toLowerCase() === bl) {
+        if (b.spotifyUrl) spotifyUrl = b.spotifyUrl;
+        if (b.youtubeUrl) youtubeUrl = b.youtubeUrl;
+      }
+    }
+    if (spotifyUrl || youtubeUrl) break;
+  }
+
+  const linksHtml = [
+    spotifyUrl ? `<a class="btn-spotify" href="${spotifyUrl}" target="_blank" rel="noopener">${SPOTIFY_ICON} Spotify</a>` : '',
+    youtubeUrl ? `<a class="btn-youtube" href="${youtubeUrl}" target="_blank" rel="noopener">${YT_ICON} YouTube</a>` : '',
+  ].filter(Boolean).join('');
+
+  const showsHtml = upcomingShows.length
+    ? upcomingShows.map(show => {
+        const [y, m, d] = show.date.split('-').map(Number);
+        const dateStr = new Date(y, m - 1, d).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+        const isToday = show.date === today;
+        return `<div class="panel-show-row">
+          <span class="panel-show-date">${isToday ? '<span class="date-today-badge">Today</span> ' : ''}${escHtml(dateStr)}</span>
+          <span class="panel-show-venue">${escHtml(show.venue.name)}</span>
+        </div>`;
+      }).join('')
+    : `<p class="panel-no-shows">No upcoming Bay Area shows found.</p>`;
+
+  document.getElementById('panel-content').innerHTML = `
+    <div class="panel-band-name">${escHtml(bandName)}</div>
+    ${linksHtml ? `<div class="panel-links">${linksHtml}</div>` : ''}
+
+    <section class="panel-section">
+      <h3 class="panel-section-title">Upcoming Shows</h3>
+      ${showsHtml}
+    </section>
+
+    <section class="panel-section panel-subscribe-section">
+      <h3 class="panel-section-title">Get Notified</h3>
+      <p class="panel-subscribe-desc">Get an email when <strong>${escHtml(bandName)}</strong> has a new show in the Bay Area.</p>
+      <div class="panel-subscribe-form">
+        <input type="email" id="panel-email" class="panel-email-input" placeholder="your@email.com" autocomplete="email" />
+        <button id="panel-subscribe-btn" class="btn-panel-subscribe">Notify Me</button>
+      </div>
+      <p id="panel-subscribe-status" class="panel-subscribe-status"></p>
+    </section>
+  `;
+
+  // Subscribe button handler
+  document.getElementById('panel-subscribe-btn').addEventListener('click', async () => {
+    const email = (document.getElementById('panel-email').value || '').trim();
+    const statusEl = document.getElementById('panel-subscribe-status');
+    const btn = document.getElementById('panel-subscribe-btn');
+    if (!email || !email.includes('@')) {
+      statusEl.textContent = 'Please enter a valid email address.';
+      statusEl.className = 'panel-subscribe-status error';
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    statusEl.textContent = '';
+    try {
+      const res = await fetch(`${API_BASE}/api/subscribe`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, band_name: bandName }),
+      });
+      const data = await res.json();
+      if (data.status === 'confirmation_sent') {
+        statusEl.textContent = '✓ Check your inbox to confirm your subscription.';
+        statusEl.className = 'panel-subscribe-status success';
+        btn.textContent = 'Email sent!';
+      } else if (data.status === 'already_subscribed') {
+        statusEl.textContent = '✓ You\'re already subscribed to alerts for this artist.';
+        statusEl.className = 'panel-subscribe-status success';
+        btn.textContent = 'Subscribed';
+      } else {
+        throw new Error(data.error || 'Unknown error');
+      }
+    } catch (err) {
+      statusEl.textContent = `Could not subscribe: ${err.message}`;
+      statusEl.className = 'panel-subscribe-status error';
+      btn.disabled = false;
+      btn.textContent = 'Notify Me';
+    }
+  });
+
+  const panel = document.getElementById('artist-panel');
+  const overlay = document.getElementById('panel-overlay');
+  panel.classList.add('open');
+  panel.setAttribute('aria-hidden', 'false');
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // Focus the panel for accessibility
+  document.getElementById('panel-close').focus();
+}
+
+function closeArtistPanel() {
+  const panel = document.getElementById('artist-panel');
+  const overlay = document.getElementById('panel-overlay');
+  panel.classList.remove('open');
+  panel.setAttribute('aria-hidden', 'true');
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Close panel handlers
+document.getElementById('panel-close').addEventListener('click', closeArtistPanel);
+document.getElementById('panel-overlay').addEventListener('click', closeArtistPanel);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeArtistPanel(); });
+
+// Open panel when any band name is clicked
+document.addEventListener('click', e => {
+  const link = e.target.closest('.band-link');
+  if (!link) return;
+  openArtistPanel(link.dataset.band);
+});
+
+// Show "subscribed" confirmation banner if redirected back from confirm link
+(function checkSubscribedParam() {
+  const params = new URLSearchParams(window.location.search);
+  const band = params.get('subscribed');
+  if (!band) return;
+  const banner = document.createElement('div');
+  banner.className = 'subscribed-banner';
+  banner.innerHTML = `✓ You're subscribed to alerts for <strong>${escHtml(band)}</strong>! <button class="banner-close">✕</button>`;
+  document.body.prepend(banner);
+  banner.querySelector('.banner-close').addEventListener('click', () => banner.remove());
+  window.history.replaceState({}, '', window.location.pathname);
+})();
 
 loadData();

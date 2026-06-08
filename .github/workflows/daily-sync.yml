@@ -56,3 +56,19 @@ jobs:
             git commit -m "chore: daily concert data sync $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Send subscriber notifications
+        if: ${{ env.NOTIFY_URL != '' }}
+        env:
+          NOTIFY_URL: ${{ secrets.NOTIFY_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: |
+          echo "Triggering subscriber notifications…"
+          curl -s -X POST "${NOTIFY_URL}/api/notify" \
+            -H "Authorization: Bearer ${NOTIFY_SECRET}" \
+            -H "Content-Type: application/json" \
+            --data-binary @public/data.json \
+            --max-time 120 \
+            --fail-with-body \
+          && echo "Notifications sent." \
+          || echo "Notify endpoint unavailable — skipping (set NOTIFY_URL secret to enable)."
