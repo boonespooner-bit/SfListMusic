@@ -574,7 +574,7 @@ body.venue-view main { padding-right: 2.5rem; }
 /* ── Side A-Z strip ── */
 .venue-az-side {
   position: fixed;
-  right: 6px;
+  right: 22px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 50;
