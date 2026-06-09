@@ -240,6 +240,7 @@ function render() {
   if (!shows.length) {
     hideWeekDaySelector();
     hideAllWeekSelector();
+    hideVenueView();
     const msg = currentView === 'today'
       ? 'No shows listed for today.'
       : 'No shows found.';
@@ -511,13 +512,19 @@ function hideMap() {
 function renderVenueView() {
   hideWeekDaySelector();
   hideAllWeekSelector();
+  document.body.classList.add('venue-view');
   const main = document.getElementById('main');
   const today = todayISO();
 
-  // Group all future shows by venue name (case-insensitive key)
+  // Next 7 days
+  const cutoffDate = new Date();
+  cutoffDate.setDate(cutoffDate.getDate() + 7);
+  const cutoff = `${cutoffDate.getFullYear()}-${String(cutoffDate.getMonth()+1).padStart(2,'0')}-${String(cutoffDate.getDate()).padStart(2,'0')}`;
+
+  // Group by venue, next 7 days only
   const venueMap = new Map();
   for (const show of allShows) {
-    if (show.date < today) continue;
+    if (show.date < today || show.date > cutoff) continue;
     const key = show.venue.name.toLowerCase();
     if (!venueMap.has(key)) venueMap.set(key, { name: show.venue.name, shows: [] });
     venueMap.get(key).shows.push(show);
@@ -536,23 +543,19 @@ function renderVenueView() {
   venues.sort((a, b) => a.name.localeCompare(b.name));
 
   if (!venues.length) {
-    main.innerHTML = `<div class="empty-state"><h2>No venues found.</h2></div>`;
+    main.innerHTML = `<div class="empty-state"><h2>No shows in the next 7 days.</h2><p>Try "All Shows" to browse further ahead.</p></div>`;
     return;
   }
 
-  // Build alphabet index — only letters that have venues
-  const letters = [...new Set(venues.map(v => v.name[0].toUpperCase()))];
-  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-  const alphaHtml = `<div class="venue-alpha-index">${
-    alphabet.map(l =>
-      `<button class="venue-alpha-btn" data-letter="${l}" ${letters.includes(l) ? '' : 'disabled'}>${l}</button>`
-    ).join('')
-  }</div>`;
+  // Which letters have venues
+  const activeLetters = new Set(venues.map(v => v.name.replace(/^the\s+/i, '')[0].toUpperCase()));
 
-  const rowsHtml = venues.map(venueData => {
-    const { name, shows } = venueData;
-    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    const letter = name[0].toUpperCase();
+  // Build venue cards
+  const cardsHtml = venues.map(({ name, shows }) => {
+    const anchor = name.replace(/^the\s+/i, '');
+    const letter = anchor[0].toUpperCase();
+    const slug   = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const ticketUrl = buyTicketsUrl(shows[0]);
 
     // Group shows by date
     const byDate = new Map();
@@ -561,13 +564,10 @@ function renderVenueView() {
       byDate.get(show.date).push(show);
     }
 
-    const ticketUrl = buyTicketsUrl(shows[0]);
-
     const datesHtml = [...byDate.entries()].map(([date, dateShows]) => {
       const [y, m, d] = date.split('-').map(Number);
-      const dateObj = new Date(y, m - 1, d);
-      const dateLabel = dateObj.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-      const isToday = date === today;
+      const dateLabel = new Date(y, m - 1, d).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      const isToday   = date === today;
 
       const bandsHtml = dateShows.flatMap(s => s.bands).map(b => {
         const band = typeof b === 'string' ? { name: b } : b;
@@ -586,34 +586,35 @@ function renderVenueView() {
       </div>`;
     }).join('');
 
-    return `<div class="venue-row" id="venue-${slug}" data-letter="${letter}">
-      <div class="venue-row-header">
-        <span class="venue-row-name">${escHtml(name)}</span>
-        <span class="venue-row-count">${shows.length} show${shows.length !== 1 ? 's' : ''}</span>
-        <a class="btn-buy" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
-        <span class="venue-row-arrow">▾</span>
+    return `<div class="venue-card" id="venue-${slug}" data-letter="${letter}">
+      <div class="venue-card-header">
+        <span class="venue-card-name">${escHtml(name)}</span>
+        <a class="btn-buy venue-ticket-btn" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
       </div>
-      <div class="venue-row-body">${datesHtml}</div>
+      <div class="venue-card-body">${datesHtml}</div>
     </div>`;
   }).join('');
 
-  main.innerHTML = alphaHtml + `<div class="venue-list">${rowsHtml}</div>`;
+  // Side A–Z strip
+  const azHtml = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(l =>
+    `<button class="venue-az-btn${activeLetters.has(l) ? '' : ' inactive'}" data-letter="${l}">${l}</button>`
+  ).join('');
 
-  // Accordion toggle — ignore clicks on the ticket button
-  main.querySelectorAll('.venue-row-header').forEach(header => {
-    header.addEventListener('click', e => {
-      if (e.target.closest('.btn-buy')) return;
-      header.closest('.venue-row').classList.toggle('open');
-    });
-  });
+  main.innerHTML = `
+    <div class="venue-cards">${cardsHtml}</div>
+    <nav class="venue-az-side" aria-label="Jump to letter">${azHtml}</nav>
+  `;
 
-  // Alphabet jump
-  main.querySelectorAll('.venue-alpha-btn').forEach(btn => {
+  main.querySelectorAll('.venue-az-btn:not(.inactive)').forEach(btn => {
     btn.addEventListener('click', () => {
-      const target = main.querySelector(`.venue-row[data-letter="${btn.dataset.letter}"]`);
+      const target = main.querySelector(`.venue-card[data-letter="${btn.dataset.letter}"]`);
       if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+}
+
+function hideVenueView() {
+  document.body.classList.remove('venue-view');
 }
 
 function escHtml(str) {
@@ -632,12 +633,14 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.classList.add('active');
     currentView = btn.dataset.view;
     if (currentView === 'map') {
+      hideVenueView();
       renderMap();
     } else if (currentView === 'venue') {
       hideMap();
       renderVenueView();
     } else {
       hideMap();
+      hideVenueView();
       render();
     }
   });

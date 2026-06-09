@@ -521,103 +521,93 @@ footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--text); }
 
 /* ── Venue view ── */
-.venue-list { display: flex; flex-direction: column; gap: 0.5rem; }
 
-.venue-row {
+/* Extra right padding so cards don't hide under the A-Z strip */
+body.venue-view main { padding-right: 2.5rem; }
+
+.venue-cards { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.venue-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  transition: border-color 0.15s;
 }
-.venue-row.open { border-color: #3e3e50; }
 
-.venue-row-header {
+.venue-card-header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.9rem 1.25rem;
-  cursor: pointer;
-  user-select: none;
-  transition: background 0.15s;
+  padding: 0.85rem 1.25rem;
+  background: var(--surface2);
+  border-bottom: 1px solid var(--border);
 }
-.venue-row-header:hover { background: var(--surface2); }
 
-.venue-row-name {
-  font-weight: 600;
-  font-size: 0.95rem;
+.venue-card-name {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 1rem;
   color: var(--text);
   flex: 1;
   min-width: 0;
 }
 
-.venue-row-count {
-  font-size: 0.75rem;
-  color: var(--muted);
-  flex-shrink: 0;
+.venue-card-body {
+  padding: 0.85rem 1.25rem 1rem;
 }
 
-.venue-row-arrow {
-  color: var(--muted);
-  font-size: 0.85rem;
-  flex-shrink: 0;
-  transition: transform 0.2s;
-}
-.venue-row.open .venue-row-arrow { transform: rotate(180deg); }
-
-.venue-row-body {
-  display: none;
-  border-top: 1px solid var(--border);
-  padding: 1rem 1.25rem 1.25rem;
-}
-.venue-row.open .venue-row-body { display: block; }
-
-.venue-date-group { margin-bottom: 1.1rem; }
+.venue-date-group { margin-bottom: 1rem; }
 .venue-date-group:last-child { margin-bottom: 0; }
 
 .venue-date-label {
-  font-size: 0.75rem;
+  font-size: 0.73rem;
   font-weight: 700;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.4rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
-.venue-ticket-row {
-  margin-top: 1rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--border);
-}
-
-/* alphabet index */
-.venue-alpha-index {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  margin-bottom: 1.25rem;
-}
-.venue-alpha-btn {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--muted);
-  width: 30px;
-  height: 30px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.78rem;
-  font-weight: 600;
-  font-family: var(--font);
-  display: flex;
+/* ── Side A-Z strip ── */
+.venue-az-side {
+  position: fixed;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  display: none;           /* shown only in venue view via body.venue-view */
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  transition: all 0.15s;
+  background: rgba(18,18,28,0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 4px 2px;
+  gap: 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
-.venue-alpha-btn:hover { border-color: var(--accent); color: var(--accent); }
-.venue-alpha-btn:disabled { opacity: 0.25; cursor: default; pointer-events: none; }
+body.venue-view .venue-az-side { display: flex; }
+
+.venue-az-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: 0.6rem;
+  font-weight: 700;
+  font-family: var(--font);
+  line-height: 1;
+  padding: 3px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.1s, color 0.1s;
+  width: 22px;
+  text-align: center;
+}
+.venue-az-btn:hover { background: var(--surface2); color: var(--accent); }
+.venue-az-btn.inactive { opacity: 0.2; cursor: default; pointer-events: none; }
 
 /* ── Band name link ── */
 .band-link {
