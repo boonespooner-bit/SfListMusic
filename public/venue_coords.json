@@ -3963,5 +3963,60 @@
     "name": "Indpendent",
     "lat": null,
     "lng": null
+  },
+  "club.html#natural": {
+    "name": "Natural",
+    "lat": 37.7906589,
+    "lng": -122.4769807
+  },
+  "club.html#embarcadero_plaza": {
+    "name": "Embarcadero Plaza",
+    "lat": 37.7948968,
+    "lng": -122.3949467
+  },
+  "club.html#ellis_street_between_powell_and_stockton": {
+    "name": "Ellis Street between Powell and Stockton",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#unimatrix_zero": {
+    "name": "Unimatrix Zero",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43262262-justin-martin-at-san-francisco-mint?utm_medium=organic&utm_source=microformat": {
+    "name": "The San Francisco Mint",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43265162-spinouts-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43258407-andy-z-at-burlingame-library?utm_medium=organic&utm_source=microformat": {
+    "name": "Burlingame Library",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43264795-tender-misfit-at-faight-collective?utm_medium=organic&utm_source=microformat": {
+    "name": "Faight Collective",
+    "lat": 37.7720643,
+    "lng": -122.4299862
+  },
+  "http://www.songkick.com/concerts/43260551-rjd2-at-cornerstone?utm_medium=organic&utm_source=microformat": {
+    "name": "Cornerstone",
+    "lat": 37.7250306,
+    "lng": -122.4168565
+  },
+  "http://www.songkick.com/concerts/43262266-deradoorian-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43210191-penny-and-sparrow-at-hopmonk-novato-beer-garden?utm_medium=organic&utm_source=microformat": {
+    "name": "HopMonk - Novato Beer Garden",
+    "lat": null,
+    "lng": null
   }
 }
