@@ -4543,5 +4543,15 @@
     "name": "The Midway",
     "lat": 37.7495304,
     "lng": -122.3860944
+  },
+  "http://www.songkick.com/concerts/43280767-grupo-kachimba-at-evolution-san-francisco?utm_medium=organic&utm_source=microformat": {
+    "name": "Evolution San Francisco",
+    "lat": 37.7649393,
+    "lng": -122.4237259
+  },
+  "http://www.songkick.com/concerts/43267342-tierra-cali-at-maya-nightclub?utm_medium=organic&utm_source=microformat": {
+    "name": "Maya Nightclub",
+    "lat": null,
+    "lng": null
   }
 }
