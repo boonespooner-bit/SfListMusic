@@ -4803,5 +4803,65 @@
     "name": "Castro Theatre",
     "lat": 37.7619914,
     "lng": -122.43475
+  },
+  "club.html#shapeshifters_cinema": {
+    "name": "Shapeshifters Cinema",
+    "lat": 37.7991371,
+    "lng": -122.2780648
+  },
+  "http://www.songkick.com/concerts/43107488-kitchen-dwellers-at-junction-beer-garden?utm_medium=organic&utm_source=microformat": {
+    "name": "The Junction Beer Garden",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43284132-desert-hearts-at-blanco-urban-venue?utm_medium=organic&utm_source=microformat": {
+    "name": "Blanco Urban Venue",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43277957-bigbang-at-ringcentral-coliseum?utm_medium=organic&utm_source=microformat": {
+    "name": "RingCentral Coliseum",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43284697-maj-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7898481,
+    "lng": -122.4224878
+  },
+  "http://www.songkick.com/concerts/43211618-tear-garden-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/concerts/43112972-john-pizzarelli-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/42985203-five-finger-death-punch-at-shoreline-amphitheatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Shoreline Amphitheatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43112973-john-pizzarelli-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/42968143-open-mic-night-at-neck-of-the-woods?utm_medium=organic&utm_source=microformat": {
+    "name": "Neck of the Woods",
+    "lat": 37.7831255,
+    "lng": -122.4637116
+  },
+  "http://www.songkick.com/concerts/43103804-bleachers-at-greek-theatre-uc-berkeley?utm_medium=organic&utm_source=microformat": {
+    "name": "Greek Theatre, UC Berkeley",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43009245-growlers-at-catalyst?utm_medium=organic&utm_source=microformat": {
+    "name": "The Catalyst",
+    "lat": null,
+    "lng": null
   }
 }
