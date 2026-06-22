@@ -4863,5 +4863,40 @@
     "name": "The Catalyst",
     "lat": null,
     "lng": null
+  },
+  "http://www.songkick.com/concerts/43224952-phantom-planet-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43228360-mustard-service-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/concerts/43101746-unsane-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43116670-bald-at-paramount-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Paramount Theatre",
+    "lat": 37.8098684,
+    "lng": -122.268667
+  },
+  "http://www.songkick.com/concerts/43244999-dutch-melrose-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43272600-matthew-morrison-at-bankhead-theater-livermore-valley-performing-arts-center?utm_medium=organic&utm_source=microformat": {
+    "name": "Bankhead Theater, \tLivermore Valley Performing Arts Center",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43009247-growlers-at-castro-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Castro Theatre",
+    "lat": 37.7619914,
+    "lng": -122.43475
   }
 }
