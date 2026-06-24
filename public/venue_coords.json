@@ -4903,5 +4903,60 @@
     "name": "Live at the Lot / LOT 2270",
     "lat": null,
     "lng": null
+  },
+  "club.html#grand_avenue_and_wood_street": {
+    "name": "Grand Avenue and Wood Street",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#yerba_buena_gardens": {
+    "name": "Yerba Buena Gardens",
+    "lat": 37.78465,
+    "lng": -122.4023448
+  },
+  "club.html#pizza_place": {
+    "name": "Pizza Place",
+    "lat": 37.7528157,
+    "lng": -122.5055687
+  },
+  "club.html#blue_note": {
+    "name": "Blue Note",
+    "lat": 37.4080013,
+    "lng": -121.8888145
+  },
+  "club.html#discovery_meadow": {
+    "name": "Discovery Meadow",
+    "lat": 37.3278878,
+    "lng": -121.8923486
+  },
+  "club.html#cific_auditorium": {
+    "name": "Cific Auditorium",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43282174-melvin-seals-and-jgb-at-great-american-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Great American Music Hall",
+    "lat": 37.7847659,
+    "lng": -122.4188356
+  },
+  "http://www.songkick.com/concerts/43285695-angelo-de-augustine-at-kuumbwa-jazz-center?utm_medium=organic&utm_source=microformat": {
+    "name": "Kuumbwa Jazz Center",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43287934-ravyn-lenae-at-fox-theater?utm_medium=organic&utm_source=microformat": {
+    "name": "Fox Theater",
+    "lat": 37.8081438,
+    "lng": -122.2705153
+  },
+  "http://www.songkick.com/concerts/43032176-carin-leon-at-sap-center-at-san-jose?utm_medium=organic&utm_source=microformat": {
+    "name": "SAP Center at San Jose",
+    "lat": 37.3328604,
+    "lng": -121.9012247
+  },
+  "http://www.songkick.com/concerts/43263937-mild-minds-at-1015-folsom?utm_medium=organic&utm_source=microformat": {
+    "name": "1015 Folsom",
+    "lat": 37.7780411,
+    "lng": -122.405683
   }
 }
