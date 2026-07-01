@@ -5423,5 +5423,65 @@
     "name": "The Chapel",
     "lat": 37.7604879,
     "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43178109-carl-verheyen-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43298237-alo-at-felton-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Felton Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/festivals/3789527-wobbleland-2-day-pass/id/43250318-wobbleland--2-day-pass-2026?utm_medium=organic&utm_source=microformat": {
+    "name": "San Jose McEnery Convention Center",
+    "lat": 37.3289453,
+    "lng": -121.8890159
+  },
+  "http://www.songkick.com/concerts/43299337-pallbearer-at-ritz?utm_medium=organic&utm_source=microformat": {
+    "name": "The Ritz",
+    "lat": 37.7918675,
+    "lng": -122.4070823
+  },
+  "http://www.songkick.com/concerts/43301357-mad-caddies-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43282180-grex-at-thee-stork-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Thee Stork Club",
+    "lat": 37.8131364,
+    "lng": -122.2683848
+  },
+  "http://www.songkick.com/concerts/43205942-cola-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43214619-tommy-emmanuel-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43192671-wednesday-13-at-ritz?utm_medium=organic&utm_source=microformat": {
+    "name": "The Ritz",
+    "lat": 37.7918675,
+    "lng": -122.4070823
+  },
+  "http://www.songkick.com/concerts/42897051-motley-crue-at-shoreline-amphitheatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Shoreline Amphitheatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43206510-paris-paloma-at-warfield?utm_medium=organic&utm_source=microformat": {
+    "name": "The Warfield",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43189694-elder-island-at-bimbos-365-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Bimbo's 365 Club",
+    "lat": 37.8037307,
+    "lng": -122.4156458
   }
 }
