@@ -5483,5 +5483,65 @@
     "name": "Bimbo's 365 Club",
     "lat": 37.8037307,
     "lng": -122.4156458
+  },
+  "club.html#centennial_plaza": {
+    "name": "Centennial Plaza",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#950_pomona_avenue": {
+    "name": "950 Pomona Avenue",
+    "lat": 37.3116366,
+    "lng": -121.8743289
+  },
+  "club.html#plaza_park": {
+    "name": "Plaza Park",
+    "lat": 37.7792467,
+    "lng": -122.4175699
+  },
+  "club.html#brewsters_beer_garden": {
+    "name": "Brewsters Beer Garden",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#museum_of_modern_art": {
+    "name": "Museum of Modern Art",
+    "lat": 37.785915,
+    "lng": -122.4007359
+  },
+  "club.html#keys_jazz_bistro": {
+    "name": "Keys Jazz Bistro",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#concord_skatepark": {
+    "name": "Concord Skatepark",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#curran_theater": {
+    "name": "Curran Theater",
+    "lat": 37.786831,
+    "lng": -122.410604
+  },
+  "http://www.songkick.com/concerts/43299493-steve-egelman-at-outer-sunset-farmers-market-and-mercantile?utm_medium=organic&utm_source=microformat": {
+    "name": "Outer Sunset Farmers Market and Mercantile",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43302225-grupo-kl-de-edwin-zacary-at-evolution-san-francisco?utm_medium=organic&utm_source=microformat": {
+    "name": "Evolution San Francisco",
+    "lat": 37.7649393,
+    "lng": -122.4237259
+  },
+  "http://www.songkick.com/concerts/43210774-jose-alberto-el-canario-at-swiss-park?utm_medium=organic&utm_source=microformat": {
+    "name": "Swiss Park",
+    "lat": 37.737269,
+    "lng": -122.4382031
+  },
+  "http://www.songkick.com/concerts/43302993-aimee-nolte-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
   }
 }
