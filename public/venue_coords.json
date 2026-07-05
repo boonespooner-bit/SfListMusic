@@ -5718,5 +5718,55 @@
     "name": "Shoreline Amphitheatre",
     "lat": null,
     "lng": null
+  },
+  "http://www.songkick.com/concerts/43306719-sass-n-harmony-at-levi-strauss-plaza?utm_medium=organic&utm_source=microformat": {
+    "name": "Levi Strauss Plaza",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43305377-16volt-at-dna-lounge?utm_medium=organic&utm_source=microformat": {
+    "name": "DNA Lounge",
+    "lat": 37.7710876,
+    "lng": -122.4126126
+  },
+  "http://www.songkick.com/concerts/43306321-nathan-clevenger-group-at-shapeshifters-cinema?utm_medium=organic&utm_source=microformat": {
+    "name": "Shapeshifters Cinema",
+    "lat": 37.7991371,
+    "lng": -122.2780648
+  },
+  "http://www.songkick.com/concerts/43031472-sugar-at-warfield?utm_medium=organic&utm_source=microformat": {
+    "name": "The Warfield",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43288187-airborne-toxic-event-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43054896-cristian-castro-at-san-jose-civic?utm_medium=organic&utm_source=microformat": {
+    "name": "San Jose Civic",
+    "lat": 37.3307938,
+    "lng": -121.8897013
+  },
+  "http://www.songkick.com/festivals/3792253-sleep-north-america/id/43281824-sleep-north-america-2026?utm_medium=organic&utm_source=microformat": {
+    "name": "The Fillmore",
+    "lat": 37.7840838,
+    "lng": -122.433171
+  },
+  "http://www.songkick.com/concerts/43243361-robyn-at-pier-80?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 80",
+    "lat": 37.7879363,
+    "lng": -122.4075201
+  },
+  "http://www.songkick.com/concerts/43290991-erykah-badu-at-greek-theatre-uc-berkeley?utm_medium=organic&utm_source=microformat": {
+    "name": "Greek Theatre, UC Berkeley",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43226459-lucki-at-warfield?utm_medium=organic&utm_source=microformat": {
+    "name": "The Warfield",
+    "lat": null,
+    "lng": null
   }
 }
