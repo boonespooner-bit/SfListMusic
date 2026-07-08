@@ -633,12 +633,19 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.classList.add('active');
     currentView = btn.dataset.view;
     if (currentView === 'map') {
+      hideRadio();
       hideVenueView();
       renderMap();
     } else if (currentView === 'venue') {
+      hideRadio();
       hideMap();
       renderVenueView();
+    } else if (currentView === 'radio') {
+      hideMap();
+      hideVenueView();
+      renderRadio();
     } else {
+      hideRadio();
       hideMap();
       hideVenueView();
       render();
@@ -847,5 +854,241 @@ document.addEventListener('click', e => {
   banner.querySelector('.banner-close').addEventListener('click', () => banner.remove());
   window.history.replaceState({}, '', window.location.pathname);
 })();
+
+// ── Radio (jukebox) ──────────────────────────────────────────────────────────
+
+let radioData = null;
+let radioSource = 'spotify';       // 'spotify' | 'youtube'
+let radioQueue = [];               // [{artist, shows, id, title}]
+let radioIndex = 0;
+let spotifyCtrl = null;
+let ytPlayer = null;
+let spotifyApiReady = null;        // Promise resolved when Spotify IFrame API loads
+let ytApiReady = null;             // Promise resolved when YouTube IFrame API loads
+
+window.onSpotifyIframeApiReady = (api) => {
+  window._spotifyIframeApi = api;
+  if (spotifyApiReady) spotifyApiReady._resolve(api);
+};
+window.onYouTubeIframeAPIReady = () => {
+  if (ytApiReady) ytApiReady._resolve();
+};
+
+function waitForSpotifyApi() {
+  if (window._spotifyIframeApi) return Promise.resolve(window._spotifyIframeApi);
+  if (!spotifyApiReady) {
+    spotifyApiReady = new Promise(resolve => { spotifyApiReady._resolve = resolve; });
+  }
+  return spotifyApiReady;
+}
+function waitForYtApi() {
+  if (window.YT && window.YT.Player) return Promise.resolve();
+  if (!ytApiReady) {
+    ytApiReady = new Promise(resolve => { ytApiReady._resolve = resolve; });
+  }
+  return ytApiReady;
+}
+
+async function loadRadioData() {
+  if (radioData) return radioData;
+  try {
+    const res = await fetch('radio.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`radio.json ${res.status}`);
+    radioData = await res.json();
+    return radioData;
+  } catch (e) {
+    console.warn('radio.json not available yet:', e.message);
+    return null;
+  }
+}
+
+function buildRadioQueue(source, data) {
+  const q = [];
+  for (const a of (data.artists || [])) {
+    if (source === 'spotify') {
+      for (const t of (a.spotifyTracks || [])) {
+        if (t.id) q.push({ artist: a.name, shows: a.shows || [], id: t.id, title: t.name });
+      }
+    } else if (source === 'youtube') {
+      if (a.youtube && a.youtube.id) {
+        q.push({ artist: a.name, shows: a.shows || [], id: a.youtube.id, title: a.youtube.title });
+      }
+    }
+  }
+  return q;
+}
+
+function formatShowsForRadio(shows) {
+  if (!shows || !shows.length) return '';
+  return shows.slice(0, 3).map(s => {
+    const [y, m, d] = s.date.split('-').map(Number);
+    const label = new Date(y, m - 1, d).toLocaleDateString('en-US',
+      { weekday: 'short', month: 'short', day: 'numeric' });
+    return `${label} · ${s.venue}`;
+  }).join(' • ');
+}
+
+function renderRadioQueue() {
+  const q = document.getElementById('radio-queue');
+  if (!q) return;
+  q.innerHTML = radioQueue.map((item, i) => `
+    <div class="radio-row ${i === radioIndex ? 'active' : ''}" data-index="${i}">
+      <div class="radio-row-num">${i + 1}</div>
+      <div class="radio-row-body">
+        <div class="radio-row-artist">${escHtml(item.artist)}</div>
+        <div class="radio-row-title">${escHtml(item.title || '')}</div>
+        <div class="radio-row-shows">${escHtml(formatShowsForRadio(item.shows))}</div>
+      </div>
+    </div>
+  `).join('');
+  q.querySelectorAll('.radio-row').forEach(row => {
+    row.addEventListener('click', () => {
+      radioIndex = Number(row.dataset.index);
+      loadCurrentRadio(true);
+    });
+  });
+  // Scroll active row into view
+  const active = q.querySelector('.radio-row.active');
+  if (active) active.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
+
+function renderNowPlaying() {
+  const el = document.getElementById('radio-now');
+  if (!el) return;
+  const cur = radioQueue[radioIndex];
+  if (!cur) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <div class="radio-now-artist band-link" data-band="${escHtml(cur.artist)}">${escHtml(cur.artist)}</div>
+    <div class="radio-now-title">${escHtml(cur.title || '')}</div>
+    <div class="radio-now-shows">${escHtml(formatShowsForRadio(cur.shows))}</div>
+  `;
+}
+
+async function mountSpotifyPlayer() {
+  const wrap = document.getElementById('radio-player-wrap');
+  wrap.innerHTML = '<div id="spotify-embed"></div>';
+  const api = await waitForSpotifyApi();
+  const cur = radioQueue[radioIndex];
+  if (!cur) return;
+  api.createController(document.getElementById('spotify-embed'), {
+    uri: `spotify:track:${cur.id}`,
+    width: '100%',
+    height: 152,
+  }, ctrl => {
+    spotifyCtrl = ctrl;
+    let advancedFor = null;
+    ctrl.addListener('playback_update', e => {
+      const d = e.data || {};
+      if (d.duration > 0 && d.position >= d.duration - 500 && advancedFor !== cur.id) {
+        advancedFor = cur.id;
+        advanceRadio();
+      }
+    });
+    ctrl.play();
+  });
+}
+
+async function mountYouTubePlayer() {
+  const wrap = document.getElementById('radio-player-wrap');
+  wrap.innerHTML = '<div id="yt-embed"></div>';
+  await waitForYtApi();
+  const cur = radioQueue[radioIndex];
+  if (!cur) return;
+  ytPlayer = new YT.Player('yt-embed', {
+    height: '360',
+    width: '100%',
+    videoId: cur.id,
+    playerVars: { autoplay: 1, playsinline: 1 },
+    events: {
+      onStateChange: e => {
+        if (e.data === YT.PlayerState.ENDED) advanceRadio();
+      },
+    },
+  });
+}
+
+function tearDownPlayers() {
+  if (ytPlayer && ytPlayer.destroy) { try { ytPlayer.destroy(); } catch {} ytPlayer = null; }
+  spotifyCtrl = null;
+  const wrap = document.getElementById('radio-player-wrap');
+  if (wrap) wrap.innerHTML = '';
+}
+
+function loadCurrentRadio(userInitiated = false) {
+  const cur = radioQueue[radioIndex];
+  if (!cur) return;
+  if (radioSource === 'spotify' && spotifyCtrl) {
+    spotifyCtrl.loadUri(`spotify:track:${cur.id}`);
+    if (userInitiated) spotifyCtrl.play();
+  } else if (radioSource === 'youtube' && ytPlayer && ytPlayer.loadVideoById) {
+    ytPlayer.loadVideoById(cur.id);
+  }
+  renderNowPlaying();
+  renderRadioQueue();
+}
+
+function advanceRadio() {
+  radioIndex = (radioIndex + 1) % radioQueue.length;
+  loadCurrentRadio();
+}
+
+function prevRadio() {
+  radioIndex = (radioIndex - 1 + radioQueue.length) % radioQueue.length;
+  loadCurrentRadio(true);
+}
+
+async function switchRadioSource(source) {
+  radioSource = source;
+  document.querySelectorAll('.radio-tab').forEach(t =>
+    t.classList.toggle('active', t.dataset.src === source));
+  radioQueue = buildRadioQueue(source, radioData);
+  radioIndex = 0;
+  tearDownPlayers();
+  if (!radioQueue.length) {
+    document.getElementById('radio-player-wrap').innerHTML =
+      `<p class="radio-empty">No ${source} tracks available yet — check back after the next daily sync.</p>`;
+    document.getElementById('radio-queue').innerHTML = '';
+    document.getElementById('radio-now').innerHTML = '';
+    return;
+  }
+  renderNowPlaying();
+  renderRadioQueue();
+  if (source === 'spotify') await mountSpotifyPlayer();
+  else await mountYouTubePlayer();
+}
+
+async function renderRadio() {
+  document.getElementById('main').hidden = true;
+  document.getElementById('radio-view').hidden = false;
+  document.body.classList.add('radio-view-active');
+  hideWeekDaySelector?.();
+  hideAllWeekSelector?.();
+
+  const data = await loadRadioData();
+  if (!data) {
+    document.getElementById('radio-sub').textContent =
+      'Radio not available yet — waiting for first daily sync.';
+    return;
+  }
+  const genDate = new Date(data.generated).toLocaleDateString('en-US',
+    { month: 'short', day: 'numeric' });
+  document.getElementById('radio-sub').innerHTML =
+    `Top <strong>${data.artists.length}</strong> artists playing this week · updated ${genDate}`;
+  await switchRadioSource(radioSource);
+}
+
+function hideRadio() {
+  document.getElementById('main').hidden = false;
+  document.getElementById('radio-view').hidden = true;
+  document.body.classList.remove('radio-view-active');
+  tearDownPlayers();
+}
+
+// Radio event wiring
+document.querySelectorAll('.radio-tab').forEach(tab => {
+  tab.addEventListener('click', () => switchRadioSource(tab.dataset.src));
+});
+document.getElementById('radio-prev').addEventListener('click', prevRadio);
+document.getElementById('radio-next').addEventListener('click', advanceRadio);
 
 loadData();

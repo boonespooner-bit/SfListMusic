@@ -90,6 +90,7 @@
     <button class="nav-btn" data-view="all">All Shows</button>
     <button class="nav-btn" data-view="map">Map</button>
     <button class="nav-btn" data-view="venue">By Venue</button>
+    <button class="nav-btn" data-view="radio">🎧 Radio</button>
     <div class="search-wrap">
       <input type="text" id="search" placeholder="Search bands or venues…" autocomplete="off" />
     </div>
@@ -105,6 +106,28 @@
       <button id="map-next-day" class="map-day-btn" title="Next day">&#8594;</button>
     </div>
   </div>
+  <section id="radio-view" hidden>
+    <div class="radio-header">
+      <h2 class="radio-title">SF Music List Radio</h2>
+      <p class="radio-sub" id="radio-sub"></p>
+      <div class="radio-tabs">
+        <button class="radio-tab active" data-src="spotify">Spotify</button>
+        <button class="radio-tab" data-src="youtube">YouTube</button>
+      </div>
+    </div>
+    <div class="radio-layout">
+      <div class="radio-player-col">
+        <div id="radio-player-wrap"></div>
+        <div class="radio-now" id="radio-now"></div>
+        <div class="radio-controls">
+          <button id="radio-prev" class="radio-ctrl">← Prev</button>
+          <button id="radio-next" class="radio-ctrl">Next →</button>
+        </div>
+      </div>
+      <div class="radio-queue" id="radio-queue"></div>
+    </div>
+  </section>
+
   <main id="main">
     <div class="loading-state">
       <div class="spinner"></div>
@@ -124,6 +147,8 @@
     <div id="panel-content"></div>
   </aside>
 
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
   <script src="app.js"></script>
 </body>
 </html>
