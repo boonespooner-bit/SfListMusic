@@ -91,15 +91,39 @@ def top_artists_this_week(shows: list[dict]) -> list[dict]:
 
 # ── Spotify ──────────────────────────────────────────────────────────────────
 
-def spotify_top_tracks(sp, artist_id: str) -> list[dict]:
+def spotify_top_tracks(sp, artist_id: str, artist_name: str) -> list[dict]:
+    # Preferred: the top-tracks endpoint. Some API apps get 403 here even
+    # though search works, so fall back to a popularity-ranked track search.
     try:
         res = sp.artist_top_tracks(artist_id, country="US")
+        out = [{"id": t["id"], "name": t["name"]}
+               for t in res.get("tracks", [])[:SPOTIFY_TRACKS]]
+        if out:
+            return out
+    except Exception as e:
+        print(f"    top-tracks blocked for {artist_name} ({e}); using track search", flush=True)
+    return spotify_search_tracks(sp, artist_id, artist_name)
+
+
+def spotify_search_tracks(sp, artist_id: str, artist_name: str) -> list[dict]:
+    try:
+        res = sp.search(q=f'artist:"{artist_name}"', type="track", limit=10, market="US")
+        items = res.get("tracks", {}).get("items", [])
+        # Keep only tracks actually by this artist (search can match covers/features)
         out = []
-        for t in res.get("tracks", [])[:SPOTIFY_TRACKS]:
+        for t in items:
+            artist_ids = {a.get("id") for a in t.get("artists", [])}
+            if artist_id and artist_id not in artist_ids:
+                continue
             out.append({"id": t["id"], "name": t["name"]})
+            if len(out) >= SPOTIFY_TRACKS:
+                break
+        # If strict matching found nothing (e.g. stale artist id), take top results
+        if not out and items:
+            out = [{"id": t["id"], "name": t["name"]} for t in items[:SPOTIFY_TRACKS]]
         return out
     except Exception as e:
-        print(f"    spotify top-tracks failed for {artist_id}: {e}", flush=True)
+        print(f"    track search failed for {artist_name}: {e}", flush=True)
         return []
 
 
@@ -179,8 +203,11 @@ def main():
 
         # Spotify tracks
         tracks = cached.get("spotifyTracks") or []
-        if sp and a.get("spotifyArtistId") and (not fresh or not tracks):
-            tracks = spotify_top_tracks(sp, a["spotifyArtistId"])
+        if sp and (not fresh or not tracks):
+            if a.get("spotifyArtistId"):
+                tracks = spotify_top_tracks(sp, a["spotifyArtistId"], a["name"])
+            else:
+                tracks = spotify_search_tracks(sp, None, a["name"])
 
         # YouTube video (respect daily quota cap)
         yt = cached.get("youtube")
