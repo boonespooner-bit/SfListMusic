@@ -1,0 +1,35 @@
+name: Deploy API Worker
+
+on:
+  push:
+    branches: [main]
+    paths: ['api/**']
+  workflow_dispatch:  # manual runs from the GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Apply D1 schema
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: api
+          command: d1 execute sfmusiclist-subscriptions --remote --file=schema.sql
+
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: api
+          secrets: |
+            RESEND_API_KEY
+            NOTIFY_SECRET
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}

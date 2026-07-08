@@ -13,5 +13,5 @@ database_name = "sfmusiclist-subscriptions"
 database_id   = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 
 [[routes]]
-pattern = "api.sfmusiclist.com/*"
-zone_name = "sfmusiclist.com"
+pattern = "api.sfmusiclist.com"
+custom_domain = true
