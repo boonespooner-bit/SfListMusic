@@ -205,9 +205,7 @@ function renderCard(show) {
 
   const venueName = escHtml(show.venue.name);
   const venueInner = `${VENUE_ICON}<span>${venueName}</span>`;
-  const venueHtml = show.venue.url
-    ? `<a class="venue-link" href="https://jon.luini.com/thelist/${show.venue.url}" target="_blank" rel="noopener">${venueInner}</a>`
-    : `<span class="venue-link">${venueInner}</span>`;
+  const venueHtml = `<span class="venue-link venue-jump" data-venue="${venueName}" title="See all shows at this venue">${venueInner}</span>`;
 
   const pills = [];
   if (show.age)   pills.push(`<span class="meta-pill pill-age">${escHtml(show.age)}</span>`);
@@ -554,7 +552,7 @@ function renderVenueView() {
   const cardsHtml = venues.map(({ name, shows }) => {
     const anchor = name.replace(/^the\s+/i, '');
     const letter = anchor[0].toUpperCase();
-    const slug   = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const slug   = venueSlug(name);
     const ticketUrl = buyTicketsUrl(shows[0]);
 
     // Group shows by date
@@ -615,6 +613,31 @@ function renderVenueView() {
 
 function hideVenueView() {
   document.body.classList.remove('venue-view');
+}
+
+function venueSlug(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+// Jump from a show card's venue name to that venue's card in the By Venue view
+function jumpToVenue(venueName) {
+  document.querySelectorAll('.nav-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.view === 'venue'));
+  currentView = 'venue';
+  searchQuery = '';
+  document.getElementById('search').value = '';
+  hideRadio();
+  hideMap();
+  renderVenueView();
+
+  requestAnimationFrame(() => {
+    const el = document.getElementById(`venue-${venueSlug(venueName)}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      el.classList.add('highlight');
+      setTimeout(() => el.classList.remove('highlight'), 5000);
+    }
+  });
 }
 
 function escHtml(str) {
@@ -840,6 +863,13 @@ document.addEventListener('click', e => {
   const link = e.target.closest('.band-link');
   if (!link) return;
   openArtistPanel(link.dataset.band);
+});
+
+// Jump to the By Venue view when a venue name is clicked on a show card
+document.addEventListener('click', e => {
+  const link = e.target.closest('.venue-jump');
+  if (!link) return;
+  jumpToVenue(link.dataset.venue);
 });
 
 // Show "subscribed" confirmation banner if redirected back from confirm link

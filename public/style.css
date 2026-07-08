@@ -310,6 +310,7 @@ body.all-view  .date-header { top: 101px; }
   gap: 0.3rem;
 }
 .venue-link:hover { color: var(--accent); }
+.venue-jump { cursor: pointer; }
 .venue-icon {
   width: 13px;
   height: 13px;
@@ -358,8 +359,9 @@ body.all-view  .date-header { top: 101px; }
 }
 .btn-buy:hover { opacity: 0.88; transform: translateY(-1px); }
 
-/* Highlight a show card briefly after navigating from the map */
-.show-card.highlight {
+/* Highlight a show/venue card briefly after navigating from the map or a venue link */
+.show-card.highlight,
+.venue-card.highlight {
   animation: card-flash 5s ease-out;
 }
 @keyframes card-flash {
