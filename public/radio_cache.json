@@ -1,391 +1,964 @@
 {
   "olivia dean": {
     "name": "Olivia Dean",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6sGIMrtIzQjdzNndVxe397",
+        "name": "So Easy (To Fall In Love)"
+      },
+      {
+        "id": "1qbmS6ep2hbBRaEZFpn7BX",
+        "name": "Man I Need"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "arc iris": {
     "name": "Arc Iris",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "35Cuiw1i6zxbS8YqS6JsKO",
+        "name": "A Click and a Twitch"
+      },
+      {
+        "id": "5mdOjXenB1MsMvUvbjg7dU",
+        "name": "It’s Not a Little, It’s a Lot (feat. WILLOW)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "love gang": {
     "name": "Love Gang",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7a516bs80DSGzkRCjc0GU9",
+        "name": "Meanstreak"
+      },
+      {
+        "id": "5tDojLzj6S6wmvk1bySayJ",
+        "name": "Deathride"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "molly tuttle": {
     "name": "Molly Tuttle",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1NlwiyN4GGn3gVgyZ8T5AW",
+        "name": "Crooked Tree"
+      },
+      {
+        "id": "6mfq2McYfeiVIBa1tPA2gU",
+        "name": "Dooley's Farm (feat. Billy Strings)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "ragweed": {
     "name": "Ragweed",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1ooQIGKHYJ9aKVsUynDpSN",
+        "name": "17"
+      },
+      {
+        "id": "60ZfWcLKGGNVepG0BzpEcB",
+        "name": "Boys From Oklahoma"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "schlong": {
     "name": "Schlong",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "02u4IC2ia2fQBybx4YnnWD",
+        "name": "Maria"
+      },
+      {
+        "id": "1JJqbwq8cPzmpjEf6bUl5E",
+        "name": "Gee Officer Krupke"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "ted leo and the pharmacists": {
     "name": "Ted Leo And The Pharmacists",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4vBO3iPTa7yH88pqdMyOhw",
+        "name": "Me and Mia"
+      },
+      {
+        "id": "1rC1VaOWuyKR3nPdQbBXSH",
+        "name": "Little Dawn"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "the sounds of new york": {
     "name": "The Sounds of New York",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6jcLx4pkqQNJO03srMHUaj",
+        "name": "Glass of Merlot"
+      },
+      {
+        "id": "78tNLxEbveY4LeQeZvBPoC",
+        "name": "Golden Lobby Glow"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "vetiver": {
     "name": "Vetiver",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2NftpgOvfV2YCH1lrRP5p8",
+        "name": "Strictly Rule"
+      },
+      {
+        "id": "5BI2FOOcSqnrjsjZL29YuS",
+        "name": "Rolling Sea"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "white denim": {
     "name": "White Denim",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "65SIli5Q1Su6ralNYFQnIA",
+        "name": "Street Joy"
+      },
+      {
+        "id": "16rA17SnfOP6fGSrq2rAQC",
+        "name": "Take It Easy (Ever After Lasting Love)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "wolfmother": {
     "name": "Wolfmother",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "3CkjLJYnnyOtGk4Jx4iYS4",
+        "name": "Woman"
+      },
+      {
+        "id": "7ISL3LO8AWP3fKIXunvqTa",
+        "name": "Joker And The Thief"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "42 dugg": {
     "name": "42 Dugg",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6gxKUmycQX7uyMwJcweFjp",
+        "name": "We Paid (feat. 42 Dugg)"
+      },
+      {
+        "id": "01JMnRUs2YOK6DDpdQASGY",
+        "name": "Grace (feat. 42 Dugg)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "aggravated assault": {
     "name": "Aggravated Assault",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "3bMgtxKQrWoLWQzhIhgJaR",
+        "name": "Who Ride"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "atta boy": {
     "name": "Atta Boy",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1PSoJffiX1XVc0ZXUWHe2R",
+        "name": "Walden Pond"
+      },
+      {
+        "id": "16Ol6NyBhxU8lSKlxA0qMt",
+        "name": "Oh, Mama"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "baby rose": {
     "name": "Baby Rose",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7ktnXbGn8XERn7H3LXWvJG",
+        "name": "But, Nvm"
+      },
+      {
+        "id": "0Bw0kB0fDnAS8IKks0S8Qu",
+        "name": "Let Me Go"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "babyface ray": {
     "name": "Babyface Ray",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4Wlz0HsHZlJy0NDK2h6jq6",
+        "name": "Ron Artest"
+      },
+      {
+        "id": "6tf115b2klSV8CdQ4XNBro",
+        "name": "#1 Fan"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "beach bunny": {
     "name": "Beach Bunny",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "3frZl6bno6us1TLjr6PZ4h",
+        "name": "Prom Queen"
+      },
+      {
+        "id": "1CQYKndmQR1bMvOSZrq2Lq",
+        "name": "Sports"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "bosse-de-nage": {
     "name": "Bosse-de-Nage",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5vikwoQystyYMmxbtFG7P7",
+        "name": "Crux"
+      },
+      {
+        "id": "6mhDPeraeMlFYofyKZ9UmT",
+        "name": "Where to Now?"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "carson mchone": {
     "name": "Carson McHone",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1oO0fzYTETAlKYt2TIKB3s",
+        "name": "Hawks Don't Share"
+      },
+      {
+        "id": "5Kw1lT7AvNkMqZv7tEnJKf",
+        "name": "Still Life"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "cory asbury": {
     "name": "Cory Asbury",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0DWXEQvxbrDlJ1tt9Q1Zc9",
+        "name": "Reckless Love"
+      },
+      {
+        "id": "498nGXTFxQgj2lO6fDQEOx",
+        "name": "Egypt"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "country risque": {
     "name": "Country Risque",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7qHXgymEf5nATJADnd4tMP",
+        "name": "Autumn of Your Charm"
+      },
+      {
+        "id": "1ROi8G9lT5iXjvWc2C7pmQ",
+        "name": "Beyond the Line"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "cowboy beauty queen": {
     "name": "Cowboy Beauty Queen",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1PLiz2CN2X3SKdfAS0beWz",
+        "name": "TV Dog"
+      },
+      {
+        "id": "4wVPPlqDx8yua1OGboEKbv",
+        "name": "Becoming Wondrous Machines"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "dukes of hamburg": {
     "name": "Dukes Of Hamburg",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5IFFgthdzuQ1OM3ayO1mdl",
+        "name": "Far Far Away"
+      },
+      {
+        "id": "15GAtRJw8f0gUtIK7ANnLP",
+        "name": "Green Eyed Women"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "ex-heir": {
     "name": "Ex-Heir",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5yU344e3idpuDAmbssQH4m",
+        "name": "PARADOX"
+      },
+      {
+        "id": "6nZQCH40XFiihIt56ipcuf",
+        "name": "MEDICATE"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "floral": {
     "name": "Floral",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2GZLWeDxVyCxDBdVzVjbMi",
+        "name": "Climbing a Wall"
+      },
+      {
+        "id": "7kawUx6kYAE1Uf1xciF6KO",
+        "name": "Aquarius Theater"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "for horses": {
     "name": "For Horses",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2c5vVxeDxWNM4ajWnWvfBP",
+        "name": "SuperbAll Sunday"
+      },
+      {
+        "id": "7CynFFZsLXLHvyon98Xelu",
+        "name": "Music To Reduce Your Horse's Strees"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "godstomper": {
     "name": "Godstomper",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7BZBlnuuwgCBbvMpDAkrLr",
+        "name": "Doom Fodder"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "grolixes": {
     "name": "Grolixes",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5fM0uPsURl05UPsGjAyVwY",
+        "name": "Savior Of The Screen"
+      },
+      {
+        "id": "6OwLWfpeoeLlbd9ZsmQeOP",
+        "name": "Again"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "gumby's junk": {
     "name": "Gumby's Junk",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1vmMDcH5bPh4RQEOQ116KP",
+        "name": "Best Deal Wheel and Tire"
+      },
+      {
+        "id": "5SS0LDuETrft0tQeFluiNJ",
+        "name": "Staying Alive by The Bee Gees"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "have a nice life": {
     "name": "Have A Nice Life",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1AOisyOwLgQ7EveVBCo0GG",
+        "name": "I Don't Love"
+      },
+      {
+        "id": "5qZ4c1EBVWpmz1GBaks8Uq",
+        "name": "Bloodhail"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "highmarts": {
     "name": "Highmarts",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6fd5PSY0umRumSwSiOTh2o",
+        "name": "Tallahassee Lassie"
+      },
+      {
+        "id": "4aCVX95EJJ4I38vETjgRCf",
+        "name": "Hey Boy"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "hot buttered rum": {
     "name": "Hot Buttered Rum",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4Ybl1yyVyVFsvv2UUtUpLi",
+        "name": "Idaho Pines"
+      },
+      {
+        "id": "1wx7jAIrUgzQLeqBtbgEvZ",
+        "name": "Something Beautiful"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "hot laundry": {
     "name": "Hot Laundry",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5NM99r8sRxJ1vbVlAopATe",
+        "name": "Emergence"
+      },
+      {
+        "id": "063GluAvSbFwjGmRe8Dw1C",
+        "name": "Escalate"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "insula iscariot": {
     "name": "Insula Iscariot",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2PBVO1EONJqPYWP5LoO3tJ",
+        "name": "Separation Anxiety"
+      },
+      {
+        "id": "02a6hrg6qvsVgbsOtOJc49",
+        "name": "M.I.L.K.Y."
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "interpol": {
     "name": "Interpol",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1ZBqJilDGBVYktvlCEo9jC",
+        "name": "Obstacle 1"
+      },
+      {
+        "id": "4absiGHMelB8eH976ytjBj",
+        "name": "Evil"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "john-robert": {
     "name": "John-Robert",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7pRllGYAoeuSRUzuY5UhCY",
+        "name": "Adeline"
+      },
+      {
+        "id": "2wTJZjPz6CXA7u6LIR3tHy",
+        "name": "WAISTBIN"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "joji": {
     "name": "Joji",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "40oYjPdjvFBCZH1Smsk46H",
+        "name": "Back Home"
+      },
+      {
+        "id": "6rY5FAWxCdAGllYEOZMbjW",
+        "name": "SLOW DANCING IN THE DARK"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "julie": {
     "name": "Julie",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "04x1x0L8BYyIv1XlcJxWfi",
+        "name": "Lo Siento BB:/"
+      },
+      {
+        "id": "100Tm6z29RfHTdUQ6NIs0s",
+        "name": "Me Voy"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "lana del rabies": {
     "name": "Lana Del Rabies",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0rQxkGPibgFWZzYZ1xijTp",
+        "name": "Denial"
+      },
+      {
+        "id": "6wkFv5Gi9t9kq4evf5iKiZ",
+        "name": "Prayers of Consequence"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "low cut connie": {
     "name": "Low Cut Connie",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "46NenKmsccNg7rdNyBIHyA",
+        "name": "Rio"
+      },
+      {
+        "id": "2KzjvCR64TC6AJJCZ6S8oY",
+        "name": "Big Thighs, NJ"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "lucero": {
     "name": "Lucero",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1T1nYfU115UL2LhwTMyWr6",
+        "name": "Cuéntame"
+      },
+      {
+        "id": "57xIz4fw0sMzc2GRnc2Il7",
+        "name": "Ya No"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "maren morris": {
     "name": "Maren Morris",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7yFhA2fUsL2oIMWlw5DaHQ",
+        "name": "The Bones"
+      },
+      {
+        "id": "1LM5zQv5pBKPyO7rm7Uz6U",
+        "name": "My Church"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "nick lutsko": {
     "name": "Nick Lutsko",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6oLgJATx3ECZ7Pcghmz38L",
+        "name": "Sometimes"
+      },
+      {
+        "id": "1U4V1TAIZdTLYVlue1BFiK",
+        "name": "Shadows"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "ockham's razor": {
     "name": "Ockham's Razor",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2OZoNvCZUPzO9DzwpRnbYH",
+        "name": "in the city"
+      },
+      {
+        "id": "0dFljkl47WkwaG2KvuIb1W",
+        "name": "Jock Stewart"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "pearl charles": {
     "name": "Pearl Charles",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4lbVNPz93o3ZVM0lAxoYFX",
+        "name": "As Long As You're Mine"
+      },
+      {
+        "id": "6giNHdHbKvePUhj3mIaP9W",
+        "name": "Only For Tonight"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "persephone": {
     "name": "Persephone",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1eEqg0aPf3BoaBl0I4Tuln",
+        "name": "Retro Funky - Sundance Remix"
+      },
+      {
+        "id": "1pWw890qsSaPR0kFS7eDIV",
+        "name": "Muzika Dlya Fil'ma"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "quarter conscious": {
     "name": "Quarter Conscious",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7HKQixGY0TgfAPiJJbEEZW",
+        "name": "Waver"
+      },
+      {
+        "id": "3PL5DTOQMseZRiJ1ZvJOSG",
+        "name": "Wonder"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "scout willis": {
     "name": "Scout Willis",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2BcGm4sN6PgO4eNKCSpsK7",
+        "name": "It Ain't Nothing"
+      },
+      {
+        "id": "2UqXBVfsvRaQ3221ROhX8x",
+        "name": "Mysterious Ways"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "slander": {
     "name": "Slander",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "19m23w2ANVhtB7rApM6pbN",
+        "name": "Back To U"
+      },
+      {
+        "id": "39glqzRVRAy4vq3PqeTGb8",
+        "name": "Love Is Gone"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "sports": {
     "name": "Sports",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2qpacEyFxmbxCpIEqZkqvC",
+        "name": "You Are the Right One"
+      },
+      {
+        "id": "6keyBQK6pA0OApRfM1f0dp",
+        "name": "Panama"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "the beths": {
     "name": "The Beths",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6CWDUTWFZW9P9wNkGqg0U5",
+        "name": "Future Me Hates Me"
+      },
+      {
+        "id": "5bS7ajbQ4ZZDksu9ryAvXu",
+        "name": "Take"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "the chi-lites": {
     "name": "The Chi-Lites",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0cFlXjTxFdMGGPfLVpt3Wv",
+        "name": "Oh Girl"
+      },
+      {
+        "id": "5tcR6nVpY1JRDyDcK0K60f",
+        "name": "Oh Girl"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "thomas dollbaum": {
     "name": "Thomas Dollbaum",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "1QM2VOPPfzGJJJ2Hgqo90m",
+        "name": "Dozen Roses"
+      },
+      {
+        "id": "22Rr7OQoRTDFz94YyepKu6",
+        "name": "Coyote"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "tori kelly": {
     "name": "Tori Kelly",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "3PLyl3Ir75VkGgX0KEehqh",
+        "name": "Don't You Worry 'Bout A Thing"
+      },
+      {
+        "id": "0q0Htw3tNkJM87u7fm1kPd",
+        "name": "Take Back Home Girl (feat. Tori Kelly)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "trace amount": {
     "name": "Trace Amount",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "45Z2OEqp5fPKJmTXhL2dH0",
+        "name": "Clinical"
+      },
+      {
+        "id": "0M3u2jF739ZetEnLw9bXn3",
+        "name": "Off Leash"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "vendors": {
     "name": "vendors",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5IItAEDYGuoqvw6kRL7HO1",
+        "name": "Portebello Road - From \"Bedknobs and Broomsticks\"/Soundtrack Version"
+      },
+      {
+        "id": "1ZEgSPBoAvgbmwMjrFy8Q0",
+        "name": "Portebello Road - From \"Bedknobs And Broomsticks\""
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "whine": {
     "name": "Whine",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7giQvkI6UOsyVjHoKYored",
+        "name": "Teddy's Gate"
+      },
+      {
+        "id": "1MHZc2umxjPn6Ql0VijVVp",
+        "name": "Bye Bye Officer"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "willie nelson": {
     "name": "Willie Nelson",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4WScDSwAa9m48pgHugVkCo",
+        "name": "Luckenbach, Texas (Back to the Basics of Love) (feat. Willie Nelson)"
+      },
+      {
+        "id": "5TiQigVz1QEdGp7blCbYLQ",
+        "name": "Uncertain, TX (feat. Willie Nelson)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "1-800 girls": {
     "name": "1-800 Girls",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0dlrTpcU6rkElbDhPw4SUO",
+        "name": "trust me"
+      },
+      {
+        "id": "4akb3UnPEbDpUBc8JdQ5ED",
+        "name": "sometimes"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "2morrows june": {
     "name": "2Morrows June",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5vxgF9polkvQ4kdYrYuc8i",
+        "name": "Mrs. Dark Hair"
+      },
+      {
+        "id": "2HCtCJKpyisLwa9bWXDau9",
+        "name": "Stuck In My Head"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "311": {
     "name": "311",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "51UtgWS4z1eMPuLQOzPtNH",
+        "name": "Amber"
+      },
+      {
+        "id": "6Fe3Flc9SjE03pqwD6PVQl",
+        "name": "Amber"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "3ee": {
     "name": "3EE",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4UexyMLt18u5w6E7nHEhu4",
+        "name": "OVR"
+      },
+      {
+        "id": "2XynYulas10Wmef4Gqrxw9",
+        "name": "Hate."
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "adam spry": {
     "name": "Adam Spry",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0dfTByVmqym9g1jrOeYayG",
+        "name": "Cruel Dream"
+      },
+      {
+        "id": "21kKddpXLlNyAQ2ymFXv1a",
+        "name": "Rotten Mausoleum"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "affectionately": {
     "name": "Affectionately",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6yktw3B3V0c91nLGEGFJa4",
+        "name": "Footsteps in The Rain"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "after": {
     "name": "After",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "7mDTvYD2ieE4Q28XFziMfJ",
+        "name": "Cry"
+      },
+      {
+        "id": "1oAwsWBovWRIp7qLMGPIet",
+        "name": "Apocalypse"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
@@ -397,7 +970,16 @@
   },
   "ajj": {
     "name": "AJJ",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "3D1PuFi2U8lmtdWRZcCz1f",
+        "name": "Body Terror Song"
+      },
+      {
+        "id": "4epSzmo6Xw01vTgGoYb2KR",
+        "name": "Brave as a Noun"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
@@ -409,97 +991,241 @@
   },
   "alex amen": {
     "name": "Alex Amen",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5YDD9xmvqCLlJwqf8Qowhb",
+        "name": "Changes"
+      },
+      {
+        "id": "6blLSK0yp0JCWs7knUCzW4",
+        "name": "This Love Of Mine"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "all in ur head": {
     "name": "All In Ur Head",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0dextDkVoc7uIY8gihNbSn",
+        "name": "LEAVE THIS GRAVE"
+      },
+      {
+        "id": "5VvE6jfg00Mt17bGDTKVP5",
+        "name": "FAKE FEELINGS"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "amble": {
     "name": "Amble",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5D2AaNj4RfxSbHTSYjbb4E",
+        "name": "Moral Victory"
+      },
+      {
+        "id": "3P9AM7Sm5DwwzGlTOwwCVl",
+        "name": "Tonnta"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "american diet": {
     "name": "American Diet",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6nK0IEWM9bwG9sTSwlzL8Q",
+        "name": "Swan Dive"
+      },
+      {
+        "id": "6NqlSOxzyVbyQotekXmvbD",
+        "name": "False Prophet"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "amy x neuburg": {
     "name": "Amy X Neuburg",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "2LQdyqhc7v1gSA5ZMbSnmZ",
+        "name": "Orange County"
+      },
+      {
+        "id": "4dKUWVKFlvcHuZTlinqBEa",
+        "name": "Money in the Sky"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "analog dream": {
     "name": "Analog Dream",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4HhhoDAwJGfQtEtxsEjcoh",
+        "name": "Dystopian"
+      },
+      {
+        "id": "2xesbQHWJN3RSgDBz54AXK",
+        "name": "Stark Reminder"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "animal prince": {
     "name": "Animal Prince",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "317iZCoJQhFA71Bpl4BMPC",
+        "name": "brother earth"
+      },
+      {
+        "id": "74SqyTKAVlzZ1641cxPwgN",
+        "name": "Didn't You Notice"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "anna moss": {
     "name": "Anna Moss",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6IP7AxqGH6lSFcUpvQtBdm",
+        "name": "Slow Down Kamikaze - Live"
+      },
+      {
+        "id": "7k6M8p62taKjful88qua2Y",
+        "name": "Gravy"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "anuhea": {
     "name": "Anuhea",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "4besobcYydaipvlAGIv0qc",
+        "name": "Higher Than the Clouds"
+      },
+      {
+        "id": "1r9WsytSDpYLFaAOmDtDFj",
+        "name": "Come over Love"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "apollyon": {
     "name": "Apollyon",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5LzBr3CH8ycgjaniVO0riF",
+        "name": "King Vamp! v2 - Guitar"
+      },
+      {
+        "id": "0PnJibxcWZnoxHJh14NUhN",
+        "name": "King Vamp! v3 - Slowed and Reverb"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "architect": {
     "name": "Architect",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5ofoB8PFmocBXFBEWVb6Vz",
+        "name": "Animals"
+      },
+      {
+        "id": "44TUJhvq8ZSoIO1AzpD6X7",
+        "name": "Broken Mirror"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "art": {
     "name": "art",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5XeFesFbtLpXzIVDNQP22n",
+        "name": "I Wanna Be Yours"
+      },
+      {
+        "id": "58ge6dfP91o9oXMzq3XkIS",
+        "name": "505"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "asha wells": {
     "name": "Asha Wells",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "64jBJ7POVPfze4wVZEqh0b",
+        "name": "Blue Angels"
+      },
+      {
+        "id": "4H2lE4jrNvculSDYL8fbWT",
+        "name": "Drugstore Perfume"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "ashtin larold": {
     "name": "Ashtin Larold",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0C6cgw2FfgGjaUzlFTClB5",
+        "name": "PARMESAN"
+      },
+      {
+        "id": "4wAXQmPEyudK6s0ilepS8L",
+        "name": "CLIFFORD"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "au5": {
     "name": "Au5",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "07ImPoPqKNwqucuPEZooBj",
+        "name": "Anywhere (feat. shYbeast, PLYA)"
+      },
+      {
+        "id": "2beZ579sBbQeEMyUVLhgK1",
+        "name": "Snowblind"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "audrey hobert": {
     "name": "Audrey Hobert",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "5KjJYrM3UXmvhqtQntrsJM",
+        "name": "Silver Jubilee"
+      },
+      {
+        "id": "6ZAuQOgLrNQb9s7BXheuTy",
+        "name": "Sue me"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
@@ -511,31 +1237,76 @@
   },
   "automatic": {
     "name": "Automatic",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "45c2puZgmaC23MaKgeHda2",
+        "name": "Black Box"
+      },
+      {
+        "id": "3mFCJSMSm7J9B62nvHaJKs",
+        "name": "mq9"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "axial tilt": {
     "name": "Axial Tilt",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6vwhlrRDXJwFcRZbtasS7Y",
+        "name": "Alien Planet"
+      },
+      {
+        "id": "5IhZwpR1Pw4hjSZPOCpNXY",
+        "name": "Obliquity"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "axiom": {
     "name": "Axiom",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "6CZ1nhQBt0Uo7zXRYUYONt",
+        "name": "Kullervo's Verdict (Kullervo)"
+      },
+      {
+        "id": "4EzREsHUOXhxH7j4A1C2UE",
+        "name": "Kullervo's Verdict (Kullervo)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "b.f.h.": {
     "name": "B.F.H.",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "0dOg1ySSI7NkpAe89Zo0b9",
+        "name": "Born in the U.S.A."
+      },
+      {
+        "id": "5IVuqXILoxVWvWEPm82Jxr",
+        "name": "Crazy In Love (feat. JAY-Z)"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   },
   "baby keem": {
     "name": "Baby Keem",
-    "spotifyTracks": [],
+    "spotifyTracks": [
+      {
+        "id": "58k32my5lKofeZRtIvBDg9",
+        "name": "HONEST"
+      },
+      {
+        "id": "3VW6HJYa5l0uzGcCRA222P",
+        "name": "Ca$ino"
+      }
+    ],
     "youtube": null,
     "cachedAt": "2026-07-08"
   }

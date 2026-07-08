@@ -5898,5 +5898,70 @@
     "name": "Yoshi's",
     "lat": 37.796226,
     "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43251216-bingo-loco-at-san-jose-improv?utm_medium=organic&utm_source=microformat": {
+    "name": "San Jose Improv",
+    "lat": 37.3356288,
+    "lng": -121.8882854
+  },
+  "http://www.songkick.com/concerts/43310786-tonic-walter-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/concerts/43310977-grupo-miramar-at-swiss-park-newark?utm_medium=organic&utm_source=microformat": {
+    "name": "Swiss Park Newark",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43311044-mgmt-at-public-works?utm_medium=organic&utm_source=microformat": {
+    "name": "Public Works",
+    "lat": 37.7688931,
+    "lng": -122.4192651
+  },
+  "http://www.songkick.com/concerts/43310084-surfistas-del-sistema-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43239720-spafford-at-sweetwater-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Sweetwater Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43296526-kalel-no-at-dna-lounge?utm_medium=organic&utm_source=microformat": {
+    "name": "DNA Lounge",
+    "lat": 37.7710876,
+    "lng": -122.4126126
+  },
+  "http://www.songkick.com/concerts/42880127-jack-johnson-at-greek-theatre-uc-berkeley?utm_medium=organic&utm_source=microformat": {
+    "name": "Greek Theatre, UC Berkeley",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43188583-jpegmafia-at-warfield?utm_medium=organic&utm_source=microformat": {
+    "name": "The Warfield",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43140335-pat-benatar-and-neil-giraldo-at-mountain-winery?utm_medium=organic&utm_source=microformat": {
+    "name": "Mountain Winery",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43169296-beth-orton-at-great-american-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Great American Music Hall",
+    "lat": 37.7847659,
+    "lng": -122.4188356
+  },
+  "http://www.songkick.com/concerts/43171967-failure-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43259375-chat-pile-at-regency-ballroom?utm_medium=organic&utm_source=microformat": {
+    "name": "Regency Ballroom",
+    "lat": 37.7878176,
+    "lng": -122.4215762
   }
 }
