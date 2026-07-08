@@ -10,7 +10,7 @@ FROM_EMAIL = "alerts@sfmusiclist.com"
 [[d1_databases]]
 binding  = "DB"
 database_name = "sfmusiclist-subscriptions"
-database_id   = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id   = "d61f51de-72c5-435f-ac88-e9e1e7f6c57a"
 
 [[routes]]
 pattern = "api.sfmusiclist.com"
