@@ -5963,5 +5963,15 @@
     "name": "Regency Ballroom",
     "lat": 37.7878176,
     "lng": -122.4215762
+  },
+  "http://www.songkick.com/concerts/43301458-fang-at-catalyst-atrium?utm_medium=organic&utm_source=microformat": {
+    "name": "The Catalyst Atrium",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43313666-rules-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
   }
 }
