@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-13T08:41:54+00:00",
-  "weekStart": "2026-07-13",
-  "weekEnd": "2026-07-20",
+  "generated": "2026-07-14T07:42:40+00:00",
+  "weekStart": "2026-07-14",
+  "weekEnd": "2026-07-21",
   "artists": [
     {
       "name": "Widespread Panic",
@@ -207,6 +207,81 @@
       "youtube": null
     },
     {
+      "name": "A Life Spent",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "38 South Second Street"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "OPEN"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4X4jeXMDvXOpHRYhmaXHrd",
+          "name": "Brumal Sunrise"
+        },
+        {
+          "id": "6mMDMvktOK6IjuYnTGTzf4",
+          "name": "Cadence Of Amity Forged By Fire"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "A November Morning",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "38 South Second Street"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "OPEN"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0UGgdQCsJyBrs6jalblhNu",
+          "name": "Your Name, Forever"
+        },
+        {
+          "id": "5e50bHLBvdaJBEBira242b",
+          "name": "Where Dark Roots Grow (Midnight's Breath)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Altar",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "38 South Second Street"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "OPEN"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2Of5pt5qpHNhWSEPNxX7XF",
+          "name": "bye - slowed"
+        },
+        {
+          "id": "4dTmQfqA75KrfynUF1TUX9",
+          "name": "bye"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Arden Jones",
       "showCount": 2,
       "shows": [
@@ -227,6 +302,31 @@
         {
           "id": "7nZhPTR1aJq8Uh3IXKWTGr",
           "name": "deadlove"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Avulsion",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "38 South Second Street"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "OPEN"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4M5ymHEjtce7GoHa5eWIe4",
+          "name": "Dismembered Tweaka - Re-Recording"
+        },
+        {
+          "id": "0oC7P72hJKky6bgyOowUyi",
+          "name": "Between Death and Desire"
         }
       ],
       "youtube": null
@@ -603,6 +703,31 @@
       "youtube": null
     },
     {
+      "name": "Ghost Town Hangmen",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-18",
+          "venue": "Fireside Lounge"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "Bistro"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1rhwwsGHiYjFaSyeUv0tHC",
+          "name": "Mean Ass Man"
+        },
+        {
+          "id": "3mje3XOSDRXGZIMokvIj14",
+          "name": "Multiple Personalities"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Gipsy Kings",
       "showCount": 2,
       "shows": [
@@ -853,31 +978,6 @@
       "youtube": null
     },
     {
-      "name": "John Cameron Mitchell",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-17",
-          "venue": "Castro Theater"
-        },
-        {
-          "date": "2026-07-13",
-          "venue": "Castro Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0R5hpNU92gWYRM32pBI33V",
-          "name": "Wick"
-        },
-        {
-          "id": "5WWlYWUAROKvAMH8K2k1Fm",
-          "name": "Moonage Daydream (From Shrill: Season 2)"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "John Waters",
       "showCount": 2,
       "shows": [
@@ -948,6 +1048,31 @@
         {
           "id": "6ryE7ZAB9jsM8tfpmXIuEJ",
           "name": "Cali Lovin"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Knights Of Molino",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-15",
+          "venue": "Pizza Place"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "Gilman"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "19fumRkcilHhSvo9yUHrNQ",
+          "name": "Take Back Control"
+        },
+        {
+          "id": "4ymJDgt8KmVFIdp4u6eBKQ",
+          "name": "Here Comes the Heartbreak"
         }
       ],
       "youtube": null
@@ -1123,6 +1248,31 @@
         {
           "id": "6mfq2McYfeiVIBa1tPA2gU",
           "name": "Dooley's Farm (feat. Billy Strings)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Moviola",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "thee Stork Club"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "thee Stork Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1SbzmoblNUCauF31xbenU5",
+          "name": "Bruma"
+        },
+        {
+          "id": "2DelEZKyHqU7GkBzampQZE",
+          "name": "Bruma"
         }
       ],
       "youtube": null
@@ -1453,31 +1603,6 @@
       "youtube": null
     },
     {
-      "name": "The Chi-Lites",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-13",
-          "venue": "Yoshi's"
-        },
-        {
-          "date": "2026-07-14",
-          "venue": "Yoshi's"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0cFlXjTxFdMGGPfLVpt3Wv",
-          "name": "Oh Girl"
-        },
-        {
-          "id": "5tcR6nVpY1JRDyDcK0K60f",
-          "name": "Oh Girl"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "The Dead Milkmen",
       "showCount": 2,
       "shows": [
@@ -1573,6 +1698,31 @@
         {
           "id": "34N4miRYCGQwmQEXoCiuuL",
           "name": "Another Story"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The SoapGirls",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "Kilowatt"
+        },
+        {
+          "date": "2026-07-21",
+          "venue": "Kilowatt"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2aKppKPHUV4VUG9n0QNC0r",
+          "name": "Societys Reject"
+        },
+        {
+          "id": "5wKS2M9y1aKIsBoBMgghY3",
+          "name": "Breathe"
         }
       ],
       "youtube": null
@@ -1850,27 +2000,6 @@
       "youtube": null
     },
     {
-      "name": "AJJ",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-13",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3D1PuFi2U8lmtdWRZcCz1f",
-          "name": "Body Terror Song"
-        },
-        {
-          "id": "4epSzmo6Xw01vTgGoYb2KR",
-          "name": "Brave as a Noun"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Akon",
       "showCount": 1,
       "shows": [
@@ -1934,27 +2063,6 @@
       "youtube": null
     },
     {
-      "name": "Alex Amen",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-13",
-          "venue": "Rickshaw Stop"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5YDD9xmvqCLlJwqf8Qowhb",
-          "name": "Changes"
-        },
-        {
-          "id": "6blLSK0yp0JCWs7knUCzW4",
-          "name": "This Love Of Mine"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Alex Lahey",
       "showCount": 1,
       "shows": [
@@ -1971,128 +2079,6 @@
         {
           "id": "2Gzuc9dFCAXSzdHl3UcCNz",
           "name": "On My Way"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ama",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-18",
-          "venue": "Civic Auditorium"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4QNpBfC0zvjKqPJcyqBy9W",
-          "name": "Give Me Everything (feat. Nayer)"
-        },
-        {
-          "id": "62AuGbAkt8Ox2IrFFb8GKV",
-          "name": "Sweet Caroline"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Amanda Duarte",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-16",
-          "venue": "Great American Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4pHCGJD5fbdnZptOzruImk",
-          "name": "Eu to no Controle"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Amy X Neuburg",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-13",
-          "venue": "Dresher Ensemble Studio"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2LQdyqhc7v1gSA5ZMbSnmZ",
-          "name": "Orange County"
-        },
-        {
-          "id": "4dKUWVKFlvcHuZTlinqBEa",
-          "name": "Money in the Sky"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Analog Dream",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-14",
-          "venue": "Knockout"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4HhhoDAwJGfQtEtxsEjcoh",
-          "name": "Dystopian"
-        },
-        {
-          "id": "2xesbQHWJN3RSgDBz54AXK",
-          "name": "Stark Reminder"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Angelo De Augustine",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-13",
-          "venue": "Sebastiani Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0FjTazWaBSHBVWm2PAGghQ",
-          "name": "Time"
-        },
-        {
-          "id": "4yuVmMynbF6qBDsT3w6aXy",
-          "name": "Santa Barbara"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Angine De Poitrine",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Independent"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6iDKiCR13L8Ba6bkK6cqqt",
-          "name": "Sarniezz"
-        },
-        {
-          "id": "1KVkzkmFBx4A8bCma6ruKA",
-          "name": "Fabienk"
         }
       ],
       "youtube": null
