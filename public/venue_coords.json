@@ -6363,5 +6363,55 @@
     "name": "cornerstone berkeley",
     "lat": 37.8665642,
     "lng": -122.2669287
+  },
+  "club.html#lesher_center": {
+    "name": "Lesher Center",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43321463-los-yaguaru-de-angel-venegas-at-evolution-san-francisco?utm_medium=organic&utm_source=microformat": {
+    "name": "Evolution San Francisco",
+    "lat": 37.7649393,
+    "lng": -122.4237259
+  },
+  "http://www.songkick.com/concerts/43319145-sob-x-rbe-at-habbas-law-epicenter-at-paypal-park?utm_medium=organic&utm_source=microformat": {
+    "name": "Habbas Law Epicenter at Paypal Park",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43320490-greg-capra-at-rooster-t-feathers-comedy-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Rooster T. Feathers Comedy Club",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43322691-phora-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43255150-euge-groove-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43275240-mountain-grass-unit-at-cafe-du-nord?utm_medium=organic&utm_source=microformat": {
+    "name": "Café du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "http://www.songkick.com/concerts/43278803-mike-dawes-at-sweetwater-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Sweetwater Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43191511-open-mic-night-at-hotel-utah-saloon?utm_medium=organic&utm_source=microformat": {
+    "name": "Hotel Utah Saloon",
+    "lat": 37.7793831,
+    "lng": -122.3981059
+  },
+  "http://www.songkick.com/concerts/43119777-jungle-at-greek-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "The Greek Theatre",
+    "lat": null,
+    "lng": null
   }
 }
