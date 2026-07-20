@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-19T07:55:20+00:00",
-  "weekStart": "2026-07-19",
-  "weekEnd": "2026-07-26",
+  "generated": "2026-07-20T08:33:07+00:00",
+  "weekStart": "2026-07-20",
+  "weekEnd": "2026-07-27",
   "artists": [
     {
       "name": "BettySoo",
@@ -315,6 +315,31 @@
       "youtube": null
     },
     {
+      "name": "A November Morning",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "Open Gallery"
+        },
+        {
+          "date": "2026-07-27",
+          "venue": "Gilman"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0UGgdQCsJyBrs6jalblhNu",
+          "name": "Your Name, Forever"
+        },
+        {
+          "id": "5e50bHLBvdaJBEBira242b",
+          "name": "Where Dark Roots Grow (Midnight's Breath)"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Aaron Rowe",
       "showCount": 2,
       "shows": [
@@ -440,31 +465,6 @@
       "youtube": null
     },
     {
-      "name": "Badvril",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Kilowatt"
-        },
-        {
-          "date": "2026-07-25",
-          "venue": "Natural Batting Cage"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2sQd4sNVRv0TWBy8eq9iO2",
-          "name": "Golden"
-        },
-        {
-          "id": "6iDmgR1NNIm7ummF3dF2Wi",
-          "name": "Push It Down"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Bitchin Bajas",
       "showCount": 2,
       "shows": [
@@ -565,31 +565,6 @@
       "youtube": null
     },
     {
-      "name": "Chinese American Bear",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Independent"
-        },
-        {
-          "date": "2026-07-19",
-          "venue": "Independent"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2GikowG1krEbxgwuXI3fSg",
-          "name": "Forever Lover (永远的爱人)"
-        },
-        {
-          "id": "6pB4kJ4eRa0sJMUtplqekk",
-          "name": "Magic Number (魔法数字)"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Cindy",
       "showCount": 2,
       "shows": [
@@ -615,6 +590,31 @@
       "youtube": null
     },
     {
+      "name": "Courtney Barnet",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-26",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-07-27",
+          "venue": "Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "14flrXVnFLO6thb46JKufB",
+          "name": "Pedestrian at Best"
+        },
+        {
+          "id": "39JZ7vKB53VfcsQ5mQIcdj",
+          "name": "Avant Gardener"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Dalmatia",
       "showCount": 2,
       "shows": [
@@ -635,6 +635,31 @@
         {
           "id": "0Us2YeLlzZjIsgHknAque5",
           "name": "Polyurethane"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Dog Party",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-25",
+          "venue": "Faction Brewing"
+        },
+        {
+          "date": "2026-07-27",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1F9ehlfwA0XbFFKK39t86z",
+          "name": "Hit & Run"
+        },
+        {
+          "id": "77EKI3N6QfYbH3A1w2LAtI",
+          "name": "Dead Guy"
         }
       ],
       "youtube": null
@@ -865,31 +890,6 @@
       "youtube": null
     },
     {
-      "name": "Howard Jones",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Meritage Resort"
-        },
-        {
-          "date": "2026-07-20",
-          "venue": "Mountain Winery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4bZUINUtVphxtTsHTSbGfC",
-          "name": "Everlasting Love"
-        },
-        {
-          "id": "2e4ZcSj8vQo9KZIj27gmhN",
-          "name": "No One Is to Blame - Single Mix"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Imperial Teen",
       "showCount": 2,
       "shows": [
@@ -990,26 +990,26 @@
       "youtube": null
     },
     {
-      "name": "Modern English",
+      "name": "Larry and His Flask",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-07-19",
-          "venue": "Meritage Resort"
+          "date": "2026-07-27",
+          "venue": "Rickshaw Stop"
         },
         {
-          "date": "2026-07-20",
-          "venue": "Mountain Winery"
+          "date": "2026-07-23",
+          "venue": "Moe's Alley"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "6J2rMSRhgb4HuX6dWgM3nJ",
-          "name": "I Melt with You"
+          "id": "2qdMvZhBpNOpaWXIoSK3DQ",
+          "name": "Ebb and Flow"
         },
         {
-          "id": "24y09nBEJNRP46uA0FRQQ2",
-          "name": "I Melt with You (7\" Mix)"
+          "id": "637IL3XZsxThzE7JyxO7Fz",
+          "name": "Ebb and Flow"
         }
       ],
       "youtube": null
@@ -1115,31 +1115,6 @@
       "youtube": null
     },
     {
-      "name": "Nicki Bluhm",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Stern Grove Festival"
-        },
-        {
-          "date": "2026-07-19",
-          "venue": "Stern Grove Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3Lt6DXyemx6Ma9bls1rQSA",
-          "name": "Danny's Song"
-        },
-        {
-          "id": "7gBvhUjKGik8Z6ywWvH1cJ",
-          "name": "Morning Time"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Nova Twins",
       "showCount": 2,
       "shows": [
@@ -1160,6 +1135,31 @@
         {
           "id": "6EwJd5r3LUNOxYEC9jV5vn",
           "name": "Cleopatra"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Osees",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-26",
+          "venue": "Chapel"
+        },
+        {
+          "date": "2026-07-27",
+          "venue": "Chapel"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6140Uf7R4cNyHUJnhYG5h7",
+          "name": "If I Had My Way"
+        },
+        {
+          "id": "4PMtdgNrqGqAAwu2jN6fvx",
+          "name": "Gong of Catastrophe"
         }
       ],
       "youtube": null
@@ -1260,31 +1260,6 @@
         {
           "id": "129lTs9zx6MWfxlVg4o4Yo",
           "name": "Wind Mountain"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Playground",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Above Tay Ho"
-        },
-        {
-          "date": "2026-07-24",
-          "venue": "Arlene Francis Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5mkGfmJGFZpwK9nA5amOhv",
-          "name": "Sex & Candy"
-        },
-        {
-          "id": "1LC2Hcgf2RgEbxPHNTnzaC",
-          "name": "Saint Joe On The School Bus"
         }
       ],
       "youtube": null
@@ -1490,31 +1465,6 @@
       "youtube": null
     },
     {
-      "name": "The English Beat",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Meritage Resort"
-        },
-        {
-          "date": "2026-07-20",
-          "venue": "Mountain Winery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7jQD3oqlzWzs2ZwKoeTvVX",
-          "name": "Save It for Later - 2012 Remaster"
-        },
-        {
-          "id": "1no7VPbmoq6YfYoB0OJnrn",
-          "name": "I Confess - 2012 Remaster"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "The Escape Club",
       "showCount": 2,
       "shows": [
@@ -1665,51 +1615,51 @@
       "youtube": null
     },
     {
-      "name": "Van Goat",
+      "name": "Traps PS",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-07-19",
-          "venue": "City Hall"
+          "date": "2026-07-26",
+          "venue": "Chapel"
         },
         {
-          "date": "2026-07-25",
-          "venue": "Fairgrounds"
+          "date": "2026-07-27",
+          "venue": "Chapel"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "00BVUiYQo8MuEzuq3EypU3",
-          "name": "Cantina Band (Live)"
+          "id": "6paXnqlZxE6nXXdFZJbvQ7",
+          "name": "Glass Atlas"
         },
         {
-          "id": "1G2B34z6W6B7tbiXDruUmA",
-          "name": "Maia"
+          "id": "43aHLrP8ofLsQAxYYdn7X9",
+          "name": "Partial Stairs"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Wang Chung",
+      "name": "Trevor Noah",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-07-19",
-          "venue": "Meritage Resort"
+          "date": "2026-07-26",
+          "venue": "Mountain Winery"
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-27",
           "venue": "Mountain Winery"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1MdmDW5qhlRjtsOLgIz0jx",
-          "name": "Space Junk (Wang Chung '97)"
+          "id": "3IdzLdMPPep5FNregml0LU",
+          "name": "One for All"
         },
         {
-          "id": "2JvPJ8ydPuN2NhpH4oti6I",
-          "name": "Dance Hall Days"
+          "id": "2fpJtH5VJyxBbM4l3UQj7S",
+          "name": "I'm Winning"
         }
       ],
       "youtube": null
@@ -1735,6 +1685,31 @@
         {
           "id": "3yHiEP169PW8FQVLOBn0Ph",
           "name": "Dirty Soul"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Zoh Amba",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-26",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-07-27",
+          "venue": "Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7MnmR1BRJqNCbW64pANpsV",
+          "name": "Another Time"
+        },
+        {
+          "id": "4TXtYsbr9NVejCAA7jUxxK",
+          "name": "Dead End Street"
         }
       ],
       "youtube": null
@@ -1782,27 +1757,6 @@
       "youtube": null
     },
     {
-      "name": "2Morrows June",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Kilowatt"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5vxgF9polkvQ4kdYrYuc8i",
-          "name": "Mrs. Dark Hair"
-        },
-        {
-          "id": "2HCtCJKpyisLwa9bWXDau9",
-          "name": "Stuck In My Head"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "7 Dragons",
       "showCount": 1,
       "shows": [
@@ -1840,27 +1794,6 @@
         {
           "id": "6mMDMvktOK6IjuYnTGTzf4",
           "name": "Cadence Of Amity Forged By Fire"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "A November Morning",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-21",
-          "venue": "Open Gallery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0UGgdQCsJyBrs6jalblhNu",
-          "name": "Your Name, Forever"
-        },
-        {
-          "id": "5e50bHLBvdaJBEBira242b",
-          "name": "Where Dark Roots Grow (Midnight's Breath)"
         }
       ],
       "youtube": null
@@ -1920,27 +1853,6 @@
         {
           "id": "7BIlfd7DoslJCTmkqmWyZm",
           "name": "Greater Miranda"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Akon",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-19",
-          "venue": "Shoreline Amphitheatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2kQuhkFX7uSVepCD3h29g5",
-          "name": "Smack That"
-        },
-        {
-          "id": "0uXO2GrNiIb1xHT9LUdxZE",
-          "name": "Sexy Bitch (feat. Akon)"
         }
       ],
       "youtube": null
@@ -2025,6 +1937,69 @@
         {
           "id": "4dTmQfqA75KrfynUF1TUX9",
           "name": "bye"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Altar at",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "Open Gallery"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6hI2j5A91BzhH3qQbFAXJx",
+          "name": "Strung Out"
+        },
+        {
+          "id": "3Gmzz9nQJHhtDSqLZhBgrt",
+          "name": "T.M.I"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Alvie & The Breakfast Pigs",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-07-21",
+          "venue": "Gilman"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2wp4grdAZHgalzAQzLRpfN",
+          "name": "Legs for Breakfast"
+        },
+        {
+          "id": "487WgeG1pH9TnpuwHew3a1",
+          "name": "Circus"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Ammy Virk",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-07-22",
+          "venue": "Arena"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1VvyJqs2x2hXr5qYUL4ER2",
+          "name": "Qismat"
+        },
+        {
+          "id": "5r7k55M31Q22AEJkF1GTyw",
+          "name": "Wang Da Naap"
         }
       ],
       "youtube": null
