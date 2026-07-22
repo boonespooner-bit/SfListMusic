@@ -6898,5 +6898,65 @@
     "name": "Castro Theatre",
     "lat": 37.7619914,
     "lng": -122.43475
+  },
+  "club.html#on_broadway": {
+    "name": "On Broadway",
+    "lat": 37.7959396,
+    "lng": -122.4237448
+  },
+  "club.html#roxie_theater": {
+    "name": "Roxie Theater",
+    "lat": 37.8067204,
+    "lng": -122.2709732
+  },
+  "club.html#mabuhay_gardens_(21+)_and_on_broadway_(a/a)": {
+    "name": "Mabuhay Gardens (21+) and On Broadway (a/a)",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#finnish_hall_auditorium": {
+    "name": "Finnish Hall Auditorium",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#idol_beer_works": {
+    "name": "Idol Beer Works",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43329437-john-anderson-at-paramount-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Paramount Theatre",
+    "lat": 37.8098684,
+    "lng": -122.268667
+  },
+  "http://www.songkick.com/concerts/43330996-ink-and-dagger-at-924-gilman?utm_medium=organic&utm_source=microformat": {
+    "name": "924 Gilman",
+    "lat": 37.7177908,
+    "lng": -122.38717
+  },
+  "http://www.songkick.com/concerts/43330717-sean-and-the-skinwalkers-at-sly-mcflys?utm_medium=organic&utm_source=microformat": {
+    "name": "Sly McFly's",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43184658-lilyisthatyou-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43109308-bonnie-raitt-at-bill-graham-civic-auditorium?utm_medium=organic&utm_source=microformat": {
+    "name": "Bill Graham Civic Auditorium",
+    "lat": 37.7780501,
+    "lng": -122.4173077
+  },
+  "http://www.songkick.com/concerts/43295769-high-on-fire-at-quarry-amphitheater?utm_medium=organic&utm_source=microformat": {
+    "name": "Quarry Amphitheater",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43292427-tuneyards-at-point-san-pablo-harbor?utm_medium=organic&utm_source=microformat": {
+    "name": "Point San Pablo Harbor",
+    "lat": null,
+    "lng": null
   }
 }
