@@ -7043,5 +7043,50 @@
     "name": "Bing Concert Hall, Stanford University",
     "lat": null,
     "lng": null
+  },
+  "http://www.songkick.com/concerts/43333008-david-lee-roth-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43335137-lastima-at-924-gilman?utm_medium=organic&utm_source=microformat": {
+    "name": "924 Gilman",
+    "lat": 37.7177908,
+    "lng": -122.38717
+  },
+  "http://www.songkick.com/concerts/43334554-luh-tyler-at-cornerstone?utm_medium=organic&utm_source=microformat": {
+    "name": "Cornerstone",
+    "lat": 37.7295883,
+    "lng": -122.4183334
+  },
+  "http://www.songkick.com/concerts/43245405-hippie-death-cult-at-rickshaw-stop?utm_medium=organic&utm_source=microformat": {
+    "name": "Rickshaw Stop",
+    "lat": 37.7759904,
+    "lng": -122.4204754
+  },
+  "http://www.songkick.com/concerts/43332128-hayden-james-at-aracely-cafe?utm_medium=organic&utm_source=microformat": {
+    "name": "Aracely Cafe",
+    "lat": 37.8277487,
+    "lng": -122.374083
+  },
+  "http://www.songkick.com/concerts/43332147-feed-me-at-midway?utm_medium=organic&utm_source=microformat": {
+    "name": "The Midway",
+    "lat": 37.7495304,
+    "lng": -122.3860944
+  },
+  "http://www.songkick.com/concerts/43333697-tito-double-p-at-paypal-park?utm_medium=organic&utm_source=microformat": {
+    "name": "PayPal Park",
+    "lat": 37.3513087,
+    "lng": -121.924672
+  },
+  "http://www.songkick.com/concerts/43328627-pink-breath-of-heaven-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43335736-bobby-bare-jr-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
   }
 }
