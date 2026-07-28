@@ -7198,5 +7198,45 @@
     "name": "Biscuits and Blues",
     "lat": null,
     "lng": null
+  },
+  "club.html#theater_square_plaza": {
+    "name": "Theater Square Plaza",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43334565-mick-flannery-at-unknown-venue?utm_medium=organic&utm_source=microformat": {
+    "name": "Oakland",
+    "lat": 37.7993876,
+    "lng": -122.3765763
+  },
+  "http://www.songkick.com/concerts/43192436-ella-red-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43338878-karri-at-guadalupe-river-park-arena-green-east?utm_medium=organic&utm_source=microformat": {
+    "name": "Guadalupe River Park Arena Green – East",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43338479-nino-msk-at-makeout-room?utm_medium=organic&utm_source=microformat": {
+    "name": "Make-Out Room",
+    "lat": 37.7553007,
+    "lng": -122.419366
+  },
+  "http://www.songkick.com/concerts/43337396-doc-martin-at-great-northern?utm_medium=organic&utm_source=microformat": {
+    "name": "The Great Northern",
+    "lat": 37.7676612,
+    "lng": -122.4065246
+  },
+  "http://www.songkick.com/concerts/43266765-chanpan-at-rickshaw-stop?utm_medium=organic&utm_source=microformat": {
+    "name": "Rickshaw Stop",
+    "lat": 37.7759904,
+    "lng": -122.4204754
+  },
+  "http://www.songkick.com/concerts/43338775-spits-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
   }
 }
