@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-28T08:10:28+00:00",
-  "weekStart": "2026-07-28",
-  "weekEnd": "2026-08-04",
+  "generated": "2026-07-29T08:13:55+00:00",
+  "weekStart": "2026-07-29",
+  "weekEnd": "2026-08-05",
   "artists": [
     {
       "name": "Me First And The Gimme Gimmes",
@@ -57,93 +57,6 @@
         {
           "id": "4hi9OTFKomNUlAIhp1fmap",
           "name": "Bailar Contigo"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Enhypen",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Arena"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Arena"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Arena"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7mpdNiaQvygj2rHoxkzMfa",
-          "name": "Bite Me"
-        },
-        {
-          "id": "3gYWGRS64XrGSrjD3vvtga",
-          "name": "Moonstruck"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Josh Johnson (comedy)",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Masonic"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Masonic"
-        },
-        {
-          "date": "2026-07-30",
-          "venue": "Masonic"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3mGKCqHuUjni4b7cAK4xqi",
-          "name": "Luke"
-        },
-        {
-          "id": "0a6Aprb1bSZff8piuEUDel",
-          "name": "Lorelai"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Lealani",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-07-30",
-          "venue": "Neck of the Woods"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3kNJOYbhh8GASVDvYAsdrz",
-          "name": "Brain Butter"
-        },
-        {
-          "id": "2Y1D9xAuxtQoMw1hS6sAXc",
-          "name": "Miniscule"
         }
       ],
       "youtube": null
@@ -224,31 +137,6 @@
       "youtube": null
     },
     {
-      "name": "Built To Spill",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Old Princeton Landing"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Old Princeton Landing"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3HMOMdRPywfouYx5B4PvaH",
-          "name": "Carry the Zero"
-        },
-        {
-          "id": "1SqIUmKbeRyHwgp8BOBIRr",
-          "name": "Else"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Closebye",
       "showCount": 2,
       "shows": [
@@ -294,31 +182,6 @@
         {
           "id": "4WPCBCDdZelzIpwiZ7KL9L",
           "name": "Double Cut"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Dead Heat",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Rickshaw Stop"
-        },
-        {
-          "date": "2026-07-28",
-          "venue": "Rickshaw Stop"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3ybgr8QeRSOzg9TzdUwCH6",
-          "name": "Power"
-        },
-        {
-          "id": "6z2WhAXzKmHxf8gJWp93VA",
-          "name": "The Road"
         }
       ],
       "youtube": null
@@ -395,6 +258,31 @@
       "youtube": null
     },
     {
+      "name": "Enhypen",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-07-29",
+          "venue": "Arena"
+        },
+        {
+          "date": "2026-07-29",
+          "venue": "Arena"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7mpdNiaQvygj2rHoxkzMfa",
+          "name": "Bite Me"
+        },
+        {
+          "id": "3gYWGRS64XrGSrjD3vvtga",
+          "name": "Moonstruck"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Ghost Town Hangmen",
       "showCount": 2,
       "shows": [
@@ -445,26 +333,26 @@
       "youtube": null
     },
     {
-      "name": "Jesse Malin",
+      "name": "Josh Johnson (comedy)",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-07-28",
-          "venue": "Bottom of the Hill"
+          "date": "2026-07-29",
+          "venue": "Masonic"
         },
         {
-          "date": "2026-07-28",
-          "venue": "Bottom of the Hill"
+          "date": "2026-07-30",
+          "venue": "Masonic"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5xk4DuC1A2dvIfnxY1ymrm",
-          "name": "Broken Radio '22"
+          "id": "3mGKCqHuUjni4b7cAK4xqi",
+          "name": "Luke"
         },
         {
-          "id": "2aqNUq9Rq6XhLnN7uehArd",
-          "name": "Broken Radio '22"
+          "id": "0a6Aprb1bSZff8piuEUDel",
+          "name": "Lorelai"
         }
       ],
       "youtube": null
@@ -495,52 +383,6 @@
       "youtube": null
     },
     {
-      "name": "Maul",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Rickshaw Stop"
-        },
-        {
-          "date": "2026-07-28",
-          "venue": "Rickshaw Stop"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0yIcQI3FtdwkkuuwYa8rWG",
-          "name": "Yeshua / Our God Reigns"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Meatbodies",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "18wml3cy48WGQUkBgUD0iy",
-          "name": "Fools Fold Their Hands (Grievous Evils Under the Sun)"
-        },
-        {
-          "id": "7134BLbUr6djveEsr2CQFN",
-          "name": "Mountain"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Open Mic Night",
       "showCount": 2,
       "shows": [
@@ -561,31 +403,6 @@
         {
           "id": "3H0VkgzwZDAhkzZrUkL7nP",
           "name": "Goodbye"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Osees",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6140Uf7R4cNyHUJnhYG5h7",
-          "name": "If I Had My Way"
-        },
-        {
-          "id": "4PMtdgNrqGqAAwu2jN6fvx",
-          "name": "Gong of Catastrophe"
         }
       ],
       "youtube": null
@@ -691,6 +508,56 @@
       "youtube": null
     },
     {
+      "name": "Tab Benoit",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-03",
+          "venue": "Cornerstone"
+        },
+        {
+          "date": "2026-08-05",
+          "venue": "Uptown Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3wewa5eAOjEFtlpoXAz4Kc",
+          "name": "Darkness"
+        },
+        {
+          "id": "6cVq1RHL5IDT1YSN7V1QkB",
+          "name": "Sunrise"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The Zac Schulze Gang",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-03",
+          "venue": "Cornerstone"
+        },
+        {
+          "date": "2026-08-05",
+          "venue": "Uptown Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0W4P3rnXFZuJEKjb8qwndA",
+          "name": "High Roller"
+        },
+        {
+          "id": "3PTqf7JIcqYwyKCuLBKAqt",
+          "name": "Running Dry"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Toro Y Moi",
       "showCount": 2,
       "shows": [
@@ -711,31 +578,6 @@
         {
           "id": "1mt71aWdYMEvfZEx3q8CPI",
           "name": "Freelance"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Traps PS",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-07-29",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6paXnqlZxE6nXXdFZJbvQ7",
-          "name": "Glass Atlas"
-        },
-        {
-          "id": "43aHLrP8ofLsQAxYYdn7X9",
-          "name": "Partial Stairs"
         }
       ],
       "youtube": null
@@ -791,31 +633,6 @@
       "youtube": null
     },
     {
-      "name": "Wreckless Strangers",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Old Western Saloon"
-        },
-        {
-          "date": "2026-07-30",
-          "venue": "Rio Nido Roadhouse"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "18alPNmyY9BXSK7L6u1C1M",
-          "name": "Lost Again"
-        },
-        {
-          "id": "3yHiEP169PW8FQVLOBn0Ph",
-          "name": "Dirty Soul"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "100% Jenny",
       "showCount": 1,
       "shows": [
@@ -854,48 +671,6 @@
       "youtube": null
     },
     {
-      "name": "3oh!3",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "San Jose Civic Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5jzX4dWVQeBTtfBaXnMRt5",
-          "name": "DONTTRUSTME"
-        },
-        {
-          "id": "3JfbMm4LfBmm96mkKhyG6I",
-          "name": "RICHMAN"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "5 Seconds Of Summer",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Shoreline Amphitheatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3NxWJWftvkstyxvb1pZlFo",
-          "name": "Teeth"
-        },
-        {
-          "id": "2iUXsYOEPhVqEBwsqP70rE",
-          "name": "Youngblood"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Above Me",
       "showCount": 1,
       "shows": [
@@ -912,6 +687,27 @@
         {
           "id": "26aRv0jw5N4kl5F51SWEZK",
           "name": "Blue Sky Action (Flashback) [ABGT682] - Meramek Remix (Mixed)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "AC/DC",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "Levi's Stadium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7LRMbd3LEoV5wZJvXT1Lwb",
+          "name": "T.N.T."
+        },
+        {
+          "id": "57bgtoPSgt236HzfBOd8kj",
+          "name": "Thunderstruck"
         }
       ],
       "youtube": null
@@ -971,6 +767,27 @@
         {
           "id": "35EDNGwjMjMfI984OFx5EH",
           "name": "DEEP IN YOUR SOUL"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Alela Diane",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "The Crepe Place"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4eROoiEAswdNsn3bMQIfDt",
+          "name": "Take Us Back"
+        },
+        {
+          "id": "3t9dQLtZPB8dXRu6QrQYLS",
+          "name": "Émigré"
         }
       ],
       "youtube": null
@@ -1119,6 +936,27 @@
       "youtube": null
     },
     {
+      "name": "B-Movie",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "Mountain Winery"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0Zp8FlV0iTkioWKvcJCD3h",
+          "name": "Nowhere Girl"
+        },
+        {
+          "id": "2Y1yQKcGruk2j9HQa40V4K",
+          "name": "Nowhere Girl"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Back Porchestra",
       "showCount": 1,
       "shows": [
@@ -1224,27 +1062,6 @@
       "youtube": null
     },
     {
-      "name": "Barbarous",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Cornerstone"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7q9h525Gzu0KZgozD80J7o",
-          "name": "By Lead or Steel"
-        },
-        {
-          "id": "3u4HoCSsFiPsY70B1t5Rft",
-          "name": "Tools of the Trade"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Barberous",
       "showCount": 1,
       "shows": [
@@ -1308,18 +1125,22 @@
       "youtube": null
     },
     {
-      "name": "Big Tractor",
+      "name": "Big Country",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-07-28",
-          "venue": "Planetarium"
+          "date": "2026-08-05",
+          "venue": "Mountain Winery"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1KeKDFteUvcxcIkaeH7581",
-          "name": "All I want is a Blowjob for Christmas"
+          "id": "1tAFvq63jO3n9WaDCZPJNh",
+          "name": "In A Big Country"
+        },
+        {
+          "id": "4cY1KFcIcTkjXxxF4KVDpY",
+          "name": "In A Big Country"
         }
       ],
       "youtube": null
@@ -1346,22 +1167,22 @@
       "youtube": null
     },
     {
-      "name": "Bill Callahan",
+      "name": "Black Lips",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-07-28",
-          "venue": "UC Theater"
+          "date": "2026-08-01",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "3KZRkM7Uv0F2oCTUHAvv0a",
-          "name": "Jim Cain"
+          "id": "00FL5d6IDB4Q6VROycdzOP",
+          "name": "Bad Kids"
         },
         {
-          "id": "0do3zfmbVl5DiGxUXrbhrT",
-          "name": "Sycamore"
+          "id": "3sBNYkUaAiipWECiLdmzJd",
+          "name": "Modern Art"
         }
       ],
       "youtube": null
@@ -1404,6 +1225,27 @@
         {
           "id": "3rRk04BOhbW7ObJ08Jphni",
           "name": "Twin Of Myself"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Bleakness",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "thee Stork Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1MXXrlge0WyEHtNlBCNvqU",
+          "name": "Dead of Night"
+        },
+        {
+          "id": "7ctImnICgxMg6nUVfAgSPe",
+          "name": "Towards the End"
         }
       ],
       "youtube": null
@@ -1468,43 +1310,22 @@
       "youtube": null
     },
     {
-      "name": "Bowling For Soup",
+      "name": "Brandon Flowers",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-07-28",
-          "venue": "San Jose Civic Center"
+          "date": "2026-08-05",
+          "venue": "Fox Theater"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "6TclVCUxDQm9s3Bey6Ao8H",
-          "name": "Almost"
+          "id": "3mVd5gTmze4bWj0uvf6Jta",
+          "name": "Paradise"
         },
         {
-          "id": "5oQcOu1omDykbIPSdSQQNJ",
-          "name": "1985"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Briget Boyle",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-07-28",
-          "venue": "Up the Creek Records"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0tYgv9vMaNkie85qf3tTm6",
-          "name": "Opa Cupa"
-        },
-        {
-          "id": "5qG5Qb6yb6YlCPaRPhA62I",
-          "name": "Crimes & Misdemeanors"
+          "id": "6Ot94bjY2Fx4WcGDo2FcoC",
+          "name": "Plans"
         }
       ],
       "youtube": null
@@ -1568,6 +1389,27 @@
         {
           "id": "1xNrYEnPDzeaqHQOYAaVBm",
           "name": "red carpets // second story (x6)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Built To Spill",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-07-29",
+          "venue": "Old Princeton Landing"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3HMOMdRPywfouYx5B4PvaH",
+          "name": "Carry the Zero"
+        },
+        {
+          "id": "1SqIUmKbeRyHwgp8BOBIRr",
+          "name": "Else"
         }
       ],
       "youtube": null
@@ -1720,6 +1562,27 @@
       "youtube": null
     },
     {
+      "name": "Cavalier",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "Neck of the Woods"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3cOtvBaupsKd8BcSqE9Rla",
+          "name": "Hush"
+        },
+        {
+          "id": "6UTi9PS0CiMUs5DUfYl3W4",
+          "name": "Bad Thing"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Chandol",
       "showCount": 1,
       "shows": [
@@ -1846,22 +1709,22 @@
       "youtube": null
     },
     {
-      "name": "Choke",
+      "name": "China Crisis",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-07-28",
-          "venue": "Concord Skatepark"
+          "date": "2026-08-05",
+          "venue": "Mountain Winery"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "6OpU3cvY19M2hFxTbLKy5L",
-          "name": "Juno"
+          "id": "1Q7WESlT4IzkopWxv810Sq",
+          "name": "Arizona Sky"
         },
         {
-          "id": "1Kko3ltWgRT6rWa1Jzfewu",
-          "name": "Proof"
+          "id": "7tbL7tfxXXVK1rPwhVgjej",
+          "name": "Black Man Ray"
         }
       ],
       "youtube": null
@@ -1883,6 +1746,48 @@
         {
           "id": "6C0pdA6oQnB32opzNCR4iR",
           "name": "Goldmine"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Christinas Trip",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-07-29",
+          "venue": "Neck of the Woods"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "04gmE11xFyQHMNWnkf7ejk",
+          "name": "F.B.A.T."
+        },
+        {
+          "id": "2At4lSHDmvHHQ9nOPnkeCr",
+          "name": "Sweep Me"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Con Funk Shun",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-05",
+          "venue": "Meritage Resort"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "11SWGyLoQlNZpEyLjZ6omz",
+          "name": "Love's Train"
+        },
+        {
+          "id": "1nZU6K8Pa8nLsRhCofaNEk",
+          "name": "Straight From The Heart"
         }
       ],
       "youtube": null
