@@ -7468,5 +7468,30 @@
     "name": "The Knockout",
     "lat": 37.7451841,
     "lng": -122.4199903
+  },
+  "club.html#crown_coffee": {
+    "name": "Crown Coffee",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#mildred_owen_hall": {
+    "name": "Mildred Owen Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43347287-andru-at-chromatic-coffee?utm_medium=organic&utm_source=microformat": {
+    "name": "Chromatic Coffee",
+    "lat": 37.3207506,
+    "lng": -121.9080654
+  },
+  "http://www.songkick.com/concerts/43344611-kip-moore-at-alameda-county-fairgrounds?utm_medium=organic&utm_source=microformat": {
+    "name": "Alameda County Fairgrounds",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43348490-jack-west-at-piedmont-piano-company?utm_medium=organic&utm_source=microformat": {
+    "name": "Piedmont Piano Company",
+    "lat": 37.8076576,
+    "lng": -122.2720449
   }
 }
