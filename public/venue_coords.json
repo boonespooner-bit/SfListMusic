@@ -7498,5 +7498,45 @@
     "name": "Rickhouse",
     "lat": 37.7904964,
     "lng": -122.403818
+  },
+  "http://www.songkick.com/concerts/43350320-boars-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43349641-lloyd-at-midway?utm_medium=organic&utm_source=microformat": {
+    "name": "The Midway",
+    "lat": 37.7495304,
+    "lng": -122.3860944
+  },
+  "http://www.songkick.com/concerts/43350207-dj-jazzy-jeff-at-midway?utm_medium=organic&utm_source=microformat": {
+    "name": "The Midway",
+    "lat": 37.7495304,
+    "lng": -122.3860944
+  },
+  "http://www.songkick.com/concerts/43353521-no-right-at-924-gilman?utm_medium=organic&utm_source=microformat": {
+    "name": "924 Gilman",
+    "lat": 37.7177908,
+    "lng": -122.38717
+  },
+  "http://www.songkick.com/concerts/43353129-protoje-at-golden-state-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Golden State Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43351228-wynton-marsalis-at-sfjazz-center?utm_medium=organic&utm_source=microformat": {
+    "name": "SFJAZZ Center",
+    "lat": 37.7763779,
+    "lng": -122.4215694
+  },
+  "http://www.songkick.com/concerts/43345103-dogstar-at-golden-state-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Golden State Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43251524-al-di-meola-at-siesta-valley-bowl?utm_medium=organic&utm_source=microformat": {
+    "name": "Siesta Valley Bowl",
+    "lat": null,
+    "lng": null
   }
 }
