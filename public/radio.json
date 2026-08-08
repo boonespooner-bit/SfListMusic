@@ -1,40 +1,11 @@
 {
-  "generated": "2026-08-07T06:56:11+00:00",
-  "weekStart": "2026-08-07",
-  "weekEnd": "2026-08-14",
+  "generated": "2026-08-08T06:35:06+00:00",
+  "weekStart": "2026-08-08",
+  "weekEnd": "2026-08-15",
   "artists": [
     {
-      "name": "Haute & Freddy",
-      "showCount": 4,
-      "shows": [
-        {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-13",
-          "venue": "Bimbo's 365 Club"
-        },
-        {
-          "date": "2026-08-14",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6p2ZaQL49aH9OdVS4EqFNa",
-          "name": "Freaks"
-        },
-        {
-          "id": "2LIOTreGvPk5GdpeGUqYIu",
-          "name": "Shy Girl"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Interpol",
-      "showCount": 4,
+      "showCount": 5,
       "shows": [
         {
           "date": "2026-08-11",
@@ -62,30 +33,30 @@
       "youtube": null
     },
     {
-      "name": "Sports",
+      "name": "Julie",
       "showCount": 4,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Rickshaw Stop"
+          "date": "2026-08-11",
+          "venue": "Warfield"
         },
         {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
+          "date": "2026-08-12",
+          "venue": "Warfield"
         },
         {
-          "date": "2026-08-08",
-          "venue": "Rickshaw Stop"
+          "date": "2026-08-11",
+          "venue": "Warfield"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2qpacEyFxmbxCpIEqZkqvC",
-          "name": "You Are the Right One"
+          "id": "04x1x0L8BYyIv1XlcJxWfi",
+          "name": "Lo Siento BB:/"
         },
         {
-          "id": "6keyBQK6pA0OApRfM1f0dp",
-          "name": "Panama"
+          "id": "100Tm6z29RfHTdUQ6NIs0s",
+          "name": "Me Voy"
         }
       ],
       "youtube": null
@@ -120,175 +91,59 @@
       "youtube": null
     },
     {
-      "name": "Goldie Boutilier",
+      "name": "Haute & Freddy",
       "showCount": 3,
       "shows": [
         {
-          "date": "2026-08-07",
+          "date": "2026-08-08",
+          "venue": "Outside Lands"
+        },
+        {
+          "date": "2026-08-13",
+          "venue": "Bimbo's 365 Club"
+        },
+        {
+          "date": "2026-08-14",
+          "venue": "Castro"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6p2ZaQL49aH9OdVS4EqFNa",
+          "name": "Freaks"
+        },
+        {
+          "id": "2LIOTreGvPk5GdpeGUqYIu",
+          "name": "Shy Girl"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Sports",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-08",
+          "venue": "Rickshaw Stop"
+        },
+        {
+          "date": "2026-08-09",
           "venue": "Outside Lands"
         },
         {
           "date": "2026-08-08",
-          "venue": "Independent"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Independent"
+          "venue": "Rickshaw Stop"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1oRovB4I1ZmRMkk8qoouBr",
-          "name": "PARTY"
+          "id": "2qpacEyFxmbxCpIEqZkqvC",
+          "name": "You Are the Right One"
         },
         {
-          "id": "3pdYo6FJHk8ZBr7r3MJvCe",
-          "name": "Body Heat"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Julie",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-11",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-08-12",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-08-11",
-          "venue": "Warfield"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "04x1x0L8BYyIv1XlcJxWfi",
-          "name": "Lo Siento BB:/"
-        },
-        {
-          "id": "100Tm6z29RfHTdUQ6NIs0s",
-          "name": "Me Voy"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "La Luz",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Cornerstone"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Hopmonk Tavern"
-        },
-        {
-          "date": "2026-08-12",
-          "venue": "Mountain Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4AwgFDiynuu52p5xtpRlNG",
-          "name": "Cumbia Sampuesana"
-        },
-        {
-          "id": "1Vfmi3mCenArbL67iRjuyv",
-          "name": "Cumbia Cianaguera"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Los Lobos",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Mountain Winery"
-        },
-        {
-          "date": "2026-08-09",
-          "venue": "Uptown Theater"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Golden State Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0uMMLry3hzWGn3q3loqMkm",
-          "name": "La Bamba"
-        },
-        {
-          "id": "5eywEEGsC0UXsGnvviKGvw",
-          "name": "We Belong Together"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Los Lonely Boys",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Mountain Winery"
-        },
-        {
-          "date": "2026-08-09",
-          "venue": "Uptown Theater"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Golden State Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1XcUn5PE9d42zWamWgRG2x",
-          "name": "Heaven"
-        },
-        {
-          "id": "2mQ1RBK7s87mdPCzh97RSH",
-          "name": "Heaven"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Shawn Colvin",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Hopmonk Tavern"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Hopmonk Tavern"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Rio Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4mOxpj82q6n3EO7HBZCelX",
-          "name": "Sunny Came Home"
-        },
-        {
-          "id": "4Cmj0bjUBLd9WuWayEZJJy",
-          "name": "Steady On"
+          "id": "6keyBQK6pA0OApRfM1f0dp",
+          "name": "Panama"
         }
       ],
       "youtube": null
@@ -323,62 +178,12 @@
       "youtube": null
     },
     {
-      "name": "1-800 Girls",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0dlrTpcU6rkElbDhPw4SUO",
-          "name": "trust me"
-        },
-        {
-          "id": "4akb3UnPEbDpUBc8JdQ5ED",
-          "name": "sometimes"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Amble",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5D2AaNj4RfxSbHTSYjbb4E",
-          "name": "Moral Victory"
-        },
-        {
-          "id": "3P9AM7Sm5DwwzGlTOwwCVl",
-          "name": "Tonnta"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "American Tomahawk",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Catalyst Atrium"
+          "date": "2026-08-14",
+          "venue": "Chapel"
         },
         {
           "date": "2026-08-14",
@@ -423,106 +228,6 @@
       "youtube": null
     },
     {
-      "name": "Axial Tilt",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Great American Music Hall"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Great American Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6vwhlrRDXJwFcRZbtasS7Y",
-          "name": "Alien Planet"
-        },
-        {
-          "id": "5IhZwpR1Pw4hjSZPOCpNXY",
-          "name": "Obliquity"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Baby Keem",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "58k32my5lKofeZRtIvBDg9",
-          "name": "HONEST"
-        },
-        {
-          "id": "3VW6HJYa5l0uzGcCRA222P",
-          "name": "Ca$ino"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Bad Nerves",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "26bUHwjwSidCORMzLXFf3F",
-          "name": "NETWORK"
-        },
-        {
-          "id": "0rkFGvIijVu6BdBG8ahBGp",
-          "name": "Can't Be Mine"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Bandalos Chinos",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1DcZiy6gWQOG2IhhM6HBui",
-          "name": "Mi Fiesta"
-        },
-        {
-          "id": "5VFNWuzWCalL6oZwV4GJF7",
-          "name": "Departamento"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Beach Bunny",
       "showCount": 2,
       "shows": [
@@ -543,81 +248,6 @@
         {
           "id": "1CQYKndmQR1bMvOSZrq2Lq",
           "name": "Sports"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ben Böhmer",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-09",
-          "venue": "Independent"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4XdQO9wxIeIy7eM65A5kk8",
-          "name": "Rust"
-        },
-        {
-          "id": "1MvLmHeLkaNgUScgbUVnWJ",
-          "name": "Breathing"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Benson Boone",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Shark Tank"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "SAP Center at San Jose"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6tNQ70jh4OwmPGpYy6R2o9",
-          "name": "Beautiful Things"
-        },
-        {
-          "id": "3xkHsmpQCBMytMJNiDf3Ii",
-          "name": "Beautiful Things"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Billie Marten",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0DwaOWI1kC2s98qLj0LTDd",
-          "name": "La Lune"
-        },
-        {
-          "id": "59S8JfBTZo1jZhwCgwzEYz",
-          "name": "Feeling"
         }
       ],
       "youtube": null
@@ -673,51 +303,76 @@
       "youtube": null
     },
     {
-      "name": "Carlita",
+      "name": "Carmen Sixteen",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
+          "date": "2026-08-10",
+          "venue": "Planetarium"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Victory Stables"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0IAIsE9u9AYUH3wh7p77AE",
-          "name": "Time"
+          "id": "07tg92R12IOid7zxVoI30m",
+          "name": "Port of Alicante"
         },
         {
-          "id": "3cH1FROo7Q1lC0N8SmdQJ1",
-          "name": "Solar Skin (feat. jasper.wav)"
+          "id": "5QClSEkSQwthlEb8ORGdgk",
+          "name": "Guillotines In Vogue"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Chezile",
+      "name": "Catfight",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-08",
+          "venue": "Thrillhouse Records"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Undergarden"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5e0b9LgOfi3aJSKXFcOWRe",
-          "name": "Beanie"
+          "id": "17eEP4O2RggHIPzDjEkKz9",
+          "name": "Catfight - Frustrated"
         },
         {
-          "id": "0qSnORtqjEXLFKKKSy9WMc",
-          "name": "Beanie - Slowed"
+          "id": "0c3Z2N5jpkKdzCJlolrt7t",
+          "name": "Frustrated"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cece Coakley",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-14",
+          "venue": "Hopmonk Tavern"
+        },
+        {
+          "date": "2026-08-14",
+          "venue": "HopMonk - Novato Beer Garden"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7z3DtSvVBPYl0K4M73U1Pw",
+          "name": "Anything"
+        },
+        {
+          "id": "6EUlfewAije5ka0bjx2SzI",
+          "name": "Future Tense"
         }
       ],
       "youtube": null
@@ -773,101 +428,76 @@
       "youtube": null
     },
     {
-      "name": "Death Cab For Cutie",
+      "name": "dj Fuzz",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "64q8nvkJGFyFR00cbtEjr3",
-          "name": "Riptides"
+          "id": "0ROIja658w7una0HDI9k6X",
+          "name": "Strawberry"
         },
         {
-          "id": "1crbFuCkGL4kXnAGd63RXq",
-          "name": "Crooked Teeth"
+          "id": "5SY1ch2T9TBlecKbcx2zu2",
+          "name": "Cotton Candy"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Die Spitz",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6IP39XftgWyvzy1pRX1YiQ",
-          "name": "Punishers"
-        },
-        {
-          "id": "7x7Ej1fQsdve9jNOvN0AOU",
-          "name": "Hair of Dog"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Dijon",
+      "name": "Down By Dawn",
       "showCount": 2,
       "shows": [
         {
           "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "venue": "Gilman"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Up the Creek Records"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "467t3218y3yihFcyDGWjr0",
-          "name": "Skin"
+          "id": "1OYExb2lLGymevv39QFeQO",
+          "name": "Other Worlds"
         },
         {
-          "id": "63EUqnpcphhZh8SbXagArw",
-          "name": "Many Times"
+          "id": "424K4MqZDZjOingzqbCGRZ",
+          "name": "Flux"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Djo",
+      "name": "Dukes Of Hamburg",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "thee Stork Club"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Spats"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "3qhlB30KknSejmIvZZLjOD",
-          "name": "End of Beginning"
+          "id": "5IFFgthdzuQ1OM3ayO1mdl",
+          "name": "Far Far Away"
         },
         {
-          "id": "5hS8s1Vf4CeSRBT1bTWa39",
-          "name": "Roddy"
+          "id": "15GAtRJw8f0gUtIK7ANnLP",
+          "name": "Green Eyed Women"
         }
       ],
       "youtube": null
@@ -923,51 +553,51 @@
       "youtube": null
     },
     {
-      "name": "Empire Of The Sun",
+      "name": "FLESHIES",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "3zEN0ii6s4DHHBpnTp3RP7",
-          "name": "We Are The People"
+          "id": "1jHSVyez3YxIDgtiS7LXuE",
+          "name": "Runner's Legs"
         },
         {
-          "id": "5r5cp9IpziiIsR6b93vcnQ",
-          "name": "Walking On A Dream"
+          "id": "3aES6w8PDzm5EVt7EryUIy",
+          "name": "Yes,I'm Starting Shit"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Geese",
+      "name": "Goldie Boutilier",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-08",
+          "venue": "Independent"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-08",
+          "venue": "Independent"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5cbDTZG8lBJqVVa2zqROPI",
-          "name": "Taxes"
+          "id": "1oRovB4I1ZmRMkk8qoouBr",
+          "name": "PARTY"
         },
         {
-          "id": "7qOBKhD1a54OvLvVee2tGf",
-          "name": "Cobra"
+          "id": "3pdYo6FJHk8ZBr7r3MJvCe",
+          "name": "Body Heat"
         }
       ],
       "youtube": null
@@ -998,22 +628,76 @@
       "youtube": null
     },
     {
-      "name": "Griz",
+      "name": "Grolixes",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Jade Cathey Resturant"
         },
         {
-          "date": "2026-08-07",
-          "venue": "The Independent"
+          "date": "2026-08-15",
+          "venue": "Natural Batting Cage"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "3muBQDekYAg7jm6hDu6R0Z",
-          "name": "First Day Out"
+          "id": "5fM0uPsURl05UPsGjAyVwY",
+          "name": "Savior Of The Screen"
+        },
+        {
+          "id": "6OwLWfpeoeLlbd9ZsmQeOP",
+          "name": "Again"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Hello Mrs. Wong",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-14",
+          "venue": "Stay Gold Deli"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Thrillhouse Records"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "092f3R7PLAlqj58dvgpVz3",
+          "name": "Hello Mrs. Wong"
+        },
+        {
+          "id": "2ay68qUkDxwpGTSqOT9Wuv",
+          "name": "Soka Towa"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Highmarts",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-14",
+          "venue": "thee Stork Club"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Spats"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6fd5PSY0umRumSwSiOTh2o",
+          "name": "Tallahassee Lassie"
+        },
+        {
+          "id": "4aCVX95EJJ4I38vETjgRCf",
+          "name": "Hey Boy"
         }
       ],
       "youtube": null
@@ -1044,16 +728,66 @@
       "youtube": null
     },
     {
+      "name": "Julie (dk)",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-11",
+          "venue": "Warfield"
+        },
+        {
+          "date": "2026-08-12",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0t6DTfDvHbwU9q7c80FrJV",
+          "name": "Water Grasses"
+        },
+        {
+          "id": "4DSHDVnq3haq71d3muZGlb",
+          "name": "F-U Dad!"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Kiroshi",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-08",
+          "venue": "Gilman"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Up the Creek Records"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6Xb2uqBuAdLOjugat6Yn8S",
+          "name": "GEN_DIVISION"
+        },
+        {
+          "id": "2bMb2sHau6IuNV0QF27mbf",
+          "name": "\" you shouldn't poets lie to you \""
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Knights Of Molino",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Up the Creek Records"
-        },
-        {
           "date": "2026-08-08",
           "venue": "Napa County Fair"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Pizza Place"
         }
       ],
       "spotifyTracks": [
@@ -1069,51 +803,126 @@
       "youtube": null
     },
     {
-      "name": "Labrinth",
+      "name": "La Lom",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1ZdhOMWyFR8Iv9eylMGYg2",
-          "name": "Mount Everest"
+          "id": "4gYrZLUTL4aODVNip2tUI5",
+          "name": "Maravilla"
         },
         {
-          "id": "6EtKlIQmGPB9SX8UjDJG5s",
-          "name": "Formula (From \"Euphoria: Season 1\" Soundtrack)"
+          "id": "2lmUjGPvwaIgyYm058U16N",
+          "name": "Lorena"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Lane 8",
+      "name": "La Luz",
       "showCount": 2,
       "shows": [
         {
           "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "venue": "Hopmonk Tavern"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-12",
+          "venue": "Mountain Theater"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "6kckNpuM5oXZrObLExRg6d",
-          "name": "Road"
+          "id": "4AwgFDiynuu52p5xtpRlNG",
+          "name": "Cumbia Sampuesana"
         },
         {
-          "id": "1KCMF9fdF7sNE74R2V46af",
-          "name": "You"
+          "id": "1Vfmi3mCenArbL67iRjuyv",
+          "name": "Cumbia Cianaguera"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Los Lobos",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-09",
+          "venue": "Uptown Theater"
+        },
+        {
+          "date": "2026-08-08",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0uMMLry3hzWGn3q3loqMkm",
+          "name": "La Bamba"
+        },
+        {
+          "id": "5eywEEGsC0UXsGnvviKGvw",
+          "name": "We Belong Together"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Los Lonely Boys",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-09",
+          "venue": "Uptown Theater"
+        },
+        {
+          "date": "2026-08-08",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1XcUn5PE9d42zWamWgRG2x",
+          "name": "Heaven"
+        },
+        {
+          "id": "2mQ1RBK7s87mdPCzh97RSH",
+          "name": "Heaven"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "losing streak",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-08",
+          "venue": "Neck of the Woods"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Spats"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1oZvHdF1eL8zdTOpt73Axp",
+          "name": "The Worst Place I've Walked Alone Is The Place Inside My Head"
+        },
+        {
+          "id": "1H5aKIDXWYWeZ6w6qybMub",
+          "name": "Freaky Keith"
         }
       ],
       "youtube": null
@@ -1148,8 +957,8 @@
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Catalyst Atrium"
+          "date": "2026-08-14",
+          "venue": "Chapel"
         },
         {
           "date": "2026-08-14",
@@ -1164,31 +973,6 @@
         {
           "id": "6C2a9gcMpAhIfssRBfVmly",
           "name": "Van Helsing Boombox"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Marlon Funaki",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-09",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2OqGfyw3dx6GikP01EwLYf",
-          "name": "Let You In"
-        },
-        {
-          "id": "6Az7DXdxCLUEiZFSMH7w0P",
-          "name": "Amends"
         }
       ],
       "youtube": null
@@ -1219,26 +1003,26 @@
       "youtube": null
     },
     {
-      "name": "Modest Mouse",
+      "name": "Minus Numbers",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2lwwrWVKdf3LR9lbbhnr6R",
-          "name": "Float On"
+          "id": "2ijiErnjG1RNnN627YnPF2",
+          "name": "Minus Numbers"
         },
         {
-          "id": "5vtRk4rYxiy4cj95cmJ5Ma",
-          "name": "Dramamine"
+          "id": "2hAC2l7YFxdWsGc658n4F2",
+          "name": "Terminal 2"
         }
       ],
       "youtube": null
@@ -1369,26 +1153,76 @@
       "youtube": null
     },
     {
-      "name": "PinkPantheress",
+      "name": "Penny And Sparrow",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Hopmonk Tavern"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-14",
+          "venue": "HopMonk - Novato Beer Garden"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4S4QJfBGGrC8jRIjJHf1Ka",
-          "name": "Pain"
+          "id": "3XnDbrxxtA40HPIIRWLgRT",
+          "name": "Eloise"
         },
         {
-          "id": "1DwscornXpj8fmOmYVlqZt",
-          "name": "Stateside + Zara Larsson"
+          "id": "3i9tuE2ltSIY3tmKhcoJB5",
+          "name": "Brothers"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Public Enemy",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-15",
+          "venue": "Stern Grove Festival"
+        },
+        {
+          "date": "2026-08-15",
+          "venue": "Stern Grove Park"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "48zajk3g8P3BMT7F9BbDoD",
+          "name": "He Got Game"
+        },
+        {
+          "id": "1yo16b3u0lptm6Cs7lx4AD",
+          "name": "Fight The Power"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Qualia",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-11",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-08-11",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3Z4lX3r3oX5f27HLALbdhp",
+          "name": "Road 415"
+        },
+        {
+          "id": "0rYAQa74KNHPcJdpEeZog7",
+          "name": "Blue Dream"
         }
       ],
       "youtube": null
@@ -1419,51 +1253,26 @@
       "youtube": null
     },
     {
-      "name": "Sierra Ferrell",
+      "name": "Scam Likely",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-15",
+          "venue": "Fifty's Liquor"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-10",
+          "venue": "Ivy Room"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "29mTi7k11emagueZvOaXgS",
-          "name": "Years"
+          "id": "6U4cuWy3L12YkWCSPyJDwj",
+          "name": "Domestic Bliss"
         },
         {
-          "id": "0ewKJ6eM0Z761OissISTW7",
-          "name": "In Dreams"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Silvana Estrada",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6zpMOUVDo9fpT37BLywSPl",
-          "name": "Antes De Ti"
-        },
-        {
-          "id": "42OqawcAj14gAsiDmCgfCj",
-          "name": "Como Un Pájaro"
+          "id": "1L3OQyGwGpnsnDglAnz8d5",
+          "name": "Nosebleed"
         }
       ],
       "youtube": null
@@ -1544,26 +1353,22 @@
       "youtube": null
     },
     {
-      "name": "Suver",
+      "name": "Sunshine",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Crown Coffee"
+          "date": "2026-08-09",
+          "venue": "Thrillhouse Records"
         },
         {
-          "date": "2026-08-09",
-          "venue": "Bottom of the Hill"
+          "date": "2026-08-15",
+          "venue": "Fifty's Liquor"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4UXHDe8v9DdaepMo2nnnQH",
-          "name": "Oslava života"
-        },
-        {
-          "id": "3hTUryaXa9iKtu0ES6EQeu",
-          "name": "Empatia (feat. Nicole)"
+          "id": "37d8O4cIq36tssCoJnhJxg",
+          "name": "Boogie Shoes - 2004 Remaster"
         }
       ],
       "youtube": null
@@ -1585,31 +1390,6 @@
         {
           "id": "1JHGJwhZ5GUGHx07jnN0WH",
           "name": "I Think She's Bad For You"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The Beat Farmers",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Hopmonk Tavern"
-        },
-        {
-          "date": "2026-08-08",
-          "venue": "Hopmonk Tavern Novato"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7vodJSkB9JcZ4yPknrcyUs",
-          "name": "Happy Boy - Remastered"
-        },
-        {
-          "id": "4eAS7rZn0h1U7m6655nmuZ",
-          "name": "Riverside"
         }
       ],
       "youtube": null
@@ -1640,126 +1420,101 @@
       "youtube": null
     },
     {
-      "name": "The Soul Rebels",
+      "name": "The Spits",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Siesta Valley Bowl"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Plaza de César Chávez"
+          "date": "2026-08-15",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2o79botVUBSnA7bKTXT4U3",
-          "name": "Sweet Dreams Are Made Of This"
+          "id": "5GjA0Zw30djBxmBOsmuONG",
+          "name": "Bring"
         },
         {
-          "id": "7GSRWFN6ThzMKGh6vqBZ1u",
-          "name": "504"
+          "id": "6cer3p2gE7QMgPPrPicykZ",
+          "name": "All I Want"
         }
       ],
       "youtube": null
     },
     {
-      "name": "The XX",
+      "name": "The Womack Sisters",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2usrT8QIbIk9y0NEtQwS4j",
-          "name": "Intro"
+          "id": "5lyLBXZXjHNX0wi5zy2Wrt",
+          "name": "If I Let You"
         },
         {
-          "id": "3zsRP8rH1kaIAo9fmiP4El",
-          "name": "Angels"
+          "id": "53XFu5ZXPyldc3MtfxEkDq",
+          "name": "Chauffeur"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Turnstile",
+      "name": "Thee Sacred Souls",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-15",
+          "venue": "Greek Theatre"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0kshHISCRGn9MwpkbqafG4",
-          "name": "BIRDS"
+          "id": "6IAuH3hgTRpUUdmOGubXGS",
+          "name": "Can I Call You Rose?"
         },
         {
-          "id": "0bGImSqDB2ebdeoCidUC8o",
-          "name": "BLACKOUT"
+          "id": "3W4xqKFMKBauuU517t8NIb",
+          "name": "Weak for Your Love"
         }
       ],
       "youtube": null
     },
     {
-      "name": "Wunderhorse",
+      "name": "Tijuana Panthers",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
+          "date": "2026-08-14",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "08xYVLIwKiAdWVBIRoVgj8",
-          "name": "Arizona"
+          "id": "1CrWgWlSOoLiwD2cbA6Zd8",
+          "name": "Creature"
         },
         {
-          "id": "1jJvNlkbQmtRpG9uIUpiYA",
-          "name": "Teal"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Yard Act",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-08",
-          "venue": "Outside Lands"
-        },
-        {
-          "date": "2026-08-07",
-          "venue": "Golden Gate Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2DQipMV2DpifJLEFoHiWDL",
-          "name": "Fiction"
-        },
-        {
-          "id": "26KwVbIh7uWnHBfEVfVar8",
-          "name": "New Beginnings"
+          "id": "3FHJeTM7CFwMa6J6zOywGE",
+          "name": "Boardwalk"
         }
       ],
       "youtube": null
@@ -1781,6 +1536,27 @@
         {
           "id": "2srjOSav4CrWCRJaD4BQ3O",
           "name": "Row Row Row"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "1-800 Girls",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-08",
+          "venue": "Outside Lands"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0dlrTpcU6rkElbDhPw4SUO",
+          "name": "trust me"
+        },
+        {
+          "id": "4akb3UnPEbDpUBc8JdQ5ED",
+          "name": "sometimes"
         }
       ],
       "youtube": null
@@ -1828,6 +1604,48 @@
       "youtube": null
     },
     {
+      "name": "310babii",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-13",
+          "venue": "Habbas Law Epicenter at Paypal Park"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5C8h9PY9oTneqJihbn10NB",
+          "name": "soak city (do it)"
+        },
+        {
+          "id": "779jpZikRmH99DiSVpwCHD",
+          "name": "soak city (do it)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "311",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-15",
+          "venue": "Pavilion"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "51UtgWS4z1eMPuLQOzPtNH",
+          "name": "Amber"
+        },
+        {
+          "id": "6Fe3Flc9SjE03pqwD6PVQl",
+          "name": "Amber"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "A La Tata",
       "showCount": 1,
       "shows": [
@@ -1870,6 +1688,27 @@
       "youtube": null
     },
     {
+      "name": "Abstract Rude",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-14",
+          "venue": "Quarry Amphitheater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3X7UMI2WmZvVntzFw4NB8w",
+          "name": "The Solution"
+        },
+        {
+          "id": "7ImsGwDLfWJ131G2C6kA6S",
+          "name": "Coolin'"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Acid Tongue",
       "showCount": 1,
       "shows": [
@@ -1886,6 +1725,27 @@
         {
           "id": "4xlU1gEhxBaSa8Au1ZBSNd",
           "name": "Watching Over You"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Adam Ant",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-15",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2oJuoAFzlEHDS0moF0VtuA",
+          "name": "Wonderful"
+        },
+        {
+          "id": "4Aj9ptiGlLl3CidNeK1nVi",
+          "name": "Strip - Single Version"
         }
       ],
       "youtube": null
@@ -1962,6 +1822,44 @@
         {
           "id": "1oAwsWBovWRIp7qLMGPIet",
           "name": "Apocalypse"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Afterthought aka AFT",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-14",
+          "venue": "The Independent"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7wgcx0Q7HnJlpAFjTXgiT0",
+          "name": "Must Be Blessed (feat. seiji oda, MiDi, Frisco Baby & Eytan Schillinger-Hyman)"
+        },
+        {
+          "id": "7yxQD2wN5vphDJ7r22CSNN",
+          "name": "Same Place (feat. Shah Leezy)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Aggravated Assault",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-15",
+          "venue": "Danny Murry's"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3bMgtxKQrWoLWQzhIhgJaR",
+          "name": "Who Ride"
         }
       ],
       "youtube": null
@@ -2051,48 +1949,6 @@
       "youtube": null
     },
     {
-      "name": "Alien Blut",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Phoenix Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7nJfx8dnWz8G4bpx9nQy9O",
-          "name": "Junip"
-        },
-        {
-          "id": "36WdNG28tpF5tS9Homkpnh",
-          "name": "Salagne"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Alleycvt",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-07",
-          "venue": "Outside Lands"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "46ghb0YdtspAFUtmxtNgNo",
-          "name": "FEEL IT"
-        },
-        {
-          "id": "2HGWEdmzqykDOKbAxRd1JE",
-          "name": "BELIEVE"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Alphabet Soup",
       "showCount": 1,
       "shows": [
@@ -2135,6 +1991,48 @@
       "youtube": null
     },
     {
+      "name": "Amble",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-09",
+          "venue": "Outside Lands"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5D2AaNj4RfxSbHTSYjbb4E",
+          "name": "Moral Victory"
+        },
+        {
+          "id": "3P9AM7Sm5DwwzGlTOwwCVl",
+          "name": "Tonnta"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "American Culture",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-15",
+          "venue": "Eli's Mile High Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6CkEzVzmVgiNSJEvbFl0Og",
+          "name": "Let It Go"
+        },
+        {
+          "id": "5YDJAG4rfagJ1hjhtLGffk",
+          "name": "Let It Go"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "American Diet",
       "showCount": 1,
       "shows": [
@@ -2151,6 +2049,27 @@
         {
           "id": "6NqlSOxzyVbyQotekXmvbD",
           "name": "False Prophet"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Andres Miguel Cervantes",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-13",
+          "venue": "Ivy Room"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1ie7QidVH3sTfOjJ2WGDGD",
+          "name": "The Drinking Coffee Song"
+        },
+        {
+          "id": "0BHd0yy7jQFJWsCItGM1GA",
+          "name": "The Crossing"
         }
       ],
       "youtube": null
