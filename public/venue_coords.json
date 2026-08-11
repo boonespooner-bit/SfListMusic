@@ -8148,5 +8148,65 @@
     "name": "Moe's Alley",
     "lat": null,
     "lng": null
+  },
+  "http://www.songkick.com/concerts/43360402-el-duo-at-harlan-records?utm_medium=organic&utm_source=microformat": {
+    "name": "Harlan Records",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43247231-violet-grohl-at-popscene-rickshaw-stop?utm_medium=organic&utm_source=microformat": {
+    "name": "Popscene @ Rickshaw Stop",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43287833-wldlfe-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/concerts/43082315-gorillaz-at-oakland-arena?utm_medium=organic&utm_source=microformat": {
+    "name": "Oakland Arena",
+    "lat": 37.7502734,
+    "lng": -122.2029323
+  },
+  "http://www.songkick.com/concerts/43270985-phoebe-bridgers-at-chase-center?utm_medium=organic&utm_source=microformat": {
+    "name": "Chase Center",
+    "lat": 37.7679001,
+    "lng": -122.3874223
+  },
+  "http://www.songkick.com/concerts/43181497-geazy-at-shoreline-amphitheatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Shoreline Amphitheatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43140342-foreigner-at-mountain-winery?utm_medium=organic&utm_source=microformat": {
+    "name": "Mountain Winery",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43311169-slow-pulp-at-fillmore?utm_medium=organic&utm_source=microformat": {
+    "name": "The Fillmore",
+    "lat": 37.7840838,
+    "lng": -122.433171
+  },
+  "http://www.songkick.com/concerts/43274870-we-are-scientists-at-rickshaw-stop?utm_medium=organic&utm_source=microformat": {
+    "name": "Rickshaw Stop",
+    "lat": 37.7759904,
+    "lng": -122.4204754
+  },
+  "http://www.songkick.com/concerts/43227570-ax-and-the-hatchetmen-at-august-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "http://www.songkick.com/concerts/43279534-great-lake-swimmers-at-cafe-du-nord?utm_medium=organic&utm_source=microformat": {
+    "name": "Café du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "http://www.songkick.com/concerts/43313709-freak-slug-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
   }
 }
