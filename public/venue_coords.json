@@ -8338,5 +8338,25 @@
     "name": "Fox Theater",
     "lat": 37.8081438,
     "lng": -122.2705153
+  },
+  "club.html#amoeba_records": {
+    "name": "Amoeba Records",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#memorial_park": {
+    "name": "Memorial Park",
+    "lat": 37.7623087,
+    "lng": -122.4362715
+  },
+  "http://www.songkick.com/concerts/43243759-son-rompe-pera-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/concerts/43364276-pendulum-at-1015-folsom?utm_medium=organic&utm_source=microformat": {
+    "name": "1015 Folsom",
+    "lat": 37.7780411,
+    "lng": -122.405683
   }
 }
