@@ -8523,5 +8523,55 @@
     "name": "Great American Music Hall",
     "lat": 37.7847659,
     "lng": -122.4188356
+  },
+  "club.html#hotel_utal": {
+    "name": "Hotel Utal",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43361365-larussell-at-unknown-venue?utm_medium=organic&utm_source=microformat": {
+    "name": "Benicia",
+    "lat": 38.0520635,
+    "lng": -122.163703
+  },
+  "http://www.songkick.com/concerts/43369816-44go-at-knockout?utm_medium=organic&utm_source=microformat": {
+    "name": "The Knockout",
+    "lat": 37.7451841,
+    "lng": -122.4199903
+  },
+  "http://www.songkick.com/concerts/43368782-orville-peck-at-castro-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Castro Theatre",
+    "lat": 37.7619914,
+    "lng": -122.43475
+  },
+  "http://www.songkick.com/concerts/43231145-xg-at-oakland-arena?utm_medium=organic&utm_source=microformat": {
+    "name": "Oakland Arena",
+    "lat": 37.7502734,
+    "lng": -122.2029323
+  },
+  "http://www.songkick.com/concerts/43241687-olivia-obrien-at-august-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "http://www.songkick.com/concerts/43365377-missio-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43353146-prince-daddy-and-the-hyena-at-ritz?utm_medium=organic&utm_source=microformat": {
+    "name": "The Ritz",
+    "lat": 37.7918675,
+    "lng": -122.4070823
+  },
+  "http://www.songkick.com/concerts/43340698-sex-mex-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43206134-taylor-bickett-at-hotel-utah-saloon?utm_medium=organic&utm_source=microformat": {
+    "name": "Hotel Utah Saloon",
+    "lat": 37.7793831,
+    "lng": -122.3981059
   }
 }
