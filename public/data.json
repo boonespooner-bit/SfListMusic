@@ -1,912 +1,7 @@
 {
-  "updated": "2026-08-17T06:25:57.504474+00:00",
+  "updated": "2026-08-18T06:20:02.438288+00:00",
   "source": "https://jon.luini.com/thelist/date.html",
   "shows": [
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Ink And Dagger",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Ink+And+Dagger"
-        },
-        {
-          "name": "Le Shok",
-          "spotifyUrl": "https://open.spotify.com/artist/0xZTwWYmwR47nvglvPM7QT",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Le+Shok"
-        },
-        {
-          "name": "X-Acto",
-          "spotifyUrl": "https://open.spotify.com/artist/4PmzyGxVPd4oBfTGJ7KfJr",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=X-Acto"
-        },
-        {
-          "name": "film screening of \"The Order\"",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=film+screening+of+\"The+Order\""
-        }
-      ],
-      "venue": {
-        "name": "Gilman",
-        "url": "club.html#gilman"
-      },
-      "age": "all ages",
-      "price": "$25",
-      "doors": "5:30pm",
-      "show": "6pm",
-      "symbols": [],
-      "notes": "/ screening/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Three Towers",
-          "spotifyUrl": "https://open.spotify.com/artist/5yuG0b1cPfcXnksXY7qxoI",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Three+Towers"
-        },
-        {
-          "name": "Gob Patrol",
-          "spotifyUrl": "https://open.spotify.com/artist/7vd1yv8UtGvF7v6X5ARNCh",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Gob+Patrol"
-        },
-        {
-          "name": "Sexpiot",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Sexpiot"
-        },
-        {
-          "name": "Oceans Of Ash",
-          "spotifyUrl": "https://open.spotify.com/artist/73Fa7Rm4R1BwuJHhv7xCSF",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Oceans+Of+Ash"
-        },
-        {
-          "name": "Earth Abides",
-          "spotifyUrl": "https://open.spotify.com/artist/0409jHvphfRL5J29DaXYoc",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Earth+Abides"
-        }
-      ],
-      "venue": {
-        "name": "Pussy Palace",
-        "url": "club.html#pussy_palace"
-      },
-      "age": "all ages",
-      "price": "$15",
-      "doors": "3pm",
-      "show": "4pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Casper The Hoax",
-          "spotifyUrl": "https://open.spotify.com/artist/7kjiPJvzsmT7J7vn8TmzlX",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Casper+The+Hoax"
-        },
-        {
-          "name": "Foglamp",
-          "spotifyUrl": "https://open.spotify.com/artist/4CKW60dk6drLIxwDrrVdqo",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Foglamp"
-        },
-        {
-          "name": "Ex-Heir",
-          "spotifyUrl": "https://open.spotify.com/artist/2B2pOuDilA7MNuvovHASc2",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Ex-Heir"
-        }
-      ],
-      "venue": {
-        "name": "Purple House",
-        "url": "club.html#purple_house"
-      },
-      "age": "all ages",
-      "price": "$10",
-      "doors": "7:30pm",
-      "show": null,
-      "symbols": []
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Dissociation",
-          "spotifyUrl": "https://open.spotify.com/artist/0YGSFqrSMZedmWxYv3GXQH",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Dissociation"
-        },
-        {
-          "name": "Enthrall",
-          "spotifyUrl": "https://open.spotify.com/artist/4X30cHnqtMTysXMMaYHbr6",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Enthrall"
-        },
-        {
-          "name": "Tashow",
-          "spotifyUrl": "https://open.spotify.com/artist/2rA6auTiIFY7QcrGgut6AF",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Tashow"
-        },
-        {
-          "name": "Panhandlers Union",
-          "spotifyUrl": "https://open.spotify.com/artist/1XecLEaSEYifxJ2yGkwRHN",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Panhandlers+Union"
-        },
-        {
-          "name": "Nooooizeee",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Nooooizeee"
-        },
-        {
-          "name": "Halfway Through Omega",
-          "spotifyUrl": "https://open.spotify.com/artist/1WhgcsoBgUGJUixHU98OMl",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Halfway+Through+Omega"
-        },
-        {
-          "name": "Strawberry Farms",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Strawberry+Farms"
-        },
-        {
-          "name": "Emotional Goldfish",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Emotional+Goldfish"
-        }
-      ],
-      "venue": {
-        "name": "Oakland Secret Gallery",
-        "url": "club.html#oakland_secret_gallery"
-      },
-      "age": "all ages",
-      "price": "$10",
-      "symbols": [],
-      "notes": "noon"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Hillbomb",
-          "spotifyUrl": "https://open.spotify.com/artist/5wTOPWmW012wvsxDI7Bztc",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Hillbomb"
-        },
-        {
-          "name": "Aetneonix",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Aetneonix"
-        }
-      ],
-      "venue": {
-        "name": "Waterfront Rodeo",
-        "url": "club.html#waterfront_rodeo"
-      },
-      "age": "all ages",
-      "price": "$5",
-      "doors": "3pm",
-      "show": null,
-      "symbols": []
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Amerie",
-          "spotifyUrl": "https://open.spotify.com/artist/08rMCq2ek1YjdDBsCPVH2s",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Amerie"
-        },
-        {
-          "name": "Fey",
-          "spotifyUrl": "https://open.spotify.com/artist/3uC20p2EoNm5LYtzSVWdkL",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Fey"
-        },
-        {
-          "name": "Lady Alma",
-          "spotifyUrl": "https://open.spotify.com/artist/61DvlgEM6AtszTLLPP4diu",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Lady+Alma"
-        },
-        {
-          "name": "Chrissy Chlapecka",
-          "spotifyUrl": "https://open.spotify.com/artist/7L5no8Dp7Y2Gk0L1JIWj9S",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Chrissy+Chlapecka"
-        },
-        {
-          "name": "Terrell Carter",
-          "spotifyUrl": "https://open.spotify.com/artist/4slqmBm48YTltzDWUvQju6",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Terrell+Carter"
-        },
-        {
-          "name": "Star Amerasu",
-          "spotifyUrl": "https://open.spotify.com/artist/5KeTqUR48eqXCpvEHQm7P6",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Star+Amerasu"
-        },
-        {
-          "name": "La Cruz",
-          "spotifyUrl": "https://open.spotify.com/artist/6U4TcvAHuizFqLcWXiMkRD",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=La+Cruz"
-        },
-        {
-          "name": "Gala Varo",
-          "spotifyUrl": "https://open.spotify.com/artist/0aDajehGXkQbLkFW40am6D",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Gala+Varo"
-        },
-        {
-          "name": "Nyte Skool",
-          "spotifyUrl": "https://open.spotify.com/artist/0NHaREUxpANSkRxUknn1hV",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Nyte+Skool"
-        }
-      ],
-      "venue": {
-        "name": "Oakland Pride",
-        "url": "club.html#oakland_pride"
-      },
-      "age": "all ages",
-      "price": "$22.56",
-      "symbols": [],
-      "notes": "( 60+ / free 12 and under) noon"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Passion Pit",
-          "spotifyUrl": "https://open.spotify.com/artist/7gjAu1qr5C2grXeQFFOGeh",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Passion+Pit"
-        },
-        {
-          "name": "Arden Jones",
-          "spotifyUrl": "https://open.spotify.com/artist/3mMogqf2JyBUQZxFZlC79w",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Arden+Jones"
-        },
-        {
-          "name": "Arden Jones",
-          "spotifyUrl": "https://open.spotify.com/artist/3mMogqf2JyBUQZxFZlC79w",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Arden+Jones"
-        }
-      ],
-      "venue": {
-        "name": "Fox Theater",
-        "url": "club.html#fox_theater"
-      },
-      "age": "all ages",
-      "price": "$56.25",
-      "doors": "6:30pm",
-      "show": "7:30pm",
-      "symbols": [
-        "#"
-      ],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "record swap",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=record+swap"
-        }
-      ],
-      "venue": {
-        "name": "Faction Brewing",
-        "url": "club.html#faction_brewing"
-      },
-      "age": "all ages",
-      "doors": "11am",
-      "show": "5pm",
-      "symbols": [],
-      "notes": "til"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "The Ogers",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Ogers"
-        },
-        {
-          "name": "Clean Girl And The Dirty Dishes",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Clean+Girl+And+The+Dirty+Dishes"
-        },
-        {
-          "name": "Swiss Family Skiers",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Swiss+Family+Skiers"
-        },
-        {
-          "name": "Electro Lucks",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Electro+Lucks"
-        },
-        {
-          "name": "Salted",
-          "spotifyUrl": "https://open.spotify.com/artist/3hVP2GXX5arhj0k7YOKhtr",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Salted"
-        },
-        {
-          "name": "Stompin Riffraffs",
-          "spotifyUrl": "https://open.spotify.com/artist/6eOrklKsWJsidyrjqTwOtn",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Stompin+Riffraffs"
-        },
-        {
-          "name": "The Vaxxines",
-          "spotifyUrl": "https://open.spotify.com/artist/4HQ6RvPuOqyMyJ3uHSSEh2",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Vaxxines"
-        },
-        {
-          "name": "Houndsman",
-          "spotifyUrl": "https://open.spotify.com/artist/04Xc7e2A8oWtF7WbLghFzv",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Houndsman"
-        },
-        {
-          "name": "Cape Fury",
-          "spotifyUrl": "https://open.spotify.com/artist/6E0EgClUBbcQnVuB79reIY",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Cape+Fury"
-        },
-        {
-          "name": "The Ifics",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Ifics"
-        },
-        {
-          "name": "Untitled Band",
-          "spotifyUrl": "https://open.spotify.com/artist/4gfu5YxjKlaDWdnJ7VAM1I",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Untitled+Band"
-        },
-        {
-          "name": "dj Daddy-O-Nov",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=dj+Daddy-O-Nov"
-        }
-      ],
-      "venue": {
-        "name": "Spats",
-        "url": "club.html#spats"
-      },
-      "age": "all ages",
-      "price": "$20",
-      "doors": "2pm",
-      "show": null,
-      "symbols": [],
-      "notes": "(Bargain Rock Fest)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "King Tritone",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=King+Tritone"
-        }
-      ],
-      "venue": {
-        "name": "City Hall",
-        "url": "club.html#city_hall"
-      },
-      "age": "all ages",
-      "doors": "5pm",
-      "show": "6pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Aaron Burnham & The Brushfires",
-          "spotifyUrl": "https://open.spotify.com/artist/6GiH3ilrS6EcQUdU6Bvvdt",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Aaron+Burnham+&+The+Brushfires"
-        },
-        {
-          "name": "Josiah Flores",
-          "spotifyUrl": "https://open.spotify.com/artist/60bzbKU57BKRiFcQAydVKj",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Josiah+Flores"
-        },
-        {
-          "name": "Beckylin",
-          "spotifyUrl": "https://open.spotify.com/artist/0tWoFlDXF9gsbXMmCpBCl3",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Beckylin"
-        },
-        {
-          "name": "Leigh Crow",
-          "spotifyUrl": "https://open.spotify.com/artist/1OYNpmpfOWSdVeeQtptYLa",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Leigh+Crow"
-        },
-        {
-          "name": "Eric Shea",
-          "spotifyUrl": "https://open.spotify.com/artist/2zy98iQcwOIqAQMKrIqr3n",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Eric+Shea"
-        },
-        {
-          "name": "Ruby Lee Hill",
-          "spotifyUrl": "https://open.spotify.com/artist/5oZApz7MMF8zrtupiWGnkD",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Ruby+Lee+Hill"
-        },
-        {
-          "name": "Glen Earl Brown",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Glen+Earl+Brown"
-        },
-        {
-          "name": "Brian Mello",
-          "spotifyUrl": "https://open.spotify.com/artist/7zNlMc5oCv5AArhY3h8qXj",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Brian+Mello"
-        },
-        {
-          "name": "Sunny The Banjo Witch",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Sunny+The+Banjo+Witch"
-        },
-        {
-          "name": "dj Hawk Valentine",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=dj+Hawk+Valentine"
-        }
-      ],
-      "venue": {
-        "name": "Ivy Room",
-        "url": "club.html#ivy_room"
-      },
-      "price": "$15/",
-      "doors": "2pm",
-      "show": "3pm",
-      "symbols": [],
-      "notes": "21+ /"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Niblits",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Niblits"
-        },
-        {
-          "name": "Bad Angle",
-          "spotifyUrl": "https://open.spotify.com/artist/0CE6NDkTO2zTnMYApEDiOS",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Angle"
-        },
-        {
-          "name": "Step Up!",
-          "spotifyUrl": "https://open.spotify.com/artist/4OecTijf09BhmmjwLusJhb",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Step+Up!"
-        },
-        {
-          "name": "Freshman Cannibals",
-          "spotifyUrl": "https://open.spotify.com/artist/7GeRL3JKlGUGUl0ImR985M",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Freshman+Cannibals"
-        }
-      ],
-      "venue": {
-        "name": "Hotel Utal",
-        "url": "club.html#hotel_utal"
-      },
-      "age": "all ages",
-      "doors": "3pm",
-      "show": null,
-      "symbols": [],
-      "notes": "( matinee)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Veotis",
-          "spotifyUrl": "https://open.spotify.com/artist/4Cq8IFXARnAG3DC9aXv3Qk",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Veotis"
-        }
-      ],
-      "venue": {
-        "name": "Amoeba Music",
-        "url": "club.html#amoeba_music"
-      },
-      "age": "all ages",
-      "doors": "2pm",
-      "show": null,
-      "symbols": [],
-      "notes": "free"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Marc Capelle",
-          "spotifyUrl": "https://open.spotify.com/artist/5zVD7xuW4ChyJtLi12ySXa",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Marc+Capelle"
-        },
-        {
-          "name": "Karen Stackpole",
-          "spotifyUrl": "https://open.spotify.com/artist/289h0mTl0sJuqCv2lWtDyR",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Karen+Stackpole"
-        },
-        {
-          "name": "Amanda Duarte",
-          "spotifyUrl": "https://open.spotify.com/artist/5zzGiWEXADVvEzkOYeJuln",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Amanda+Duarte"
-        },
-        {
-          "name": "dj Lead Teddy",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=dj+Lead+Teddy"
-        }
-      ],
-      "venue": {
-        "name": "Great American Music Hall",
-        "url": "club.html#great_american_music_hall"
-      },
-      "age": "all ages",
-      "price": "$20/",
-      "doors": "3pm",
-      "show": "4pm",
-      "symbols": [],
-      "notes": "/ (fully seated)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Dona Casque",
-          "spotifyUrl": "https://open.spotify.com/artist/71IuSu8PZNuKgLOjPESG8K",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Dona+Casque"
-        },
-        {
-          "name": "Brickwall",
-          "spotifyUrl": "https://open.spotify.com/artist/6r8kkfGaEuwBk9joBUvod8",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Brickwall"
-        },
-        {
-          "name": "Nick Normal",
-          "spotifyUrl": "https://open.spotify.com/artist/7HXTps3CU3cgoe2m3US1GT",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Nick+Normal"
-        },
-        {
-          "name": "Edgar",
-          "spotifyUrl": "https://open.spotify.com/artist/0mA4dkNGiN4fqTBi2SLlAv",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Edgar"
-        }
-      ],
-      "venue": {
-        "name": "Natural Batting Cage",
-        "url": "club.html#natural_batting_cage"
-      },
-      "age": "all ages",
-      "price": "$15",
-      "doors": "8pm",
-      "show": null,
-      "symbols": []
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "The Cradle",
-          "spotifyUrl": "https://open.spotify.com/artist/0UeobiVDEhMVvaUa5fBnbT",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Cradle"
-        },
-        {
-          "name": "Financial Collapse",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Financial+Collapse"
-        },
-        {
-          "name": "Tristan O'Shea",
-          "spotifyUrl": "https://open.spotify.com/artist/3X7lm99R5tIOxTysaod7Um",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Tristan+O'Shea"
-        },
-        {
-          "name": "Breakfast Dog",
-          "spotifyUrl": "https://open.spotify.com/artist/6D92vjAsfLlRGMX2x5NxrW",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Breakfast+Dog"
-        }
-      ],
-      "venue": {
-        "name": "Mercury Cafe",
-        "url": "club.html#mercury_cafe"
-      },
-      "age": "all ages",
-      "price": "$15",
-      "doors": "6:30pm",
-      "show": null,
-      "symbols": []
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "David Kikoski Jazz All-Star 4tet",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=David+Kikoski+Jazz+All-Star+4tet"
-        }
-      ],
-      "venue": {
-        "name": "Black Cat",
-        "url": "club.html#black_cat"
-      },
-      "age": "all ages",
-      "price": "$40",
-      "doors": "7pm",
-      "show": "9:30pm",
-      "symbols": [],
-      "notes": "and"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Elliott Peck & Friends",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Elliott+Peck+&+Friends"
-        },
-        {
-          "name": "Combo Tezeta",
-          "spotifyUrl": "https://open.spotify.com/artist/76I8mgVs1YdidHnGaJXCND",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Combo+Tezeta"
-        },
-        {
-          "name": "Michael Michael Motorcycle",
-          "spotifyUrl": "https://open.spotify.com/artist/6r62Wh3NGKYdw9UMtUY0iW",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Michael+Michael+Motorcycle"
-        },
-        {
-          "name": "Members Of Circus Bella",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Members+Of+Circus+Bella"
-        }
-      ],
-      "venue": {
-        "name": "Presidio Theater",
-        "url": "club.html#presidio_theater"
-      },
-      "age": "all ages",
-      "price": "$25",
-      "doors": "2pm",
-      "show": null,
-      "symbols": [],
-      "notes": "(17 & under free)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Al Green",
-          "spotifyUrl": "https://open.spotify.com/artist/3dkbV4qihUeMsqN4vBGg93",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Al+Green"
-        },
-        {
-          "name": "Goapele",
-          "spotifyUrl": "https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Goapele"
-        },
-        {
-          "name": "The Glide Ensemble",
-          "spotifyUrl": "https://open.spotify.com/artist/1csry7Q7emhloXkPjVRdxV",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Glide+Ensemble"
-        },
-        {
-          "name": "dj Wonway Posibul",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=dj+Wonway+Posibul"
-        }
-      ],
-      "venue": {
-        "name": "Stern Grove Festival",
-        "url": "club.html#stern_grove_festival"
-      },
-      "age": "all ages",
-      "doors": "2pm",
-      "show": "1pm",
-      "symbols": [],
-      "notes": "free noon/ ( dj)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Dillinger Four",
-          "spotifyUrl": "https://open.spotify.com/artist/4YAN46l70QV0PGXlMg0iHi",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Dillinger+Four"
-        },
-        {
-          "name": "Off With Their Heads",
-          "spotifyUrl": "https://open.spotify.com/artist/5oPflNEIhaZ8pFJWxMZtDv",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Off+With+Their+Heads"
-        },
-        {
-          "name": "Mermaid Island",
-          "spotifyUrl": "https://open.spotify.com/artist/7iGEsQzSOaEhXNgTSKfqSS",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Mermaid+Island"
-        }
-      ],
-      "venue": {
-        "name": "Bottom of the Hill",
-        "url": "club.html#bottom_of_the_hill"
-      },
-      "age": "all ages",
-      "price": "$36.91/",
-      "doors": "7:30pm",
-      "show": "8:30pm",
-      "symbols": [
-        "@"
-      ],
-      "notes": "/ (sold out)"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Travie Bobbito",
-          "spotifyUrl": "https://open.spotify.com/artist/32n4zX4UnbeQK7PKCuY090",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Travie+Bobbito"
-        },
-        {
-          "name": "King Most",
-          "spotifyUrl": "https://open.spotify.com/artist/2ACxNJPdk6VL7kTZs6VMCD",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=King+Most"
-        },
-        {
-          "name": "Bella D. & Friends",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Bella+D.+&+Friends"
-        }
-      ],
-      "venue": {
-        "name": "Chapel Outdoor State",
-        "url": "club.html#chapel_outdoor_state"
-      },
-      "price": "$15/",
-      "doors": "3:30pm",
-      "show": "2pm",
-      "symbols": [],
-      "notes": "21+ (free before with rsvp) / til"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Mitch Rocket",
-          "spotifyUrl": "https://open.spotify.com/artist/4hOU4Ja3ZWkDwpL9Dr4fBT",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Mitch+Rocket"
-        },
-        {
-          "name": "Meditative Sun",
-          "spotifyUrl": "https://open.spotify.com/artist/14FJFFHHKLYJmTPtexWmmu",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Meditative+Sun"
-        },
-        {
-          "name": "Spencer Noble",
-          "spotifyUrl": "https://open.spotify.com/artist/0OO5aNTzz6G9OUWoThHzBn",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Spencer+Noble"
-        },
-        {
-          "name": "Calico Moon",
-          "spotifyUrl": "https://open.spotify.com/artist/1duuDj0hhKP97gydyVbZnl",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Calico+Moon"
-        }
-      ],
-      "venue": {
-        "name": "Knockout",
-        "url": "club.html#knockout"
-      },
-      "price": "$10",
-      "doors": "5pm",
-      "show": "6pm",
-      "symbols": [],
-      "notes": "21+ /"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Gipsy Kings",
-          "spotifyUrl": "https://open.spotify.com/artist/3jc496ljiyrS3ECrD7QiqL",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Gipsy+Kings"
-        }
-      ],
-      "venue": {
-        "name": "Meritage Resort",
-        "url": "club.html#meritage_resort"
-      },
-      "doors": "5:30pm",
-      "show": "7pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Ani Difranco",
-          "spotifyUrl": "https://open.spotify.com/artist/0AiTwNtYX8m4uhfU7rJ8RD",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Ani+Difranco"
-        },
-        {
-          "name": "Valerie June",
-          "spotifyUrl": "https://open.spotify.com/artist/4QZdOCb3UacKbQ1ybDFAKM",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Valerie+June"
-        }
-      ],
-      "venue": {
-        "name": "Gundlach Bundschu Winery",
-        "url": "club.html#gundlach_bundschu_winery"
-      },
-      "age": "all ages",
-      "price": "$94.07",
-      "doors": "5:30pm",
-      "show": "6:30pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "The Head And The Heart",
-          "spotifyUrl": "https://open.spotify.com/artist/0n94vC3S9c3mb2HyNAOcjg",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Head+And+The+Heart"
-        }
-      ],
-      "venue": {
-        "name": "Mountain Winery",
-        "url": "club.html#mountain_winery"
-      },
-      "age": "all ages",
-      "doors": "5:30pm",
-      "show": "7:30pm",
-      "symbols": [],
-      "notes": "/"
-    },
-    {
-      "date": "2026-08-16",
-      "dayName": "sun",
-      "bands": [
-        {
-          "name": "Rip Floreneze",
-          "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Rip+Floreneze"
-        },
-        {
-          "name": "India",
-          "spotifyUrl": "https://open.spotify.com/artist/3NIZFmehJM8YiGpCdihlck",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=India"
-        },
-        {
-          "name": "This Never Happened",
-          "spotifyUrl": "https://open.spotify.com/artist/3h02Ri42sdi6XqqQYfLzO8",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=This+Never+Happened"
-        }
-      ],
-      "venue": {
-        "name": "Subrosa",
-        "url": "club.html#subrosa"
-      },
-      "age": "all ages",
-      "price": "$7",
-      "doors": "7pm",
-      "show": null,
-      "symbols": []
-    },
     {
       "date": "2026-08-17",
       "dayName": "mon",
@@ -2347,9 +1442,9 @@
           "youtubeUrl": "https://www.youtube.com/results?search_query=Ante"
         },
         {
-          "name": "Intodust across bredge from New Leafe",
+          "name": "Intodust across bridge from New Leafe",
           "spotifyUrl": null,
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Intodust+across+bredge+from+New+Leafe"
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Intodust+across+bridge+from+New+Leafe"
         }
       ],
       "venue": {
@@ -2364,6 +1459,36 @@
         "@"
       ],
       "notes": "/"
+    },
+    {
+      "date": "2026-08-20",
+      "dayName": "thu",
+      "bands": [
+        {
+          "name": "David Coffey",
+          "spotifyUrl": "https://open.spotify.com/artist/4lokOxepxa0IjM3EejdM4U",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=David+Coffey"
+        },
+        {
+          "name": "Ember Nugent",
+          "spotifyUrl": "https://open.spotify.com/artist/000qPrZbJLXhPAP4KzSfge",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Ember+Nugent"
+        },
+        {
+          "name": "Gay Eldest Daughter",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Gay+Eldest+Daughter"
+        }
+      ],
+      "venue": {
+        "name": "Subrosa",
+        "url": "club.html#subrosa"
+      },
+      "age": "all ages",
+      "price": "$10",
+      "doors": "7pm",
+      "show": null,
+      "symbols": []
     },
     {
       "date": "2026-08-20",
@@ -3544,6 +2669,26 @@
         "#"
       ],
       "notes": "/"
+    },
+    {
+      "date": "2026-08-21",
+      "dayName": "fri",
+      "bands": [
+        {
+          "name": "Rushadicus",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Rushadicus"
+        }
+      ],
+      "venue": {
+        "name": "Subrosa",
+        "url": "club.html#subrosa"
+      },
+      "age": "all ages",
+      "price": "$15",
+      "doors": "8pm",
+      "show": null,
+      "symbols": []
     },
     {
       "date": "2026-08-21",
@@ -5071,6 +4216,36 @@
       "dayName": "sat",
       "bands": [
         {
+          "name": "Worship",
+          "spotifyUrl": "https://open.spotify.com/artist/2XwzOjflBH4r0vsiHwD0x4",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Worship"
+        },
+        {
+          "name": "Name",
+          "spotifyUrl": "https://open.spotify.com/artist/3XPI2Rik4spEoO1VW3fHk7",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Name"
+        },
+        {
+          "name": "Stumpgrinder",
+          "spotifyUrl": "https://open.spotify.com/artist/5hkLpi5Xs0KNdRX0eZWvII",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Stumpgrinder"
+        }
+      ],
+      "venue": {
+        "name": "Jury Room",
+        "url": "club.html#jury_room"
+      },
+      "price": "$10",
+      "doors": "9pm",
+      "show": null,
+      "symbols": [],
+      "notes": "21+"
+    },
+    {
+      "date": "2026-08-22",
+      "dayName": "sat",
+      "bands": [
+        {
           "name": "CANCELLED: Oliver Tree",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=CANCELLED:+Oliver+Tree"
@@ -5147,6 +4322,11 @@
           "name": "Arrival From Sweden",
           "spotifyUrl": null,
           "youtubeUrl": "https://www.youtube.com/results?search_query=Arrival+From+Sweden"
+        },
+        {
+          "name": "You Should Be Dancing",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=You+Should+Be+Dancing"
         }
       ],
       "venue": {
@@ -21278,6 +20458,11 @@
           "name": "Speed Of Light",
           "spotifyUrl": "https://open.spotify.com/artist/3cNtvAs3DPIj46Z5BOU4fD",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Speed+of+Light"
+        },
+        {
+          "name": "Elias",
+          "spotifyUrl": "https://open.spotify.com/artist/0jzWxSQnSjXavXGCvuZY95",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Elias"
         }
       ],
       "venue": {
@@ -37558,54 +36743,6 @@
       "notes": "6+ /"
     },
     {
-      "date": "2026-08-17",
-      "dayName": "Monday",
-      "bands": [
-        {
-          "name": "Cat Power",
-          "spotifyUrl": "https://open.spotify.com/artist/6G7OerKc3eBO9sVkRNopFC",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Cat+Power"
-        }
-      ],
-      "venue": {
-        "name": "Guild Theatre",
-        "url": "http://www.songkick.com/concerts/43075873-cat-power-at-guild-theatre?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
-      "date": "2026-08-17",
-      "dayName": "Monday",
-      "bands": [
-        {
-          "name": "Azure McCall",
-          "spotifyUrl": "https://open.spotify.com/artist/6LHlWpDuTz6oWM7hWkOT1H",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Azure+McCall"
-        }
-      ],
-      "venue": {
-        "name": "Yoshi's",
-        "url": "http://www.songkick.com/concerts/43140444-azure-mccall-at-yoshis?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
-      "date": "2026-08-17",
-      "dayName": "Monday",
-      "bands": [
-        {
-          "name": "Open Mic Night",
-          "spotifyUrl": "https://open.spotify.com/artist/0FpSIPcN4asFqUA23wzgtG",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=open+mic+night"
-        }
-      ],
-      "venue": {
-        "name": "Hotel Utah Saloon",
-        "url": "http://www.songkick.com/concerts/43191503-open-mic-night-at-hotel-utah-saloon?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
       "date": "2026-08-18",
       "dayName": "Tuesday",
       "bands": [
@@ -39214,14 +38351,14 @@
       "dayName": "Friday",
       "bands": [
         {
-          "name": "Bigbang",
+          "name": "BIGBANG (Korea)",
           "spotifyUrl": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Bigbang"
+          "youtubeUrl": "https://www.youtube.com/results?search_query=BIGBANG+(Korea)"
         }
       ],
       "venue": {
         "name": "RingCentral Coliseum",
-        "url": "http://www.songkick.com/concerts/43296797-bigbang-at-ringcentral-coliseum?utm_medium=organic&utm_source=microformat"
+        "url": "http://www.songkick.com/concerts/43296797-bigbang-korea-at-ringcentral-coliseum?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -39310,22 +38447,6 @@
       "source": "songkick"
     },
     {
-      "date": "2026-09-04",
-      "dayName": "Friday",
-      "bands": [
-        {
-          "name": "Kirk Whalum",
-          "spotifyUrl": "https://open.spotify.com/artist/6v2VjBVPcGVbBqJrUWYiG1",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Kirk+Whalum"
-        }
-      ],
-      "venue": {
-        "name": "Yoshi's",
-        "url": "http://www.songkick.com/concerts/43203469-kirk-whalum-at-yoshis?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
       "date": "2026-09-05",
       "dayName": "Saturday",
       "bands": [
@@ -39388,14 +38509,14 @@
       "dayName": "Saturday",
       "bands": [
         {
-          "name": "Bigbang",
+          "name": "BIGBANG (Korea)",
           "spotifyUrl": "https://open.spotify.com/artist/4Kxlr1PRlDKEB0ekOCyHgX",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Bigbang"
+          "youtubeUrl": "https://www.youtube.com/results?search_query=BIGBANG+(Korea)"
         }
       ],
       "venue": {
         "name": "RingCentral Coliseum",
-        "url": "http://www.songkick.com/concerts/43277957-bigbang-at-ringcentral-coliseum?utm_medium=organic&utm_source=microformat"
+        "url": "http://www.songkick.com/concerts/43277957-bigbang-korea-at-ringcentral-coliseum?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -40271,19 +39392,44 @@
       "dayName": "Thursday",
       "bands": [
         {
-          "name": "Disney",
-          "spotifyUrl": "https://open.spotify.com/artist/3xvaSlT4xsyk6lY1ESOspO",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Disney"
+          "name": "DJ Female Convict Scorpion",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=dj+Female+Convict+Scorpion"
         },
         {
-          "name": "San Francisco Symphony",
-          "spotifyUrl": "https://open.spotify.com/artist/1qHStDLIc8uV7hvTG6FGRJ",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=San+Francisco+Symphony"
+          "name": "Lorin Benedict",
+          "spotifyUrl": "https://open.spotify.com/artist/3y6BwkIgj1thNUd76pBmy3",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Lorin+Benedict"
+        },
+        {
+          "name": "Ron Heglin",
+          "spotifyUrl": "https://open.spotify.com/artist/5Kas4gEIhJfEF1cVGsMsmI",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Ron+Heglin"
+        },
+        {
+          "name": "Blevin Blectum",
+          "spotifyUrl": "https://open.spotify.com/artist/1rDcNidVqmbYisZ7oUDRu0",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Blevin+Blectum"
+        },
+        {
+          "name": "James Goode",
+          "spotifyUrl": "https://open.spotify.com/artist/4BFNxawzLm9YIMZZTYPkmf",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=James+Goode"
+        },
+        {
+          "name": "Thomas Dimuzio",
+          "spotifyUrl": "https://open.spotify.com/artist/5Dgt9RQigawYBOkyhRNG5m",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Thomas+Dimuzio"
+        },
+        {
+          "name": "Shatter Pattern",
+          "spotifyUrl": "https://open.spotify.com/artist/00sn1h0Ox1mwLRmfrWQIZt",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Shatter+Pattern"
         }
       ],
       "venue": {
-        "name": "Davies Symphony Hall",
-        "url": "http://www.songkick.com/concerts/43150890-disney-at-davies-symphony-hall?utm_medium=organic&utm_source=microformat"
+        "name": "Peacock Lounge",
+        "url": "http://www.songkick.com/concerts/43369414-dj-female-convict-scorpion-at-peacock-lounge?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -40385,6 +39531,11 @@
           "name": "Kenny Wayne Shepherd",
           "spotifyUrl": "https://open.spotify.com/artist/1riHqX633Kup3mJAw8WR8p",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Kenny+Wayne+Shepherd"
+        },
+        {
+          "name": "Kenny Wayne Shepherd Band",
+          "spotifyUrl": "https://open.spotify.com/artist/1riHqX633Kup3mJAw8WR8p",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Kenny+Wayne+Shepherd+Band"
         }
       ],
       "venue": {
@@ -44709,32 +43860,6 @@
       "dayName": "Saturday",
       "bands": [
         {
-          "name": "Tune-Yards",
-          "spotifyUrl": "https://open.spotify.com/artist/0asVlqTLu3TimnYVyY5Jxi",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Tune-Yards"
-        },
-        {
-          "name": "Foxtails Brigade",
-          "spotifyUrl": "https://open.spotify.com/artist/6VNIsExpc6Sklt3ZWNXVtJ",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Foxtails+Brigade"
-        },
-        {
-          "name": "Gabby La La",
-          "spotifyUrl": "https://open.spotify.com/artist/3KAC5qbC3dcK0HRlpGIXT1",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Gabby+La+La"
-        }
-      ],
-      "venue": {
-        "name": "Point San Pablo Harbor",
-        "url": "http://www.songkick.com/concerts/43292427-tuneyards-at-point-san-pablo-harbor?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
-      "date": "2026-10-10",
-      "dayName": "Saturday",
-      "bands": [
-        {
           "name": "High On Fire",
           "spotifyUrl": "https://open.spotify.com/artist/1eiIIImNeUj3vpaocWqoOf",
           "youtubeUrl": "https://www.youtube.com/results?search_query=High+On+Fire"
@@ -44753,6 +43878,32 @@
       "venue": {
         "name": "Quarry Amphitheater",
         "url": "http://www.songkick.com/concerts/43295769-high-on-fire-at-quarry-amphitheater?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-10-10",
+      "dayName": "Saturday",
+      "bands": [
+        {
+          "name": "Tune-Yards",
+          "spotifyUrl": "https://open.spotify.com/artist/0asVlqTLu3TimnYVyY5Jxi",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Tune-Yards"
+        },
+        {
+          "name": "Foxtails Brigade",
+          "spotifyUrl": "https://open.spotify.com/artist/6VNIsExpc6Sklt3ZWNXVtJ",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Foxtails+Brigade"
+        },
+        {
+          "name": "Gabby La La",
+          "spotifyUrl": "https://open.spotify.com/artist/3KAC5qbC3dcK0HRlpGIXT1",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Gabby+La+La"
+        }
+      ],
+      "venue": {
+        "name": "Point San Pablo Harbor",
+        "url": "http://www.songkick.com/concerts/43292427-tuneyards-at-point-san-pablo-harbor?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -45421,22 +44572,6 @@
       "dayName": "Friday",
       "bands": [
         {
-          "name": "Sara Bareilles",
-          "spotifyUrl": "https://open.spotify.com/artist/2Sqr0DXoaYABbjBo9HaMkM",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Sara+Bareilles"
-        }
-      ],
-      "venue": {
-        "name": "The Theater at Bill Graham Civic Auditorium",
-        "url": "http://www.songkick.com/concerts/43255725-sara-bareilles-at-theater-at-bill-graham-civic-auditorium?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
-      "date": "2026-10-16",
-      "dayName": "Friday",
-      "bands": [
-        {
           "name": "ScHoolboy Q",
           "spotifyUrl": "https://open.spotify.com/artist/5IcR3N7QB1j6KBL8eImZ8m",
           "youtubeUrl": "https://www.youtube.com/results?search_query=Schoolboy+Q"
@@ -45445,6 +44580,22 @@
       "venue": {
         "name": "Fox Theater",
         "url": "http://www.songkick.com/concerts/43351154-schoolboy-q-at-fox-theater?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-10-16",
+      "dayName": "Friday",
+      "bands": [
+        {
+          "name": "Sara Bareilles",
+          "spotifyUrl": "https://open.spotify.com/artist/2Sqr0DXoaYABbjBo9HaMkM",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Sara+Bareilles"
+        }
+      ],
+      "venue": {
+        "name": "The Theater at Bill Graham Civic Auditorium",
+        "url": "http://www.songkick.com/concerts/43255725-sara-bareilles-at-theater-at-bill-graham-civic-auditorium?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -45565,22 +44716,6 @@
       "dayName": "Saturday",
       "bands": [
         {
-          "name": "Lewis OfMan",
-          "spotifyUrl": "https://open.spotify.com/artist/1hkRfKGoJisJDbo6eSf1pg",
-          "youtubeUrl": "https://www.youtube.com/results?search_query=Lewis+Ofman"
-        }
-      ],
-      "venue": {
-        "name": "Bimbo's 365 Club",
-        "url": "http://www.songkick.com/concerts/43228355-lewis-ofman-at-bimbos-365-club?utm_medium=organic&utm_source=microformat"
-      },
-      "source": "songkick"
-    },
-    {
-      "date": "2026-10-17",
-      "dayName": "Saturday",
-      "bands": [
-        {
           "name": "Neurosis",
           "spotifyUrl": "https://open.spotify.com/artist/1KHydwFySZY3YcWyo2q2dF",
           "youtubeUrl": "https://www.youtube.com/results?search_query=NEUROSIS"
@@ -45589,6 +44724,22 @@
       "venue": {
         "name": "The Fillmore",
         "url": "http://www.songkick.com/concerts/43325607-neurosis-at-fillmore?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-10-17",
+      "dayName": "Saturday",
+      "bands": [
+        {
+          "name": "Lewis OfMan",
+          "spotifyUrl": "https://open.spotify.com/artist/1hkRfKGoJisJDbo6eSf1pg",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Lewis+Ofman"
+        }
+      ],
+      "venue": {
+        "name": "Bimbo's 365 Club",
+        "url": "http://www.songkick.com/concerts/43228355-lewis-ofman-at-bimbos-365-club?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     },
@@ -47025,6 +46176,22 @@
       "source": "songkick"
     },
     {
+      "date": "2026-10-26",
+      "dayName": "Monday",
+      "bands": [
+        {
+          "name": "Ernest Aines",
+          "spotifyUrl": "https://open.spotify.com/artist/7fkC6pBXItWbN9IukybkFS",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Ernest+Aines"
+        }
+      ],
+      "venue": {
+        "name": "Carmel High School Center for the Performing Arts",
+        "url": "http://www.songkick.com/concerts/43369822-ernest-aines-at-carmel-high-school-center-for-the-performing-arts?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
       "date": "2026-10-27",
       "dayName": "Tuesday",
       "bands": [
@@ -48275,6 +47442,217 @@
       "venue": {
         "name": "Hotel Utah Saloon",
         "url": "http://www.songkick.com/concerts/43206134-taylor-bickett-at-hotel-utah-saloon?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "The Limiñanas",
+          "spotifyUrl": "https://open.spotify.com/artist/2joJCoCL4EmiVqic3vZn7n",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Limiñanas"
+        }
+      ],
+      "venue": {
+        "name": "The Chapel",
+        "url": "http://www.songkick.com/concerts/43149243-liminanas-at-chapel?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Josh Garrels",
+          "spotifyUrl": "https://open.spotify.com/artist/16QSVsPKl743hu4U5C18R8",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Josh+Garrels"
+        },
+        {
+          "name": "Taylor Armstrong",
+          "spotifyUrl": "https://open.spotify.com/artist/3CVk2LzA3zH6FBAXuPbnhc",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Taylor+Armstrong"
+        }
+      ],
+      "venue": {
+        "name": "August Hall",
+        "url": "http://www.songkick.com/concerts/43086981-josh-garrels-at-august-hall?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Sassy 009",
+          "spotifyUrl": "https://open.spotify.com/artist/30gJ2CPCeUvghTg6TkfA4L",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Sassy+009"
+        }
+      ],
+      "venue": {
+        "name": "Brick & Mortar Music Hall",
+        "url": "http://www.songkick.com/concerts/43255344-sassy-009-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Mary In The Junkyard",
+          "spotifyUrl": "https://open.spotify.com/artist/48Kc3HRodbvm5ropMf9B6M",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Mary+In+The+Junkyard"
+        },
+        {
+          "name": "Support TBA",
+          "spotifyUrl": null,
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Support+TBA"
+        },
+        {
+          "name": "Lefty Parker",
+          "spotifyUrl": "https://open.spotify.com/artist/5NvSLQOTzXhKMV5TMdwxuk",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Lefty+Parker"
+        }
+      ],
+      "venue": {
+        "name": "Rickshaw Stop",
+        "url": "http://www.songkick.com/concerts/43223446-mary-in-the-junkyard-at-rickshaw-stop?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Dice",
+          "spotifyUrl": "https://open.spotify.com/artist/5E5dw9k43AX9GGGEA606KC",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Dice"
+        }
+      ],
+      "venue": {
+        "name": "Café du Nord",
+        "url": "http://www.songkick.com/concerts/43215171-dice-at-cafe-du-nord?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Team Dresch",
+          "spotifyUrl": "https://open.spotify.com/artist/1i0UobirqiiWT0AbrkZKrs",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Team+Dresch"
+        },
+        {
+          "name": "The Third Sex",
+          "spotifyUrl": "https://open.spotify.com/artist/0kv58mdjBFhNSaEB14y6vm",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=The+Third+Sex"
+        },
+        {
+          "name": "Longstocking",
+          "spotifyUrl": "https://open.spotify.com/artist/1UsNaDhmpcOTS6j6OCyyAw",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Longstocking"
+        }
+      ],
+      "venue": {
+        "name": "Bottom of the Hill",
+        "url": "http://www.songkick.com/concerts/43296513-team-dresch-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "INOHA",
+          "spotifyUrl": "https://open.spotify.com/artist/0uoN6ea8SXzhV7WxyrvT1h",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Inoha"
+        }
+      ],
+      "venue": {
+        "name": "The Independent",
+        "url": "http://www.songkick.com/concerts/43290285-inoha-at-independent?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Pain of Truth",
+          "spotifyUrl": "https://open.spotify.com/artist/6tnuL2AIiA5wCpO5Pm8Xql",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Pain+Of+Truth"
+        },
+        {
+          "name": "Missing Link",
+          "spotifyUrl": "https://open.spotify.com/artist/77iXzlVmGIOFyieeHf4qYZ",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Missing+Link"
+        },
+        {
+          "name": "Killing Time",
+          "spotifyUrl": "https://open.spotify.com/artist/4FQEb7rC3bMg4gtoIaSVSA",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Killing+Time"
+        }
+      ],
+      "venue": {
+        "name": "Great American Music Hall",
+        "url": "http://www.songkick.com/concerts/43353725-pain-of-truth-at-great-american-music-hall?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Open Mic Night",
+          "spotifyUrl": "https://open.spotify.com/artist/0FpSIPcN4asFqUA23wzgtG",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=open+mic+night"
+        }
+      ],
+      "venue": {
+        "name": "Neck of the Woods",
+        "url": "http://www.songkick.com/concerts/42968155-open-mic-night-at-neck-of-the-woods?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-04",
+      "dayName": "Wednesday",
+      "bands": [
+        {
+          "name": "Oceanography",
+          "spotifyUrl": "https://open.spotify.com/artist/1vHO2cq2PO77jsIjkwbKmV",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Oceanography"
+        }
+      ],
+      "venue": {
+        "name": "Bandshell, Golden Gate Park",
+        "url": "http://www.songkick.com/concerts/43350887-oceanography-at-bandshell-golden-gate-park?utm_medium=organic&utm_source=microformat"
+      },
+      "source": "songkick"
+    },
+    {
+      "date": "2026-11-05",
+      "dayName": "Thursday",
+      "bands": [
+        {
+          "name": "Don Omar",
+          "spotifyUrl": "https://open.spotify.com/artist/33ScadVnbm2X8kkUqOkC6Z",
+          "youtubeUrl": "https://www.youtube.com/results?search_query=Don+Omar"
+        }
+      ],
+      "venue": {
+        "name": "SAP Center at San Jose",
+        "url": "http://www.songkick.com/concerts/43222509-don-omar-at-sap-center-at-san-jose?utm_medium=organic&utm_source=microformat"
       },
       "source": "songkick"
     }
