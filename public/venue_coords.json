@@ -8683,5 +8683,45 @@
     "name": "Bottom of the Hill",
     "lat": 37.7649626,
     "lng": -122.3964115
+  },
+  "club.html#chocolate_cafe": {
+    "name": "Chocolate Cafe",
+    "lat": 37.765649,
+    "lng": -122.4126352
+  },
+  "club.html#lane_splitter_pizza": {
+    "name": "Lane Splitter Pizza",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#toot's_tavern": {
+    "name": "Toot's Tavern",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43375412-matt-schofield-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43372496-patti-smith-at-sydney-goldstein-theater?utm_medium=organic&utm_source=microformat": {
+    "name": "Sydney Goldstein Theater",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43373312-neil-frances-at-888-garage?utm_medium=organic&utm_source=microformat": {
+    "name": "888 Garage",
+    "lat": 37.3669205,
+    "lng": -121.8728031
+  },
+  "http://www.songkick.com/concerts/43371442-isabel-larosa-at-cafe-du-nord?utm_medium=organic&utm_source=microformat": {
+    "name": "Café du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "http://www.songkick.com/concerts/43270882-sara-bareilles-at-theater-at-bill-graham-civic-auditorium?utm_medium=organic&utm_source=microformat": {
+    "name": "The Theater at Bill Graham Civic Auditorium",
+    "lat": null,
+    "lng": null
   }
 }
