@@ -1,16 +1,12 @@
 {
-  "generated": "2026-08-23T06:23:01+00:00",
-  "weekStart": "2026-08-23",
-  "weekEnd": "2026-08-30",
+  "generated": "2026-08-24T06:31:43+00:00",
+  "weekStart": "2026-08-24",
+  "weekEnd": "2026-08-31",
   "artists": [
     {
       "name": "Built To Spill",
-      "showCount": 10,
+      "showCount": 8,
       "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Chapel"
-        },
         {
           "date": "2026-08-24",
           "venue": "Chapel"
@@ -18,6 +14,10 @@
         {
           "date": "2026-08-25",
           "venue": "Chapel"
+        },
+        {
+          "date": "2026-08-26",
+          "venue": "Rio Theater"
         }
       ],
       "spotifyTracks": [
@@ -28,35 +28,6 @@
         {
           "id": "1SqIUmKbeRyHwgp8BOBIRr",
           "name": "Else"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Playdead",
-      "showCount": 8,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-24",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5toT3zt7rol3oSVvGHid8i",
-          "name": "blinds"
-        },
-        {
-          "id": "2s0s3nNb9K2Mqk309zIej9",
-          "name": "This Side of Heaven"
         }
       ],
       "youtube": null
@@ -86,6 +57,35 @@
         {
           "id": "4PMtdgNrqGqAAwu2jN6fvx",
           "name": "Gong of Catastrophe"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Playdead",
+      "showCount": 6,
+      "shows": [
+        {
+          "date": "2026-08-24",
+          "venue": "Chapel"
+        },
+        {
+          "date": "2026-08-25",
+          "venue": "Chapel"
+        },
+        {
+          "date": "2026-08-26",
+          "venue": "Rio Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5toT3zt7rol3oSVvGHid8i",
+          "name": "blinds"
+        },
+        {
+          "id": "2s0s3nNb9K2Mqk309zIej9",
+          "name": "This Side of Heaven"
         }
       ],
       "youtube": null
@@ -352,31 +352,6 @@
       "youtube": null
     },
     {
-      "name": "Ajar",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Town House Cocktail Lounge"
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "3437 Haven Street"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "18K1Ho4UzlXHAsgCl9QQ05",
-          "name": "MISTRAL EN HIVER"
-        },
-        {
-          "id": "0NXTUR3IupUeLdSGB3B7tb",
-          "name": "TÖUNDRA"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Aldous Harding",
       "showCount": 2,
       "shows": [
@@ -397,52 +372,6 @@
         {
           "id": "5Mjkrb43pfWNSt3dmztKjZ",
           "name": "I Ate the Most"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Allen Stone",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Mountain Winery"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Mountain Winery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6eA8pANu9ryDcoTTe5myKk",
-          "name": "Consider Me"
-        },
-        {
-          "id": "53t89JaXOgmB7u1C7KKCCW",
-          "name": "Brown Eyed Lover"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Artsick",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2VA2l0mO18cg0SeNkhyu2s",
-          "name": "Cartridge Quietus"
         }
       ],
       "youtube": null
@@ -969,31 +898,6 @@
       "youtube": null
     },
     {
-      "name": "Imperial Teen",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Castro Theater"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5TFuoZmzM4BAQLgSYnwPqY",
-          "name": "Yoo Hoo"
-        },
-        {
-          "id": "6hZLK4AHQijpuhCqHSYpkL",
-          "name": "Ivanka"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "J. Cole",
       "showCount": 2,
       "shows": [
@@ -1039,31 +943,6 @@
         {
           "id": "0avu4xHxQPQc6zh1qm2faM",
           "name": "Turned To Dust"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Jose Gonzalez",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Mountain Winery"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Uptown Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0ZNYGrmcehorhh9JOeg5Iv",
-          "name": "Stay Alive - From \"The Secret Life of Walter Mitty\" Soundtrack"
-        },
-        {
-          "id": "5YqpHuXpFjDVZ7tY1ClFll",
-          "name": "Heartbeats"
         }
       ],
       "youtube": null
@@ -1314,6 +1193,31 @@
         {
           "id": "3uleUeZ5eyYCNGiwcc1Exp",
           "name": "Breaking Skin"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Open Mic Night",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-24",
+          "venue": "Hotel Utah Saloon"
+        },
+        {
+          "date": "2026-08-31",
+          "venue": "Hotel Utah Saloon"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6nIHD0pEHv1ysnA9w9yz7k",
+          "name": "Lost at Sea"
+        },
+        {
+          "id": "3H0VkgzwZDAhkzZrUkL7nP",
+          "name": "Goodbye"
         }
       ],
       "youtube": null
@@ -1719,31 +1623,6 @@
       "youtube": null
     },
     {
-      "name": "The Breeders",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Castro Theater"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1KdwPeY1WRWQGHCmRJTveb",
-          "name": "Cannonball"
-        },
-        {
-          "id": "4gxKVUQyfkIbO6WuET4HlW",
-          "name": "Drivin' on 9"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "The Chats",
       "showCount": 2,
       "shows": [
@@ -1764,56 +1643,6 @@
         {
           "id": "5b10YgbraRyefVi5DcvacM",
           "name": "The Price Of Smokes"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The Dip",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Mountain Winery"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Mountain Winery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3a28WmAKhiRvQATY3tfk5l",
-          "name": "Atlas"
-        },
-        {
-          "id": "2osA04Ftqanbf9P3uJjTJb",
-          "name": "O.P. Jebediah"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The Umbrellas",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1e3JCB1ZY4HHvnO3sCCpFW",
-          "name": "Near You"
-        },
-        {
-          "id": "2Yn2xCGKbI8pemc7plgDfd",
-          "name": "Lonely"
         }
       ],
       "youtube": null
@@ -1919,31 +1748,6 @@
       "youtube": null
     },
     {
-      "name": "Wut",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1Sgj10byiGzPpI2IrXSFEn",
-          "name": "Protect Ya Neck"
-        },
-        {
-          "id": "7y5zXpTN4J7K0PngQYa655",
-          "name": "Tearz"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "37 Houses",
       "showCount": 1,
       "shows": [
@@ -2028,44 +1832,6 @@
       "youtube": null
     },
     {
-      "name": "Afterthought & The Top Chefs",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Rooftop Park"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4cMp5XJNWfCODjYBCd282I",
-          "name": "Nobody Owes You Love (feat. SundaY, Veotis Latchison & The Top Chefs)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Agony Aunts",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-23",
-          "venue": "Spats"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4HQ0JoaJYLytsqScWK3HWz",
-          "name": "Twenty-Four Mergansers"
-        },
-        {
-          "id": "7BIlfd7DoslJCTmkqmWyZm",
-          "name": "Greater Miranda"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Airwolf Paradise",
       "showCount": 1,
       "shows": [
@@ -2082,6 +1848,27 @@
         {
           "id": "5xg1c2BrE1Ebt9a4xR2LoC",
           "name": "Only Man"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Ajar",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-30",
+          "venue": "3437 Haven Street"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "18K1Ho4UzlXHAsgCl9QQ05",
+          "name": "MISTRAL EN HIVER"
+        },
+        {
+          "id": "0NXTUR3IupUeLdSGB3B7tb",
+          "name": "TÖUNDRA"
         }
       ],
       "youtube": null
@@ -2166,6 +1953,149 @@
         {
           "id": "0cbxG8nkhbSnkUVOv8dHQa",
           "name": "San Agustina"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Amy McCarley",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-27",
+          "venue": "Hopmonk Tavern"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6zDoSVAPMlBaBA7byM6j8g",
+          "name": "Smart Man"
+        },
+        {
+          "id": "2o3ZU1yfquxmzEgdKxhT5N",
+          "name": "A Clue"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "and the Cast",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "Fox Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3oPiyTWNUPODOXfXMSXwB2",
+          "name": "The Phantom of the Opera"
+        },
+        {
+          "id": "5cbDOddnHEHcKVNntaRkxC",
+          "name": "When I Grow Up"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Angela Laflamme",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-27",
+          "venue": "Ivy Room"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5GqvvPldH1G2jX9lnNZhQ6",
+          "name": "Devil On My Back"
+        },
+        {
+          "id": "76tTE7HkWfSqX7p83Fr5tE",
+          "name": "One Step Forward"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Annalyse & Ryan",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-31",
+          "venue": "Ruby Princess Cruise"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1N9pJ97bHyRzku1P2dXNMt",
+          "name": "Can't Stop This Train"
+        },
+        {
+          "id": "7kw02xtKojhV72Od3zfYjH",
+          "name": "McIntosh Drive"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Annalyse McCoy",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-31",
+          "venue": "Ruby Princess Cruise"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "27hloYBc8jVN1NRXGYX3CN",
+          "name": "No Kings in the USA (Bluegrass Unplugged)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Apprehenchmen",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "thee Stork Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "37F07w3fRdzMQxIn4fLaMZ",
+          "name": "Slide Projector"
+        },
+        {
+          "id": "3BVyk2WdrUMUWgZGFmTsWZ",
+          "name": "Hands on a Bird Body"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Arnocorps",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-29",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5z1GR6HCJJ5jV2BEfsa82j",
+          "name": "I'm Ballsy"
+        },
+        {
+          "id": "5U71WWuwv1202kkcqNoa8v",
+          "name": "Predator"
         }
       ],
       "youtube": null
