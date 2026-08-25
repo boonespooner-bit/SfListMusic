@@ -1,16 +1,12 @@
 {
-  "generated": "2026-08-24T06:31:43+00:00",
-  "weekStart": "2026-08-24",
-  "weekEnd": "2026-08-31",
+  "generated": "2026-08-25T06:23:31+00:00",
+  "weekStart": "2026-08-25",
+  "weekEnd": "2026-09-01",
   "artists": [
     {
       "name": "Built To Spill",
-      "showCount": 8,
+      "showCount": 6,
       "shows": [
-        {
-          "date": "2026-08-24",
-          "venue": "Chapel"
-        },
         {
           "date": "2026-08-25",
           "venue": "Chapel"
@@ -18,6 +14,10 @@
         {
           "date": "2026-08-26",
           "venue": "Rio Theater"
+        },
+        {
+          "date": "2026-08-28",
+          "venue": "Old Princeton Landing"
         }
       ],
       "spotifyTracks": [
@@ -57,35 +57,6 @@
         {
           "id": "4PMtdgNrqGqAAwu2jN6fvx",
           "name": "Gong of Catastrophe"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Playdead",
-      "showCount": 6,
-      "shows": [
-        {
-          "date": "2026-08-24",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Rio Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5toT3zt7rol3oSVvGHid8i",
-          "name": "blinds"
-        },
-        {
-          "id": "2s0s3nNb9K2Mqk309zIej9",
-          "name": "This Side of Heaven"
         }
       ],
       "youtube": null
@@ -144,6 +115,35 @@
         {
           "id": "4a6GgPjw2VKEQ3CZhYB51u",
           "name": "Carletta's in Hats Again"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Playdead",
+      "showCount": 4,
+      "shows": [
+        {
+          "date": "2026-08-25",
+          "venue": "Chapel"
+        },
+        {
+          "date": "2026-08-26",
+          "venue": "Rio Theater"
+        },
+        {
+          "date": "2026-08-25",
+          "venue": "Chapel"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5toT3zt7rol3oSVvGHid8i",
+          "name": "blinds"
+        },
+        {
+          "id": "2s0s3nNb9K2Mqk309zIej9",
+          "name": "This Side of Heaven"
         }
       ],
       "youtube": null
@@ -236,6 +236,35 @@
       "youtube": null
     },
     {
+      "name": "Chris Brown",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-28",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Levi's Stadium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3Q4gttWQ6hxqWOa3tHoTNi",
+          "name": "Not You Too (feat. Chris Brown)"
+        },
+        {
+          "id": "3NZJlJemX3mzjf56MqC5ML",
+          "name": "Forever"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Courtney Barnet",
       "showCount": 3,
       "shows": [
@@ -294,6 +323,64 @@
       "youtube": null
     },
     {
+      "name": "Ditz",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-30",
+          "venue": "Brick and Mortar"
+        },
+        {
+          "date": "2026-08-30",
+          "venue": "Music Hall"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0XijzAkH2ywXc7hIaWL0gZ",
+          "name": "Clocks"
+        },
+        {
+          "id": "1r9LKpRpTdgebf630PYO02",
+          "name": "Ded Würst"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Eric Bellinger",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-28",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Levi's Stadium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1kEINOBYcSCQ5RwkP65g2A",
+          "name": "Drive By"
+        },
+        {
+          "id": "0hUepWE4GoMwtKgU8vE617",
+          "name": "G.O.A.T."
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Josh Johnson (comedy)",
       "showCount": 3,
       "shows": [
@@ -323,6 +410,35 @@
       "youtube": null
     },
     {
+      "name": "Mario",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-28",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Levi's Stadium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3ibKnFDaa3GhpPGlOUj7ff",
+          "name": "Let Me Love You"
+        },
+        {
+          "id": "5WphWTUIfRe7x8NZss79cY",
+          "name": "Let Me Love You"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Sleep",
       "showCount": 3,
       "shows": [
@@ -347,6 +463,35 @@
         {
           "id": "1QrbZhFYlViXd60g130vw1",
           "name": "Caramel"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Usher",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-08-28",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Levi's Stadium"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Levi's Stadium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5rb9QrpfcKFHM1EUbSIurX",
+          "name": "Yeah! (feat. Lil Jon & Ludacris)"
+        },
+        {
+          "id": "4356Typ82hUiFAynbLYbPn",
+          "name": "DJ Got Us Fallin' In Love (feat. Pitbull)"
         }
       ],
       "youtube": null
@@ -523,31 +668,6 @@
       "youtube": null
     },
     {
-      "name": "Chris Brown",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-28",
-          "venue": "Levi's Stadium"
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "Levi's Stadium"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3Q4gttWQ6hxqWOa3tHoTNi",
-          "name": "Not You Too (feat. Chris Brown)"
-        },
-        {
-          "id": "3NZJlJemX3mzjf56MqC5ML",
-          "name": "Forever"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Death Lens",
       "showCount": 2,
       "shows": [
@@ -623,31 +743,6 @@
       "youtube": null
     },
     {
-      "name": "Ditz",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-30",
-          "venue": "Brick and Mortar"
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0XijzAkH2ywXc7hIaWL0gZ",
-          "name": "Clocks"
-        },
-        {
-          "id": "1r9LKpRpTdgebf630PYO02",
-          "name": "Ded Würst"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Drawing Heaven",
       "showCount": 2,
       "shows": [
@@ -668,6 +763,31 @@
         {
           "id": "7u7tC8TPGwBqI5ylUq8DH6",
           "name": "Paper Tiger"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Eagles Of Death Metal",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-31",
+          "venue": "Catalyst"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "The Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "19mRNWlmHCKIlBT8WOCaXQ",
+          "name": "Miss Alissa"
+        },
+        {
+          "id": "3B7mbMbbcuKdfWssAcyvG8",
+          "name": "Wannabe in L.A"
         }
       ],
       "youtube": null
@@ -698,26 +818,26 @@
       "youtube": null
     },
     {
-      "name": "Eric Bellinger",
+      "name": "G. Love",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-28",
-          "venue": "Levi's Stadium"
+          "date": "2026-08-30",
+          "venue": "Greek Theatre"
         },
         {
-          "date": "2026-08-29",
-          "venue": "Levi's Stadium"
+          "date": "2026-09-01",
+          "venue": "Greek Theatre"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1kEINOBYcSCQ5RwkP65g2A",
-          "name": "Drive By"
+          "id": "6v65wlluPMQEiWXFeRf06r",
+          "name": "Backseat Drivin'"
         },
         {
-          "id": "0hUepWE4GoMwtKgU8vE617",
-          "name": "G.O.A.T."
+          "id": "1W9Pi7EEcSLOCuIX5pv1CF",
+          "name": "Come Correct (feat. G. Love & Special Sauce)"
         }
       ],
       "youtube": null
@@ -803,11 +923,11 @@
       "shows": [
         {
           "date": "2026-08-28",
-          "venue": "Audio"
+          "venue": "Aracely Cafe"
         },
         {
           "date": "2026-08-28",
-          "venue": "Aracely Cafe"
+          "venue": "Audio"
         }
       ],
       "spotifyTracks": [
@@ -943,6 +1063,31 @@
         {
           "id": "0avu4xHxQPQc6zh1qm2faM",
           "name": "Turned To Dust"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Jack Johnson",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-30",
+          "venue": "Greek Theatre"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Greek Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "451GvHwY99NKV4zdKPRWmv",
+          "name": "Banana Pancakes"
+        },
+        {
+          "id": "4VywXu6umkIQ2OS0m1I79y",
+          "name": "Better Together"
         }
       ],
       "youtube": null
@@ -1098,31 +1243,6 @@
       "youtube": null
     },
     {
-      "name": "Mario",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-28",
-          "venue": "Levi's Stadium"
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "Levi's Stadium"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3ibKnFDaa3GhpPGlOUj7ff",
-          "name": "Let Me Love You"
-        },
-        {
-          "id": "5WphWTUIfRe7x8NZss79cY",
-          "name": "Let Me Love You"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Mike D 5D",
       "showCount": 2,
       "shows": [
@@ -1143,6 +1263,31 @@
         {
           "id": "1KzF176eH3k51UwhuQHgr3",
           "name": "Cold - Hot Shade & Mike Perry Remix"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Mugslug",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-25",
+          "venue": "Knockout"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "Kilowatt"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2wZtxNWyo3Z06obU2WBK29",
+          "name": "friend u"
+        },
+        {
+          "id": "4q5vPpVKkfsyfNxev2FJAC",
+          "name": "magic spliff"
         }
       ],
       "youtube": null
@@ -1198,31 +1343,6 @@
       "youtube": null
     },
     {
-      "name": "Open Mic Night",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-24",
-          "venue": "Hotel Utah Saloon"
-        },
-        {
-          "date": "2026-08-31",
-          "venue": "Hotel Utah Saloon"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6nIHD0pEHv1ysnA9w9yz7k",
-          "name": "Lost at Sea"
-        },
-        {
-          "id": "3H0VkgzwZDAhkzZrUkL7nP",
-          "name": "Goodbye"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Otha",
       "showCount": 2,
       "shows": [
@@ -1243,6 +1363,31 @@
         {
           "id": "59rqs8yRLVyfw5CosESRQX",
           "name": "Tired and Sick"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Paradise Vultures",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-31",
+          "venue": "Catalyst"
+        },
+        {
+          "date": "2026-09-01",
+          "venue": "The Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "69jPvUSovP0hjJjpKcLUEJ",
+          "name": "Catacombs"
+        },
+        {
+          "id": "1U7JDKkrxb2wWupWIGa6sm",
+          "name": "Catacombs"
         }
       ],
       "youtube": null
@@ -1373,31 +1518,6 @@
       "youtube": null
     },
     {
-      "name": "Silent Cities",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-24",
-          "venue": "Rain Dog Records"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "First Church of the Buzzard"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0jOg9nk5FLUuqnxOHZc7GD",
-          "name": "Mdina"
-        },
-        {
-          "id": "6tfT7EGeUMmUkmAXHyCm05",
-          "name": "Death Routines"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Six Sex",
       "showCount": 2,
       "shows": [
@@ -1468,31 +1588,6 @@
         {
           "id": "5eGDKrTYl2h6ponZyMMhgZ",
           "name": "Reach For The Sky"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Soulwax",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-24",
-          "venue": "Regency Ballroom"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Pier 80"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4VY9yQMuC8izfcybXmhYOY",
-          "name": "Heaven Scent"
-        },
-        {
-          "id": "6WfL1pwMyFf3IvFWLnre4P",
-          "name": "Work It - Soulwax Remix"
         }
       ],
       "youtube": null
@@ -1673,31 +1768,6 @@
       "youtube": null
     },
     {
-      "name": "Usher",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-28",
-          "venue": "Levi's Stadium"
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "Levi's Stadium"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5rb9QrpfcKFHM1EUbSIurX",
-          "name": "Yeah! (feat. Lil Jon & Ludacris)"
-        },
-        {
-          "id": "4356Typ82hUiFAynbLYbPn",
-          "name": "DJ Got Us Fallin' In Love (feat. Pitbull)"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Witch",
       "showCount": 2,
       "shows": [
@@ -1748,22 +1818,22 @@
       "youtube": null
     },
     {
-      "name": "37 Houses",
+      "name": "44Go",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-08-24",
-          "venue": "Chapel"
+          "date": "2026-09-01",
+          "venue": "The Knockout"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4nVewfRvkoNyKrTAhLJJCI",
-          "name": "Honesty is Everything"
+          "id": "3i848xI1atAHLOJkfUfE0o",
+          "name": "Fuck Is U Doin"
         },
         {
-          "id": "3F6AzpAV41nHnqCvuh9040",
-          "name": "Shadow Puppets"
+          "id": "0dVQOWY2LOnrNH0k8OzcZp",
+          "name": "mockstarr"
         }
       ],
       "youtube": null
@@ -2075,27 +2145,6 @@
         {
           "id": "3BVyk2WdrUMUWgZGFmTsWZ",
           "name": "Hands on a Bird Body"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Arnocorps",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-29",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5z1GR6HCJJ5jV2BEfsa82j",
-          "name": "I'm Ballsy"
-        },
-        {
-          "id": "5U71WWuwv1202kkcqNoa8v",
-          "name": "Predator"
         }
       ],
       "youtube": null
