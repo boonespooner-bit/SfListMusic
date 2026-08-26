@@ -1,37 +1,8 @@
 {
-  "generated": "2026-08-25T06:23:31+00:00",
-  "weekStart": "2026-08-25",
-  "weekEnd": "2026-09-01",
+  "generated": "2026-08-26T06:24:57+00:00",
+  "weekStart": "2026-08-26",
+  "weekEnd": "2026-09-02",
   "artists": [
-    {
-      "name": "Built To Spill",
-      "showCount": 6,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Rio Theater"
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "Old Princeton Landing"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3HMOMdRPywfouYx5B4PvaH",
-          "name": "Carry the Zero"
-        },
-        {
-          "id": "1SqIUmKbeRyHwgp8BOBIRr",
-          "name": "Else"
-        }
-      ],
-      "youtube": null
-    },
     {
       "name": "Osees",
       "showCount": 6,
@@ -91,6 +62,35 @@
       "youtube": null
     },
     {
+      "name": "Zoh Amba",
+      "showCount": 5,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-08-27",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-08-28",
+          "venue": "Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7MnmR1BRJqNCbW64pANpsV",
+          "name": "Another Time"
+        },
+        {
+          "id": "4TXtYsbr9NVejCAA7jUxxK",
+          "name": "Dead End Street"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Brigid Dawson",
       "showCount": 4,
       "shows": [
@@ -120,30 +120,30 @@
       "youtube": null
     },
     {
-      "name": "Playdead",
+      "name": "Built To Spill",
       "showCount": 4,
       "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Chapel"
-        },
         {
           "date": "2026-08-26",
           "venue": "Rio Theater"
         },
         {
-          "date": "2026-08-25",
-          "venue": "Chapel"
+          "date": "2026-08-28",
+          "venue": "Old Princeton Landing"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Old Princeton Landing"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5toT3zt7rol3oSVvGHid8i",
-          "name": "blinds"
+          "id": "3HMOMdRPywfouYx5B4PvaH",
+          "name": "Carry the Zero"
         },
         {
-          "id": "2s0s3nNb9K2Mqk309zIej9",
-          "name": "This Side of Heaven"
+          "id": "1SqIUmKbeRyHwgp8BOBIRr",
+          "name": "Else"
         }
       ],
       "youtube": null
@@ -202,35 +202,6 @@
         {
           "id": "3Ws1BOppgWGn7buMaVb3d0",
           "name": "Rapture"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Zoh Amba",
-      "showCount": 4,
-      "shows": [
-        {
-          "date": "2026-08-26",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-08-27",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "Fillmore"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7MnmR1BRJqNCbW64pANpsV",
-          "name": "Another Time"
-        },
-        {
-          "id": "4TXtYsbr9NVejCAA7jUxxK",
-          "name": "Dead End Street"
         }
       ],
       "youtube": null
@@ -439,35 +410,6 @@
       "youtube": null
     },
     {
-      "name": "Sleep",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-08-27",
-          "venue": "Catalyst"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2Gt7fjNlx901pPRkvBiNBZ",
-          "name": "Take Me Back To Eden"
-        },
-        {
-          "id": "1QrbZhFYlViXd60g130vw1",
-          "name": "Caramel"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Usher",
       "showCount": 3,
       "shows": [
@@ -522,27 +464,6 @@
       "youtube": null
     },
     {
-      "name": "Beck",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Masonic"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Masonic"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3DmW6y7wTEYHJZlLo1r6XJ",
-          "name": "Shower"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Bill Callahan",
       "showCount": 2,
       "shows": [
@@ -568,31 +489,6 @@
       "youtube": null
     },
     {
-      "name": "Black Marble",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Rickshaw Stop"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Rickshaw Stop"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4V5dKU6nSq7sqfHoqwqXlJ",
-          "name": "Frisk"
-        },
-        {
-          "id": "5pD6Xljlat1gxDVSlOG0ip",
-          "name": "A Great Design"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Bolero",
       "showCount": 2,
       "shows": [
@@ -613,106 +509,6 @@
         {
           "id": "0TxN1Ln4iuavd4iEeiCqxj",
           "name": "Xxplosive"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Brainstory",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5hkloqRyof9EI59BWxPcQQ",
-          "name": "Dead End"
-        },
-        {
-          "id": "33QyoRmhHKADVNXnn4VgvY",
-          "name": "Mnemophobia"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Channel Tres",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Regency Ballroom"
-        },
-        {
-          "date": "2026-08-27",
-          "venue": "Pier 80"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "74xu2XF8jnZRiwF4S0Gce1",
-          "name": "Gangsta"
-        },
-        {
-          "id": "1lx452Y4CLMvIois88vwBr",
-          "name": "6am"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Death Lens",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Brick and Mortar"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Brick & Mortar Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7zZSpzhovJFLtjrX7KSz7P",
-          "name": "Waiting To Know"
-        },
-        {
-          "id": "71nTKAppwgxvJu6bQNAND5",
-          "name": "Power"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Descendants",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-28",
-          "venue": "Masonic"
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "Fox Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6zU3qF1Kf4b00rAYpQI7iV",
-          "name": "Mad"
-        },
-        {
-          "id": "3hpn3ttyDCzNpThXTGoYn9",
-          "name": "Dancing with the Enemy"
         }
       ],
       "youtube": null
@@ -818,6 +614,31 @@
       "youtube": null
     },
     {
+      "name": "Fruit Bats",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-01",
+          "venue": "UC Theater"
+        },
+        {
+          "date": "2026-09-02",
+          "venue": "Rio Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3qhTNkE1LjyRETXOA5ZvSF",
+          "name": "A Lingering Love"
+        },
+        {
+          "id": "4ZiQw59WaP3yPGuWuYd6rQ",
+          "name": "The Bottom of It"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "G. Love",
       "showCount": 2,
       "shows": [
@@ -838,31 +659,6 @@
         {
           "id": "1W9Pi7EEcSLOCuIX5pv1CF",
           "name": "Come Correct (feat. G. Love & Special Sauce)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Gelli Haha",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Regency Ballroom"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Pier 80"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "78wSPTkjANvBcOn1YQQllm",
-          "name": "Normalize"
-        },
-        {
-          "id": "0mvydXZIasN4AhQG96wwrm",
-          "name": "Tiramisu"
         }
       ],
       "youtube": null
@@ -893,31 +689,6 @@
       "youtube": null
     },
     {
-      "name": "Grave Secrets",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Brick and Mortar"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Brick & Mortar Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1MKDiAxC1okz1YelY35fyb",
-          "name": "Take Your Pictures Back"
-        },
-        {
-          "id": "4KO4tjHElfMbgMVQKir4SG",
-          "name": "You're A Liar"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Hayden James",
       "showCount": 2,
       "shows": [
@@ -938,31 +709,6 @@
         {
           "id": "5n9DJWUiwuKuPE9sCVbQ0n",
           "name": "Something About You"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Heart To Gold",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Brick and Mortar"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Brick & Mortar Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3wOh9ofAEMJcKxj6aEvoF5",
-          "name": "Smo'"
-        },
-        {
-          "id": "7zXHsNwqTAUeL7APeyeQjQ",
-          "name": "Tokyo"
         }
       ],
       "youtube": null
@@ -1118,56 +864,6 @@
       "youtube": null
     },
     {
-      "name": "Keiko Matsui",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Yoshi's"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Yoshi's"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1Pp7LnPfKokiaI2I7J1SoS",
-          "name": "Bridge Over The Stars"
-        },
-        {
-          "id": "1DSl8abkVOI8qAE3JFhkFF",
-          "name": "Proof"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Laurie Anderson",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Curran Theater"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Rio Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "421Gp1eSmOIcD6alTWowFR",
-          "name": "O Superman"
-        },
-        {
-          "id": "4W375GW8GBI3x9nR4cfRfK",
-          "name": "O Superman (For Massenet) - Remastered"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Ledisi",
       "showCount": 2,
       "shows": [
@@ -1243,51 +939,26 @@
       "youtube": null
     },
     {
-      "name": "Mike D 5D",
+      "name": "Michelle Branch",
       "showCount": 2,
       "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Catalyst"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Pier 80"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2wj7Ggxy9izK19BsJT2Jou",
-          "name": "Kidnap the Sandy Claws"
-        },
-        {
-          "id": "1KzF176eH3k51UwhuQHgr3",
-          "name": "Cold - Hot Shade & Mike Perry Remix"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Mugslug",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Knockout"
-        },
         {
           "date": "2026-09-01",
-          "venue": "Kilowatt"
+          "venue": "Castro"
+        },
+        {
+          "date": "2026-09-02",
+          "venue": "Castro"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2wZtxNWyo3Z06obU2WBK29",
-          "name": "friend u"
+          "id": "0kr6d8wHDQPlzuET33NVn6",
+          "name": "All You Wanted"
         },
         {
-          "id": "4q5vPpVKkfsyfNxev2FJAC",
-          "name": "magic spliff"
+          "id": "1u0l8zWpQeMYStFkc2mLD7",
+          "name": "Everywhere"
         }
       ],
       "youtube": null
@@ -1418,6 +1089,31 @@
       "youtube": null
     },
     {
+      "name": "Playdead",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "Rio Theater"
+        },
+        {
+          "date": "2026-08-26",
+          "venue": "Rio Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5toT3zt7rol3oSVvGHid8i",
+          "name": "blinds"
+        },
+        {
+          "id": "2s0s3nNb9K2Mqk309zIej9",
+          "name": "This Side of Heaven"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Rabbit",
       "showCount": 2,
       "shows": [
@@ -1438,106 +1134,6 @@
         {
           "id": "0zvNHIL7ci0ZzIoWU6RO2u",
           "name": "I Love a Rainy Night"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Radio Veloso",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-08-25",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5Gb8P7YCNDTygBXV08fSGZ",
-          "name": "Cobra Deluxe"
-        },
-        {
-          "id": "7aKl1HrRmaBQB36MBtxZ7v",
-          "name": "Rabbit"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Rose City Band",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Chapel"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "74dhb7ND2wsFrc76agcZPs",
-          "name": "Rip City"
-        },
-        {
-          "id": "3kNsqLVEbkMa7KeXS1TYKL",
-          "name": "Rivers of Mind"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Sexmob",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Curran Theater"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Rio Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1yIMzbY9v8zXuOH1f02awC",
-          "name": "Let X=X - Live"
-        },
-        {
-          "id": "0Yt6zGt3TFjSD7vAJpIdHT",
-          "name": "From the Air - Live"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Six Sex",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Great American Music Hall"
-        },
-        {
-          "date": "2026-08-26",
-          "venue": "Pier 80"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5jTL6HHZnDvCkjrChTVIGz",
-          "name": "4 noviosS"
-        },
-        {
-          "id": "0hrrIKyJYc5BNLOn6zsCE6",
-          "name": "Tócame (feat. Dillom)"
         }
       ],
       "youtube": null
@@ -1568,6 +1164,31 @@
       "youtube": null
     },
     {
+      "name": "Sleep",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-08-27",
+          "venue": "Catalyst"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2Gt7fjNlx901pPRkvBiNBZ",
+          "name": "Take Me Back To Eden"
+        },
+        {
+          "id": "1QrbZhFYlViXd60g130vw1",
+          "name": "Caramel"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Social Distortion",
       "showCount": 2,
       "shows": [
@@ -1588,6 +1209,31 @@
         {
           "id": "5eGDKrTYl2h6ponZyMMhgZ",
           "name": "Reach For The Sky"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Soda Blonde",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-01",
+          "venue": "Chapel"
+        },
+        {
+          "date": "2026-09-02",
+          "venue": "Crepe Place"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4Eynf2A1z9M4tzf4jdJLez",
+          "name": "In the Heat of the Night"
+        },
+        {
+          "id": "5BTr9oGHbvKCnxg0gpWzoo",
+          "name": "Holy Roses"
         }
       ],
       "youtube": null
@@ -1743,26 +1389,51 @@
       "youtube": null
     },
     {
-      "name": "Toys That Kill",
+      "name": "Twin Temple",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-08-25",
-          "venue": "Knockout"
+          "date": "2026-08-30",
+          "venue": "Castro"
         },
         {
-          "date": "2026-08-27",
-          "venue": "Gilman"
+          "date": "2026-09-02",
+          "venue": "Catalyst"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "77hrC4ArY0jndNDyLsE1YO",
-          "name": "Times We Can't Let Go"
+          "id": "1ot7IeSbrFOwEWqe1taUXy",
+          "name": "Lucifer, My Love"
         },
         {
-          "id": "5hRGHHkKYyNUvteQR7aYk0",
-          "name": "They Tied Up All Our Lace"
+          "id": "4MQINzxq3eCp6Ya6na49Gw",
+          "name": "I Am a Witch"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Twisted Teens",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "The Crepe Place"
+        },
+        {
+          "date": "2026-09-02",
+          "venue": "Thee Stork Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0tncsQDBuVMSXRLOj823gE",
+          "name": "Twisted Teen"
+        },
+        {
+          "id": "34XDCzYqrLMa9AcVsGkHzI",
+          "name": "Florida Water Blues"
         }
       ],
       "youtube": null
@@ -1944,6 +1615,27 @@
       "youtube": null
     },
     {
+      "name": "AJJ",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-02",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6OtjqFXHRV3JLwCQYaem9d",
+          "name": "Phlamethrower"
+        },
+        {
+          "id": "6Szewr1rvRbiTTMK7mfAQe",
+          "name": "I Wanna Be Your Dog 2"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Al Di Meola",
       "showCount": 1,
       "shows": [
@@ -1965,43 +1657,22 @@
       "youtube": null
     },
     {
-      "name": "Albert Castiglia",
+      "name": "Albert Posis",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-08-25",
-          "venue": "Almost Famous Wine Lounge"
+          "date": "2026-09-02",
+          "venue": "Cornerstone"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1GLYVr4eahNHS2lSPzbvLY",
-          "name": "I’m Afraid to Fall Asleep"
+          "id": "2kb3LGpIdib7c2npWf4Kp3",
+          "name": "Everlasting"
         },
         {
-          "id": "0Sm4DRLt1lP210r4KXGccV",
-          "name": "Let the Big Dog Eat"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Albert Yeh",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-25",
-          "venue": "Lab"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2SgXmfkemu8ywPk1NJqRzV",
-          "name": "Delius: Violin Concerto: III. Tempo I - Allegretto - Più moderato"
-        },
-        {
-          "id": "4e9hgS2XM1s6NC5GgX69fx",
-          "name": "Delius: Double Concerto for Violin and Cello: III. Accelerando - Tempo I"
+          "id": "3ds8Ve7yEkWcwHSnVlmqHV",
+          "name": "what can i do?"
         }
       ],
       "youtube": null
@@ -2023,6 +1694,27 @@
         {
           "id": "0cbxG8nkhbSnkUVOv8dHQa",
           "name": "San Agustina"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Amper&nd",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-02",
+          "venue": "Meritage Resort"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2Sf6SXb3LAq4aWq6Pm9akt",
+          "name": "That’s That"
+        },
+        {
+          "id": "5SZWHxjlK2Sbt43KjM1dCH",
+          "name": "Kick Start"
         }
       ],
       "youtube": null
@@ -2145,6 +1837,233 @@
         {
           "id": "3BVyk2WdrUMUWgZGFmTsWZ",
           "name": "Hands on a Bird Body"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Arnocorps",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-29",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5z1GR6HCJJ5jV2BEfsa82j",
+          "name": "I'm Ballsy"
+        },
+        {
+          "id": "5U71WWuwv1202kkcqNoa8v",
+          "name": "Predator"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Arthropod",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-29",
+          "venue": "Knockout"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0zFELU65MVzfrTd4dHRw6q",
+          "name": "Salton Sea"
+        },
+        {
+          "id": "0nFQjUSESGinvhK16H5dUu",
+          "name": "Fucking Hell"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Atomic Bomb Audition",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-29",
+          "venue": "Knockout"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6fCmQwBUhxRYJgBkAQtuXT",
+          "name": "Dead Dead Dead (For Geordie)"
+        },
+        {
+          "id": "7iCF5EXFq5io6DnC50tF3F",
+          "name": "Lens"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Attack Dog",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-26",
+          "venue": "Gilman"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3KSwFAlvStAA3a2eMFPbTs",
+          "name": "Second Skin"
+        },
+        {
+          "id": "0VvdHlOBwHfptzSZM95QRP",
+          "name": "Witness"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Author & Punisher",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-30",
+          "venue": "Neck of the Woods"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4dxKuiiQc4AcV3gXYftCPZ",
+          "name": "Nihil Strength"
+        },
+        {
+          "id": "5qfaqs6qWmgYQJk67lDn03",
+          "name": "Terrorbird"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Avery Wilson",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-02",
+          "venue": "Yoshi's"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "720VE8ztYhPhFVL7RFw6r3",
+          "name": "Kiss The Sky"
+        },
+        {
+          "id": "3v5YKvxegZyG6TJwK1loMA",
+          "name": "Song For You"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Avulsion",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-30",
+          "venue": "Planetarium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3hSBfbYj3DENnXwIIguLOx",
+          "name": "Generate"
+        },
+        {
+          "id": "3DxM7oOJehWUvalK2j8iSf",
+          "name": "Clone"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Baby J",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-27",
+          "venue": "Pier 80"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5bCIZEh1zBUnVQO8TqoqSc",
+          "name": "Deathwish"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Backstabbers",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-28",
+          "venue": "Caravan Lounge"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4wuW9BPtqJDw4D5k1qWrd7",
+          "name": ". În / Îm / Pre / / Ună . Înîmpreună . Împreună . Despre Neajunsul De a Te Fi Cunoscut."
+        },
+        {
+          "id": "2zugQZkAo6E7OSAiTtYxsP",
+          "name": "Arhanghel'sk"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Badbadnotgood",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-08-29",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1IqF5PUDUnaykHLs0RWbDO",
+          "name": "Time Moves Slow"
+        },
+        {
+          "id": "4jmLj7bALZTQoe93dT623W",
+          "name": "In Your Eyes"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "bar italia",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-01",
+          "venue": "The Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2gBHfUuzqb4JP662SOIX7O",
+          "name": "Nurse!"
+        },
+        {
+          "id": "2xsZaZI0rAKeF2aPWnMrGn",
+          "name": "changer"
         }
       ],
       "youtube": null
