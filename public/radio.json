@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-31T11:57:36+00:00",
-  "weekStart": "2026-08-31",
-  "weekEnd": "2026-09-07",
+  "generated": "2026-09-01T10:36:25+00:00",
+  "weekStart": "2026-09-01",
+  "weekEnd": "2026-09-08",
   "artists": [
     {
       "name": "My Morning Jacket",
@@ -183,31 +183,6 @@
       "youtube": null
     },
     {
-      "name": "Eagles Of Death Metal",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-31",
-          "venue": "Catalyst"
-        },
-        {
-          "date": "2026-09-01",
-          "venue": "The Fillmore"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "19mRNWlmHCKIlBT8WOCaXQ",
-          "name": "Miss Alissa"
-        },
-        {
-          "id": "3B7mbMbbcuKdfWssAcyvG8",
-          "name": "Wannabe in L.A"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Ecca Vandal",
       "showCount": 2,
       "shows": [
@@ -354,6 +329,31 @@
       "youtube": null
     },
     {
+      "name": "Knights Of Molino",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-03",
+          "venue": "Point Emery"
+        },
+        {
+          "date": "2026-09-08",
+          "venue": "Planetarium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "19fumRkcilHhSvo9yUHrNQ",
+          "name": "Take Back Control"
+        },
+        {
+          "id": "4ymJDgt8KmVFIdp4u6eBKQ",
+          "name": "Here Comes the Heartbreak"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Melt",
       "showCount": 2,
       "shows": [
@@ -429,31 +429,6 @@
       "youtube": null
     },
     {
-      "name": "Open Mic Night",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-31",
-          "venue": "Hotel Utah Saloon"
-        },
-        {
-          "date": "2026-09-07",
-          "venue": "Hotel Utah Saloon"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6nIHD0pEHv1ysnA9w9yz7k",
-          "name": "Lost at Sea"
-        },
-        {
-          "id": "3H0VkgzwZDAhkzZrUkL7nP",
-          "name": "Goodbye"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Ordh",
       "showCount": 2,
       "shows": [
@@ -499,31 +474,6 @@
         {
           "id": "75HNhGUvRoHjZBAqSZEw1D",
           "name": "Nose Ring"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Paradise Vultures",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-08-31",
-          "venue": "Catalyst"
-        },
-        {
-          "date": "2026-09-01",
-          "venue": "The Fillmore"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "69jPvUSovP0hjJjpKcLUEJ",
-          "name": "Catacombs"
-        },
-        {
-          "id": "1U7JDKkrxb2wWupWIGa6sm",
-          "name": "Catacombs"
         }
       ],
       "youtube": null
@@ -897,6 +847,27 @@
       "youtube": null
     },
     {
+      "name": "Alice Bag",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4w6MOrnilBW54MyZyV7Kjv",
+          "name": "Risk It"
+        },
+        {
+          "id": "3nznUFnuJx49VpfHH00HwL",
+          "name": "No Means No"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "All Hope Lost",
       "showCount": 1,
       "shows": [
@@ -955,44 +926,6 @@
         {
           "id": "5SZWHxjlK2Sbt43KjM1dCH",
           "name": "Kick Start"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Annalyse & Ryan",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-31",
-          "venue": "Ruby Princess Cruise"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1N9pJ97bHyRzku1P2dXNMt",
-          "name": "Can't Stop This Train"
-        },
-        {
-          "id": "7kw02xtKojhV72Od3zfYjH",
-          "name": "McIntosh Drive"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Annalyse McCoy",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-08-31",
-          "venue": "Ruby Princess Cruise"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "27hloYBc8jVN1NRXGYX3CN",
-          "name": "No Kings in the USA (Bluegrass Unplugged)"
         }
       ],
       "youtube": null
@@ -1145,6 +1078,48 @@
       "youtube": null
     },
     {
+      "name": "Bikini Kill",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0XyjtybwqSdqMAFfBEkmZf",
+          "name": "Rebel Girl"
+        },
+        {
+          "id": "2gnYFQWMzj8bNX4dDJyWzW",
+          "name": "DemiRep"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Bill Orcutt",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Great American Music Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1O0OwGO2YysR8JcBeEmjq1",
+          "name": "Forced & Forced & Forced"
+        },
+        {
+          "id": "5VOzCvglVFxEpbSgQGQiw2",
+          "name": "Almost Waking"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Bilmuri",
       "showCount": 1,
       "shows": [
@@ -1224,6 +1199,27 @@
         {
           "id": "1XYCWk1IBt0qA8BaQPV0VM",
           "name": "Cheatcode"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Blunt Force Karma",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Eagle"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4cgcrI91WnIhB0CO09yjZm",
+          "name": "Hellfire"
+        },
+        {
+          "id": "1ixboOu5PjHgqYGANEpUfY",
+          "name": "Snake Eyes"
         }
       ],
       "youtube": null
@@ -1481,6 +1477,27 @@
       "youtube": null
     },
     {
+      "name": "Chuck Johnson",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "thee Stork Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1Us9ig0flO7J6bEQmBMpDK",
+          "name": "Riga Black"
+        },
+        {
+          "id": "6tGW7b20lggzbljXZOBUnN",
+          "name": "Calamus"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Coco & Breezy",
       "showCount": 1,
       "shows": [
@@ -1586,6 +1603,27 @@
       "youtube": null
     },
     {
+      "name": "Crowbar",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "UC Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5VGAlq9o0u09jZavGLUfdo",
+          "name": "REPULSIVE IN ITS SPLENDID BEAUTY"
+        },
+        {
+          "id": "5svDpPhrVSO25fJl1EljAo",
+          "name": "SUFFERING BRINGS WISDOM"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Dalmatia",
       "showCount": 1,
       "shows": [
@@ -1662,6 +1700,27 @@
       "youtube": null
     },
     {
+      "name": "Death Valley",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "August Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6nzCOuHQr1JT0ylKC8YwV1",
+          "name": "Message From the Venus Flower"
+        },
+        {
+          "id": "2KO3HBx6LMjFriVSeGwXsr",
+          "name": "Arrow"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Deep Purple",
       "showCount": 1,
       "shows": [
@@ -1725,106 +1784,22 @@
       "youtube": null
     },
     {
-      "name": "DevilDriver",
+      "name": "Deterioration",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-09-04",
-          "venue": "Ritz"
+          "date": "2026-09-08",
+          "venue": "UC Theater"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "2QusYlHgyVRNu05c36wWlJ",
-          "name": "Sail"
+          "id": "3xRHVghPS5pJ4pwEA8IUo3",
+          "name": "Motive Unknown"
         },
         {
-          "id": "6K4qjwuMpp9AT4uuKw2LLQ",
-          "name": "Clouds over California"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Diesel Boy",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-09-07",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1yQhEIqP33UT2LAy73JoTT",
-          "name": "Titty Twister"
-        },
-        {
-          "id": "5uDOh4BipdfTJdQcMfDjnm",
-          "name": "Saving the World"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ditz",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-09-01",
-          "venue": "Golden State Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0XijzAkH2ywXc7hIaWL0gZ",
-          "name": "Clocks"
-        },
-        {
-          "id": "1r9LKpRpTdgebf630PYO02",
-          "name": "Ded Würst"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "dj Disclosure",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-09-02",
-          "venue": "Meritage Resort"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "32JL9HbzCsPsQh4hyJEBzE",
-          "name": "Latch - DJ Premier Remix"
-        },
-        {
-          "id": "74VgDsDj0Bzt1c61sVI90e",
-          "name": "Latch - DJ Premier Remix"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "DJ Holographic",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-09-05",
-          "venue": "The Midway"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "39Ca2PnuPWTdwPZQoWBs3U",
-          "name": "Because Of Detroit"
-        },
-        {
-          "id": "7lBXVtZqvQVkt7AIDePKWi",
-          "name": "Heart Stop - DJ Holographic Remix"
+          "id": "6LVuUIsYZBbtY7NKp2o2As",
+          "name": "Car Battery Interrogation"
         }
       ],
       "youtube": null
