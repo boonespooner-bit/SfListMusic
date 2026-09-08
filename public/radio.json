@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-07T10:51:44+00:00",
-  "weekStart": "2026-09-07",
-  "weekEnd": "2026-09-14",
+  "generated": "2026-09-08T10:09:44+00:00",
+  "weekStart": "2026-09-08",
+  "weekEnd": "2026-09-15",
   "artists": [
     {
       "name": "Blood Orange",
@@ -62,35 +62,6 @@
       "youtube": null
     },
     {
-      "name": "My Morning Jacket",
-      "showCount": 4,
-      "shows": [
-        {
-          "date": "2026-09-07",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-09-09",
-          "venue": "Fillmore"
-        },
-        {
-          "date": "2026-09-10",
-          "venue": "Fillmore"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6xAa0kGkTLU22ZyoHOCHgi",
-          "name": "Wordless Chorus"
-        },
-        {
-          "id": "0YZBkk4ZTgTMZUKgjTVXMd",
-          "name": "Run It"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Edgar",
       "showCount": 3,
       "shows": [
@@ -120,6 +91,35 @@
       "youtube": null
     },
     {
+      "name": "FLESHIES",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-14",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1jHSVyez3YxIDgtiS7LXuE",
+          "name": "Runner's Legs"
+        },
+        {
+          "id": "3aES6w8PDzm5EVt7EryUIy",
+          "name": "Yes,I'm Starting Shit"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Haute & Freddy",
       "showCount": 3,
       "shows": [
@@ -144,6 +144,64 @@
         {
           "id": "2LIOTreGvPk5GdpeGUqYIu",
           "name": "Shy Girl"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Magic Sword",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-12",
+          "venue": "Hopmon"
+        },
+        {
+          "date": "2026-09-13",
+          "venue": "Moe's Alley"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Kilowatt"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "43zOMnUG8FPrsgvleGGP4Q",
+          "name": "New Age"
+        },
+        {
+          "id": "4VcdnDwxfXWVUgP1jTjdOS",
+          "name": "Uprising"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "My Morning Jacket",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-09",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-09-10",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-09-11",
+          "venue": "Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6xAa0kGkTLU22ZyoHOCHgi",
+          "name": "Wordless Chorus"
+        },
+        {
+          "id": "0YZBkk4ZTgTMZUKgjTVXMd",
+          "name": "Run It"
         }
       ],
       "youtube": null
@@ -207,6 +265,35 @@
       "youtube": null
     },
     {
+      "name": "Skylimit",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-12",
+          "venue": "Hopmon"
+        },
+        {
+          "date": "2026-09-13",
+          "venue": "Moe's Alley"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Kilowatt"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "43zOMnUG8FPrsgvleGGP4Q",
+          "name": "New Age"
+        },
+        {
+          "id": "4IzQjPutmN8zwiCSUnQuTi",
+          "name": "The Edge"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Slayyyter",
       "showCount": 3,
       "shows": [
@@ -231,6 +318,64 @@
         {
           "id": "1qN5HBXkNn8sq54AgM1ZJJ",
           "name": "DANCE... - Edit"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The Bug Club",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Rickshaw Stop"
+        },
+        {
+          "date": "2026-09-08",
+          "venue": "Rickshaw Stop"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5w6sUZrPmIRB8OAEKTG44j",
+          "name": "Marriage"
+        },
+        {
+          "id": "3ajGwGgPpsuXdRsbN39zIs",
+          "name": "Lonsdale Slipons"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The Spits",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-14",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5GjA0Zw30djBxmBOsmuONG",
+          "name": "Bring"
+        },
+        {
+          "id": "6cer3p2gE7QMgPPrPicykZ",
+          "name": "All I Want"
         }
       ],
       "youtube": null
@@ -352,31 +497,6 @@
         {
           "id": "4O7Tbtvbf1U25lMhkBa2wd",
           "name": "Flavors of Oro"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Bad Ass",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7AvTXqKwk17WTUqKyeSZau",
-          "name": "Die, Fluffy Unicorns"
-        },
-        {
-          "id": "5SVpD60u9vjoQ2OeoKsTkb",
-          "name": "Akh Lad Jaave"
         }
       ],
       "youtube": null
@@ -582,31 +702,6 @@
       "youtube": null
     },
     {
-      "name": "Curb Creeps",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-07",
-          "venue": "Derby Skatepark"
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Wintrs Tavern"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3qFzY0GLQFaXX3DXvFFt2y",
-          "name": "Get Out Of My Way"
-        },
-        {
-          "id": "4qo06o4Eq9iwSnlvHSae2t",
-          "name": "Hate The Police"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Diesel Dudes",
       "showCount": 2,
       "shows": [
@@ -627,6 +722,31 @@
         {
           "id": "1gYvwFneMPs0flZD8HkUqc",
           "name": "BODY CLENCH - original mix"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "dj Fuzz",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-14",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0ROIja658w7una0HDI9k6X",
+          "name": "Strawberry"
+        },
+        {
+          "id": "5SY1ch2T9TBlecKbcx2zu2",
+          "name": "Cotton Candy"
         }
       ],
       "youtube": null
@@ -682,6 +802,31 @@
       "youtube": null
     },
     {
+      "name": "Epic Rap Battles Of History",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-15",
+          "venue": "Regency Ballroom"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Regency Ballroom"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4d9GHjgoXm6kyeHQoARFHG",
+          "name": "Darth Vader vs Adolf Hitler"
+        },
+        {
+          "id": "5lzrmqlIukuZf7K8KAYb0D",
+          "name": "Tom Cruise vs Evel Knievel"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Fartbarf",
       "showCount": 2,
       "shows": [
@@ -732,31 +877,6 @@
       "youtube": null
     },
     {
-      "name": "Frankie Rose",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-07",
-          "venue": "Castro"
-        },
-        {
-          "date": "2026-09-07",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5iKQKAN2yQT0ls10IhFVS5",
-          "name": "Pair Of Wings"
-        },
-        {
-          "id": "0gzwOzlcUekXOkWsWZLwTN",
-          "name": "Cant Be Wrong"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Friend Of A Friend",
       "showCount": 2,
       "shows": [
@@ -777,6 +897,27 @@
         {
           "id": "7jWbXvrgdbkajU8L28ahn5",
           "name": "Highwayman"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Fuzz",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-14",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2JVO6M02HMNuW4lbWE8ocT",
+          "name": "White Noise in the Cabin"
         }
       ],
       "youtube": null
@@ -832,26 +973,26 @@
       "youtube": null
     },
     {
-      "name": "Hemmed Up",
+      "name": "Hammerbombs",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
+          "date": "2026-09-12",
+          "venue": "Planetarium"
         },
         {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
+          "date": "2026-09-10",
+          "venue": "SF Building Resources"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0TUKhpbe3P2Fge67fek05k",
-          "name": "Bleed the Rich"
+          "id": "3zy69LR5eoaqrOcus21Rxn",
+          "name": "The Invasion from Within"
         },
         {
-          "id": "4OqfsSRyKnVq0FW7TrTorn",
-          "name": "Pigs Aren't People"
+          "id": "7pnEufyneIhmB9h8KNK7ka",
+          "name": "Shower Beer"
         }
       ],
       "youtube": null
@@ -927,31 +1068,6 @@
         {
           "id": "73lwDQ8dMFJAYNeRJtkgLd",
           "name": "Graves for Babies"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Jack Killed Jill",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2XeNinHGac5ipr9o3KE8Dg",
-          "name": "Walked in Line"
-        },
-        {
-          "id": "06no42lZ6S71ax0AncwrVr",
-          "name": "Macarthur Maze - Remix"
         }
       ],
       "youtube": null
@@ -1182,76 +1298,26 @@
       "youtube": null
     },
     {
-      "name": "Mad Caddies",
+      "name": "Menstrual Tramps",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-07",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-09-07",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "75tiwhwYWBtkgtjqqUVJvj",
-          "name": "Road Rash"
-        },
-        {
-          "id": "5RPkkpx6o9EJ6rXW7MCSqx",
-          "name": "Coyote"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Magic Sword",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-12",
-          "venue": "Hopmon"
-        },
-        {
-          "date": "2026-09-13",
-          "venue": "Moe's Alley"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "43zOMnUG8FPrsgvleGGP4Q",
-          "name": "New Age"
-        },
-        {
-          "id": "4VcdnDwxfXWVUgP1jTjdOS",
-          "name": "Uprising"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Mismiths",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
+          "date": "2026-09-10",
+          "venue": "Stay Gold Deli"
         },
         {
           "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
+          "venue": "Gilman"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4xWouHX0ZPHmlWfoYEdP9P",
-          "name": "You’re Dead to Me and I Don’t Shag the Dead"
+          "id": "34fXFqdzf5zH6jbe1sJUy1",
+          "name": "Americanized Suicide"
         },
         {
-          "id": "3xeomQLlvFfm6umjOCkvSp",
-          "name": "Screamin' like a Banshee"
+          "id": "0bVLUTrU2aoEjNYiGeih5i",
+          "name": "Dead Man"
         }
       ],
       "youtube": null
@@ -1277,31 +1343,6 @@
         {
           "id": "1bqju956r8jqaNC8ZUDc52",
           "name": "they're there"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Nixed",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7qQkAXm3X7GWRkYoKEFGzp",
-          "name": "Nothing Special (Instrumental)"
-        },
-        {
-          "id": "7lwvfmZW6cjhTS06LJz854",
-          "name": "Get Out The Way (feat. Stevie Stone)"
         }
       ],
       "youtube": null
@@ -1378,6 +1419,31 @@
       "youtube": null
     },
     {
+      "name": "San Francisco Symphony",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-08",
+          "venue": "Davies Symphony Hall"
+        },
+        {
+          "date": "2026-09-15",
+          "venue": "Davies Symphony Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4CZq7M6hBTg77Qhp3TJHdN",
+          "name": "Fauré: Pavane, Op. 50"
+        },
+        {
+          "id": "5CXtWLiyWfxNFz7J7oHbMl",
+          "name": "Peer Gynt, Op. 23, Act IV: No. 13, Prelude. Morning Mood"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Shebad",
       "showCount": 2,
       "shows": [
@@ -1398,31 +1464,6 @@
         {
           "id": "3fmmkjuxhyxcRbmjPEmxrj",
           "name": "INNER RISE"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Sick Behavior",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2Lo8N0CYtm7OaeFKyRRryA",
-          "name": "Abort"
-        },
-        {
-          "id": "0mta7uTuG4v5ylRmv7DPEU",
-          "name": "Amuck"
         }
       ],
       "youtube": null
@@ -1474,26 +1515,26 @@
       "youtube": null
     },
     {
-      "name": "Skylimit",
+      "name": "Starbomb",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-12",
-          "venue": "Hopmon"
+          "date": "2026-09-15",
+          "venue": "Regency Ballroom"
         },
         {
-          "date": "2026-09-13",
-          "venue": "Moe's Alley"
+          "date": "2026-09-15",
+          "venue": "Regency Ballroom"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "43zOMnUG8FPrsgvleGGP4Q",
-          "name": "New Age"
+          "id": "2HKF8zAcm6lMgigPbr8bOz",
+          "name": "Smash!"
         },
         {
-          "id": "4IzQjPutmN8zwiCSUnQuTi",
-          "name": "The Edge"
+          "id": "5zudK1qdjj5exzUqehSRkS",
+          "name": "Welcome to the Mario Party"
         }
       ],
       "youtube": null
@@ -1565,56 +1606,6 @@
         {
           "id": "1JHGJwhZ5GUGHx07jnN0WH",
           "name": "I Think She's Bad For You"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The Bug Club",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-08",
-          "venue": "Rickshaw Stop"
-        },
-        {
-          "date": "2026-09-08",
-          "venue": "Rickshaw Stop"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5w6sUZrPmIRB8OAEKTG44j",
-          "name": "Marriage"
-        },
-        {
-          "id": "3ajGwGgPpsuXdRsbN39zIs",
-          "name": "Lonsdale Slipons"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The Hellflowers",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        },
-        {
-          "date": "2026-09-11",
-          "venue": "Gilman Brewing Co."
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1bErHyALsoPeBq7mCaokWe",
-          "name": "Vacation"
-        },
-        {
-          "id": "0OkybOlJgAcfJWpS7pzMb8",
-          "name": "Stutter"
         }
       ],
       "youtube": null
@@ -1984,6 +1975,27 @@
       "youtube": null
     },
     {
+      "name": "Adam Ant",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-09-15",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2oJuoAFzlEHDS0moF0VtuA",
+          "name": "Wonderful"
+        },
+        {
+          "id": "4Aj9ptiGlLl3CidNeK1nVi",
+          "name": "Strip - Single Version"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Adrian West Band",
       "showCount": 1,
       "shows": [
@@ -2038,27 +2050,6 @@
         {
           "id": "0CufPAvmJwIf7SuGxsOh4F",
           "name": "Closer"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Aimee Nolte",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-09-07",
-          "venue": "Yoshi's"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6J3hgg4p4d5k1VtubUFVh2",
-          "name": "London Bridge"
-        },
-        {
-          "id": "4FhWJ3Fb9BkDpU5lac6Dox",
-          "name": "Save Me One Last Time"
         }
       ],
       "youtube": null
