@@ -1,33 +1,33 @@
 {
-  "generated": "2026-09-21T11:13:42+00:00",
-  "weekStart": "2026-09-21",
-  "weekEnd": "2026-09-28",
+  "generated": "2026-09-22T10:25:58+00:00",
+  "weekStart": "2026-09-22",
+  "weekEnd": "2026-09-29",
   "artists": [
     {
-      "name": "Peter Hook & The Light",
+      "name": "Aldous Harding",
       "showCount": 4,
       "shows": [
         {
-          "date": "2026-09-21",
-          "venue": "Warfield"
+          "date": "2026-09-28",
+          "venue": "Castro"
         },
         {
-          "date": "2026-09-22",
-          "venue": "Mountain Winery"
+          "date": "2026-09-29",
+          "venue": "Rio Theater"
         },
         {
-          "date": "2026-09-21",
-          "venue": "Warfield"
+          "date": "2026-09-29",
+          "venue": ""
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5gtvyULdhMvc6qSKMk5jzo",
-          "name": "Love Will Tear Us Apart"
+          "id": "06lw2dBFqdXhAErz7Xz9Zs",
+          "name": "The Barrel"
         },
         {
-          "id": "06E79aHUIF8R0yLMMFfMnP",
-          "name": "Crystal - Live"
+          "id": "5Mjkrb43pfWNSt3dmztKjZ",
+          "name": "I Ate the Most"
         }
       ],
       "youtube": null
@@ -145,6 +145,35 @@
       "youtube": null
     },
     {
+      "name": "Sam Burton",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-09-28",
+          "venue": "Castro"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": ""
+        },
+        {
+          "date": "2026-09-28",
+          "venue": "Castro"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7M6EoleJd4kGMLgmhQSz0K",
+          "name": "Fairweather Friend"
+        },
+        {
+          "id": "3yceUgMYJUs1g9HV9Seunb",
+          "name": "Nothing Touches Me"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Accessory",
       "showCount": 2,
       "shows": [
@@ -165,31 +194,6 @@
         {
           "id": "19swoESh14znOg6WDx3liB",
           "name": "Sunshine"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Aldous Harding",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-28",
-          "venue": "Castro"
-        },
-        {
-          "date": "2026-09-28",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "06lw2dBFqdXhAErz7Xz9Zs",
-          "name": "The Barrel"
-        },
-        {
-          "id": "5Mjkrb43pfWNSt3dmztKjZ",
-          "name": "I Ate the Most"
         }
       ],
       "youtube": null
@@ -508,6 +512,31 @@
       "youtube": null
     },
     {
+      "name": "Chanel Beads",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-29",
+          "venue": "Great American Music Hall"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": "Great American Music Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "636mLRkAl5yW0HpaUUUoj8",
+          "name": "Ef"
+        },
+        {
+          "id": "5CmwokYs7WrZdNb8VhpweH",
+          "name": "Song for the Messenger"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Channel Tres",
       "showCount": 2,
       "shows": [
@@ -629,6 +658,31 @@
       "youtube": null
     },
     {
+      "name": "Descendents",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-28",
+          "venue": "Masonic"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": "Fox Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5XXiK8GZjjmCHpBpUEm9z5",
+          "name": "I'm The One"
+        },
+        {
+          "id": "2xcivsD9oKfeKyIv3kf5IX",
+          "name": "'Merican"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Despacio",
       "showCount": 2,
       "shows": [
@@ -724,6 +778,31 @@
         {
           "id": "3dnP0JxCgygwQH9Gm7q7nb",
           "name": "Ella Baila Sola"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Ethan Regan",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-29",
+          "venue": "August Hall"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": "August Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7bGfQ7ezUqO8Aexf5dXom3",
+          "name": "peach tree"
+        },
+        {
+          "id": "676UGPoceFxnlyPXa01uNk",
+          "name": "double cup"
         }
       ],
       "youtube": null
@@ -924,6 +1003,31 @@
         {
           "id": "0KIPa0YuQ5QFmlAqRyXNd9",
           "name": "At the River"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Harf.",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-29",
+          "venue": "August Hall"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": "August Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "21xoZuQdX2HAgmrZk0wgE8",
+          "name": "How Come I Don't See You Anymore?"
+        },
+        {
+          "id": "6EMux1k80n5b2pv1h5i1Mg",
+          "name": "Love You More"
         }
       ],
       "youtube": null
@@ -1304,31 +1408,6 @@
       "youtube": null
     },
     {
-      "name": "Light",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-21",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-09-22",
-          "venue": "Mountain Winery"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2RlgNHKcydI9sayD2Df2xp",
-          "name": "Mr. Blue Sky"
-        },
-        {
-          "id": "6xE6ZWzK1YDDSYzqOCoQlz",
-          "name": "Last Train to London"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Lionel Richie",
       "showCount": 2,
       "shows": [
@@ -1404,51 +1483,26 @@
       "youtube": null
     },
     {
-      "name": "Luna Ivy",
+      "name": "Mechatok",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
+          "date": "2026-09-29",
+          "venue": "Great American Music Hall"
         },
         {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
+          "date": "2026-09-29",
+          "venue": "Great American Music Hall"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "46xYJmD3FtHY9hS2oKewFK",
-          "name": "Piano"
+          "id": "0w7D97OKS6CN9KZyKqoFUn",
+          "name": "Expression On Your Face"
         },
         {
-          "id": "6YTPXAkXs6izEee29qxKRo",
-          "name": "A Million Colors - With Miku"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Malcolm Todd",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-21",
-          "venue": "Fox Theater"
-        },
-        {
-          "date": "2026-09-22",
-          "venue": "Fox Theater"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0eAuGrXyGFYwur9ARUe7LJ",
-          "name": "Earrings"
-        },
-        {
-          "id": "59c2xv2kMzYM6HR9oY6BIa",
-          "name": "Sweet Boy"
+          "id": "4JxgNwic9PMF1c87TKWZOr",
+          "name": "MAKKA"
         }
       ],
       "youtube": null
@@ -1504,31 +1558,6 @@
       "youtube": null
     },
     {
-      "name": "Messa",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-21",
-          "venue": "Regency Ballroom"
-        },
-        {
-          "date": "2026-09-21",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "49fDs1J7JqHlUo6HbX2qJ5",
-          "name": "You Are a Memory"
-        },
-        {
-          "id": "0gPQTl1trFa3HxmiIq6ogr",
-          "name": "Mountains"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Mike D 5D",
       "showCount": 2,
       "shows": [
@@ -1549,31 +1578,6 @@
         {
           "id": "1KzF176eH3k51UwhuQHgr3",
           "name": "Cold - Hot Shade & Mike Perry Remix"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Modern Daze",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
-        },
-        {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6PT7ZCmQQ4cgyRHOk5jvoB",
-          "name": "almost"
-        },
-        {
-          "id": "4MOsMH7Ogoy9egvka1POvv",
-          "name": "sewn on"
         }
       ],
       "youtube": null
@@ -1629,6 +1633,31 @@
       "youtube": null
     },
     {
+      "name": "P.O.S.",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-09-27",
+          "venue": "Gilman"
+        },
+        {
+          "date": "2026-09-29",
+          "venue": "Neck of the Woods"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5IB4ugsKzjD4hWuIEFZtAE",
+          "name": "What A God - Live"
+        },
+        {
+          "id": "0vbtURX4qv1l7besfwmnD8",
+          "name": "I Took A Pill In Ibiza - Seeb Remix"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Parcels",
       "showCount": 2,
       "shows": [
@@ -1679,12 +1708,12 @@
       "youtube": null
     },
     {
-      "name": "Peter Hook",
+      "name": "Peter Hook & The Light",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-21",
-          "venue": "Warfield"
+          "date": "2026-09-22",
+          "venue": "Mountain Winery"
         },
         {
           "date": "2026-09-22",
@@ -1693,12 +1722,12 @@
       ],
       "spotifyTracks": [
         {
-          "id": "25Gp0MpGdvrs4hL1u4L2TF",
-          "name": "Aries (feat. Peter Hook and Georgia)"
+          "id": "5gtvyULdhMvc6qSKMk5jzo",
+          "name": "Love Will Tear Us Apart"
         },
         {
-          "id": "2haIfONRw1Bhi2zSp67MYU",
-          "name": "Aries (feat. Peter Hook and Georgia)"
+          "id": "06E79aHUIF8R0yLMMFfMnP",
+          "name": "Crystal - Live"
         }
       ],
       "youtube": null
@@ -1870,31 +1899,6 @@
         {
           "id": "2TceCDEq7MIPZNvWYsAHYk",
           "name": "crimson"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Sam Burton",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-28",
-          "venue": "Castro"
-        },
-        {
-          "date": "2026-09-28",
-          "venue": "Castro"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7M6EoleJd4kGMLgmhQSz0K",
-          "name": "Fairweather Friend"
-        },
-        {
-          "id": "3yceUgMYJUs1g9HV9Seunb",
-          "name": "Nothing Touches Me"
         }
       ],
       "youtube": null
@@ -2100,26 +2104,26 @@
       "youtube": null
     },
     {
-      "name": "Sondre Lerche",
+      "name": "Social Distortion",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-09-21",
-          "venue": "Independent"
+          "date": "2026-09-28",
+          "venue": "Masonic"
         },
         {
-          "date": "2026-09-21",
-          "venue": "Independent"
+          "date": "2026-09-29",
+          "venue": "Fox Theater"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "270ueT8Mg9NJZNy9WEVCzq",
-          "name": "Modern Nature"
+          "id": "4Q4w8aRdfhIIEhBututktL",
+          "name": "Story of My Life"
         },
         {
-          "id": "5Fb1tBNLkKUymmf7f1uJOV",
-          "name": "Modern Nature"
+          "id": "5eGDKrTYl2h6ponZyMMhgZ",
+          "name": "Reach For The Sky"
         }
       ],
       "youtube": null
@@ -2145,31 +2149,6 @@
         {
           "id": "6A297r5nVjE6eXGI6h00SL",
           "name": "Hardwired (feat. Miranda Lambert)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Summer Of Peril",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
-        },
-        {
-          "date": "2026-09-21",
-          "venue": "Kilowatt"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2fE093Yur6yDa5ScVCFkA8",
-          "name": "Stray Dog"
-        },
-        {
-          "id": "65BM6opk3vidNxLqYvgN0i",
-          "name": "Obsessive, Compulsive"
         }
       ],
       "youtube": null
