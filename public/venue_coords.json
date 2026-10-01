@@ -10903,5 +10903,35 @@
     "name": "Discovery Meadow",
     "lat": 37.3278878,
     "lng": -121.8923486
+  },
+  "club.html#delta_sports_bar": {
+    "name": "Delta Sports Bar",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#240_front_street": {
+    "name": "240 Front Street",
+    "lat": 37.7939149,
+    "lng": -122.3987561
+  },
+  "http://www.songkick.com/festivals/3347546-day-trip/id/43291230-day-trip-2026?utm_medium=organic&utm_source=microformat": {
+    "name": "Discovery Meadow",
+    "lat": 37.3278878,
+    "lng": -121.8923486
+  },
+  "http://www.songkick.com/concerts/43282708-twin-peaks-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43333002-jerry-douglas-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43426760-jerry-douglas-at-felton-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Felton Music Hall",
+    "lat": null,
+    "lng": null
   }
 }
