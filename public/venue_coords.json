@@ -11263,5 +11263,15 @@
     "name": "The Great Northern",
     "lat": 37.7676612,
     "lng": -122.4065246
+  },
+  "http://www.songkick.com/concerts/43439531-monolink-at-pier-48?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 48",
+    "lat": 37.7756552,
+    "lng": -122.3861378
+  },
+  "http://www.songkick.com/concerts/43291483-yg-at-pure-nightclub?utm_medium=organic&utm_source=microformat": {
+    "name": "PURE Nightclub",
+    "lat": null,
+    "lng": null
   }
 }
