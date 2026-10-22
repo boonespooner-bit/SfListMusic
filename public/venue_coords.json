@@ -12023,5 +12023,25 @@
     "name": "San Jose Improv",
     "lat": 37.3356288,
     "lng": -121.8882854
+  },
+  "http://www.songkick.com/concerts/43467782-tyla-at-fox-theater?utm_medium=organic&utm_source=microformat": {
+    "name": "Fox Theater",
+    "lat": 37.8081438,
+    "lng": -122.2705153
+  },
+  "http://www.songkick.com/concerts/43434288-sheila-e-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43442322-cool-heat-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43473519-el-vez-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
   }
 }
