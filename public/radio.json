@@ -1,37 +1,8 @@
 {
-  "generated": "2026-10-28T11:43:48+00:00",
-  "weekStart": "2026-10-28",
-  "weekEnd": "2026-11-04",
+  "generated": "2026-10-29T11:51:24+00:00",
+  "weekStart": "2026-10-29",
+  "weekEnd": "2026-11-05",
   "artists": [
-    {
-      "name": "We Are Scientists",
-      "showCount": 4,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Rickshaw Stop"
-        },
-        {
-          "date": "2026-10-30",
-          "venue": "Uptown Theater"
-        },
-        {
-          "date": "2026-11-01",
-          "venue": "The Guild"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6BnioVUjZdsTeYliZcnNW8",
-          "name": "After Hours"
-        },
-        {
-          "id": "0iUano4euaiUETVUd1u0cx",
-          "name": "Nobody Move, Nobody Get Hurt"
-        }
-      ],
-      "youtube": null
-    },
     {
       "name": "The Psychedelic Furs",
       "showCount": 3,
@@ -62,51 +33,30 @@
       "youtube": null
     },
     {
-      "name": "Alex G",
-      "showCount": 2,
+      "name": "We Are Scientists",
+      "showCount": 3,
       "shows": [
         {
-          "date": "2026-10-28",
-          "venue": "Warriors Stadium"
+          "date": "2026-10-30",
+          "venue": "Uptown Theater"
         },
         {
-          "date": "2026-10-28",
-          "venue": "Chase Center"
+          "date": "2026-11-01",
+          "venue": "The Guild"
+        },
+        {
+          "date": "2026-11-02",
+          "venue": "The Guild"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "3XUqkTZBYQr3Nj0nifAW2S",
-          "name": "Harvey"
+          "id": "6BnioVUjZdsTeYliZcnNW8",
+          "name": "After Hours"
         },
         {
-          "id": "7fyG2MquxykO3Ufiku1Dj2",
-          "name": "Treehouse"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ax And The Hatchetmen",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "August Hall"
-        },
-        {
-          "date": "2026-10-28",
-          "venue": "August Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6DKSK32WwzBMZ0qAq28Zon",
-          "name": "Hotel Room"
-        },
-        {
-          "id": "5p5bK3qF9ttryVxpxJvZYF",
-          "name": "Hotel Room"
+          "id": "0iUano4euaiUETVUd1u0cx",
+          "name": "Nobody Move, Nobody Get Hurt"
         }
       ],
       "youtube": null
@@ -162,6 +112,31 @@
       "youtube": null
     },
     {
+      "name": "Cassian",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-04",
+          "venue": "Arena"
+        },
+        {
+          "date": "2026-11-05",
+          "venue": "Arena"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0CBRDrO5BuFxmfIjOSYUaW",
+          "name": "Come To Life"
+        },
+        {
+          "id": "6sx8YefY3PQgfY8TpVg34w",
+          "name": "Love Parade"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Cosmic Trigger",
       "showCount": 2,
       "shows": [
@@ -182,6 +157,31 @@
         {
           "id": "1YILtBHbY98OLl3Hdnonq2",
           "name": "Dub Sutras - Cosmic Trigger Remix"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "First Day Back",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-04",
+          "venue": "Gilman"
+        },
+        {
+          "date": "2026-11-05",
+          "venue": "Gilman"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1PgnRBRr2UFLOpfJIahVkA",
+          "name": "Paint"
+        },
+        {
+          "id": "7fqfrQxzYG8qLzMuDX3tyJ",
+          "name": "Sure, Ok"
         }
       ],
       "youtube": null
@@ -237,6 +237,31 @@
       "youtube": null
     },
     {
+      "name": "John Summit",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-04",
+          "venue": "Arena"
+        },
+        {
+          "date": "2026-11-05",
+          "venue": "Arena"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5TbTOkgK8UAjtjIuIVPAjE",
+          "name": "DON'T BELIEVE IT"
+        },
+        {
+          "id": "4krcWtZK3AsVE1Jl4oqH8w",
+          "name": "ALL THE TIME"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Lee Ritenour",
       "showCount": 2,
       "shows": [
@@ -287,6 +312,31 @@
       "youtube": null
     },
     {
+      "name": "Mesto",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-04",
+          "venue": "Arena"
+        },
+        {
+          "date": "2026-11-05",
+          "venue": "Arena"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1pJQFno9DA8ghYWMecImct",
+          "name": "Freak"
+        },
+        {
+          "id": "6dGS0rGElrf9R961GkueoE",
+          "name": "Caramelle"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Montell Fish",
       "showCount": 2,
       "shows": [
@@ -307,31 +357,6 @@
         {
           "id": "1IIzlkKTsF7YEpKKluX1pz",
           "name": "Talk 2 Me"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Phoebe Bridgers",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Warriors Stadium"
-        },
-        {
-          "date": "2026-10-28",
-          "venue": "Chase Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2hAQCoAswuQ643VhIuRC2p",
-          "name": "The Governor’s Waltz"
-        },
-        {
-          "id": "4b1QYjd7i5D1Gx2VjN21qI",
-          "name": "Haunted"
         }
       ],
       "youtube": null
@@ -432,6 +457,31 @@
         {
           "id": "6nDlSCRv52Px47Yy7glFfC",
           "name": "Later Days"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The String Cheese Incident",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-04",
+          "venue": "Fox Theater"
+        },
+        {
+          "date": "2026-11-05",
+          "venue": "Fox Theater"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "54rQxr2XJZ4vf0mRyGsqAo",
+          "name": "Sirens"
+        },
+        {
+          "id": "2CDv4O5IHklJUjVWGIhS4q",
+          "name": "Get Tight"
         }
       ],
       "youtube": null
@@ -608,27 +658,6 @@
         {
           "id": "5JlcpGEmvMZ9U9LMaGZHZo",
           "name": "Blinding Lights"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "A-100's",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3ou0IopRkR1Geo2lbTFJ6i",
-          "name": "Answer"
-        },
-        {
-          "id": "6snCvnl2bBMJb7JTNfCAu3",
-          "name": "Rude and Lovely"
         }
       ],
       "youtube": null
@@ -819,6 +848,27 @@
       "youtube": null
     },
     {
+      "name": "Alison's Halo",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-05",
+          "venue": "Rickshaw Stop"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1X8127HN0ITOGhVIkjkL5L",
+          "name": "Brazil 66"
+        },
+        {
+          "id": "7FoVZCTSLY9gQ2vqIURPcg",
+          "name": "Dozen"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Almas",
       "showCount": 1,
       "shows": [
@@ -924,22 +974,64 @@
       "youtube": null
     },
     {
-      "name": "Babe Haven",
+      "name": "Asher Roth",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-10-28",
+          "date": "2026-11-05",
           "venue": "Cornerstone"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5isfWM7QuJWzxoTfDHLsKn",
-          "name": "Gas Pedal"
+          "id": "1akgiRM3mN2nxu2AX6ACCW",
+          "name": "I Love College"
         },
         {
-          "id": "0efJcU7xB2j31UtfJBxkhD",
-          "name": "Nuisance"
+          "id": "30vaYdXtB20QrniKjJ2B7m",
+          "name": "Party Girl"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Azzecca",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-05",
+          "venue": "Civic Auditorium"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6gLDnzjpM0AwOeh9NmmHE0",
+          "name": "Other Side"
+        },
+        {
+          "id": "0gCVfzNzYGBk95GBLQ6US4",
+          "name": "oh my yuma!"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Baby Bash",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-05",
+          "venue": "Warfield"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6Nq5lE0CeOAAAqN4qhkbZU",
+          "name": "Suga Suga"
+        },
+        {
+          "id": "0x1LCpY9Rgeq97VPajm81B",
+          "name": "Cyclone (feat. T-Pain) - Main"
         }
       ],
       "youtube": null
@@ -966,22 +1058,22 @@
       "youtube": null
     },
     {
-      "name": "Barrington Levy",
+      "name": "Bartees Strange",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-10-28",
-          "venue": "Regency Ballroom"
+          "date": "2026-11-05",
+          "venue": "UC Theater"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4abVwdCy5QUcyI3KS2lMJK",
-          "name": "Here I Come"
+          "id": "3MCz1X3mQPDb46cRHx60mH",
+          "name": "Boomer"
         },
         {
-          "id": "59ks2wUIc4SE6izQTDuwdI",
-          "name": "Here I Come"
+          "id": "10DilJJ0TVaAoGE6O4ghv4",
+          "name": "Big Glow"
         }
       ],
       "youtube": null
@@ -1008,22 +1100,22 @@
       "youtube": null
     },
     {
-      "name": "Baystar",
+      "name": "Berner",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-10-28",
-          "venue": "Knockout"
+          "date": "2026-11-05",
+          "venue": "Warfield"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0Zl3vKbYaGpdz3hRbonYx6",
-          "name": "Yokohama Baystars Kyuudanka - Atsuki Hoshitachi yo -"
+          "id": "26e3iwow6J1qzEopUPPNsf",
+          "name": "Reminiscing"
         },
         {
-          "id": "3LfUA56V3qPc0kv7q13bLD",
-          "name": "EYE TO EYE"
+          "id": "1t0P9nBKpnrh5MntGd3qw6",
+          "name": "El Chivo (feat. T3r Elemento)"
         }
       ],
       "youtube": null
@@ -1045,23 +1137,6 @@
         {
           "id": "59xrC6NUUNt24Lft63CjiD",
           "name": "Bittersweet"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Big Tractor",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Arlene Francis Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1KeKDFteUvcxcIkaeH7581",
-          "name": "All I want is a Blowjob for Christmas"
         }
       ],
       "youtube": null
@@ -1130,27 +1205,6 @@
       "youtube": null
     },
     {
-      "name": "Blood Rave",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Great American Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2eKZKonzaW6MPR0cUWc1ip",
-          "name": "Parasite"
-        },
-        {
-          "id": "0D0CQ18ev0Icgvg64LfKXi",
-          "name": "Dead Inside"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Blunt Force Karma",
       "showCount": 1,
       "shows": [
@@ -1167,27 +1221,6 @@
         {
           "id": "1ixboOu5PjHgqYGANEpUfY",
           "name": "Snake Eyes"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Bo Knife",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-10-28",
-          "venue": "Arlene Francis Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5qaEgI8ywRANnWjDEad0LL",
-          "name": "Marble House - Bookashade Polar Light Remix"
-        },
-        {
-          "id": "2CbPnQMK72q6TxIf6Zp0uV",
-          "name": "Upheaved"
         }
       ],
       "youtube": null
@@ -1441,6 +1474,27 @@
       "youtube": null
     },
     {
+      "name": "C.J. Briggs",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-05",
+          "venue": "Fireside Lounge"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0br9vcQnqeqp9PKCGsrxAF",
+          "name": "No One Mourns the Wicked"
+        },
+        {
+          "id": "3XmZnNSkWUmYfgZUuBFuUP",
+          "name": "Santorini - Remastered"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Caifanes",
       "showCount": 1,
       "shows": [
@@ -1567,22 +1621,22 @@
       "youtube": null
     },
     {
-      "name": "Cassian",
+      "name": "Cathedral Bells",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-11-04",
-          "venue": "Arena"
+          "date": "2026-11-05",
+          "venue": "Rickshaw Stop"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0CBRDrO5BuFxmfIjOSYUaW",
-          "name": "Come To Life"
+          "id": "7xYQZUWkPOlo7yYqQLdjPc",
+          "name": "Dayflower"
         },
         {
-          "id": "6sx8YefY3PQgfY8TpVg34w",
-          "name": "Love Parade"
+          "id": "7dTPJ3wGBcLzAaMhJfY7Qd",
+          "name": "Heavy Rain"
         }
       ],
       "youtube": null
@@ -1651,43 +1705,22 @@
       "youtube": null
     },
     {
-      "name": "Christian Löffler",
+      "name": "Chiddy Bang",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-10-31",
-          "venue": "Public Works"
+          "date": "2026-11-05",
+          "venue": "Cornerstone"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5sPQZv8GaaGrRFLa5dDzRK",
-          "name": "Haul (feat. Mohna)"
+          "id": "01oPNCtTniFT3YM4K3ksTf",
+          "name": "Opposite of Adults"
         },
         {
-          "id": "25s9f4TrrZZzZTYjA8NE19",
-          "name": "Closer"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Chukklez",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-10-29",
-          "venue": "DNA Lounge"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7hthQl9pcEYru90qBFmSHg",
-          "name": "Lycanthropy Cypher"
-        },
-        {
-          "id": "6i0V8onbfGF3q4S69X6rqz",
-          "name": "Pennywise Possetrack Sypher - Remastered 2025"
+          "id": "04pVM8MuDl8Cv4AcD7Ceu0",
+          "name": "Bad Day"
         }
       ],
       "youtube": null
