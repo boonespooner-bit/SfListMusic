@@ -13713,5 +13713,385 @@
     "name": "SAP Center at San Jose",
     "lat": 37.3328604,
     "lng": -121.9012247
+  },
+  "club.html#toxic_beach": {
+    "name": "Toxic Beach",
+    "lat": 37.7539481,
+    "lng": -122.383055
+  },
+  "club.html#rite_spot": {
+    "name": "Rite Spot",
+    "lat": 37.7638277,
+    "lng": -122.4150115
+  },
+  "club.html#nobel_cinema_studios": {
+    "name": "Nobel Cinema Studios",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#vacaville_vets_hall": {
+    "name": "Vacaville Vets Hall",
+    "lat": null,
+    "lng": null
+  },
+  "club.html#sandbar": {
+    "name": "Sandbar",
+    "lat": 37.8136988,
+    "lng": -122.2650505
+  },
+  "club.html#276_golden_gate_avenue": {
+    "name": "276 Golden Gate Avenue",
+    "lat": 37.7818807,
+    "lng": -122.4152436
+  },
+  "club.html#bazaar_cafe": {
+    "name": "Bazaar Cafe",
+    "lat": 37.7839525,
+    "lng": -122.4811269
+  },
+  "club.html#marin_exhibit_hall": {
+    "name": "Marin Exhibit Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43392550-roa-at-regency-ballroom?utm_medium=organic&utm_source=microformat": {
+    "name": "Regency Ballroom",
+    "lat": 37.7878176,
+    "lng": -122.4215762
+  },
+  "http://www.songkick.com/concerts/43505582-trippie-redd-at-pure-nightclub?utm_medium=organic&utm_source=microformat": {
+    "name": "PURE Nightclub",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43502689-dj-drama-at-great-northern?utm_medium=organic&utm_source=microformat": {
+    "name": "The Great Northern",
+    "lat": 37.7676612,
+    "lng": -122.4065246
+  },
+  "http://www.songkick.com/concerts/43506259-goldie-at-public-works?utm_medium=organic&utm_source=microformat": {
+    "name": "Public Works",
+    "lat": 37.7688931,
+    "lng": -122.4192651
+  },
+  "http://www.songkick.com/concerts/43438068-long-beach-dub-allstars-at-moes-alley?utm_medium=organic&utm_source=microformat": {
+    "name": "Moe's Alley",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43512642-bistro-moustache-at-scopo-divino?utm_medium=organic&utm_source=microformat": {
+    "name": "Scopo Divino",
+    "lat": 37.7881467,
+    "lng": -122.4407905
+  },
+  "http://www.songkick.com/concerts/43515116-freak-no-hitter-at-natural?utm_medium=organic&utm_source=microformat": {
+    "name": "the natural",
+    "lat": 37.780982,
+    "lng": -122.3937181
+  },
+  "http://www.songkick.com/concerts/43507046-ignite-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43515472-bit-rot-at-thee-stork-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Thee Stork Club",
+    "lat": 37.8131364,
+    "lng": -122.2683848
+  },
+  "http://www.songkick.com/concerts/43519551-meredith-edgar-at-freight?utm_medium=organic&utm_source=microformat": {
+    "name": "The Freight",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/festivals/3813027-annual-death-angel-xmas-show/id/43393988-annual-death-angel-xmas-show-2026?utm_medium=organic&utm_source=microformat": {
+    "name": "The Fillmore",
+    "lat": 37.7840838,
+    "lng": -122.433171
+  },
+  "http://www.songkick.com/concerts/43513506-missing-persons-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43513509-hedex-at-midway?utm_medium=organic&utm_source=microformat": {
+    "name": "The Midway",
+    "lat": 37.7495304,
+    "lng": -122.3860944
+  },
+  "http://www.songkick.com/concerts/43517578-carpool-tunnel-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43502465-soul-seed-at-sweets-ballroom?utm_medium=organic&utm_source=microformat": {
+    "name": "Sweets Ballroom",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43518429-victoria-theodore-at-winters-tavern?utm_medium=organic&utm_source=microformat": {
+    "name": "Winter's Tavern",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43518448-nino-msk-at-makeout-room?utm_medium=organic&utm_source=microformat": {
+    "name": "Make-Out Room",
+    "lat": 37.7553007,
+    "lng": -122.419366
+  },
+  "http://www.songkick.com/concerts/43518430-victoria-theodore-at-meyhouse-jazz?utm_medium=organic&utm_source=microformat": {
+    "name": "Meyhouse Jazz",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43518446-nino-msk-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43482666-bunt-at-santa-clara-county-fairgrounds?utm_medium=organic&utm_source=microformat": {
+    "name": "Santa Clara County Fairgrounds",
+    "lat": 37.2999593,
+    "lng": -121.8511955
+  },
+  "http://www.songkick.com/concerts/43518625-kali-uchis-at-pier-80?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 80",
+    "lat": 37.7879363,
+    "lng": -122.4075201
+  },
+  "http://www.songkick.com/concerts/43504524-sango-at-hibernia-bank-building?utm_medium=organic&utm_source=microformat": {
+    "name": "The Hibernia Bank Building",
+    "lat": 37.7814366,
+    "lng": -122.4124484
+  },
+  "http://www.songkick.com/concerts/43439614-beltran-at-pier-48?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 48",
+    "lat": 37.8211274,
+    "lng": -122.3313033
+  },
+  "http://www.songkick.com/concerts/43513439-sosa-uk-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7774512,
+    "lng": -122.4004207
+  },
+  "http://www.songkick.com/concerts/43496735-four-tet-at-pier-48?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 48",
+    "lat": 37.7756552,
+    "lng": -122.3861378
+  },
+  "http://www.songkick.com/concerts/43456444-fresh-start-at-pier-80?utm_medium=organic&utm_source=microformat": {
+    "name": "Pier 80",
+    "lat": 37.7879363,
+    "lng": -122.4075201
+  },
+  "http://www.songkick.com/concerts/43504991-pacific-mambo-orchestra-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43504992-pacific-mambo-orchestra-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43513440-night-tales-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7774512,
+    "lng": -122.4004207
+  },
+  "http://www.songkick.com/concerts/43458651-western-standard-time-ska-orchestra-at-chapel?utm_medium=organic&utm_source=microformat": {
+    "name": "The Chapel",
+    "lat": 37.7604879,
+    "lng": -122.421201
+  },
+  "http://www.songkick.com/concerts/43487675-loved-ones-at-crepe-place?utm_medium=organic&utm_source=microformat": {
+    "name": "The Crepe Place",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43502692-full-circle-boys-at-brick-and-mortar-music-hall?utm_medium=organic&utm_source=microformat": {
+    "name": "Brick & Mortar Music Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43514813-blu-egyptian-at-abbott-square-market?utm_medium=organic&utm_source=microformat": {
+    "name": "Abbott Square Market",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43505113-la-guns-at-guild-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Guild Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43501225-lalah-hathaway-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43504962-einmusik-at-halcyon?utm_medium=organic&utm_source=microformat": {
+    "name": "Halcyon",
+    "lat": 37.771445,
+    "lng": -122.4139284
+  },
+  "http://www.songkick.com/concerts/43510692-wonho-at-fillmore?utm_medium=organic&utm_source=microformat": {
+    "name": "The Fillmore",
+    "lat": 37.7840838,
+    "lng": -122.433171
+  },
+  "http://www.songkick.com/concerts/43512839-karl-densons-tiny-universe-at-independent?utm_medium=organic&utm_source=microformat": {
+    "name": "The Independent",
+    "lat": 37.7755281,
+    "lng": -122.437641
+  },
+  "http://www.songkick.com/festivals/3813221-glorietta-elementary-school-show/id/43507396-glorietta-elementary-school-show-2027?utm_medium=organic&utm_source=microformat": {
+    "name": "Glorietta Elementary School Show 2027",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43514818-blu-egyptian-at-kilowatt-bar?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt Bar",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43504091-pepper-at-uc-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "UC Theatre",
+    "lat": 37.8718055,
+    "lng": -122.2698143
+  },
+  "http://www.songkick.com/concerts/43504963-laura-van-dam-at-halcyon?utm_medium=organic&utm_source=microformat": {
+    "name": "Halcyon",
+    "lat": 37.771445,
+    "lng": -122.4139284
+  },
+  "http://www.songkick.com/festivals/3813924-sf-sketchfest-endless-honeymoon/id/43516323-sf-sketchfest-endless-honeymoon-2027?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "http://www.songkick.com/concerts/43513442-worakls-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7774512,
+    "lng": -122.4004207
+  },
+  "http://www.songkick.com/festivals/3813910-sf-sketchfest-the-big-team/id/43516142-sf-sketchfest-the-big-team-2027?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/festivals/3813914-sf-sketchfest-drunk-shrek/id/43516154-sf-sketchfest-drunk-shrek-2027?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "http://www.songkick.com/concerts/43501272-escape-from-the-zoo-at-kilowatt?utm_medium=organic&utm_source=microformat": {
+    "name": "Kilowatt",
+    "lat": 37.7649743,
+    "lng": -122.4232405
+  },
+  "http://www.songkick.com/concerts/43502756-bow-and-arrow-at-thee-stork-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Thee Stork Club",
+    "lat": 37.8131364,
+    "lng": -122.2683848
+  },
+  "http://www.songkick.com/concerts/43509160-greensky-bluegrass-at-golden-state-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "Golden State Theatre",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43520400-sun-kin-at-crepe-place?utm_medium=organic&utm_source=microformat": {
+    "name": "The Crepe Place",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43505123-scary-kids-scaring-kids-at-cornerstone?utm_medium=organic&utm_source=microformat": {
+    "name": "Cornerstone",
+    "lat": 37.7229055,
+    "lng": -122.395981
+  },
+  "http://www.songkick.com/concerts/43508459-trestles-at-cafe-du-nord?utm_medium=organic&utm_source=microformat": {
+    "name": "Café du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "http://www.songkick.com/concerts/43520434-teenage-bottlerocket-at-moes-alley?utm_medium=organic&utm_source=microformat": {
+    "name": "Moe's Alley",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43513443-4b-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7774512,
+    "lng": -122.4004207
+  },
+  "http://www.songkick.com/concerts/43515539-black-gold-sun-at-thee-stork-club?utm_medium=organic&utm_source=microformat": {
+    "name": "Thee Stork Club",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43512833-yung-bae-at-audio?utm_medium=organic&utm_source=microformat": {
+    "name": "Audio",
+    "lat": 37.7774512,
+    "lng": -122.4004207
+  },
+  "http://www.songkick.com/concerts/43520453-los-terricolas-de-nestor-daniel-at-san-jose-civic?utm_medium=organic&utm_source=microformat": {
+    "name": "San Jose Civic",
+    "lat": 37.3307938,
+    "lng": -121.8897013
+  },
+  "http://www.songkick.com/concerts/43501233-jon-b-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43514674-john-roseboro-at-4-star-theater?utm_medium=organic&utm_source=microformat": {
+    "name": "4 Star Theater",
+    "lat": 37.7822709,
+    "lng": -122.482927
+  },
+  "http://www.songkick.com/concerts/43520692-madeline-edwards-at-cafe-du-nord?utm_medium=organic&utm_source=microformat": {
+    "name": "Café du Nord",
+    "lat": 37.7667182,
+    "lng": -122.4305446
+  },
+  "http://www.songkick.com/concerts/43501235-jon-b-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43500419-morgan-garrett-at-4-star?utm_medium=organic&utm_source=microformat": {
+    "name": "4 Star",
+    "lat": 37.8707675,
+    "lng": -122.2630712
+  },
+  "http://www.songkick.com/concerts/43501237-jon-b-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43502182-bb-wisely-at-4-star-theater?utm_medium=organic&utm_source=microformat": {
+    "name": "4 Star Theater",
+    "lat": 37.7822709,
+    "lng": -122.482927
+  },
+  "http://www.songkick.com/festivals/3813913-sf-sketchfest-how-long-gone-featuring-special-guest-glaive/id/43516147-sf-sketchfest-how-long-gone-featuring-special-guest-glaive-2027?utm_medium=organic&utm_source=microformat": {
+    "name": "August Hall",
+    "lat": 37.7875876,
+    "lng": -122.4097872
+  },
+  "http://www.songkick.com/concerts/43501240-jon-b-at-yoshis?utm_medium=organic&utm_source=microformat": {
+    "name": "Yoshi's",
+    "lat": 37.796226,
+    "lng": -122.2785951
+  },
+  "http://www.songkick.com/concerts/43513079-dynamic-duo-at-palace-of-fine-arts?utm_medium=organic&utm_source=microformat": {
+    "name": "Palace of Fine Arts",
+    "lat": 37.8029186,
+    "lng": -122.4484029
+  },
+  "http://www.songkick.com/concerts/43511245-north-mississippi-allstars-at-moes-alley?utm_medium=organic&utm_source=microformat": {
+    "name": "Moe's Alley",
+    "lat": null,
+    "lng": null
   }
 }

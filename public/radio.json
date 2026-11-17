@@ -1,22 +1,22 @@
 {
-  "generated": "2026-11-16T14:07:14+00:00",
-  "weekStart": "2026-11-16",
-  "weekEnd": "2026-11-23",
+  "generated": "2026-11-17T15:08:47+00:00",
+  "weekStart": "2026-11-17",
+  "weekEnd": "2026-11-24",
   "artists": [
     {
       "name": "The Mountain Goats",
-      "showCount": 9,
+      "showCount": 7,
       "shows": [
-        {
-          "date": "2026-11-16",
-          "venue": "Fillmore"
-        },
         {
           "date": "2026-11-18",
           "venue": "Fillmore"
         },
         {
           "date": "2026-11-19",
+          "venue": "Fillmore"
+        },
+        {
+          "date": "2026-11-20",
           "venue": "Fillmore"
         }
       ],
@@ -236,6 +236,35 @@
       "youtube": null
     },
     {
+      "name": "Michael Nau",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-11-18",
+          "venue": "Crepe Place"
+        },
+        {
+          "date": "2026-11-18",
+          "venue": "Crepe Place"
+        },
+        {
+          "date": "2026-11-19",
+          "venue": "Hopmonk"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7opFLwPI53eORdmxyv7Y3f",
+          "name": "I Root"
+        },
+        {
+          "id": "50Hylr3XgpE10oDIahc6Cm",
+          "name": "Love Survive"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "03 Greedo",
       "showCount": 2,
       "shows": [
@@ -306,6 +335,31 @@
         {
           "id": "0ipI58AFgKxeKvz2DQYpw4",
           "name": "FAKE ASS DOLL"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Alpine Decline",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-21",
+          "venue": "Up the Creek Records"
+        },
+        {
+          "date": "2026-11-22",
+          "venue": "Spats"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "095eYOMIKOntDYJSW6JjXU",
+          "name": "My Smokestack Only Burns at Night"
+        },
+        {
+          "id": "6ygNVwFfpUA9lBPMB8cx5x",
+          "name": "Fearless in the Face of Fate"
         }
       ],
       "youtube": null
@@ -461,6 +515,31 @@
       "youtube": null
     },
     {
+      "name": "Carlton Melton",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4mJiCvwzUhtioAEffPrhgf",
+          "name": "When You're In"
+        },
+        {
+          "id": "3328pzjPvUiiRWXHIvhsoe",
+          "name": "Waylay"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Cocodial",
       "showCount": 2,
       "shows": [
@@ -582,31 +661,6 @@
       "youtube": null
     },
     {
-      "name": "Devora",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-16",
-          "venue": ""
-        },
-        {
-          "date": "2026-11-16",
-          "venue": "Great American Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "44vS4XQC6cWkaTELQFtgyh",
-          "name": "hurt me"
-        },
-        {
-          "id": "4OpjCYRi3joROpjBZUNFwv",
-          "name": "Not Dead Yet"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Dizzy Wright",
       "showCount": 2,
       "shows": [
@@ -627,6 +681,31 @@
         {
           "id": "27vimI05Z3pXw2S4VC6ijJ",
           "name": "I Guess I'll Smoke (feat. Dizzy Wright & Layzie Bone)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Earthless",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6NitnfUkmFWyCvvi9zUZmu",
+          "name": "Uluru Rock"
+        },
+        {
+          "id": "3JORo0UuJp17QF5A5EWwRX",
+          "name": "Acid Crusher"
         }
       ],
       "youtube": null
@@ -702,6 +781,31 @@
         {
           "id": "3ixHraNosuQd3rMowpiSfT",
           "name": "I Want To Live"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Gary Numan",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-23",
+          "venue": "Regency Ballroom"
+        },
+        {
+          "date": "2026-11-24",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0YBA7eO8kqEzUoC6zAEutF",
+          "name": "M.E."
+        },
+        {
+          "id": "24fdS1n0y1bBPufkmiWrBb",
+          "name": "M.E. - Remastered 2009"
         }
       ],
       "youtube": null
@@ -857,31 +961,6 @@
       "youtube": null
     },
     {
-      "name": "Kelly Willis",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-16",
-          "venue": ""
-        },
-        {
-          "date": "2026-11-17",
-          "venue": "August Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1vHYZV3Xxol84swMMvfcrs",
-          "name": "Wrapped"
-        },
-        {
-          "id": "7eOUHh2kdmiB3zWwGF1lhq",
-          "name": "Heaven's Just A Sin Away"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Lil Kayla",
       "showCount": 2,
       "shows": [
@@ -977,31 +1056,6 @@
         {
           "id": "3rmVv9U9a4wqVFbNJ9QkZQ",
           "name": "Until 4EVER"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Michael Nau",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-18",
-          "venue": "Crepe Place"
-        },
-        {
-          "date": "2026-11-19",
-          "venue": "Hopmonk"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7opFLwPI53eORdmxyv7Y3f",
-          "name": "I Root"
-        },
-        {
-          "id": "50Hylr3XgpE10oDIahc6Cm",
-          "name": "Love Survive"
         }
       ],
       "youtube": null
@@ -1232,31 +1286,6 @@
       "youtube": null
     },
     {
-      "name": "Son Volt",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-16",
-          "venue": ""
-        },
-        {
-          "date": "2026-11-17",
-          "venue": "August Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "52iyhfd6jgU2wYB8QIYs6t",
-          "name": "Windfall - 2015 Remaster"
-        },
-        {
-          "id": "69BCRKCiQhrhrg7gkbNUNd",
-          "name": "Tear Stained Eye - 2015 Remaster"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Susan Werner",
       "showCount": 2,
       "shows": [
@@ -1277,6 +1306,31 @@
         {
           "id": "41perw5np7kaXQBRuIe7QE",
           "name": "Barbed Wire Boys"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Terry Gross",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        },
+        {
+          "date": "2026-11-20",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "38sx8c9psbuTzPZ3haHDPK",
+          "name": "Sales Pitch"
+        },
+        {
+          "id": "4YWjMIehgKtH4NDGGWKIg0",
+          "name": "Effective Control"
         }
       ],
       "youtube": null
@@ -1655,27 +1709,6 @@
       "youtube": null
     },
     {
-      "name": "Alpine Decline",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Up the Creek Records"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "095eYOMIKOntDYJSW6JjXU",
-          "name": "My Smokestack Only Burns at Night"
-        },
-        {
-          "id": "6ygNVwFfpUA9lBPMB8cx5x",
-          "name": "Fearless in the Face of Fate"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Alyssa Edwards",
       "showCount": 1,
       "shows": [
@@ -1755,27 +1788,6 @@
         {
           "id": "1MSM3Fo2fvnwVqMcz8Jhjq",
           "name": "Cecilia And The Satellite"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Anna Tivel",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-16",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6ZQCFUfUu4Xmajbw9QUFYU",
-          "name": "Memphis"
-        },
-        {
-          "id": "1akcd1facL2QGCk9ssLIQZ",
-          "name": "Illinois"
         }
       ],
       "youtube": null
@@ -1865,6 +1877,27 @@
       "youtube": null
     },
     {
+      "name": "Artax",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-21",
+          "venue": "Toxic Beach"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "01xGLM8cLV0h7VnTbOmIMK",
+          "name": "Overthinking — Lost Inside My Mind"
+        },
+        {
+          "id": "0jpj9oC2esZnMBEqlX1wQf",
+          "name": "Nobody Knows I’m Hurting"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "As My Ashes Blur The Sky",
       "showCount": 1,
       "shows": [
@@ -1919,27 +1952,6 @@
         {
           "id": "1N5IwvKPg7PZeGi9Pvzvdo",
           "name": "Regardless"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ayria",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-22",
-          "venue": "DNA Lounge"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7CJFJuhKQkb1TMGoUyHPSn",
-          "name": "We're Not Relevant"
-        },
-        {
-          "id": "0X5N5VQQmuCaCI1wkDdMoj",
-          "name": "1000 Transmissions"
         }
       ],
       "youtube": null
