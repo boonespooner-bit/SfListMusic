@@ -14093,5 +14093,25 @@
     "name": "Moe's Alley",
     "lat": null,
     "lng": null
+  },
+  "http://www.songkick.com/concerts/43519469-magdalena-bay-at-uc-theatre?utm_medium=organic&utm_source=microformat": {
+    "name": "UC Theatre",
+    "lat": 37.8718055,
+    "lng": -122.2698143
+  },
+  "http://www.songkick.com/concerts/43464817-brian-blade-at-miner-auditorium-sfjazz-center?utm_medium=organic&utm_source=microformat": {
+    "name": "Miner Auditorium, SFJAZZ Center",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43521202-mom-jeans-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
+  },
+  "http://www.songkick.com/concerts/43521209-mom-jeans-at-bottom-of-the-hill?utm_medium=organic&utm_source=microformat": {
+    "name": "Bottom of the Hill",
+    "lat": 37.7649626,
+    "lng": -122.3964115
   }
 }
