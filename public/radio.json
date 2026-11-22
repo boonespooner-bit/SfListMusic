@@ -1,8 +1,37 @@
 {
-  "generated": "2026-11-21T13:47:22+00:00",
-  "weekStart": "2026-11-21",
-  "weekEnd": "2026-11-28",
+  "generated": "2026-11-22T13:41:33+00:00",
+  "weekStart": "2026-11-22",
+  "weekEnd": "2026-11-29",
   "artists": [
+    {
+      "name": "Eric Wyatt",
+      "showCount": 3,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Black Cat"
+        },
+        {
+          "date": "2026-11-28",
+          "venue": "Black Cat"
+        },
+        {
+          "date": "2026-11-29",
+          "venue": "Black Cat"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3VJVvFgUj5eamL4DO4U0YY",
+          "name": "Fragile"
+        },
+        {
+          "id": "6O9I6TVUVbBRHTK83zvhwn",
+          "name": "I'm a King (feat. Eric Wyatt, Stas THEE Boss, & Nappy Nina)"
+        }
+      ],
+      "youtube": null
+    },
     {
       "name": "The English Beat",
       "showCount": 3,
@@ -58,81 +87,6 @@
       "youtube": null
     },
     {
-      "name": "Agriculture",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "August Hall"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Felton Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3iFrdRxudq9yD029Q9XOat",
-          "name": "My Garden"
-        },
-        {
-          "id": "1NoYnWzMQ1mY67jo7gDakq",
-          "name": "Bodhidharma"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "ali rq",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "57Yjemgcs1KrTbs1obqniE",
-          "name": "Robotrade"
-        },
-        {
-          "id": "0ipI58AFgKxeKvz2DQYpw4",
-          "name": "FAKE ASS DOLL"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Alpine Decline",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Up the Creek Records"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Spats"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "095eYOMIKOntDYJSW6JjXU",
-          "name": "My Smokestack Only Burns at Night"
-        },
-        {
-          "id": "6ygNVwFfpUA9lBPMB8cx5x",
-          "name": "Fearless in the Face of Fate"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Amtrac",
       "showCount": 2,
       "shows": [
@@ -158,56 +112,6 @@
       "youtube": null
     },
     {
-      "name": "Brutalismus 3000",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4nOOoo9OJbgnTBNHe5b6nD",
-          "name": "Romantika"
-        },
-        {
-          "id": "3IVrlcM5gDoj3lghHY9m7I",
-          "name": "Satan Was A Babyboomer"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Cocodial",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Bric-A-Brac"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Subrosa"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "5BUMnib32ZRsDBLScsgy9T",
-          "name": "Angry Milk"
-        },
-        {
-          "id": "2cL0QFB3HWbmygrOBSHP5W",
-          "name": "Tourniquet"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Craig Bartlett",
       "showCount": 2,
       "shows": [
@@ -224,77 +128,6 @@
         {
           "id": "2KboijYvWqsAFnLAHBm8xg",
           "name": "Carol of the Bells"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Dave Ellis",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Mabuhay Gardens"
-        },
-        {
-          "date": "2026-11-21",
-          "venue": "Mabuhay Gardens"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2fwKCGxj5qdF1sTNtFyX8j",
-          "name": "I Shoulda Loved Ya 2025 - Lino Nicolosi Remix"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "deBasement",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4BbAQd9yHbOPF4PzDQRksr",
-          "name": "FRONT LEFT SPEAKER"
-        },
-        {
-          "id": "7yzo7xOGnvUZviEawNz5sL",
-          "name": "F.F.F.T.DJ"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Despire",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Nobel Cinema Studios"
-        },
-        {
-          "date": "2026-11-28",
-          "venue": "Vacaville Vets Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "0wNlAGFp0SX7GCWV1gMNh5",
-          "name": "If You Please"
-        },
-        {
-          "id": "3veJ4r4AeK1009AOJFtsND",
-          "name": "Speak"
         }
       ],
       "youtube": null
@@ -350,81 +183,6 @@
       "youtube": null
     },
     {
-      "name": "Elysium",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Black Cat"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Black Cat"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6iYWXRp4igIlgtb3dn9HF2",
-          "name": "Serenity in Motion"
-        },
-        {
-          "id": "4aWcphk3RNbFkzIBYH4DKi",
-          "name": "Cosmic Juno"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Eric Wyatt",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-27",
-          "venue": "Black Cat"
-        },
-        {
-          "date": "2026-11-28",
-          "venue": "Black Cat"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3VJVvFgUj5eamL4DO4U0YY",
-          "name": "Fragile"
-        },
-        {
-          "id": "6O9I6TVUVbBRHTK83zvhwn",
-          "name": "I'm a King (feat. Eric Wyatt, Stas THEE Boss, & Nappy Nina)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Eurohead",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Warfield"
-        },
-        {
-          "date": "2026-11-22",
-          "venue": "Regency Ballroom"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2vfxj67f2qeZz4uofyoPvw",
-          "name": "voltage (see you again)"
-        },
-        {
-          "id": "7IPGqUPDZwO2XvlwnKTBcC",
-          "name": ".com"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Fall Of The King",
       "showCount": 2,
       "shows": [
@@ -441,31 +199,6 @@
         {
           "id": "48Blt6KCx8Xd5FFm4eTRcz",
           "name": "10 Year Sacrifice"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Frightwig",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-11-21",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "49kXmTG1dLNm4aI8IaYg30",
-          "name": "My Crotch Does Not Say Go"
-        },
-        {
-          "id": "3ixHraNosuQd3rMowpiSfT",
-          "name": "I Want To Live"
         }
       ],
       "youtube": null
@@ -546,31 +279,6 @@
       "youtube": null
     },
     {
-      "name": "Jonas Brothers",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Warriors Stadium"
-        },
-        {
-          "date": "2026-11-21",
-          "venue": "Chase Center"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1OjmlSFuzYflWjSMTCyTJv",
-          "name": "Like It's Christmas"
-        },
-        {
-          "id": "6QQG95C5Evjbichtoxl4RH",
-          "name": "Burnin' Up"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Journey",
       "showCount": 2,
       "shows": [
@@ -596,26 +304,76 @@
       "youtube": null
     },
     {
-      "name": "Ozomatli",
+      "name": "Man Or Astro-Man?",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-11-21",
-          "venue": "UC Theater"
+          "date": "2026-11-28",
+          "venue": "Bottom of the Hill"
         },
         {
-          "date": "2026-11-21",
-          "venue": "UC Theatre"
+          "date": "2026-11-29",
+          "venue": "Bottom of the Hill"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "4CQdRsQ66eelhf50opTF3Z",
-          "name": "After Party"
+          "id": "6pLfrcn8DfDLW0tV3UYFjE",
+          "name": "Antimatter Man"
         },
         {
-          "id": "07PNu3hSiBORTLDc05eZSY",
-          "name": "Saturday Night"
+          "id": "6e0Ub6lXCdpZz5lX7ObJeo",
+          "name": "Rocketship XL-3"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Nina Las Vegas",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Club Darc"
+        },
+        {
+          "date": "2026-11-29",
+          "venue": "Club Darc"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "676SWz2MH9Y21qIqzFgmaQ",
+          "name": "Calor - Nina Las Vegas Remix"
+        },
+        {
+          "id": "2oGTjQoWNfJCYHOyyrbnjq",
+          "name": "Contagious"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Ninajirachi",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Club Darc"
+        },
+        {
+          "date": "2026-11-29",
+          "venue": "Club Darc"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7JW8FRWVCOQDs40IjEXdPi",
+          "name": "WannaCry"
+        },
+        {
+          "id": "0CVbCtcdXAIw00YBXXbneu",
+          "name": "Delete"
         }
       ],
       "youtube": null
@@ -641,6 +399,31 @@
         {
           "id": "225TNzMIqXOPXlnROYNIJ9",
           "name": "Rapture"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Porter Robinson",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Club Darc"
+        },
+        {
+          "date": "2026-11-29",
+          "venue": "Club Darc"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5UNJM92MCcDgs4kGgm5fc1",
+          "name": "Shelter"
+        },
+        {
+          "id": "3NRDLYyqIXja0UElvdzjkB",
+          "name": "Language"
         }
       ],
       "youtube": null
@@ -746,22 +529,60 @@
       "youtube": null
     },
     {
-      "name": "9B49",
+      "name": "1 Umbrella",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-11-21",
-          "venue": "The Midway"
+          "date": "2026-11-25",
+          "venue": "Independent"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "5h4kDvxCZdMecSHu7PpWWD",
-          "name": "Feel This Shit"
+          "id": "5lU1b02ar5sLIwFt8Eocmx",
+          "name": "1 Umbrella (feat. ALLBLACK & 22nd Jim)"
         },
         {
-          "id": "5KkKabVFexsscJBv6U2See",
-          "name": "Bobby Bottle Service - Radio Mix"
+          "id": "2pEsndPEdJ6kHQdDopv9yt",
+          "name": "The Glue (F.D.O.)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "1001 B",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Main"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6FgLwOmJ2qHc6DOdbn76lB",
+          "name": "VectOr-STR1KE"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "A Killers Confession",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-29",
+          "venue": "DNA Lounge"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "60FNaXOzeVzB6ybx3lTCfj",
+          "name": "Roses"
+        },
+        {
+          "id": "5JlcpGEmvMZ9U9LMaGZHZo",
+          "name": "Blinding Lights"
         }
       ],
       "youtube": null
@@ -809,22 +630,43 @@
       "youtube": null
     },
     {
-      "name": "Aggravated Assault",
+      "name": "Agriculture",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-11-21",
-          "venue": "Planetarium"
+          "date": "2026-11-22",
+          "venue": "Felton Music Hall"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "1rqbIEqWpoNRyq1X2TSTWs",
-          "name": "Post Op"
+          "id": "3iFrdRxudq9yD029Q9XOat",
+          "name": "My Garden"
         },
         {
-          "id": "7v4Ri4aAOAQA81Huv8gJE7",
-          "name": "A.T.K."
+          "id": "1NoYnWzMQ1mY67jo7gDakq",
+          "name": "Bodhidharma"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Ali RQ",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Regency Ballroom"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "57Yjemgcs1KrTbs1obqniE",
+          "name": "Robotrade"
+        },
+        {
+          "id": "0ipI58AFgKxeKvz2DQYpw4",
+          "name": "FAKE ASS DOLL"
         }
       ],
       "youtube": null
@@ -893,6 +735,48 @@
       "youtube": null
     },
     {
+      "name": "Alpine Decline",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Spats"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "095eYOMIKOntDYJSW6JjXU",
+          "name": "My Smokestack Only Burns at Night"
+        },
+        {
+          "id": "6ygNVwFfpUA9lBPMB8cx5x",
+          "name": "Fearless in the Face of Fate"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Amp Live",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-29",
+          "venue": "Cornerstone"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "50VJIl48B7gVlY4mTrLwG4",
+          "name": "I Got 5"
+        },
+        {
+          "id": "21lk4LSxItVHNNOUOZyWPR",
+          "name": "Rolling Down The Street"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "Andre Nickatina",
       "showCount": 1,
       "shows": [
@@ -909,27 +793,6 @@
         {
           "id": "5FmjAvHSzqXiuyiq1Ds7Ml",
           "name": "Killa Whale"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Andrew McMahon",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Great American Music Hall"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "4QKHB97WS9WwWk9v37w7HC",
-          "name": "Something Wild (feat. Andrew McMahon in the Wilderness)"
-        },
-        {
-          "id": "1MSM3Fo2fvnwVqMcz8Jhjq",
-          "name": "Cecilia And The Satellite"
         }
       ],
       "youtube": null
@@ -977,48 +840,6 @@
       "youtube": null
     },
     {
-      "name": "Arcangel",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "San Jose Civic"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6NSMQFKgjpQb0KkjMDYIK0",
-          "name": "Tu No Vive Asi (feat. Mambo Kingz & DJ Luian)"
-        },
-        {
-          "id": "6C1RD7YQVvt3YQj0CmuTeu",
-          "name": "Diles"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Archer Monk",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Chapel"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "55FmPWCO9fn6FOUGkKRJlU",
-          "name": "Cutlass Supreme"
-        },
-        {
-          "id": "068dEHF4TQ4S7Wc3Sj15sd",
-          "name": "Hidden Doors (the Ibiza Remix)"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Ari Vais",
       "showCount": 1,
       "shows": [
@@ -1040,27 +861,6 @@
       "youtube": null
     },
     {
-      "name": "Artax",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Toxic Beach"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "01xGLM8cLV0h7VnTbOmIMK",
-          "name": "Overthinking — Lost Inside My Mind"
-        },
-        {
-          "id": "0jpj9oC2esZnMBEqlX1wQf",
-          "name": "Nobody Knows I’m Hurting"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "As My Ashes Blur The Sky",
       "showCount": 1,
       "shows": [
@@ -1077,23 +877,6 @@
         {
           "id": "08MYL4D09NgB0dxqy7DmYd",
           "name": "First Was Chaos...In The Stench Of Parasites"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Ash & Violets",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Gilman"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7wnkPCtzHveWgWroJVKyTf",
-          "name": "If You Dont Want Me - Acoustic Version"
         }
       ],
       "youtube": null
@@ -1183,27 +966,6 @@
       "youtube": null
     },
     {
-      "name": "Benji Brown",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Paramount Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "22KDiINYG2wIqa6Q1uyZ72",
-          "name": "Symbiotes Arrive - from \"Venom\" Soundtrack"
-        },
-        {
-          "id": "2Lngk4lAEkJAwvUyxW0DH5",
-          "name": "White Porn"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Bi-Score",
       "showCount": 1,
       "shows": [
@@ -1220,48 +982,6 @@
         {
           "id": "6tcgitHtt2LcqBOPyPeKQb",
           "name": "A Way Of Life (Feat. Bi Score)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Birdstrike",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Toxic Beach"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "6MjLOMLjetlMWl7BOUn0NI",
-          "name": "Merry Go"
-        },
-        {
-          "id": "5ZIz1FLqtWwRoSeqojD2Gz",
-          "name": "Merry Go"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Bite The Bullet",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Nobel Cinema Studios"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3vy33xh7E6dHkEkLNq68gl",
-          "name": "Escape - Original Mix"
-        },
-        {
-          "id": "7M7jATYC6AP9kTMsOXyNd4",
-          "name": "Edge of the Rain"
         }
       ],
       "youtube": null
@@ -1304,27 +1024,6 @@
         {
           "id": "2RxuwaNEzx0yPtVwegClLJ",
           "name": "The Sane Asylum - 2021 Remastered"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Blood Of Chhinnamastika",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "Ugra Deva Loka"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "2fvCj8S0ibp93wuIw4V0C9",
-          "name": "Master"
-        },
-        {
-          "id": "40rIfn4XAqxJ9mCijxOegj",
-          "name": "Side B"
         }
       ],
       "youtube": null
@@ -1447,6 +1146,48 @@
         {
           "id": "6trddGzdPSnTeCxj9zMsbV",
           "name": "Lightning Scar"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Brother Ali",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-29",
+          "venue": "Cornerstone"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "06tMxo0sySSq4SkIS3xUsc",
+          "name": "Uncle Sam Goddamn"
+        },
+        {
+          "id": "42uXDKUhyAt5Exe1G5pKWJ",
+          "name": "Forest Whitiker"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Brutalismus 3000",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Regency Ballroom"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4nOOoo9OJbgnTBNHe5b6nD",
+          "name": "Romantika"
+        },
+        {
+          "id": "3IVrlcM5gDoj3lghHY9m7I",
+          "name": "Satan Was A Babyboomer"
         }
       ],
       "youtube": null
@@ -1641,27 +1382,6 @@
       "youtube": null
     },
     {
-      "name": "Christian Death",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-21",
-          "venue": "DNA Lounge"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1ZGGE74Aw6YFBwJbmuiEZH",
-          "name": "Deathwish"
-        },
-        {
-          "id": "1VN8Oz5bKcetur1jp4SYyb",
-          "name": "Blood Moon"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Chuck Prophet",
       "showCount": 1,
       "shows": [
@@ -1683,22 +1403,308 @@
       "youtube": null
     },
     {
-      "name": "Cicada",
+      "name": "Chukklez",
       "showCount": 1,
       "shows": [
         {
-          "date": "2026-11-21",
-          "venue": "Nobel Cinema Studios"
+          "date": "2026-11-29",
+          "venue": "DNA Lounge"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "78K3MuMXMXM19Om1oFmdGe",
-          "name": "i never wanna wake up again"
+          "id": "7hthQl9pcEYru90qBFmSHg",
+          "name": "Lycanthropy Cypher"
         },
         {
-          "id": "4Xi6sNIfOXcJAdpqCGpsk6",
-          "name": "please don't leave me"
+          "id": "6i0V8onbfGF3q4S69X6rqz",
+          "name": "Pennywise Possetrack Sypher - Remastered 2025"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cinder Well",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Great American Music Hall"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "68weh6yDrh39QrbQ6SkAzm",
+          "name": "One Morning in May"
+        },
+        {
+          "id": "7hmkQDqn2d5YDtoTqO7sgn",
+          "name": "The Wise Man's Song - Original Theme Song from Small Prophets"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Circle Of Ruin",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Hotel Utah"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2bBQYU0qeof1vPUHoKeZ8Q",
+          "name": "Animals"
+        },
+        {
+          "id": "0YQUkc8u2EdD3LGasp8yY1",
+          "name": "Wasteland"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Claire Rousay",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Independent"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4HkQtiWQC9VfeYZzfESHaS",
+          "name": "cool girls go to heaven"
+        },
+        {
+          "id": "0Kp7P6Phe7EyaV1nAjQAdg",
+          "name": "holy sedative"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cloister",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Spats"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1hc7yg1QjU8p11pQZOeVzl",
+          "name": "Cap songs on used surfaces"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cocodial",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Subrosa"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "5BUMnib32ZRsDBLScsgy9T",
+          "name": "Angry Milk"
+        },
+        {
+          "id": "2cL0QFB3HWbmygrOBSHP5W",
+          "name": "Tourniquet"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cocorosie",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-23",
+          "venue": "Fillmore"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "1RgFmvtcKaMHHRtx1qrtM5",
+          "name": "Werewolf"
+        },
+        {
+          "id": "6MIFMnPVu053V2ZV6xyLJV",
+          "name": "Restless"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cognitive",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-24",
+          "venue": "Ritz"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3lQYitX8Hv8emWwg9jBAed",
+          "name": "Zephyr"
+        },
+        {
+          "id": "7gJeRqqmOVCqV4PvE7td8a",
+          "name": "Holistic"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Company",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-23",
+          "venue": "Yoshi's"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3O30gAfom0QGgts47I2jQ1",
+          "name": "One Normal Night"
+        },
+        {
+          "id": "36vTL8WP4ZoD1bbUaW0V3E",
+          "name": "Bad Company - 2015 Remaster"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Concision",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-22",
+          "venue": "Ritz"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "0qPHYG6urllml9bJP16zJE",
+          "name": "Words Between Love And You"
+        },
+        {
+          "id": "0o60N5cv40VyUA9QLxjxhj",
+          "name": "I’d Give Up My Place In Heaven To Watch Him Suffer"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Country Risque",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Chapel"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "09mrnJCwv6Rf3ZNjlEazVv",
+          "name": "Motorcycle Johnny"
+        },
+        {
+          "id": "35xdSQaRYb9b0hDz2gljUo",
+          "name": "Last Date"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Cowboy Beauty Queen",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Bottom of the Hill"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "4wVPPlqDx8yua1OGboEKbv",
+          "name": "Becoming Wondrous Machines"
+        },
+        {
+          "id": "4FmUYvum9P2Z5D4bMxTQmj",
+          "name": "Into the Sun"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Curb Creeps",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Sandbar"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3YNOsX5irHi3tBPq75HU2J",
+          "name": "Skate N' Thrash"
+        },
+        {
+          "id": "3M1pTDyS5fN6YYVVjUPVu7",
+          "name": "Skate N' Thrash (live bonus track)"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "CVHC",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "FML Studios"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "477Iwbzlz2VyNEAMJb2fhM",
+          "name": "The Face Of Liberty"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Damage Party",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Stay Gold Deli"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "6i1zzXBN8z7FvFLn1sQBIe",
+          "name": "Organ Market"
+        },
+        {
+          "id": "3RReWsQ41wnseOz6Jt2ydp",
+          "name": "Nightmare Blunt Rotation - 420"
         }
       ],
       "youtube": null

@@ -14193,5 +14193,30 @@
     "name": "San Jose State University (SJSU)",
     "lat": null,
     "lng": null
+  },
+  "club.html#main": {
+    "name": "Main",
+    "lat": 37.6988199,
+    "lng": -123.0097216
+  },
+  "http://www.songkick.com/concerts/43477854-slow-joy-at-ritz-san-jose?utm_medium=organic&utm_source=microformat": {
+    "name": "The Ritz San Jose",
+    "lat": 37.3301346,
+    "lng": -121.885471
+  },
+  "http://www.songkick.com/concerts/43529086-garden-of-delights-at-ruth-bancroft-garden?utm_medium=organic&utm_source=microformat": {
+    "name": "Ruth Bancroft Garden",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43529221-ski-mask-the-slump-god-at-catalyst?utm_medium=organic&utm_source=microformat": {
+    "name": "The Catalyst",
+    "lat": null,
+    "lng": null
+  },
+  "http://www.songkick.com/concerts/43529303-garden-of-delights-at-ruth-bancroft-garden?utm_medium=organic&utm_source=microformat": {
+    "name": "Ruth Bancroft Garden",
+    "lat": null,
+    "lng": null
   }
 }
