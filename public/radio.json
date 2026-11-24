@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23T16:38:31+00:00",
-  "weekStart": "2026-11-23",
-  "weekEnd": "2026-11-30",
+  "generated": "2026-11-24T16:33:51+00:00",
+  "weekStart": "2026-11-24",
+  "weekEnd": "2026-12-01",
   "artists": [
     {
       "name": "Eric Wyatt",
@@ -28,35 +28,6 @@
         {
           "id": "6O9I6TVUVbBRHTK83zvhwn",
           "name": "I'm a King (feat. Eric Wyatt, Stas THEE Boss, & Nappy Nina)"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "The English Beat",
-      "showCount": 3,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Cornerstone"
-        },
-        {
-          "date": "2026-11-27",
-          "venue": "Cornerstone"
-        },
-        {
-          "date": "2026-11-28",
-          "venue": "Golden State Theatre"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7jQD3oqlzWzs2ZwKoeTvVX",
-          "name": "Save It for Later - 2012 Remaster"
-        },
-        {
-          "id": "1no7VPbmoq6YfYoB0OJnrn",
-          "name": "I Confess - 2012 Remaster"
         }
       ],
       "youtube": null
@@ -204,26 +175,26 @@
       "youtube": null
     },
     {
-      "name": "Gary Numan",
+      "name": "Illenium",
       "showCount": 2,
       "shows": [
         {
-          "date": "2026-11-23",
-          "venue": "Regency Ballroom"
+          "date": "2026-11-30",
+          "venue": "Civic Auditorium"
         },
         {
-          "date": "2026-11-24",
-          "venue": "Golden State Theatre"
+          "date": "2026-12-01",
+          "venue": "Civic Auditorium"
         }
       ],
       "spotifyTracks": [
         {
-          "id": "0YBA7eO8kqEzUoC6zAEutF",
-          "name": "M.E."
+          "id": "4Kv3BQhoqR0YboA8xvTyWC",
+          "name": "Close My Eyes (feat. SACHA)"
         },
         {
-          "id": "24fdS1n0y1bBPufkmiWrBb",
-          "name": "M.E. - Remastered 2009"
+          "id": "3g0mEQx3NTanacLseoP0Gw",
+          "name": "Takeaway"
         }
       ],
       "youtube": null
@@ -379,31 +350,6 @@
       "youtube": null
     },
     {
-      "name": "Pedro The Lion",
-      "showCount": 2,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Bottom of the Hill"
-        },
-        {
-          "date": "2026-11-23",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3QWzdv9myjbHl6GPYGWyV9",
-          "name": "Options"
-        },
-        {
-          "id": "225TNzMIqXOPXlnROYNIJ9",
-          "name": "Rapture"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Porter Robinson",
       "showCount": 2,
       "shows": [
@@ -504,6 +450,31 @@
       "youtube": null
     },
     {
+      "name": "The English Beat",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Cornerstone"
+        },
+        {
+          "date": "2026-11-28",
+          "venue": "Golden State Theatre"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7jQD3oqlzWzs2ZwKoeTvVX",
+          "name": "Save It for Later - 2012 Remaster"
+        },
+        {
+          "id": "1no7VPbmoq6YfYoB0OJnrn",
+          "name": "I Confess - 2012 Remaster"
+        }
+      ],
+      "youtube": null
+    },
+    {
       "name": "The Inciters",
       "showCount": 2,
       "shows": [
@@ -549,6 +520,52 @@
         {
           "id": "2yQZb6olDzx2fAe184gxvr",
           "name": "Corner Of My Eye"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "The New Trust",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-30",
+          "venue": "Kilowatt"
+        },
+        {
+          "date": "2026-11-29",
+          "venue": "Kilowatt"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "55kJNUiVWokXUe1VZWMQBN",
+          "name": "Po Atarau / Now Is The Hour"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Yamandu Costa",
+      "showCount": 2,
+      "shows": [
+        {
+          "date": "2026-11-29",
+          "venue": "St. Mark's Lutheran Church"
+        },
+        {
+          "date": "2026-11-30",
+          "venue": "First Church of Christ, Scientist"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7BD1XExWODtk6VsmZkgUGd",
+          "name": "Ilhas Concertantes: II. La Graciosa - Live"
+        },
+        {
+          "id": "7na4uINBcc8MoE09PV6dyt",
+          "name": "Vitória"
         }
       ],
       "youtube": null
@@ -1113,27 +1130,6 @@
       "youtube": null
     },
     {
-      "name": "Cocorosie",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Fillmore"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "1RgFmvtcKaMHHRtx1qrtM5",
-          "name": "Werewolf"
-        },
-        {
-          "id": "6MIFMnPVu053V2ZV6xyLJV",
-          "name": "Restless"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "Cognitive",
       "showCount": 1,
       "shows": [
@@ -1150,27 +1146,6 @@
         {
           "id": "7gJeRqqmOVCqV4PvE7td8a",
           "name": "Holistic"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "Company",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Yoshi's"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "3O30gAfom0QGgts47I2jQ1",
-          "name": "One Normal Night"
-        },
-        {
-          "id": "36vTL8WP4ZoD1bbUaW0V3E",
-          "name": "Bad Company - 2015 Remaster"
         }
       ],
       "youtube": null
@@ -1466,27 +1441,6 @@
       "youtube": null
     },
     {
-      "name": "dj Big Nate",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Bottom of the Hill"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "7mCgSQDMjnm5igV8yOw0Cq",
-          "name": "Move Up"
-        },
-        {
-          "id": "6DweQx1oP2j8ME2BdJR8sL",
-          "name": "Dance Tech"
-        }
-      ],
-      "youtube": null
-    },
-    {
       "name": "dj Fuzz",
       "showCount": 1,
       "shows": [
@@ -1503,27 +1457,6 @@
         {
           "id": "64GTfDyV6mA7Zr0fPmx0Ei",
           "name": "Khayal Bam Bam"
-        }
-      ],
-      "youtube": null
-    },
-    {
-      "name": "dj Market",
-      "showCount": 1,
-      "shows": [
-        {
-          "date": "2026-11-23",
-          "venue": "Ivy Room"
-        }
-      ],
-      "spotifyTracks": [
-        {
-          "id": "777O2kkGzWfwuYOT3l4Fz2",
-          "name": "Sin Careta"
-        },
-        {
-          "id": "2IRQyGCjCYzSYVhmQy1wFb",
-          "name": "Wolf Creek - Nicky Blackmarket & DJ Millz Remix"
         }
       ],
       "youtube": null
@@ -1583,6 +1516,65 @@
         {
           "id": "7yyjNcvYqFIJQGBsGVpp2x",
           "name": "Lantern's Light in the Night"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Dweezil Zappa",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-29",
+          "venue": "Castro"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "2o8OL6GRUQYKfHQP0x32wZ",
+          "name": "Worm & God"
+        },
+        {
+          "id": "6ZKawV3QEkfO5PtOKQyepN",
+          "name": "Smoke on the Water - 2024 Remix"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Eddie & The Fog",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-27",
+          "venue": "Bimbo's 365 Club"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "7F6f2ED9NyQIuIQzegXiLP",
+          "name": "We Come Alive"
+        }
+      ],
+      "youtube": null
+    },
+    {
+      "name": "Edgar",
+      "showCount": 1,
+      "shows": [
+        {
+          "date": "2026-11-28",
+          "venue": "Knockout"
+        }
+      ],
+      "spotifyTracks": [
+        {
+          "id": "3XfUFGzbr0LmwFVoLXd9cO",
+          "name": "Billete Grande (En Vivo)"
+        },
+        {
+          "id": "3QQAeMQbbjZXVFbF8DgFWT",
+          "name": "FIRST LOVE"
         }
       ],
       "youtube": null
