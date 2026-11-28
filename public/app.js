@@ -228,7 +228,7 @@ function renderCard(show) {
         ${venueHtml}
         ${pills.join('')}
         ${renderSymbols(show.symbols)}
-        <span class="card-buy">${buyBtn}</span>
+        <span class="card-buy">${shareBtn('show', showId(show), 'Share this show')}${buyBtn}</span>
       </div>
     </div>`;
 }
@@ -269,6 +269,7 @@ function render() {
           <span class="date-day">${label}</span>
           ${isToday ? '<span class="date-today-badge">Today</span>' : ''}
           <span class="date-label">${dateShows[0].dayName || ''}</span>
+          ${shareBtn('day', date, `Share ${label}`)}
         </div>
         ${dateShows.map(renderCard).join('')}
       </div>`;
@@ -592,7 +593,7 @@ function renderVenueView() {
 
     return `<div class="venue-card" id="venue-${slug}" data-letter="${letter}">
       <div class="venue-card-header">
-        <span class="venue-card-name">${escHtml(name)}<button class="share-btn share-icon-btn" data-slug="${slug}" title="Share ${escHtml(name)}" aria-label="Share ${escHtml(name)}">${SHARE_ICON}</button></span>
+        <span class="venue-card-name">${escHtml(name)}${shareBtn('venue', slug, `Share ${name}`)}</span>
         <a class="btn-buy venue-ticket-btn" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
       </div>
       <div class="venue-card-body">${datesHtml}</div>
@@ -694,6 +695,79 @@ function artistShareInfo(name) {
   };
 }
 
+function shareBtn(kind, key, label) {
+  return `<button class="share-btn share-icon-btn" data-share="${kind}" data-key="${escHtml(key)}" title="${escHtml(label)}" aria-label="${escHtml(label)}">${SHARE_ICON}</button>`;
+}
+
+function shortDate(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+function bandNames(show) {
+  return show.bands.map(b => (typeof b === 'string' ? b : b.name));
+}
+
+function showShareInfo(id) {
+  const show = allShows.find(s => showId(s) === id);
+  const names = show ? bandNames(show) : [];
+  const lineup = names.slice(0, 2).join(', ') + (names.length > 2 ? ` + ${names.length - 2} more` : '');
+  return {
+    url: `${SITE_URL}/?show=${encodeURIComponent(id)}`,
+    title: show ? `${lineup} at ${show.venue.name}` : 'A show on SF Music List',
+    text: show ? `${lineup} at ${show.venue.name} — ${shortDate(show.date)}. Want to go?` : 'Check out this show',
+  };
+}
+
+function dayShareInfo(date, view = 'all') {
+  const shows = allShows.filter(s => s.date === date);
+  const venues = [...new Set(shows.map(s => s.venue.name))];
+  const where = venues.slice(0, 3).join(', ') + (venues.length > 3 ? ' + more' : '');
+  return {
+    url: `${SITE_URL}/?view=${view}&date=${date}`,
+    title: `Bay Area shows on ${shortDate(date)} — SF Music List`,
+    text: `${shows.length} Bay Area show${shows.length === 1 ? '' : 's'} on ${shortDate(date)}` +
+      (view === 'map' ? ' — see them on the map' : (where ? `: ${where}` : '')),
+  };
+}
+
+function searchShareInfo() {
+  return {
+    url: `${SITE_URL}/?q=${encodeURIComponent(searchQuery)}`,
+    title: `"${searchQuery}" shows in the Bay Area — SF Music List`,
+    text: `Bay Area shows matching "${searchQuery}" on SF Music List`,
+  };
+}
+
+function radioShareInfo() {
+  const cur = radioQueue[radioIndex];
+  const src = radioSource === 'youtube' ? '&source=youtube' : '';
+  if (!cur) {
+    return { url: `${SITE_URL}/?view=radio${src}`, title: 'SF Music List Radio',
+      text: 'Listen to the bands playing the Bay Area this week' };
+  }
+  return {
+    url: `${SITE_URL}/?view=radio${src}&track=${encodeURIComponent(cur.id)}`,
+    title: `${cur.artist} on SF Music List Radio`,
+    text: `Listening to ${cur.artist}${cur.title ? ` – ${cur.title}` : ''} on SF Music List Radio, ` +
+      `the bands playing the Bay Area this week`,
+  };
+}
+
+function shareInfoFor(btn) {
+  const key = btn.dataset.key;
+  switch (btn.dataset.share) {
+    case 'venue':  return venueShareInfo(key);
+    case 'artist': return artistShareInfo(key);
+    case 'show':   return showShareInfo(key);
+    case 'day':    return dayShareInfo(key);
+    case 'map':    return dayShareInfo(mapDate, 'map');
+    case 'search': return searchShareInfo();
+    case 'radio':  return radioShareInfo();
+  }
+  return { url: window.location.href, title: document.title, text: document.title };
+}
+
 function closeShareMenu() {
   document.querySelectorAll('.share-menu').forEach(m => m.remove());
 }
@@ -740,9 +814,7 @@ document.addEventListener('click', async e => {
     return;
   }
   e.stopPropagation();
-  const info = btn.dataset.slug
-    ? venueShareInfo(btn.dataset.slug)
-    : artistShareInfo(btn.dataset.artist);
+  const info = shareInfoFor(btn);
   // Phones get the native share sheet (Messages, Mail, Instagram, etc.)
   if (navigator.share && matchMedia('(pointer: coarse)').matches) {
     try { await navigator.share(info); return; }
@@ -858,6 +930,7 @@ function syncUrl() {
   if (currentView === 'radio' && radioSource !== 'spotify') p.set('source', radioSource);
   if (searchQuery) p.set('q', searchQuery);
   if (currentArtist) p.set('artist', currentArtist);
+  document.getElementById('search-share').classList.toggle('visible', !!searchQuery);
   const qs = p.toString();
   const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
   if (url !== window.location.pathname + window.location.search) {
@@ -925,13 +998,17 @@ function applyUrlState() {
     mapDate = mapAvailableDates().find(d => d >= date) || null;
   }
   if (view === 'radio' && p.get('source') === 'youtube') radioSource = 'youtube';
+  if (view === 'radio') pendingRadioTrack = p.get('track');
 
-  if (view === 'venue' && venue) {
+  const show = p.get('show');
+  if (show) {
+    openSharedShow(show);
+  } else if (view === 'venue' && venue) {
     jumpToVenueSlug(venue);
   } else if (view !== 'today' || q) {
     // A search on the Today view widens to All Shows, matching the search box
     setView(view === 'today' && q ? 'all' : view);
-    }
+  }
 
   if (date && (currentView === 'week' || currentView === 'all')) {
     // Let the default "scroll to today" settle before jumping to the shared day
@@ -942,6 +1019,27 @@ function applyUrlState() {
   }
   if (artist) openArtistPanel(artist);
   syncUrl();
+}
+
+// ?show=show-2026-12-05-the-fillmore-band-name → that day's list, card highlighted
+function openSharedShow(id) {
+  const date = id.slice(5, 15);
+  const exists = allShows.some(s => showId(s) === id);
+  if (!exists || date < todayISO()) {
+    showToast('That show has already happened or is no longer listed.');
+    return;
+  }
+  searchQuery = '';
+  setView(date === todayISO() ? 'today' : 'all');
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'instant', block: 'center' });
+    el.classList.add('highlight');
+    setTimeout(() => el.classList.remove('highlight'), 5000);
+    if (currentView === 'all') currentDate = date;
+    syncUrl();
+  }, 50);
 }
 
 // Map popup → list-view show navigation
@@ -1017,7 +1115,7 @@ function openArtistPanel(bandName) {
 
   document.getElementById('panel-content').innerHTML = `
     <div class="panel-band-name">${escHtml(bandName)}</div>
-    <button class="share-btn panel-share-btn" data-artist="${escHtml(bandName)}">${SHARE_ICON} Share this artist</button>
+    <button class="share-btn panel-share-btn" data-share="artist" data-key="${escHtml(bandName)}">${SHARE_ICON} Share this artist</button>
     ${linksHtml ? `<div class="panel-links">${linksHtml}</div>` : ''}
 
     <section class="panel-section">
@@ -1142,6 +1240,7 @@ let radioIndex = 0;
 let spotifyCtrl = null;
 let ytPlayer = null;
 let radioIsPlaying = false;
+let pendingRadioTrack = null;      // track id from a shared ?track= link
 // Resolve when each embed library has loaded, whichever happens first:
 // the library loading or the radio asking for it.
 let resolveSpotifyApi, resolveYtApi;
@@ -1229,7 +1328,7 @@ function renderNowPlaying() {
   const cur = radioQueue[radioIndex];
   if (!cur) { el.innerHTML = ''; return; }
   el.innerHTML = `
-    <div class="radio-now-artist band-link" data-band="${escHtml(cur.artist)}">${escHtml(cur.artist)}</div>
+    <div class="radio-now-artist"><span class="band-link" data-band="${escHtml(cur.artist)}">${escHtml(cur.artist)}</span>${shareBtn('radio', cur.id, 'Share what\'s playing')}</div>
     <div class="radio-now-title">${escHtml(cur.title || '')}</div>
     <div class="radio-now-shows">${escHtml(formatShowsForRadio(cur.shows))}</div>
   `;
@@ -1321,6 +1420,10 @@ async function switchRadioSource(source) {
     t.classList.toggle('active', t.dataset.src === source));
   radioQueue = buildRadioQueue(source, radioData);
   radioIndex = 0;
+  if (pendingRadioTrack) {
+    radioIndex = Math.max(0, radioQueue.findIndex(t => t.id === pendingRadioTrack));
+    pendingRadioTrack = null;
+  }
   tearDownPlayers();
   if (!radioQueue.length) {
     document.getElementById('radio-player-wrap').innerHTML =
@@ -1391,5 +1494,7 @@ document.getElementById('radio-open').addEventListener('click', () => {
   setView('radio');
 });
 document.getElementById('radio-stop').addEventListener('click', stopRadio);
+
+document.querySelectorAll('#search-share, #map-share').forEach(b => { b.innerHTML = SHARE_ICON; });
 
 loadData();

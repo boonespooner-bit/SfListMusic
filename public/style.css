@@ -91,7 +91,9 @@ header {
 .nav-btn:hover  { border-color: var(--accent); color: var(--accent); }
 .nav-btn.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600; }
 
-.search-wrap { margin-left: auto; }
+.search-wrap { margin-left: auto; display: flex; align-items: center; gap: 0.4rem; }
+#search-share { display: none; margin-left: 0; flex-shrink: 0; }
+#search-share.visible { display: inline-flex; }
 
 #search {
   background: var(--surface2);
@@ -343,7 +345,11 @@ body.all-view  .date-header { top: 101px; }
   color: var(--gold);
 }
 
-.card-buy { margin-left: auto; }
+.card-buy { margin-left: auto; display: inline-flex; align-items: center; gap: 0.5rem; }
+.card-buy .share-icon-btn { margin-left: 0; }
+.date-header .share-icon-btn { margin-left: auto; }
+.radio-now-artist .share-icon-btn { width: 24px; height: 24px; }
+#map-share { margin-left: 0.1rem; }
 
 .btn-buy {
   display: inline-flex;
@@ -588,7 +594,7 @@ body.venue-view main { padding-right: 2.5rem; }
 
 .share-menu {
   position: fixed;
-  z-index: 400;   /* above the artist panel */
+  z-index: 1100;  /* above the artist panel and the map's markers/controls */
   display: flex;
   flex-direction: column;
   min-width: 190px;

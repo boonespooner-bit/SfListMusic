@@ -13,6 +13,8 @@
  *   FROM_EMAIL    — alerts@sfmusiclist.com
  */
 
+import { handlePreview } from './previews.js';
+
 const CORS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
@@ -239,7 +241,17 @@ async function handleNotify(request, env) {
 
 export default {
   async fetch(request, env) {
-    const { pathname } = new URL(request.url);
+    const { hostname, pathname } = new URL(request.url);
+
+    // The site itself (not the API): pass through, adding link previews
+    if (hostname !== new URL(env.API_URL).hostname) {
+      try {
+        return await handlePreview(request);
+      } catch (e) {
+        console.error('preview failed:', e.message);
+        return fetch(request);
+      }
+    }
 
     if (request.method === 'OPTIONS') return new Response(null, { headers: CORS });
 

@@ -68,7 +68,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="style.css?v=2ddcb9c9a5" />
+  <link rel="stylesheet" href="style.css?v=66a4800c30" />
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" href="favicon.svg" />
@@ -93,6 +93,7 @@
     <button class="nav-btn" data-view="radio">🎧 Radio</button>
     <div class="search-wrap">
       <input type="text" id="search" placeholder="Search bands or venues…" autocomplete="off" />
+      <button id="search-share" class="share-btn share-icon-btn" data-share="search" title="Share these search results" aria-label="Share these search results"></button>
     </div>
   </nav>
 
@@ -104,6 +105,7 @@
       <button id="map-prev-day" class="map-day-btn" title="Previous day">&#8592;</button>
       <span id="map-day-label"></span>
       <button id="map-next-day" class="map-day-btn" title="Next day">&#8594;</button>
+      <button id="map-share" class="share-btn share-icon-btn" data-share="map" title="Share this day's map" aria-label="Share this day's map"></button>
     </div>
   </div>
   <section id="radio-view" hidden>
@@ -157,6 +159,6 @@
   </script>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
-  <script src="app.js?v=e2fb26126d"></script>
+  <script src="app.js?v=571c80f973"></script>
 </body>
 </html>
