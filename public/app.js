@@ -592,8 +592,7 @@ function renderVenueView() {
 
     return `<div class="venue-card" id="venue-${slug}" data-letter="${letter}">
       <div class="venue-card-header">
-        <span class="venue-card-name">${escHtml(name)}</span>
-        <button class="venue-share-btn" data-slug="${slug}" title="Share this venue's shows">${SHARE_ICON} Share</button>
+        <span class="venue-card-name">${escHtml(name)}<button class="share-btn share-icon-btn" data-slug="${slug}" title="Share ${escHtml(name)}" aria-label="Share ${escHtml(name)}">${SHARE_ICON}</button></span>
         <a class="btn-buy venue-ticket-btn" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
       </div>
       <div class="venue-card-body">${datesHtml}</div>
@@ -661,7 +660,7 @@ const SITE_URL = 'https://sfmusiclist.com';
 
 function venueShareInfo(slug) {
   const card = document.getElementById(`venue-${slug}`);
-  const name = card ? card.querySelector('.venue-card-name').textContent : '';
+  const name = card ? card.querySelector('.venue-card-name').textContent.trim() : '';
   const bands = card
     ? [...new Set([...card.querySelectorAll('.band-name')].map(b => b.textContent))]
     : [];
@@ -672,6 +671,26 @@ function venueShareInfo(slug) {
     url: `${SITE_URL}/?venue=${encodeURIComponent(slug)}`,
     title: `${name} — this week on SF Music List`,
     text: `This week at ${name}${lineup}`,
+  };
+}
+
+function artistShareInfo(name) {
+  const today = todayISO();
+  const nl = name.toLowerCase();
+  const shows = allShows.filter(s => s.date >= today &&
+    s.bands.some(b => (typeof b === 'string' ? b : b.name).toLowerCase() === nl));
+  let text = `Check out ${name} on SF Music List`;
+  if (shows.length) {
+    const [y, m, d] = shows[0].date.split('-').map(Number);
+    const when = new Date(y, m - 1, d).toLocaleDateString('en-US',
+      { weekday: 'short', month: 'short', day: 'numeric' });
+    const more = shows.length > 1 ? ` (+${shows.length - 1} more)` : '';
+    text = `${name} is playing ${shows[0].venue.name} on ${when}${more}`;
+  }
+  return {
+    url: `${SITE_URL}/?artist=${encodeURIComponent(name)}`,
+    title: `${name} — Bay Area shows on SF Music List`,
+    text,
   };
 }
 
@@ -694,7 +713,10 @@ function openShareMenu(btn, info) {
     <a class="share-item" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">📘 Facebook</a>
     <a class="share-item" href="https://bsky.app/intent/compose?text=${body}" target="_blank" rel="noopener">🦋 Bluesky</a>
   `;
-  btn.closest('.venue-card-header').appendChild(menu);
+  document.body.appendChild(menu);
+  const r = btn.getBoundingClientRect();
+  menu.style.top = `${r.bottom + 6}px`;
+  menu.style.left = `${Math.max(8, Math.min(r.left, window.innerWidth - menu.offsetWidth - 8))}px`;
 
   menu.querySelector('[data-action="copy"]').addEventListener('click', async () => {
     try {
@@ -708,14 +730,19 @@ function openShareMenu(btn, info) {
   menu.querySelectorAll('a.share-item').forEach(a => a.addEventListener('click', closeShareMenu));
 }
 
+window.addEventListener('scroll', closeShareMenu, { passive: true });
+window.addEventListener('resize', closeShareMenu);
+
 document.addEventListener('click', async e => {
-  const btn = e.target.closest('.venue-share-btn');
+  const btn = e.target.closest('.share-btn');
   if (!btn) {
     if (!e.target.closest('.share-menu')) closeShareMenu();
     return;
   }
   e.stopPropagation();
-  const info = venueShareInfo(btn.dataset.slug);
+  const info = btn.dataset.slug
+    ? venueShareInfo(btn.dataset.slug)
+    : artistShareInfo(btn.dataset.artist);
   // Phones get the native share sheet (Messages, Mail, Instagram, etc.)
   if (navigator.share && matchMedia('(pointer: coarse)').matches) {
     try { await navigator.share(info); return; }
@@ -990,6 +1017,7 @@ function openArtistPanel(bandName) {
 
   document.getElementById('panel-content').innerHTML = `
     <div class="panel-band-name">${escHtml(bandName)}</div>
+    <button class="share-btn panel-share-btn" data-artist="${escHtml(bandName)}">${SHARE_ICON} Share this artist</button>
     ${linksHtml ? `<div class="panel-links">${linksHtml}</div>` : ''}
 
     <section class="panel-section">
@@ -1113,29 +1141,22 @@ let radioQueue = [];               // [{artist, shows, id, title}]
 let radioIndex = 0;
 let spotifyCtrl = null;
 let ytPlayer = null;
-let spotifyApiReady = null;        // Promise resolved when Spotify IFrame API loads
-let ytApiReady = null;             // Promise resolved when YouTube IFrame API loads
+let radioIsPlaying = false;
+// Resolve when each embed library has loaded, whichever happens first:
+// the library loading or the radio asking for it.
+let resolveSpotifyApi, resolveYtApi;
+const spotifyApiReady = new Promise(r => { resolveSpotifyApi = r; });
+const ytApiReady = new Promise(r => { resolveYtApi = r; });
 
-window.onSpotifyIframeApiReady = (api) => {
-  window._spotifyIframeApi = api;
-  if (spotifyApiReady) spotifyApiReady._resolve(api);
-};
-window.onYouTubeIframeAPIReady = () => {
-  if (ytApiReady) ytApiReady._resolve();
-};
+if (window.__spotifyIframeApi) resolveSpotifyApi(window.__spotifyIframeApi);
+window.onSpotifyIframeApiReady = api => resolveSpotifyApi(api);
+window.onYouTubeIframeAPIReady = () => resolveYtApi();
 
 function waitForSpotifyApi() {
-  if (window._spotifyIframeApi) return Promise.resolve(window._spotifyIframeApi);
-  if (!spotifyApiReady) {
-    spotifyApiReady = new Promise(resolve => { spotifyApiReady._resolve = resolve; });
-  }
   return spotifyApiReady;
 }
 function waitForYtApi() {
   if (window.YT && window.YT.Player) return Promise.resolve();
-  if (!ytApiReady) {
-    ytApiReady = new Promise(resolve => { ytApiReady._resolve = resolve; });
-  }
   return ytApiReady;
 }
 
@@ -1229,8 +1250,10 @@ async function mountSpotifyPlayer() {
     let advancedFor = null;
     ctrl.addListener('playback_update', e => {
       const d = e.data || {};
-      if (d.duration > 0 && d.position >= d.duration - 500 && advancedFor !== cur.id) {
-        advancedFor = cur.id;
+      radioIsPlaying = !d.isPaused;
+      const nowId = radioQueue[radioIndex] && radioQueue[radioIndex].id;
+      if (d.duration > 0 && d.position >= d.duration - 500 && advancedFor !== nowId) {
+        advancedFor = nowId;
         advanceRadio();
       }
     });
@@ -1251,6 +1274,7 @@ async function mountYouTubePlayer() {
     playerVars: { autoplay: 1, playsinline: 1 },
     events: {
       onStateChange: e => {
+        radioIsPlaying = e.data === YT.PlayerState.PLAYING || e.data === YT.PlayerState.BUFFERING;
         if (e.data === YT.PlayerState.ENDED) advanceRadio();
       },
     },
@@ -1259,7 +1283,10 @@ async function mountYouTubePlayer() {
 
 function tearDownPlayers() {
   if (ytPlayer && ytPlayer.destroy) { try { ytPlayer.destroy(); } catch {} ytPlayer = null; }
+  if (spotifyCtrl && spotifyCtrl.destroy) { try { spotifyCtrl.destroy(); } catch {} }
   spotifyCtrl = null;
+  radioIsPlaying = false;
+  document.body.classList.remove('radio-mini');
   const wrap = document.getElementById('radio-player-wrap');
   if (wrap) wrap.innerHTML = '';
 }
@@ -1315,6 +1342,13 @@ async function renderRadio() {
   hideWeekDaySelector?.();
   hideAllWeekSelector?.();
 
+  // Coming back from the mini player: expand it, don't restart the music
+  if (document.body.classList.contains('radio-mini')) {
+    document.body.classList.remove('radio-mini');
+    renderRadioQueue();
+    return;
+  }
+
   const data = await loadRadioData();
   if (!data) {
     document.getElementById('radio-sub').textContent =
@@ -1328,11 +1362,22 @@ async function renderRadio() {
   await switchRadioSource(radioSource);
 }
 
+// Leaving the radio while music plays shrinks it into a bar at the bottom of
+// the page; the player iframe stays in place (moving it would restart it).
 function hideRadio() {
   document.getElementById('main').hidden = false;
-  document.getElementById('radio-view').hidden = true;
   document.body.classList.remove('radio-view-active');
+  if (radioIsPlaying && (spotifyCtrl || ytPlayer)) {
+    document.body.classList.add('radio-mini');
+    return;
+  }
+  document.getElementById('radio-view').hidden = true;
   tearDownPlayers();
+}
+
+function stopRadio() {
+  tearDownPlayers();
+  document.getElementById('radio-view').hidden = true;
 }
 
 // Radio event wiring
@@ -1341,5 +1386,10 @@ document.querySelectorAll('.radio-tab').forEach(tab => {
 });
 document.getElementById('radio-prev').addEventListener('click', prevRadio);
 document.getElementById('radio-next').addEventListener('click', advanceRadio);
+document.getElementById('radio-open').addEventListener('click', () => {
+  window.scrollTo({ top: 0 });
+  setView('radio');
+});
+document.getElementById('radio-stop').addEventListener('click', stopRadio);
 
 loadData();

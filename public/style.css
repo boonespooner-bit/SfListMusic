@@ -549,29 +549,46 @@ body.venue-view main { padding-right: 2.5rem; }
   border-radius: var(--radius) var(--radius) 0 0;
 }
 
-.venue-share-btn {
+.share-icon-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text);
-  padding: 0.28rem 0.7rem;
-  border-radius: 6px;
-  font-size: 0.75rem;
+  justify-content: center;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  margin-left: 0.5rem;
+  background: rgba(29,185,84,0.12);
+  border: 1px solid rgba(29,185,84,0.45);
+  color: var(--accent);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.share-icon-btn:hover { background: var(--accent); color: #000; transform: scale(1.08); }
+.share-icon-btn svg { width: 13px; height: 13px; }
+
+.panel-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: -0.25rem 0 1rem;
+  background: rgba(29,185,84,0.12);
+  border: 1px solid rgba(29,185,84,0.45);
+  color: var(--accent);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
   font-weight: 600;
   font-family: var(--font);
   cursor: pointer;
-  white-space: nowrap;
-  transition: border-color 0.15s, color 0.15s;
+  transition: background 0.15s;
 }
-.venue-share-btn:hover { border-color: var(--accent); color: var(--accent); }
+.panel-share-btn:hover { background: var(--accent); color: #000; }
+.panel-share-btn svg { width: 13px; height: 13px; }
 
 .share-menu {
-  position: absolute;
-  top: calc(100% + 4px);
-  right: 1.25rem;
-  z-index: 60;
+  position: fixed;
+  z-index: 400;   /* above the artist panel */
   display: flex;
   flex-direction: column;
   min-width: 190px;
@@ -1040,4 +1057,63 @@ body.radio-view-active #main { display: none; }
   .radio-layout { grid-template-columns: 1fr; }
   .radio-player-col { position: static; }
   .radio-queue { max-height: none; }
+}
+
+/* ── Radio mini player (keeps playing while browsing other views) ── */
+.radio-mini-actions { display: none; }
+
+body.radio-mini { padding-bottom: 104px; }
+body.radio-mini #radio-view { margin: 0; padding: 0; max-width: none; }
+body.radio-mini .radio-header,
+body.radio-mini .radio-queue { display: none; }
+
+body.radio-mini .radio-player-col {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.5rem 1rem;
+  background: rgba(18,18,24,0.97);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -6px 24px rgba(0,0,0,0.5);
+}
+body.radio-mini #radio-player-wrap {
+  flex: 0 0 min(300px, 42vw);
+  min-height: 0;
+  height: 80px;
+  border-radius: 10px;
+}
+body.radio-mini #radio-player-wrap iframe { height: 80px !important; }
+body.radio-mini .radio-now {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body.radio-mini .radio-now > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body.radio-mini .radio-now-artist { font-size: 1rem; }
+body.radio-mini .radio-now-title { font-size: 0.85rem; }
+body.radio-mini .radio-now-shows { font-size: 0.75rem; margin-top: 0.1rem; }
+body.radio-mini .radio-controls,
+body.radio-mini .radio-mini-actions { display: flex; gap: 0.4rem; padding: 0; flex-shrink: 0; }
+body.radio-mini .radio-ctrl { flex: none; padding: 0.45rem 0.7rem; font-size: 0.82rem; }
+
+@media (max-width: 640px) {
+  body.radio-mini .radio-player-col { flex-wrap: wrap; gap: 0.5rem; padding: 0.5rem 0.6rem; }
+  body.radio-mini #radio-player-wrap { flex: 1 1 100%; }
+  body.radio-mini .radio-now { display: none; }
+  body.radio-mini .radio-controls { flex: 1; }
+  body.radio-mini .radio-controls .radio-ctrl { flex: 1; }
+  body.radio-mini { padding-bottom: 150px; }
 }

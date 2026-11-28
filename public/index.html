@@ -68,7 +68,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2ddcb9c9a5" />
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" href="favicon.svg" />
@@ -123,6 +123,10 @@
           <button id="radio-prev" class="radio-ctrl">← Prev</button>
           <button id="radio-next" class="radio-ctrl">Next →</button>
         </div>
+        <div class="radio-mini-actions">
+          <button id="radio-open" class="radio-ctrl" title="Open the full radio">🎧 Open</button>
+          <button id="radio-stop" class="radio-ctrl" title="Stop the radio" aria-label="Stop the radio">✕</button>
+        </div>
       </div>
       <div class="radio-queue" id="radio-queue"></div>
     </div>
@@ -147,8 +151,12 @@
     <div id="panel-content"></div>
   </aside>
 
+  <script>
+    // Catch the Spotify embed library even if it loads before app.js
+    window.onSpotifyIframeApiReady = api => { window.__spotifyIframeApi = api; };
+  </script>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=e2fb26126d"></script>
 </body>
 </html>
