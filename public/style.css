@@ -169,7 +169,9 @@ main {
 .week-day-btn:disabled { opacity: 0.3; cursor: default; pointer-events: none; }
 
 /* ── Date group ── */
-.date-group { margin-bottom: 2.5rem; }
+.date-group { margin-bottom: 2.5rem; scroll-margin-top: 53px; }
+body.week-view .date-group,
+body.all-view  .date-group { scroll-margin-top: 101px; }
 
 .date-header {
   position: sticky;
@@ -533,17 +535,66 @@ body.venue-view main { padding-right: 2.5rem; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
+  scroll-margin-top: 70px;  /* land below the sticky nav when jumped to */
 }
 
 .venue-card-header {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   padding: 0.85rem 1.25rem;
   background: var(--surface2);
   border-bottom: 1px solid var(--border);
+  border-radius: var(--radius) var(--radius) 0 0;
 }
+
+.venue-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.28rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s, color 0.15s;
+}
+.venue-share-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.share-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 1.25rem;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  min-width: 190px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.35rem;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.55);
+}
+.share-item {
+  display: block;
+  text-align: left;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.85rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.share-item:hover { background: var(--surface2); color: var(--accent); }
 
 .venue-card-name {
   font-family: var(--font-head);

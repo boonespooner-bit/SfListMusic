@@ -15,7 +15,8 @@ const SYMBOL_TIPS = {
 const SPOTIFY_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>`;
 const VENUE_ICON = `<svg class="venue-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>`;
 const TICKET_ICON = `<svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M22 10V6c0-1.11-.9-2-2-2H4c-1.1 0-1.99.89-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.11.89 2 2 2h16c1.1 0 2-.89 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-9 7.5h-2v-2h2v2zm0-4.5h-2v-2h2v2zm0-4.5h-2v-2h2v2z"/></svg>`;
-const YT_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>`;
+const SHARE_ICON = `<svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11A2.99 2.99 0 1 0 15 5c0 .24.04.47.09.7L8.04 9.81a3 3 0 1 0 0 4.38l7.12 4.16c-.05.21-.08.43-.08.65A2.92 2.92 0 1 0 18 16.08z"/></svg>`;
+const YT_ICON =`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>`;
 
 let allShows = [];
 let venueCoords = {};
@@ -47,6 +48,7 @@ async function loadData() {
       `Updated ${updated.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
     render();
     injectEventSchema();
+    applyUrlState();
   } catch (e) {
     document.getElementById('main').innerHTML = `
       <div class="empty-state">
@@ -591,6 +593,7 @@ function renderVenueView() {
     return `<div class="venue-card" id="venue-${slug}" data-letter="${letter}">
       <div class="venue-card-header">
         <span class="venue-card-name">${escHtml(name)}</span>
+        <button class="venue-share-btn" data-slug="${slug}" title="Share this venue's shows">${SHARE_ICON} Share</button>
         <a class="btn-buy venue-ticket-btn" href="${ticketUrl}" target="_blank" rel="noopener">${TICKET_ICON} Tickets</a>
       </div>
       <div class="venue-card-body">${datesHtml}</div>
@@ -625,6 +628,10 @@ function venueSlug(name) {
 
 // Jump from a show card's venue name to that venue's card in the By Venue view
 function jumpToVenue(venueName) {
+  jumpToVenueSlug(venueSlug(venueName));
+}
+
+function jumpToVenueSlug(slug) {
   document.querySelectorAll('.nav-btn').forEach(b =>
     b.classList.toggle('active', b.dataset.view === 'venue'));
   currentView = 'venue';
@@ -635,14 +642,97 @@ function jumpToVenue(venueName) {
   renderVenueView();
 
   requestAnimationFrame(() => {
-    const el = document.getElementById(`venue-${venueSlug(venueName)}`);
+    const el = document.getElementById(`venue-${slug}`);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
       el.classList.add('highlight');
       setTimeout(() => el.classList.remove('highlight'), 5000);
+      currentVenue = slug;
+    } else {
+      showToast('No shows at that venue in the next 7 days.');
     }
+    syncUrl();
   });
 }
+
+// ── Venue sharing ────────────────────────────────────────────────────────────
+
+const SITE_URL = 'https://sfmusiclist.com';
+
+function venueShareInfo(slug) {
+  const card = document.getElementById(`venue-${slug}`);
+  const name = card ? card.querySelector('.venue-card-name').textContent : '';
+  const bands = card
+    ? [...new Set([...card.querySelectorAll('.band-name')].map(b => b.textContent))]
+    : [];
+  const lineup = bands.length
+    ? `: ${bands.slice(0, 3).join(', ')}${bands.length > 3 ? ' + more' : ''}`
+    : '';
+  return {
+    url: `${SITE_URL}/?venue=${encodeURIComponent(slug)}`,
+    title: `${name} — this week on SF Music List`,
+    text: `This week at ${name}${lineup}`,
+  };
+}
+
+function closeShareMenu() {
+  document.querySelectorAll('.share-menu').forEach(m => m.remove());
+}
+
+function openShareMenu(btn, info) {
+  closeShareMenu();
+  const u = encodeURIComponent(info.url);
+  const t = encodeURIComponent(info.text);
+  const body = encodeURIComponent(`${info.text}\n\n${info.url}`);
+  const menu = document.createElement('div');
+  menu.className = 'share-menu';
+  menu.innerHTML = `
+    <button class="share-item" data-action="copy">🔗 Copy link</button>
+    <a class="share-item" href="mailto:?subject=${encodeURIComponent(info.title)}&body=${body}">✉️ Email</a>
+    <a class="share-item" href="sms:?&body=${body}">💬 Text message</a>
+    <a class="share-item" href="https://twitter.com/intent/tweet?text=${t}&url=${u}" target="_blank" rel="noopener">𝕏 Post on X</a>
+    <a class="share-item" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">📘 Facebook</a>
+    <a class="share-item" href="https://bsky.app/intent/compose?text=${body}" target="_blank" rel="noopener">🦋 Bluesky</a>
+  `;
+  btn.closest('.venue-card-header').appendChild(menu);
+
+  menu.querySelector('[data-action="copy"]').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(info.url);
+      showToast('Link copied!');
+    } catch {
+      window.prompt('Copy this link:', info.url);
+    }
+    closeShareMenu();
+  });
+  menu.querySelectorAll('a.share-item').forEach(a => a.addEventListener('click', closeShareMenu));
+}
+
+document.addEventListener('click', async e => {
+  const btn = e.target.closest('.venue-share-btn');
+  if (!btn) {
+    if (!e.target.closest('.share-menu')) closeShareMenu();
+    return;
+  }
+  e.stopPropagation();
+  const info = venueShareInfo(btn.dataset.slug);
+  // Phones get the native share sheet (Messages, Mail, Instagram, etc.)
+  if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+    try { await navigator.share(info); return; }
+    catch (err) { if (err.name === 'AbortError') return; }
+  }
+  openShareMenu(btn, info);
+});
+
+function showToast(msg) {
+  document.querySelectorAll('.toast').forEach(t => t.remove());
+  const toast = document.createElement('div');
+  toast.className = 'subscribed-banner toast';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+}
+
 
 function escHtml(str) {
   return String(str)
@@ -654,29 +744,39 @@ function escHtml(str) {
 
 // ── Events ────────────────────────────────────────────────────────────────────
 
+const VIEWS = ['today', 'week', 'all', 'map', 'venue', 'radio'];
+
+function setView(view) {
+  currentView = view;
+  currentDate = null;
+  currentVenue = null;
+  document.querySelectorAll('.nav-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.view === view));
+  if (view === 'map') {
+    hideRadio();
+    hideVenueView();
+    renderMap();
+  } else if (view === 'venue') {
+    hideRadio();
+    hideMap();
+    renderVenueView();
+  } else if (view === 'radio') {
+    hideMap();
+    hideVenueView();
+    renderRadio();
+  } else {
+    hideRadio();
+    hideMap();
+    hideVenueView();
+    render();
+  }
+  syncUrl();
+}
+
 document.querySelectorAll('.nav-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentView = btn.dataset.view;
-    if (currentView === 'map') {
-      hideRadio();
-      hideVenueView();
-      renderMap();
-    } else if (currentView === 'venue') {
-      hideRadio();
-      hideMap();
-      renderVenueView();
-    } else if (currentView === 'radio') {
-      hideMap();
-      hideVenueView();
-      renderRadio();
-    } else {
-      hideRadio();
-      hideMap();
-      hideVenueView();
-      render();
-    }
+    window.scrollTo({ top: 0 });
+    setView(btn.dataset.view);
   });
 });
 
@@ -694,6 +794,7 @@ document.getElementById('search').addEventListener('input', e => {
       }
       render();
     }
+    syncUrl();
   }, 200);
 });
 
@@ -701,13 +802,120 @@ document.getElementById('search').addEventListener('input', e => {
 document.getElementById('map-prev-day').addEventListener('click', () => {
   const dates = mapAvailableDates();
   const idx = dates.indexOf(mapDate);
-  if (idx > 0) { mapDate = dates[idx - 1]; plotMapMarkers(); updateMapDayNav(); }
+  if (idx > 0) { mapDate = dates[idx - 1]; plotMapMarkers(); updateMapDayNav(); syncUrl(); }
 });
 document.getElementById('map-next-day').addEventListener('click', () => {
   const dates = mapAvailableDates();
   const idx = dates.indexOf(mapDate);
-  if (idx < dates.length - 1) { mapDate = dates[idx + 1]; plotMapMarkers(); updateMapDayNav(); }
+  if (idx < dates.length - 1) { mapDate = dates[idx + 1]; plotMapMarkers(); updateMapDayNav(); syncUrl(); }
 });
+
+// ── Shareable URLs ───────────────────────────────────────────────────────────
+// The address bar always mirrors what's on screen, e.g.
+//   ?view=all&date=2026-12-05     ?venue=the-fillmore     ?view=map&date=…
+//   ?artist=Olivia%20Dean         ?q=punk                 ?view=radio&source=youtube
+
+let currentDate = null;   // date group scrolled to in week/all views
+let currentVenue = null;  // venue card scrolled to in venue view
+let currentArtist = null; // artist panel that's open
+
+function syncUrl() {
+  const p = new URLSearchParams();
+  if (currentView === 'venue' && currentVenue) {
+    p.set('venue', currentVenue);
+  } else if (currentView !== 'today') {
+    p.set('view', currentView);
+  }
+  if ((currentView === 'week' || currentView === 'all') && currentDate) p.set('date', currentDate);
+  if (currentView === 'map' && mapDate) p.set('date', mapDate);
+  if (currentView === 'radio' && radioSource !== 'spotify') p.set('source', radioSource);
+  if (searchQuery) p.set('q', searchQuery);
+  if (currentArtist) p.set('artist', currentArtist);
+  const qs = p.toString();
+  const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+  if (url !== window.location.pathname + window.location.search) {
+    window.history.replaceState(null, '', url);
+  }
+}
+
+// Track which day / venue is at the top of the screen as the user scrolls
+let scrollTick = false;
+window.addEventListener('scroll', () => {
+  if (scrollTick) return;
+  scrollTick = true;
+  requestAnimationFrame(() => {
+    scrollTick = false;
+    const selector = currentView === 'venue' ? '.venue-card'
+      : (currentView === 'week' || currentView === 'all') ? '.date-group' : null;
+    if (!selector) return;
+    let topEl = null;
+    for (const el of document.querySelectorAll(selector)) {
+      if (el.getBoundingClientRect().top <= 160) topEl = el; else break;
+    }
+    if (currentView === 'venue') {
+      currentVenue = topEl ? topEl.id.replace(/^venue-/, '') : null;
+    } else {
+      currentDate = topEl ? topEl.id.replace(/^date-/, '') : null;
+    }
+    syncUrl();
+  });
+}, { passive: true });
+
+function scrollToDate(date, behavior = 'smooth') {
+  const target = document.getElementById(`date-${date}`);
+  if (!target) return false;
+  const sel = document.querySelector(currentView === 'week' ? '#week-day-selector' : '#all-week-selector');
+  if (sel) {
+    const btn = currentView === 'week'
+      ? sel.querySelector(`[data-date="${date}"]`)
+      : sel.querySelector(`[data-week="${weekStartISO(date)}"]`);
+    if (btn) {
+      sel.querySelectorAll('.week-day-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      btn.scrollIntoView({ block: 'nearest', inline: 'center' });
+    }
+  }
+  target.scrollIntoView({ behavior, block: 'start' });
+  return true;
+}
+
+// Restore everything the URL describes; runs once data has loaded
+function applyUrlState() {
+  const p = new URLSearchParams(window.location.search);
+  const venue = p.get('venue');
+  let view = p.get('view') || (venue ? 'venue' : 'today');
+  if (!VIEWS.includes(view)) view = 'today';
+  const date = p.get('date');
+  const q = p.get('q');
+  const artist = p.get('artist');
+
+  if (q) {
+    searchQuery = q;
+    document.getElementById('search').value = q;
+  }
+  if (view === 'map' && date) {
+    // A day with no shows opens the next day that has some
+    mapDate = mapAvailableDates().find(d => d >= date) || null;
+  }
+  if (view === 'radio' && p.get('source') === 'youtube') radioSource = 'youtube';
+
+  if (view === 'venue' && venue) {
+    jumpToVenueSlug(venue);
+  } else if (view !== 'today' || q) {
+    // A search on the Today view widens to All Shows, matching the search box
+    setView(view === 'today' && q ? 'all' : view);
+    }
+
+  if (date && (currentView === 'week' || currentView === 'all')) {
+    // Let the default "scroll to today" settle before jumping to the shared day
+    setTimeout(() => {
+      if (scrollToDate(date, 'instant')) currentDate = date;
+      syncUrl();
+    }, 50);
+  }
+  if (artist) openArtistPanel(artist);
+  syncUrl();
+}
 
 // Map popup → list-view show navigation
 document.addEventListener('click', e => {
@@ -723,8 +931,10 @@ document.addEventListener('click', e => {
     b.classList.toggle('active', b.dataset.view === targetView);
   });
   currentView = targetView;
+  currentDate = targetView === 'all' ? showDate : null;
   hideMap();
   render();
+  syncUrl();
 
   // Scroll to the show card after render
   requestAnimationFrame(() => {
@@ -840,6 +1050,8 @@ function openArtistPanel(bandName) {
   const panel = document.getElementById('artist-panel');
   const overlay = document.getElementById('panel-overlay');
   panel.classList.add('open');
+  currentArtist = bandName;
+  syncUrl();
   panel.setAttribute('aria-hidden', 'false');
   overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -852,6 +1064,10 @@ function closeArtistPanel() {
   const panel = document.getElementById('artist-panel');
   const overlay = document.getElementById('panel-overlay');
   panel.classList.remove('open');
+  if (currentArtist) {
+    currentArtist = null;
+    syncUrl();
+  }
   panel.setAttribute('aria-hidden', 'true');
   overlay.classList.remove('open');
   document.body.style.overflow = '';
@@ -1073,6 +1289,7 @@ function prevRadio() {
 
 async function switchRadioSource(source) {
   radioSource = source;
+  syncUrl();
   document.querySelectorAll('.radio-tab').forEach(t =>
     t.classList.toggle('active', t.dataset.src === source));
   radioQueue = buildRadioQueue(source, radioData);
